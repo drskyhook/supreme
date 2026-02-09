@@ -9,7 +9,7 @@ Thumbs.db
 .idea/
 
 ####################################
-# Logs / crash reports (all sides)
+# Logs / crash reports 
 ####################################
 **/logs/
 **/crash-reports/
@@ -18,7 +18,7 @@ Thumbs.db
 hs_err_pid*.log
 
 ####################################
-# Minecraft WORLD DATA (never commit)
+# Minecraft WORLD DATA 
 ####################################
 SUPREME_SERVER/world/
 SUPREME_SERVER/world_nether/
@@ -58,7 +58,7 @@ SUPREME_CLIENT/server-resource-packs/
 SUPREME_SERVER/mods/*.jar
 SUPREME_CLIENT/mods/*.jar
 
-# Allow mod lists / manifests (if you keep them)
+# Allow mod lists / manifests 
 !SUPREME_SERVER/mods/modlist.*
 !SUPREME_CLIENT/mods/modlist.*
 !SUPREME_SERVER/mods/manifest.json
@@ -87,7 +87,26 @@ SUPREME_CLIENT/mods/*.jar
 
 #
 ####################################
-# Documentation (optional but useful)
+# Documentation 
 ####################################
 !README.md
 !CONFIG_NOTES.md
+
+####################################
+# Extra server runtime/generated
+####################################
+SUPREME_SERVER/libraries/
+SUPREME_SERVER/local/
+SUPREME_SERVER/.mixin.out/
+SUPREME_SERVER/.lazyyyyy/
+SUPREME_SERVER/modernfix/
+SUPREME_SERVER/server_*.log
+SUPREME_SERVER/usercache.json
+SUPREME_SERVER/usernamecache.json
+
+# Forge installer artifacts (not needed)
+SUPREME_SERVER/forge-*-installer.jar
+SUPREME_SERVER/forge-*-installer.jar.log
+
+# If you keep disabled mods as a parking lot, ignore it
+SUPREME_SERVER/mods_disabled/
