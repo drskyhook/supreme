@@ -1,0 +1,4 @@
+Get-ChildItem .\SUPREME_SERVER\mods\*.jar |
+  Sort-Object Name |
+  ForEach-Object { $_.Name } |
+  Set-Content .\SUPREME_SERVER\mods\mods.lock.txt
