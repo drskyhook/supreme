@@ -1,3 +1,5 @@
+//run this from root to add to mods.lock.txt to show diffs
+
 Get-ChildItem .\SUPREME_SERVER\mods\*.jar |
   Sort-Object Name |
   ForEach-Object { $_.Name } |

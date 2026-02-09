@@ -70,6 +70,12 @@
 # 2026-02-09
 
 -added barrel golem to guard villagers toml
+-created repo
+-adjusted curious backslots so backpacked & cape mods can have their own slots
+
+- recipe essentials
+- cataclysm spellbooks x better combat
+- better climbing
 
 # 2026-02-10
 
