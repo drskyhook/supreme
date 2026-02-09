@@ -1,0 +1,88 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "lets_do_herbalbrews"
+	group: "600AC9ABAC26F3D9"
+	id: "2DAC1E9EFB722618"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Begin your journey into herbal brewing."
+				"Gather wild herbs found throughout the world."
+			]
+			icon: "herbalbrews:mint"
+			id: "4F8659D8E3909E62"
+			subtitle: "Collect basic herbs"
+			tasks: [{
+				id: "00EF614145375F6E"
+				item: "herbalbrews:mint"
+				type: "item"
+			}]
+			title: "Gathering the Wilds"
+			x: -8.0d
+			y: 0.0d
+		}
+		{
+			description: ["Craft a herbal kettle to brew teas and infusions."]
+			icon: "herbalbrews:kettle"
+			id: "0F08C54B4BD9A4C8"
+			subtitle: "Prepare your workspace"
+			tasks: [{
+				id: "336755D78D862D34"
+				item: "herbalbrews:kettle"
+				type: "item"
+			}]
+			title: "Brewing Tools"
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			description: ["Use herbs and water to brew your first herbal tea."]
+			icon: "herbalbrews:herbal_tea"
+			id: "629B6F4202B0563E"
+			subtitle: "Brew a herbal tea"
+			tasks: [{
+				id: "398D39DD519ACF4B"
+				item: "herbalbrews:herbal_tea"
+				type: "item"
+			}]
+			title: "First Infusion"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: ["Brew a stronger herbal concoction with enhanced effects."]
+			icon: "herbalbrews:healing_brew"
+			id: "4371CBB52F5415B4"
+			subtitle: "Advanced herbal brews"
+			tasks: [{
+				id: "5034012608D476B3"
+				item: "herbalbrews:healing_brew"
+				type: "item"
+			}]
+			title: "Potent Remedies"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Create a powerful or rare herbal brew."
+				"You now fully understand herbal alchemy."
+			]
+			icon: "herbalbrews:strong_brew"
+			id: "43E9D8C8CFD18309"
+			subtitle: "Master the craft"
+			tasks: [{
+				id: "0564FD5CBA2A68C4"
+				item: "herbalbrews:strong_brew"
+				type: "item"
+			}]
+			title: "Herbalist"
+			x: 8.0d
+			y: 0.0d
+		}
+	]
+	title: "Let's do - Herbal Brews"
+}

@@ -1,0 +1,34 @@
+
+#Settings related to when a player dies.
+[onDeath]
+	#Players respawn with their mana bar filled (true) or empty (false).
+	respawnWithFullMana = false
+	#Clear a player's spell slots on death (true) or not (false). If forgetSpellsOnDeath is set to true, this always behaves as if it was also set to true.
+	clearSlots = true
+	#Make a player forget all learned spells on death (true) or not (false). Forgotten spells are still visible in spell trees but must be relearned before you can equip them.
+	forgetSpells = true
+
+[misc]
+	#Resource location of the enchanting table. Some mods could change that. These are the blocks that already have some sort of GUI where the spell progression button is injected.
+	enchantingTables = ["minecraft:enchanting_table", "quark:matrix_enchanter"]
+	#For modpack authors. Resource location of blocks that do not have a GUI but should be changed to open the spell progression GUI on right click. Any other functionality derived from right-clicking the block is cancelled.
+	altProgressionBlocks = []
+
+#Settings relevant for data pack creators.
+[technical]
+	#Debug spells on use. For data pack creators.
+	debugSpells = false
+	#Hard limit of jumps by spell actions to prevent endless loops (which would result in a crash).
+	#Range: 10 ~ 10000
+	actionJumpLimit = 1000
+
+[globals]
+	#Switch to turn off item costs.
+	itemCosts = true
+	#Switch to turn off terrain damage. Fire may still be spawned.
+	terrainDamage = true
+	#Switch to turn off PvP for spells. Any negative aspects are not applied to the player anymore if they come from a player source.
+	pvp = true
+	#Switch to turn off all default spell trees. This is a convenience method so you do not have to manually remove them from the mod file.
+	spellTrees = true
+

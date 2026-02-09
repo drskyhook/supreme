@@ -1,0 +1,85 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "lets_do_brewery"
+	group: "600AC9ABAC26F3D9"
+	id: "2DAC1E9EFB722617"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Obtain barley seeds to begin your brewery."
+				"Wild barley can be found in plains or taiga biomes."
+			]
+			icon: "brewery:barley_seeds"
+			id: "6A221ECDA6F18634"
+			subtitle: "Acquire barley seeds"
+			tasks: [{
+				id: "5C984267D5C7FAD2"
+				item: "brewery:barley_seeds"
+				type: "item"
+			}]
+			title: "A Taste of Beer"
+			x: -8.0d
+			y: 0.0d
+		}
+		{
+			description: ["Craft a brewing barrel to process ingredients."]
+			icon: "brewery:brew_barrel"
+			id: "68D4FEBBA04DBF64"
+			subtitle: "Prepare fermentation"
+			tasks: [{
+				id: "6C544B5A368EDC47"
+				item: "brewery:brew_barrel"
+				type: "item"
+			}]
+			title: "Brewing Basics"
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			description: ["Produce wort as the base for your beer."]
+			icon: "brewery:wort"
+			id: "37504133805244F1"
+			subtitle: "Start the brew"
+			tasks: [{
+				id: "2A5A5C897FB6A745"
+				item: "brewery:wort"
+				type: "item"
+			}]
+			title: "First Batch"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: ["Brew any finished beer."]
+			icon: "brewery:beer_mug"
+			id: "1896E1067CECA757"
+			subtitle: "Let it ferment"
+			tasks: [{
+				id: "241F3E0C03DC2F52"
+				item: "brewery:beer_mug"
+				type: "item"
+			}]
+			title: "Proper Beer"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			description: ["Brew a specialty or aged beer."]
+			icon: "brewery:dark_beer"
+			id: "34480B261C7A5FD1"
+			subtitle: "Advanced brewing"
+			tasks: [{
+				id: "3BC993480280A069"
+				item: "brewery:dark_beer"
+				type: "item"
+			}]
+			title: "Master Brewer"
+			x: 8.0d
+			y: 0.0d
+		}
+	]
+	title: "Let's do - Brewery"
+}

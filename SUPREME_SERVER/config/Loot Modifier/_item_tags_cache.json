@@ -1,0 +1,98 @@
+{
+  "warning 1-1": "Dont modify this file in anyway unless you really have to, this is where I put the tags that,",
+  "warning 1-2": "I put this here in case someone wanted to change it.",
+  "warning 2-1": "This is used find the Categorical Removals items to remove from the loot table along with the ignored NBT properties.",
+  "warning 2-2": "while I some of them I use explicit checks so changing these might not have effects.",
+  "warning 2-3": "checks like isEdible isArmor isSword from minecraft.",
+  "warning 3-1": "you can modify this file for example if you wanted to ignore certain types while it might not work,",
+  "warning 4-1": "Tags lists are forge tags, Tags_clean is what I use if the item somehow by passed forge tags as if they",
+  "warning 4-2": "contain in the item name, you can remove them if you think they are unsafe.",
+  "warning 5-1": "the NBT properties list is a set of common, non-special NBT keys that are often present on vanilla items,",
+  "warning 5-2": "they will be ignored when determining if an item is *truly special*.",
+  "COMMON_NBT_KEYS": [
+    "Damage",
+    "RepairCost",
+    "Enchantments",
+    "display",
+    "AttributeModifiers",
+    "StoredEnchantments",
+    "HideFlags",
+    "CanPlaceOn",
+    "CanDestroy",
+    "CustomModelData"
+  ],
+  "toolTags": [
+    "forge:tools/pickaxes",
+    "forge:tools/shovels",
+    "forge:tools/axes",
+    "forge:tools/hoes",
+    "forge:tools/shears",
+    "c:pickaxes",
+    "c:shovels",
+    "c:axes",
+    "c:hoes",
+    "c:shears"
+  ],
+  "toolTags_clean": [
+    "pickaxe",
+    "shovel",
+    "axe",
+    "hoe",
+    "shear"
+  ],
+  "oreTags": [
+    "forge:ores",
+    "forge:ingots",
+    "forge:nuggets",
+    "forge:raw_materials",
+    "forge:dusts",
+    "forge:gems",
+    "forge:crystals",
+    "forge:storage_blocks",
+    "forge:raw_blocks",
+    "c:ores",
+    "c:ingots",
+    "c:nuggets",
+    "c:raw_materials",
+    "c:dusts",
+    "c:gems",
+    "c:crystals",
+    "c:storage_blocks",
+    "c:raw_blocks"
+  ],
+  "oreTags_clean": [
+    "ore",
+    "ingot",
+    "nugget",
+    "raw"
+  ],
+  "armorTags_clean": [
+    "chestplate",
+    "leggings",
+    "boots",
+    "helmet"
+  ],
+  "weaponTags": [
+    "forge:tools/swords",
+    "forge:tools/axes",
+    "minecraft:swords",
+    "c:swords",
+    "minecraft:axes",
+    "c:axes"
+  ],
+  "weaponTags_clean": [
+    "swords",
+    "axes",
+    "bow",
+    "blade",
+    "crossbow"
+  ],
+  "warning 6-1": "these are for Tagged loots some loots are tags not items, they add loot using tags, some tables might contains these type of pools.",
+  "warning 6-2": "more specific c:vegetables c:fruits c:helmets c:boots, for the rest I use the above tags, but food and armors I filtered differently.",
+  "bannedTags": [
+    "forge:foods",
+    "c:foods",
+    "forge:armor",
+    "c:armor"
+  ]
+}

@@ -1,0 +1,7 @@
+[
+  {
+    "mob": "crittersandcompanions:dragonfly",
+    "when": "onjoin",
+    "result": "deny"
+  }
+]

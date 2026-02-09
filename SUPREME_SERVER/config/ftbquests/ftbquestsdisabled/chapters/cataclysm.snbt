@@ -1,0 +1,412 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "cataclysm"
+	group: "600AC9ABAC26F3D9"
+	id: "7C2A9D14B0F63E81"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "0F2B7D9A3C4186E0"
+			rewards: [{
+				id: "26DED52B5B844089"
+				item: "minecraft:apple"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "4BF105E9BFD6C121"
+			tasks: [{
+				id: "6D9E2A113B4C5F60"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "2732826B48DD60D8"
+			tasks: [{
+				id: "5A1B2C3D4E5F6071"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			icon: "minecraft:anvil"
+			id: "57F2AD3CFE653310"
+			subtitle: "Be in the arena and ready to start the fight."
+			tasks: [{
+				id: "7F6E5D4C3B2A1908"
+				type: "checkmark"
+			}]
+			title: "&l&6Summon: Netherite Monstrosity"
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			id: "0D094B52701685FE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6CF97DD1FFD7F4EE"
+				type: "random"
+			}]
+			tasks: [{
+				entity: "minecraft:zombie"
+				id: "1A2B3C4D5E6F7081"
+				type: "kill"
+				value: 100L
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "11223344AABBCCDD"
+			tasks: [{
+				id: "22334455BBCCDD11"
+				item: "cataclysm:void_eye"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "33445566CCDDEE22"
+			tasks: [{
+				id: "44556677DDEEFF33"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["33445566CCDDEE22"]
+			icon: "minecraft:end_stone"
+			id: "55667788EEFF0011"
+			subtitle: "Get to the boss room below the Citadel."
+			tasks: [{
+				id: "6677889900AA1122"
+				type: "checkmark"
+			}]
+			title: "&l&dEnter: Boss Arena"
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			id: "77889900AABBCC11"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "01A70AC9349CC900"
+				type: "random"
+			}]
+			tasks: [{
+				entity: "minecraft:zombie"
+				id: "6FED32ED3A883CFD"
+				type: "kill"
+				value: 100L
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "5BE0C5030BA5CEFA"
+			tasks: [{
+				id: "4FF103201C5AD4C4"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "43FF42B08A1F2FD6"
+			tasks: [{
+				id: "046F5C27D4C528FB"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "749B11B3E166F50B"
+			tasks: [{
+				id: "077A396AFE4B2814"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "08993CE1DAFB59F0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0123456789ABCDEF"
+				type: "random"
+			}]
+			tasks: [{
+				entity: "minecraft:zombie"
+				id: "1029384756AABBCC"
+				type: "kill"
+				value: 100L
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "0A0B0C0D0E0F1011"
+			tasks: [{
+				id: "1213141516171819"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "1A1B1C1D1E1F2021"
+			tasks: [{
+				id: "2223242526272829"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "2A2B2C2D2E2F3031"
+			tasks: [{
+				id: "3233343536373839"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "3A3B3C3D3E3F4041"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "266BF5A0BD9B69B4"
+				type: "random"
+			}]
+			tasks: [{
+				entity: "minecraft:zombie"
+				id: "4243444546474849"
+				type: "kill"
+				value: 100L
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3A3B3C3D3E3F4041"]
+			icon: "cataclysm:abyss_eye"
+			id: "4A4B4C4D4E4F5051"
+			subtitle: "Reusable locator for the Sunken City."
+			tasks: [{
+				id: "5253545556575859"
+				type: "item"
+			}]
+			title: "&l&9Obtain: Abyss Eye"
+			x: 0.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["4A4B4C4D4E4F5051"]
+			icon: "minecraft:compass"
+			id: "5A5B5C5D5E5F6061"
+			subtitle: "Long ocean trip. Prep water breathing."
+			tasks: [{
+				id: "6263646566676869"
+				type: "checkmark"
+			}]
+			title: "&l&9Locate: Sunken City"
+			x: 0.0d
+			y: 14.5d
+		}
+		{
+			id: "6A6B6C6D6E6F7071"
+			tasks: [{
+				id: "7273747576777879"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "7A7B7C7D7E7F8081"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0F0E0D0C0B0A0908"
+				type: "random"
+			}]
+			tasks: [{
+				entity: "minecraft:zombie"
+				id: "1FB37BB1F52C17CA"
+				type: "kill"
+				value: 100L
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "5F99DCCD6BE471AD"
+			tasks: [{
+				id: "51FC78DD579E855B"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "7571CACBE4C8D10F"
+			tasks: [{
+				id: "06FD5FA0F4FFE8D9"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "minecraft:trident"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "75C94BBF46630446"
+			subtitle: "Be at the arena and ready."
+			tasks: [{
+				id: "5F756EF5B145C90E"
+				title: "Reach Scylla’s arena / trigger the fight"
+				type: "checkmark"
+			}]
+			title: "&l&bSummon: Scylla"
+			x: 0.0d
+			y: 20.5d
+		}
+		{
+			id: "0B593B7D7264E81D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "33445566778899AA"
+				type: "random"
+			}]
+			tasks: [{
+				entity: "minecraft:zombie"
+				id: "370CBEA256889512"
+				type: "kill"
+				value: 100L
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "1020304050607080"
+			tasks: [{
+				id: "1121314151617181"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "2233445566778899"
+			tasks: [{
+				id: "32F326F4E70E4E24"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "54DB1A1D0950006A"
+			tasks: [{
+				id: "7F86D219730FEEB7"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "6F11A86BDD86FE61"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5566778899AABBCC"
+				type: "random"
+			}]
+			tasks: [{
+				entity: "minecraft:zombie"
+				id: "179523200A0BC16A"
+				type: "kill"
+				value: 100L
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "0C0D0E0F10111213"
+			tasks: [{
+				id: "1415161718191A1B"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "1C1D1E1F20212223"
+			tasks: [{
+				id: "2425262728292A2B"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "2C2D2E2F30313233"
+			tasks: [{
+				id: "3435363738393A3B"
+				item: "cataclysm:burning_ashes"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "3C3D3E3F40414243"
+			tasks: [{
+				id: "4445464748494A4B"
+				title: "Use Burning Ashes to summon Ignis"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "4C4D4E4F50515253"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "66778899AABBCCDD"
+				type: "random"
+			}]
+			tasks: [{
+				entity: "cataclysm:ignis"
+				id: "5455565758595A5B"
+				type: "kill"
+				value: 0L
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "5C5D5E5F60616263"
+			rewards: [{
+				id: "6C6D6E6F70717273"
+				item: "minecraft:apple"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+	]
+}

@@ -1,0 +1,17 @@
+
+[model]
+	#Default ladder model type
+	#Used for ladders that were not customized with the Styler tool
+	#Available values: V1, V2, V3, VANILLA
+	default_ladder_model_type = "V1"
+	#Adds small random visual variations to ladder textures (highlights / slight tint changes)
+	enable_multivariant_models = true
+
+[compatibility]
+	#Enables Jade integration
+	enable_jade_integration = true
+	#Enables WTHIT integration
+	enable_wthit_integration = true
+	#Enables The One Probe integration
+	enable_top_integration = true
+

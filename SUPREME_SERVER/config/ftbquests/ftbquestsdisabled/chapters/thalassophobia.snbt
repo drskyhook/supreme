@@ -1,0 +1,595 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "thalassophobia"
+	group: "600AC9ABAC26F3D9"
+	id: "3C209C72199E9736"
+	order_index: 9
+	quest_links: [ ]
+	quests: [
+		{
+			id: "098101432457DDAA"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "5BDDA7EC9D3FAC2A"
+			tasks: [{
+				entity: "thalassophobia:megalodon"
+				id: "5EFB48FB7E677FF7"
+				type: "kill"
+				value: 0L
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "2C6E6BDD5AAD5BD7"
+			tasks: [{
+				entity: "minecraft:zombie"
+				id: "65B971966335617A"
+				type: "kill"
+				value: 100L
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "3BD89457947BE773"
+			tasks: [{
+				entity: "minecraft:zombie"
+				id: "1AB721116E8032FA"
+				type: "kill"
+				value: 100L
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "25E9CBF7339556E7"
+			tasks: [{
+				entity: "thalassophobia:riffhead"
+				id: "7F20D8C33970133F"
+				type: "kill"
+				value: 0L
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "510BA165B89A0EEC"
+			tasks: [{
+				entity: "minecraft:zombie"
+				id: "343C830E3F468B7C"
+				type: "kill"
+				value: 100L
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "362696CCE3A3D761"
+			tasks: [{
+				entity: "minecraft:zombie"
+				id: "11973A31C2A16C9A"
+				type: "kill"
+				value: 100L
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "46BE574FCB274A32"
+			tasks: [{
+				entity: "minecraft:zombie"
+				id: "621A1B7F2D68A424"
+				type: "kill"
+				value: 100L
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "1AE737605A53324C"
+			tasks: [{
+				entity: "minecraft:zombie"
+				id: "3AF2AC240FEA96D6"
+				type: "kill"
+				value: 100L
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "40AB354B629AF946"
+			tasks: [{
+				entity: "thalassophobia:dunkleosteus"
+				id: "110AC43ECF617EB4"
+				type: "kill"
+				value: 0L
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "29FE6B0AB4EDE83C"
+			tasks: [{
+				entity: "minecraft:zombie"
+				id: "12BBA8C8A91DCB94"
+				type: "kill"
+				value: 100L
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "189C1AB7AFA63075"
+			tasks: [{
+				entity: "minecraft:zombie"
+				id: "6B551B37D24C2D55"
+				type: "kill"
+				value: 100L
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "5435F1C515AB8A82"
+			tasks: [{
+				entity: "minecraft:zombie"
+				id: "0E121A1AB21E2580"
+				type: "kill"
+				value: 100L
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "4A0007B3E7AFF304"
+			tasks: [{
+				entity: "minecraft:zombie"
+				id: "5A985251F2BA3ECB"
+				type: "kill"
+				value: 100L
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "1E55D4DCFD86767B"
+			tasks: [{
+				entity: "minecraft:zombie"
+				id: "3D2564033FF93A63"
+				type: "kill"
+				value: 100L
+			}]
+			title: "&cDefeat: Anomalocaris"
+			x: 0.0d
+			y: 5.8d
+		}
+		{
+			id: "12D3CE488D46E153"
+			tasks: [{
+				entity: "thalassophobia:ammonita"
+				id: "434F4BCD1C4322F6"
+				type: "kill"
+				value: 0L
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "6B0BD10138226089"
+			tasks: [{
+				entity: "minecraft:zombie"
+				id: "67458E45258CFB11"
+				type: "kill"
+				value: 100L
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "21150F88CD4BF34F"
+			tasks: [{
+				entity: "minecraft:zombie"
+				id: "42B31459FD62EBCB"
+				type: "kill"
+				value: 100L
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "191E74CB5394A1C2"
+			tasks: [{
+				entity: "minecraft:zombie"
+				id: "2F0891B6696742B3"
+				type: "kill"
+				value: 100L
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "460F49638CABF761"
+			tasks: [{
+				entity: "minecraft:zombie"
+				id: "7F3716D3CED26F5C"
+				type: "kill"
+				value: 100L
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "131C7FD93B840E0A"
+			tasks: [{
+				entity: "minecraft:zombie"
+				id: "1274C4BD0B400FE4"
+				type: "kill"
+				value: 100L
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "189E6B2B3A638F98"
+			tasks: [{
+				entity: "minecraft:zombie"
+				id: "637C5EBA4A6D7C88"
+				type: "kill"
+				value: 100L
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "62794D39FB2BB36C"
+			tasks: [{
+				entity: "minecraft:zombie"
+				id: "1D4968D1587D7BB2"
+				type: "kill"
+				value: 100L
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "635D1935EA20C23D"
+			tasks: [{
+				entity: "minecraft:zombie"
+				id: "743D0D889229A33B"
+				type: "kill"
+				value: 100L
+			}]
+			title: "&3Defeat: Electrophorus"
+			x: 0.0d
+			y: 9.4d
+		}
+		{
+			id: "73E78D5765878AA5"
+			tasks: [{
+				entity: "minecraft:zombie"
+				id: "366E009D84D7BBF5"
+				type: "kill"
+				value: 100L
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "624F0729731BADC4"
+			tasks: [{
+				entity: "minecraft:zombie"
+				id: "5AD229C4F996FA55"
+				type: "kill"
+				value: 100L
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "5F315C9517EBDEAB"
+			tasks: [{
+				entity: "thalassophobia:bull_shark"
+				id: "789FA10B96B8D8E8"
+				type: "kill"
+				value: 0L
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "7C7624647DC6C7AC"
+			tasks: [{
+				entity: "minecraft:zombie"
+				id: "3EAA3EAC87A18727"
+				type: "kill"
+				value: 100L
+			}]
+			title: "&bDefeat: Hammerhead Shark"
+			x: 3.0d
+			y: 10.6d
+		}
+		{
+			id: "728DC918ADE71A97"
+			tasks: [{
+				entity: "minecraft:zombie"
+				id: "50155FD4DE129BAD"
+				type: "kill"
+				value: 100L
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "0F20287B1019CE00"
+			tasks: [{
+				entity: "minecraft:zombie"
+				id: "62206845C2806BA4"
+				type: "kill"
+				value: 100L
+			}]
+			title: "&bDefeat: Basking Shark"
+			x: 0.0d
+			y: 11.8d
+		}
+		{
+			id: "1E3C3FBFAAA72482"
+			tasks: [{
+				entity: "minecraft:zombie"
+				id: "1A5BBE537042130D"
+				type: "kill"
+				value: 100L
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "76CE29E5352C40D7"
+			tasks: [{
+				entity: "minecraft:zombie"
+				id: "7D840B3C3A1AF0DC"
+				type: "kill"
+				value: 100L
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "658225702C234167"
+			tasks: [{
+				entity: "minecraft:zombie"
+				id: "6F18382761543717"
+				type: "kill"
+				value: 100L
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "3E8AE3179DD12FD6"
+			tasks: [{
+				entity: "minecraft:zombie"
+				id: "2AE06F091807B697"
+				type: "kill"
+				value: 100L
+			}]
+			title: "&7Defeat: Crab"
+			x: 3.0d
+			y: 13.0d
+		}
+		{
+			id: "6100667352E600AA"
+			tasks: [{
+				entity: "thalassophobia:yeti_crab"
+				id: "0AFA6130C3A56FA2"
+				type: "kill"
+				value: 0L
+			}]
+			title: "&7Defeat: Yeti Crab"
+			x: -3.0d
+			y: 14.2d
+		}
+		{
+			id: "5BCD6B907AA3F855"
+			tasks: [{
+				entity: "minecraft:zombie"
+				id: "64BC003475487BDF"
+				type: "kill"
+				value: 100L
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "159AA6348A540EFD"
+			tasks: [{
+				entity: "thalassophobia:gulper_eel"
+				id: "1BF0496C64AA2F38"
+				type: "kill"
+				value: 0L
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "7E7A6B873B6D4C6E"
+			tasks: [{
+				entity: "minecraft:zombie"
+				id: "2A8241C948448C67"
+				type: "kill"
+				value: 100L
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "2F7678FC9530EAE1"
+			tasks: [{
+				entity: "minecraft:zombie"
+				id: "512E2D7652E942E9"
+				type: "kill"
+				value: 100L
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "5F8CEA7C1A4746D2"
+			tasks: [{
+				entity: "minecraft:zombie"
+				id: "0AAB2C9203CE1441"
+				type: "kill"
+				value: 100L
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "03C042ED8D8A561C"
+			tasks: [{
+				entity: "minecraft:zombie"
+				id: "5BC645DA04427612"
+				type: "kill"
+				value: 100L
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "2B5ED60248878DC1"
+			tasks: [{
+				entity: "minecraft:zombie"
+				id: "1B2A7268B776E421"
+				type: "kill"
+				value: 100L
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "48D574E97D02809B"
+			tasks: [{
+				entity: "minecraft:zombie"
+				id: "3AC0F5E40DA45485"
+				type: "kill"
+				value: 100L
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "1F213E3FF3FB29B7"
+			tasks: [{
+				entity: "thalassophobia:leedsichthys"
+				id: "7BF319A83E61BC65"
+				type: "kill"
+				value: 0L
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "34AA4F62F4E02B12"
+			tasks: [{
+				entity: "thalassophobia:hesperornis"
+				id: "49027E769EBF2F08"
+				type: "kill"
+				value: 0L
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "7718DA409E5C8659"
+			tasks: [{
+				entity: "minecraft:zombie"
+				id: "37B36446D8C7E6D9"
+				type: "kill"
+				value: 100L
+			}]
+			title: "&7Defeat: Alligator Gar"
+			x: 3.0d
+			y: 17.8d
+		}
+		{
+			id: "024070397F177EBD"
+			tasks: [{
+				entity: "minecraft:zombie"
+				id: "76D88081710580C9"
+				type: "kill"
+				value: 100L
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "53489DB2FCA28C86"
+			tasks: [{
+				entity: "minecraft:zombie"
+				id: "66CE2759BEC07832"
+				type: "kill"
+				value: 100L
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "61E561FB094621BA"
+			tasks: [{
+				entity: "minecraft:zombie"
+				id: "16EE16AC295F2E7C"
+				type: "kill"
+				value: 100L
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "28CE426DE7701FA9"
+			tasks: [{
+				entity: "thalassophobia:oarfish"
+				id: "4BA86D6E3AE1BE6E"
+				type: "kill"
+				value: 0L
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "1E4BCC1E52FFD4AE"
+			tasks: [{
+				entity: "minecraft:zombie"
+				id: "6958D03ACE0FA2F7"
+				type: "kill"
+				value: 100L
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "28A7828BE253AC29"
+			tasks: [{
+				entity: "minecraft:zombie"
+				id: "27EC984721758DF7"
+				type: "kill"
+				value: 100L
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "78038723AFCA8551"
+			tasks: [{
+				entity: "thalassophobia:big_catfish"
+				id: "7CE72D88AA7BFDFD"
+				type: "kill"
+				value: 0L
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+	]
+}

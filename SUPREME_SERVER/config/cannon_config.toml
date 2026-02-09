@@ -1,0 +1,9 @@
+#Changes how destructive cannonballs are.
+"Cannonball Explosive Power" = 6.0
+#Changes how destructive light cannonballs are.
+"Light Cannonball Explosive Power" = 2.5
+#Changes how fast cannonballs are.
+"Cannonball Speed" = 5.0
+#Changes how fast light cannonballs are.
+"Light Cannonball Speed" = 9.0
+

@@ -1,0 +1,201 @@
+
+#Loot Modifier Configuration
+[general]
+
+	#
+	#--- GENERAL TABLE TYPE SETTINGS ---
+	#You don't have to reset your world for any of this to work.
+	#Just remember delete the cache file each time you want to update the tables because the old cache will be used.
+	[general.main_settings]
+		#For debugging purposes, if you want to see each item that's been removed and kept set this to true.
+		#be careful this could generate a huge amount of log in a big mod pack and result in freeze temporarily.
+		shouldPrintModifications = true
+		#if shouldPrint is true, and you want to print only one namespace's tables removed and kept items set its name here. ex- namespace "minecraft"
+		#leave it "" empty to print all.
+		namespaceToPrint = "minecraft"
+		#if shouldPrint is true, and you want to print only one table's removed and kept items set its path name here. ex- namespace:pathname minecraft:chests/bastion_treasure
+		#leave it "" empty to print all.
+		tableNameToPrint = "minecraft:chests/bastion_treasure"
+		#For debugging purposes, it prints more information, for the first times is very useful to tell what table failed or what happened in case of any failure, and then disable it.
+		logDebugs = true
+		#Normal information about modified loot tables or other common problems, set to false for clean log once you know everything is set and normal you don't want log each time you open a world, which is fine does no harm.
+		logInfo = true
+		#For Debugging Purposes, add nether_star to every chest to see if the mod is working remember to delete the cache.
+		shouldAddNetherStar = false
+
+	#
+	#--- Categorical Item Removals ---
+	#Set these to true to remove entire categories of items from all chests.
+	#Be careful if you make it aggressive it might remove valuable items like for instance ancient debris or netherite ingot from minecraft:chests/bastion_treasure.
+	#Minecraft Rarity System works differently that what you might expect, EPIC are the items that hard to find and craft like an enchanted golden apple which is EPIC
+	# while you might think diamond should be at least RARE well it's not is COMMON even netherite so they work very different but you can use them to protect the items that are hard to find and craft if you set all to EPIC.
+	#Exceptions for rare/important items (like Enchanted Golden Apples) are hard-coded while I use special checks all over the place but just in case.
+	[general.filters]
+		#Should skip filtering logic, in case if you wanted to only change quality.
+		#This will have not effect on force removed and force blocked items, they are protected.
+		no_filter_keep_all = true
+		#
+		#
+		#Remove all edible items that have no special effects.
+		removeFoods = true
+		#Should include specials as well.
+		removeFoodsIncludeSpecials = false
+		#
+		#
+		#Remove all tools (pickaxes, axes, shovels, hoes, others...).
+		removeTools = true
+		#If removeTools is true, this will PREVENT the removal of any tool using rarity.
+		#This is a great way to protect special modded tools.
+		protectRareTools = true
+		#If removeTools is true, this will PREVENT the removal of any tool that has this rarity or higher.
+		#Default is RARE.
+		#Acceptable values: COMMON, UNCOMMON, RARE, EPIC
+		toolRarityThreshold = "RARE"
+		#
+		#
+		#Remove all weapons (swords, bows, axes, etc.).
+		removeWeapons = true
+		#If removeWeapons is true, this will PREVENT the removal of any weapon using rarity.
+		#This is a great way to protect special modded weapons.
+		protectRareWeapons = true
+		#If removeWeapons is true, this will PREVENT the removal of any weapon that has this rarity or higher.
+		#A good option to protect Gold, Diamond, Netherite etc  is UNCOMMON. while removing Stone and Iron.(UNCHECKED)
+		#Acceptable values (not case-sensitive): COMMON, UNCOMMON, RARE, EPIC
+		weaponRarityThreshold = "EPIC"
+		#
+		#
+		#Remove all armor pieces.
+		removeArmor = true
+		#If removeArmor is true, this will PREVENT the removal of any armor using rarity.
+		#This is a great way to protect special modded armor and Netherite gear automatically.
+		protectRareArmor = true
+		#If removeArmor is true, this will PREVENT the removal of any armor that has this rarity or higher.
+		#This is a great way to protect special modded armor and Netherite gear automatically, RARE might also include Netherite gears if they are not EPIC.
+		#Acceptable values (not case-sensitive): COMMON, UNCOMMON, RARE, EPIC
+		armorRarityThreshold = "EPIC"
+		#
+		#
+		#Remove all mineral items (ores, ingots, nuggets, raw ore, gems, crystals, others...).
+		removeOres = true
+		#If removeOres is true, this will PREVENT the removal of any ore using rarity.
+		#This is a great way to protect ores with high rarity, while I think mining these are better than looting them.
+		protectRareOre = true
+		#If removeOres is true, this will PREVENT the removal of any ore/ingot/etc. that has this rarity or higher.
+		#Acceptable values (not case-sensitive): COMMON, UNCOMMON, RARE, EPIC
+		oreRarityThreshold = "RARE"
+
+	#
+	#--- Side Settings For Categorical Removals ---
+	#these settings applied after the filter so they change the result of how item is removed and how kept items are kept
+	[general.filter_side_functions]
+		#This is a powerful safety net for mod compatibility.
+		#If true, any item that has special data (NBT tags) by default will be protected from all categorical removals.
+		#This can prevent the accidental removal of complex and special modded items that fell into the categories and might have their rarity set incorrectly.
+		#It's safe to leave this on.
+		protectItemsWithNBT = true
+		#
+		#
+		#For each kept item, means the rest, set the quality.
+		#At 0% means everything is removed all the chests are empty now.
+		#At 100% is default keep them as it is in the loot tabel a stack of 64 Stone will be stack of 64 stone.
+		#At 50% the items quality are changed by half now instead of stack of 64 stone you get stack of 32, with half chance as well.
+		#Remember above 0% all kept items are kept even if their quality becomes zero so they spawn at least once with their original weight, means above 0% you are risk free, no items removed only their quality changed.
+		#Range: 0 ~ 100
+		keptItemsQuality = 100
+		#This is for the tagged loots, some items are added through tags instead of fixed item ID,
+		#for instance if the loot is forge:ingots tag this will add a random ingot type to the chest.
+		#These tags are also filtered, so this is their quality slider, rules same as KeptItemsQuality.
+		#Range: 0 ~ 100
+		keptTaggedItemsQuality = 100
+		#
+		#
+		# -- Items Removed By Categorical Removals --
+		#you can set this chance to randomly keep the removed items from the categorical removal filters.
+		#This chance by default is %0 to remove all the filtered items.
+		#But you can set the chance like this Example:
+		#At 1% keeps ~10 items out of 1000.
+		#At 50% keeps ~500 items out of 1000.
+		#Basically to give yourself some treat from now and then.
+		#And this is completely random you don't know what item is kept and what passed.
+		#Don't worry this will excludes any blocked, removed and table specific removed item from below configs.
+		#Range: 0 ~ 100
+		removedItemsRandomKeepChance = 0
+		#Quality for randomly kept items from the filters, the rules is same as keptItemsQuality.
+		#Range: 0 ~ 100
+		keptRandomItemsQuality = 100
+
+	#
+	#--- Global Item Lists ---
+	#These lists affect all chest loot tables.
+	[general.global_lists]
+		#A list of item IDs to PREVENT from being removed by the categorical filters above, overrides removedItems.
+		#Use a text editor if want to add to many items, it will help alot.
+		#Example: ["minecraft:golden_hoe"]
+		blockedItems = ["minecraft:golden_apple", "minecraft:enchanted_golden_apple", "minecraft:rotten_flesh", "minecraft:spider_eye", "minecraft:poisonous_potato", "minecraft:golden_carrot", "minecraft:rabbit_stew", "minecraft:suspicious_stew", "minecraft:honey_bottle", "minecraft:tropical_fish", "minecraft:pufferfish", "minecraft:carrot_on_a_stick", "minecraft:warped_fungus_on_a_stick", "minecraft:fishing_rod", "minecraft:brush", "minecraft:elytra", "minecraft:shield", "minecraft:turtle_helmet"]
+		#A list of specific item IDs to remove from ALL chests.
+		#Example: ["minecraft:rotten_flesh", "minecraft:bone"]
+		removedItems = []
+		#A list of loot table PATHs to completely ignore, The mod will not modify these tables at all.
+		#Format: ["namespace:path", "namespace:path"]
+		#Example: ["minecraft:chests/village/village_armorer", "minecraft:chests/end_city_treasure"]
+		skippedLootTables = []
+
+	#
+	#--- Global Added Items ---
+	#Define a new loot pool that will be added to EVERY chest.
+	#So these items will have a chance to spawn in every chest based on how you add them.
+	[general.global_additions]
+		#The minimum number of times to roll for items in the global pool.
+		#Range: 0 ~ 100
+		globalRollsMin = 1
+		#The maximum number of times to roll for items in the global pool.
+		#Range: 0 ~ 100
+		globalRollsMax = 1
+		#An extra number of rolls based on the Luck attribute.
+		#Range: 0 ~ 100
+		globalBonusRolls = 0
+		#The list of items to add to the global pool.
+		#Format: "modid:item_name, weight, min_stack, max_stack"
+		#Weight is rarity (higher = more common). Stacks can be 0 for a default of 1.
+		#Example: ["minecraft:diamond, 10, 1, 3", "minecraft:nether_star, 1, 1, 1"]
+		globalAddedItems = []
+
+	#
+	#--- Table-Specific Modifications ---
+	#These lists allow you to modify specific loot tables by name.
+	[general.table_specific]
+		#Remove specific items from specific loot tables.
+		#Format: "namespace:path|modid:item1,modid:item2"
+		#Example: ["minecraft:chests/simple_dungeon|minecraft:rotten_flesh"]
+		tableSpecificRemovals = []
+		#Add a custom loot pool to a specific loot table.
+		#Format: "namespace:path|min_rolls,max_rolls,bonus_rolls|modid:item1,w1,s_min1,s_max1|modid:item2,w2,s_min2,s_max2"
+		#Example: ["minecraft:chests/buried_treasure|1,1,0|minecraft:heart_of_the_sea,1,1,1|minecraft:diamond,5,1,2"]
+		tableSpecificAdditions = []
+		#Set Custom Quality for specific loot table.
+		#Format: "namespace:path|int(keptItemsQuality),int(keptTaggedItemsQuality),int(removedItemsRandomKeepChance),int(keptRandomItemsQuality)", same
+		#Example: ["minecraft:chests/buried_treasure|40,80,3,50"]
+		tableSpecificQuality = []
+
+	#
+	#--- Namespace-Specific Modifications ---
+	#These lists allow you to modify specific namespace loot tables by name.
+	#And table_specific configurations are applied after this, so you can modify a table while its namespace is also under modify.
+	[general.namespace_specific]
+		#A list of namespace to completely ignore, The mod will not modify these namespaces at all.
+		#Format: ["namespace", "namespace"]
+		#Example: ["minecraft", "some mod namespace"]
+		skippedNamespaces = []
+		#Remove specific items from specific namespace loot_tables.
+		#Format: "namespace|modid:item1,modid:item2"
+		#Example: ["minecraft|minecraft:rotten_flesh"]
+		namespaceSpecificRemovals = []
+		#Add a custom loot pool to a specific namespace loot tables.
+		#Format: "namespace|min_rolls,max_rolls,bonus_rolls|modid:item1,w1,s_min1,s_max1|modid:item2,w2,s_min2,s_max2"
+		#Example: ["minecraft|1,1,0|minecraft:heart_of_the_sea,1,1,1|minecraft:diamond,5,1,2"]
+		namespaceSpecificAdditions = []
+		#Set Custom Quality for specific namespace.
+		#Format: "namespace|int(keptItemsQuality),int(keptTaggedItemsQuality),int(removedItemsRandomKeepChance),int(keptRandomItemsQuality)", same
+		#Example: ["minecraft|40,80,3,50"]
+		namespaceSpecificQuality = []
+

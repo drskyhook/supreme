@@ -1,0 +1,21 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "getting_started"
+	group: "600AC9ABAC26F3D9"
+	id: "4DB6E1BBE43AC43F"
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		id: "256ABF46C1F97580"
+		tasks: [{
+			id: "555C8CAC14DE32C2"
+			item: "minecraft:white_bed"
+			type: "item"
+		}]
+		title: "Make a bed"
+		x: -2.0d
+		y: 0.0d
+	}]
+	title: "Getting Started"
+}
