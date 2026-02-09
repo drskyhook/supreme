@@ -1,0 +1,92 @@
+####################################
+# OS / Editor noise
+####################################
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.vscode/
+.idea/
+
+####################################
+# Logs / crash reports (all sides)
+####################################
+**/logs/
+**/crash-reports/
+**/*.log
+**/debug/
+hs_err_pid*.log
+
+####################################
+# Minecraft WORLD DATA (never commit)
+####################################
+SUPREME_SERVER/world/
+SUPREME_SERVER/world_nether/
+SUPREME_SERVER/world_the_end/
+SUPREME_SERVER/dimensions/
+SUPREME_SERVER/playerdata/
+SUPREME_SERVER/stats/
+SUPREME_SERVER/advancements/
+SUPREME_SERVER/region/
+SUPREME_SERVER/serverconfig/
+
+####################################
+# Client runtime junk
+####################################
+SUPREME_CLIENT/logs/
+SUPREME_CLIENT/crash-reports/
+SUPREME_CLIENT/journeymap/
+SUPREME_CLIENT/XaeroWaypoints/
+SUPREME_CLIENT/XaeroWorldMap/
+SUPREME_CLIENT/screenshots/
+SUPREME_CLIENT/local/
+SUPREME_CLIENT/server-resource-packs/
+
+####################################
+# Forge / modloader caches
+####################################
+**/.cache/
+**/cache/
+**/caches/
+**/spark/
+**/config/.cache/
+**/config/**/generated/
+
+####################################
+# Mods: DO NOT commit JARs
+####################################
+SUPREME_SERVER/mods/*.jar
+SUPREME_CLIENT/mods/*.jar
+
+# Allow mod lists / manifests (if you keep them)
+!SUPREME_SERVER/mods/modlist.*
+!SUPREME_CLIENT/mods/modlist.*
+!SUPREME_SERVER/mods/manifest.json
+!SUPREME_CLIENT/mods/manifest.json
+!SUPREME_SERVER/mods/.index/**
+!SUPREME_CLIENT/mods/.index/**
+
+####################################
+# Backups / exports
+####################################
+*.bak
+*.old
+*.zip
+*.7z
+*.tar
+*.gz
+
+####################################
+# Keep curated configs & scripts
+####################################
+!SUPREME_SERVER/config/**
+!SUPREME_CLIENT/config/**
+!SUPREME_SERVER/defaultconfigs/**
+!SUPREME_SERVER/kubejs/**
+!SUPREME_CLIENT/kubejs/**
+
+####################################
+# Documentation (optional but useful)
+####################################
+!README.md
+!CONFIG_NOTES.md
