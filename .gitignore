@@ -85,6 +85,7 @@ SUPREME_CLIENT/mods/*.jar
 !SUPREME_SERVER/kubejs/**
 !SUPREME_CLIENT/kubejs/**
 
+#
 ####################################
 # Documentation (optional but useful)
 ####################################
