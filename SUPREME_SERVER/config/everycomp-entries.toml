@@ -34,11 +34,6 @@
 			umbran = true
 			hellbark = true
 
-		[types.wood_type.ad_astra]
-			aeronos = true
-			strophar = true
-			glacian = true
-
 		[types.wood_type.valhelsia_structures]
 			lapidified_jungle = true
 
@@ -66,6 +61,11 @@
 
 		[types.wood_type.architects_palette]
 			twisted = true
+
+		[types.wood_type.hexerei]
+			mahogany = true
+			willow = true
+			witch_hazel = true
 
 	[types.cake]
 
@@ -100,9 +100,6 @@
 			umbran = true
 			hellbark = true
 
-		[types.leaves_type.ad_astra]
-			glacian = true
-
 		[types.leaves_type.minecraft]
 			pale_oak = true
 
@@ -127,6 +124,11 @@
 
 		[types.leaves_type.architects_palette]
 			twisted = true
+
+		[types.leaves_type.hexerei]
+			mahogany = true
+			willow = true
+			witch_hazel = true
 
 #Disables specific entries
 [entries]

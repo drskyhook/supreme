@@ -79,6 +79,21 @@
 
 # 2026-02-10
 
+- removed castle in the sky
+- removed explorify
+- removed immersive aircraft
+- removed ad astra
+- removed ad astra more structures
+- removed rpg potions
+- removed potions bundle
+- add hexerei
+- add potions master
+- add structure layout optimizer
+- add sparse structures
+- add improved village placement
+- add horseman
+- add callable horses
+
 # 2026-02-11
 
 # TODO
