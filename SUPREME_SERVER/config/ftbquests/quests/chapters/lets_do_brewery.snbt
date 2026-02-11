@@ -1,0 +1,156 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "lets_do_brewery"
+	group: "600AC9ABAC26F3D9"
+	id: "2DAC1E9EFB722617"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Obtain barley seeds to begin your brewery."
+				"Wild barley can be found in plains or taiga biomes."
+			]
+			icon: "brewery:barley_seeds"
+			id: "6A221ECDA6F18634"
+			rewards: [
+				{
+					count: 8
+					id: "5F54BCAAAF2428D4"
+					item: "minecraft:bone_meal"
+					type: "item"
+				}
+				{
+					id: "7F23B368DAE978F3"
+					type: "xp"
+					xp: 5
+				}
+			]
+			subtitle: "Acquire barley seeds"
+			tasks: [{
+				id: "5C984267D5C7FAD2"
+				item: "brewery:barley_seeds"
+				type: "item"
+			}]
+			title: "A Taste of Beer"
+			x: -8.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Craft a brewing station to process ingredients."
+				"The wooden brewing station is the foundation of beer production."
+			]
+			icon: "brewery:wooden_brewingstation"
+			id: "68D4FEBBA04DBF64"
+			rewards: [
+				{
+					count: 8
+					id: "231081E383948BB6"
+					item: "minecraft:glass_bottle"
+					type: "item"
+				}
+				{
+					id: "40F447CE57402DB6"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Prepare fermentation"
+			tasks: [{
+				id: "6C544B5A368EDC47"
+				item: "brewery:wooden_brewingstation"
+				type: "item"
+			}]
+			title: "Brewing Basics"
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Grow hops to add bitterness and aroma to your beer."
+				"Hop seeds can be cultivated like other crops."
+			]
+			icon: "brewery:hops_seeds"
+			id: "37504133805244F1"
+			rewards: [
+				{
+					count: 4
+					id: "19DEDB971162888C"
+					item: "minecraft:sugar"
+					type: "item"
+				}
+				{
+					id: "04D61839E1104DB3"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Essential ingredients"
+			tasks: [{
+				id: "2A5A5C897FB6A745"
+				item: "brewery:hops_seeds"
+				type: "item"
+			}]
+			title: "Hops and Aroma"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: ["Brew a finished beer using your brewing station."]
+			icon: "brewery:beer_mug"
+			id: "1896E1067CECA757"
+			rewards: [
+				{
+					count: 6
+					id: "2EF27B862AA241C1"
+					item: "minecraft:gold_nugget"
+					type: "item"
+				}
+				{
+					id: "2B47269E80579C82"
+					type: "xp"
+					xp: 15
+				}
+			]
+			subtitle: "Let it ferment"
+			tasks: [{
+				id: "241F3E0C03DC2F52"
+				item: "brewery:beer_mug"
+				type: "item"
+			}]
+			title: "Proper Beer"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			description: ["Brew a dark or specialty beer."]
+			icon: "brewery:dark_beer"
+			id: "34480B261C7A5FD1"
+			rewards: [
+				{
+					count: 2
+					id: "0A94F168C023A651"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "1EA01EB6056C50A5"
+					type: "xp"
+					xp: 25
+				}
+			]
+			subtitle: "Advanced brewing"
+			tasks: [{
+				id: "3BC993480280A069"
+				item: "brewery:dark_beer"
+				type: "item"
+			}]
+			title: "Master Brewer"
+			x: 8.0d
+			y: 0.0d
+		}
+	]
+	title: "Let's do - Brewery"
+}

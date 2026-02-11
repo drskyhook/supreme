@@ -96,6 +96,9 @@
 
 # 2026-02-11
 
+- adjusted ftb quests
+- removed servercore from server to fix frozen growing
+
 # TODO
 
 eeeab bosses - 27 mb , would have to earn its keep

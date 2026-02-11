@@ -1,0 +1,225 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "farmers_delight"
+	group: "600AC9ABAC26F3D9"
+	icon: "farmersdelight:cooking_pot"
+	id: "56B2F774AAA11161"
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Farmers Delight upgrades food from basic survival"
+				"to real infrastructure."
+				""
+				"This chapter is short and practical."
+				"It just gets people started."
+			]
+			icon: "farmersdelight:cooking_pot"
+			id: "73DE8732B574765F"
+			subtitle: "Food progression begins here"
+			tasks: [{
+				id: "05AFDCD893F8B35E"
+				title: "Begin"
+				type: "checkmark"
+			}]
+			title: "A World of Flavor"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Knives improve drops and unlock straw."
+				"Keep one on your hotbar."
+			]
+			icon: {
+				Count: 1
+				id: "farmersdelight:flint_knife"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "0D931BD16B93487E"
+			subtitle: "Core early tool"
+			tasks: [{
+				id: "1C825D02C291D967"
+				item: {
+					Count: 1
+					id: "farmersdelight:flint_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				title: "Craft Flint Knife"
+				type: "item"
+			}]
+			title: "Craft a Knife"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			description: ["The cutting board is your food processing station."]
+			icon: "farmersdelight:cutting_board"
+			id: "2C5A3DF2DF1AE408"
+			subtitle: "Make a Cutting Board"
+			tasks: [{
+				id: "29039D8BE3B026AA"
+				item: "farmersdelight:cutting_board"
+				title: "Craft Cutting Board"
+				type: "item"
+			}]
+			title: "Processing Food"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Find tomato seeds in the wild or loot."
+				"Then start your first Farmers Delight crop."
+			]
+			icon: "farmersdelight:tomato_seeds"
+			id: "40397C169B2125DC"
+			subtitle: "Get Tomato Seeds"
+			tasks: [{
+				id: "7191CBB5E3B202B5"
+				item: "farmersdelight:tomato_seeds"
+				title: "Obtain Tomato Seeds"
+				type: "item"
+			}]
+			title: "Start a Crop"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Rice is planted in shallow water."
+				"Place the crop to learn the mechanic."
+			]
+			icon: "farmersdelight:rice_panicle"
+			id: "70C46CB9024C0ECA"
+			subtitle: "Rice needs shallow water"
+			tasks: [{
+				id: "134BB456FD268374"
+				title: "Place Rice Crops"
+				type: "custom"
+			}]
+			title: "Plant Rice"
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Rich soil is a farming upgrade."
+				"Use composting to get it."
+			]
+			icon: "farmersdelight:rich_soil"
+			id: "7A745A865D82CFBD"
+			subtitle: "Obtain Rich Soil"
+			tasks: [{
+				id: "297ACA3AE5DB1756"
+				item: "farmersdelight:rich_soil"
+				title: "Obtain Rich Soil"
+				type: "item"
+			}]
+			title: "Upgrade Your Soil"
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			description: ["Cooking pots create efficient meals."]
+			icon: "farmersdelight:cooking_pot"
+			id: "0A5D0DC5C6B23609"
+			subtitle: "Place the Cooking Pot"
+			tasks: [{
+				id: "5A2879E64767FCF0"
+				title: "Place Cooking Pot"
+				type: "custom"
+			}]
+			title: "Cooking Pot"
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Skillets cook near heat sources."
+				"Great for exploring."
+			]
+			icon: {
+				Count: 1
+				id: "farmersdelight:skillet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "4B06F5862301A11E"
+			subtitle: "Portable cooking"
+			tasks: [{
+				id: "4B848D1819B9C826"
+				item: {
+					Count: 1
+					id: "farmersdelight:skillet"
+					tag: {
+						Damage: 0
+					}
+				}
+				title: "Craft Skillet"
+				type: "item"
+			}]
+			title: "Skillet"
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"The stove is the core kitchen block."
+				"Use it to run your pot setup cleanly."
+			]
+			icon: "farmersdelight:stove"
+			id: "3E6FEF0764440F4F"
+			subtitle: "Kitchen upgrade"
+			tasks: [{
+				id: "602BAE6CEE1006F3"
+				item: "farmersdelight:stove"
+				title: "Craft Stove"
+				type: "item"
+			}]
+			title: "Stove"
+			x: 16.0d
+			y: 0.0d
+		}
+		{
+			description: ["Make one simple real meal to prove the loop works."]
+			icon: "farmersdelight:cooked_rice"
+			id: "180F232AD99C996B"
+			subtitle: "Make Cooked Rice"
+			tasks: [{
+				id: "16F4132339589F76"
+				item: "farmersdelight:cooked_rice"
+				title: "Obtain Cooked Rice"
+				type: "item"
+			}]
+			title: "Cook a Meal"
+			x: 18.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Feasts can be placed and shared."
+				"Perfect for bases and multiplayer."
+			]
+			icon: "farmersdelight:roast_chicken"
+			id: "61AAB1558004349A"
+			subtitle: "Shared food"
+			tasks: [{
+				id: "5C6A9DAE57A7C4A6"
+				title: "Place Roast Chicken"
+				type: "custom"
+			}]
+			title: "Place a Feast"
+			x: 20.0d
+			y: 0.0d
+		}
+	]
+	title: "Farmers Delight"
+}

@@ -33,9 +33,10 @@
 			}]
 			tasks: [{
 				id: "38183A483BCCEB0D"
+				item: "minecraft:coal"
 				type: "item"
 			}]
-			x: 0.0d
+			x: 2.0d
 			y: 0.0d
 		}
 		{
@@ -48,6 +49,7 @@
 			tasks: [
 				{
 					id: "5223562D74BAE445"
+					item: "minecraft:iron_ingot"
 					type: "item"
 				}
 				{
@@ -58,7 +60,7 @@
 				}
 			]
 			x: 0.0d
-			y: 0.0d
+			y: 2.0d
 		}
 		{
 			description: ["Craft a shield."]
@@ -85,4 +87,5 @@
 			y: 0.0d
 		}
 	]
+    title: "Mining Iron"
 }

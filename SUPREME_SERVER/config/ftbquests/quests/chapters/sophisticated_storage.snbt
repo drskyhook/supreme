@@ -1,0 +1,603 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "sophisticated_storage"
+	group: "600AC9ABAC26F3D9"
+	icon: "sophisticatedstorage:storage_tool"
+	id: "59B705256E33B86B"
+	order_index: 9
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"This mod adds smarter chests, barrels, shulkers, upgrades, and linking."
+				""
+				"Basic loop:"
+				"1) Craft Sophisticated chests and barrels"
+				"2) Add upgrades like pickup magnet filter compacting crafting"
+				"3) Use a Storage Controller to interact with many storages from one block"
+				"4) Add Storage I O to connect pipes"
+			]
+			icon: "sophisticatedstorage:storage_tool"
+			id: "4AD3D3E0A7C4E586"
+			rewards: [{
+				count: 16
+				id: "322410AF144542FF"
+				item: "minecraft:torch"
+				type: "item"
+			}]
+			subtitle: "Smarter storage and upgrades"
+			tasks: [{
+				id: "5D88F19AE930410F"
+				title: "Read this manual quest"
+				type: "checkmark"
+			}]
+			title: "Sophisticated Storage Overview"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Craft and place a Sophisticated Barrel."
+				""
+				"Why barrel first:"
+				"- Great for bulk items"
+				"- Easy to expand into a storage wall"
+				"- Upgrades apply immediately"
+			]
+			icon: "sophisticatedstorage:barrel"
+			id: "2EC5E72184F9961F"
+			rewards: [{
+				count: 2
+				id: "591F0A0E246D4965"
+				item: "minecraft:chest"
+				type: "item"
+			}]
+			subtitle: "Good early bulk storage"
+			tasks: [{
+				id: "16B835A15AE442C8"
+				item: "sophisticatedstorage:barrel"
+				type: "item"
+			}]
+			title: "Craft a Sophisticated Barrel"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Craft and place a Sophisticated Chest."
+				""
+				"Chests vs barrels:"
+				"- Chests are better for general storage"
+				"- Barrels are great for bulk and walls"
+			]
+			icon: "sophisticatedstorage:chest"
+			id: "5A6A25290F5A92B9"
+			rewards: [{
+				id: "41138A3B28386D1A"
+				type: "xp_levels"
+				xp_levels: 0
+			}]
+			subtitle: "More general storage"
+			tasks: [{
+				id: "70311EF9F44BA8F6"
+				item: "sophisticatedstorage:chest"
+				type: "item"
+			}]
+			title: "Craft a Sophisticated Chest"
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Tier Upgrades convert storage to better versions with more space and more upgrade slots."
+				""
+				"Tip: You can usually upgrade in place without emptying the storage."
+				""
+				"Craft a Basic Tier Upgrade."
+			]
+			icon: "sophisticatedstorage:basic_tier_upgrade"
+			id: "062624B47AAC5121"
+			rewards: [{
+				count: 8
+				id: "0760D0F0AF90FD1F"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			subtitle: "Basic to Copper to Iron to Gold to Diamond to Netherite"
+			tasks: [{
+				id: "58D300D25AEB517E"
+				item: "sophisticatedstorage:basic_tier_upgrade"
+				type: "item"
+			}]
+			title: "Tier upgrades how progression works"
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Craft a Basic to Copper Tier Upgrade and apply it to a Sophisticated storage."
+				""
+				"Tip: If the storage UI shows more upgrade slots afterwards it worked."
+			]
+			icon: "sophisticatedstorage:basic_to_copper_tier_upgrade"
+			id: "41E300B1E8B50482"
+			rewards: [{
+				id: "445103847D3E0BEB"
+				type: "xp_levels"
+				xp_levels: 0
+			}]
+			subtitle: "First tier jump"
+			tasks: [{
+				id: "5C97D5DF0022D504"
+				item: "sophisticatedstorage:basic_to_copper_tier_upgrade"
+				type: "item"
+			}]
+			title: "Upgrade to Copper tier"
+			x: 16.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Craft a Basic to Iron Tier Upgrade."
+				"This quest teaches the tier path apply it whenever you want."
+			]
+			icon: "sophisticatedstorage:basic_to_iron_tier_upgrade"
+			id: "19D9C72E303FC603"
+			rewards: [{
+				count: 8
+				id: "572D217618F77B18"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			subtitle: "More capacity and upgrades"
+			tasks: [{
+				id: "6E8875A9907C15E7"
+				item: "sophisticatedstorage:basic_to_iron_tier_upgrade"
+				type: "item"
+			}]
+			title: "Prepare Iron tier"
+			x: 20.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Most upgrades start with an Upgrade Base."
+				"Craft 2 Upgrade Bases."
+			]
+			icon: "sophisticatedstorage:upgrade_base"
+			id: "6CAD979422FC28BF"
+			rewards: [{
+				count: 16
+				id: "291359B44408A172"
+				item: "minecraft:redstone"
+				type: "item"
+			}]
+			subtitle: "Required for many upgrades"
+			tasks: [{
+				count: 2L
+				id: "44726997CEC3AB5A"
+				item: "sophisticatedstorage:upgrade_base"
+				type: "item"
+			}]
+			title: "Craft Upgrade Bases"
+			x: 16.0d
+			y: 4.0d
+		}
+		{
+			description: [
+				"Pickup Upgrade makes a storage collect dropped items near it."
+				"Good for farms and mob drops."
+				""
+				"Craft one and install it into any Sophisticated storage."
+			]
+			icon: "sophisticatedstorage:pickup_upgrade"
+			id: "01EC19CF5A3B92AA"
+			rewards: [{
+				id: "53512A062CA51265"
+				item: "minecraft:hopper"
+				type: "item"
+			}]
+			subtitle: "Storage collects drops nearby"
+			tasks: [{
+				id: "1E0FCED88FB911E3"
+				item: "sophisticatedstorage:pickup_upgrade"
+				type: "item"
+			}]
+			title: "Pickup Upgrade"
+			x: 20.0d
+			y: 4.0d
+		}
+		{
+			description: [
+				"Magnet Upgrade pulls nearby drops toward the storage."
+				"Craft one."
+			]
+			icon: "sophisticatedstorage:magnet_upgrade"
+			id: "7C3C06105F6E089C"
+			rewards: [{
+				id: "1CF53D13E0BAE376"
+				type: "xp_levels"
+				xp_levels: 0
+			}]
+			subtitle: "Pulls drops into the storage"
+			tasks: [{
+				id: "612A58954C4A4D0B"
+				item: "sophisticatedstorage:magnet_upgrade"
+				type: "item"
+			}]
+			title: "Magnet Upgrade"
+			x: 24.0d
+			y: 4.0d
+		}
+		{
+			description: [
+				"Filter Upgrade controls what items can be piped in and out and what some upgrades act on."
+				"Craft one."
+			]
+			icon: "sophisticatedstorage:filter_upgrade"
+			id: "4CFF410047455B38"
+			rewards: [{
+				count: 16
+				id: "2417B228CEBD7F7F"
+				item: "minecraft:paper"
+				type: "item"
+			}]
+			subtitle: "Whitelist and blacklist items"
+			tasks: [{
+				id: "7C58763325E505A0"
+				item: "sophisticatedstorage:filter_upgrade"
+				type: "item"
+			}]
+			title: "Filter Upgrade"
+			x: 28.0d
+			y: 4.0d
+		}
+		{
+			description: [
+				"Compacting automatically maintains compressed forms like nuggets ingots and blocks."
+				"Craft one."
+			]
+			icon: "sophisticatedstorage:compacting_upgrade"
+			id: "59A03E0F2AD0017F"
+			rewards: [{
+				count: 4
+				id: "5998F7343CDFAFD8"
+				item: "minecraft:gold_ingot"
+				type: "item"
+			}]
+			subtitle: "Keeps compressed variants"
+			tasks: [{
+				id: "57DAADD01CF6A3AE"
+				item: "sophisticatedstorage:compacting_upgrade"
+				type: "item"
+			}]
+			title: "Compacting Upgrade"
+			x: 32.0d
+			y: 4.0d
+		}
+		{
+			description: [
+				"Crafting Upgrade adds a crafting grid tab to the storage."
+				"Craft one."
+			]
+			icon: "sophisticatedstorage:crafting_upgrade"
+			id: "798CEA397FA64E70"
+			rewards: [{
+				id: "3B122A7249267A9A"
+				item: "minecraft:crafting_table"
+				type: "item"
+			}]
+			subtitle: "Craft inside storage UI"
+			tasks: [{
+				id: "02C645801EE4005D"
+				item: "sophisticatedstorage:crafting_upgrade"
+				type: "item"
+			}]
+			title: "Crafting Upgrade"
+			x: 24.0d
+			y: 8.0d
+		}
+		{
+			description: [
+				"Packing Tape lets you pick up a storage with contents preserved."
+				"Craft one."
+			]
+			icon: {
+				Count: 1
+				id: "sophisticatedstorage:packing_tape"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "49AE5BAB94173BD5"
+			rewards: [{
+				count: 4
+				id: "3745364B3F9BE273"
+				item: "minecraft:leather"
+				type: "item"
+			}]
+			subtitle: "Move storage without spilling contents"
+			tasks: [{
+				id: "3AAD2A547805828C"
+				item: {
+					Count: 1
+					id: "sophisticatedstorage:packing_tape"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Packing Tape"
+			x: 8.0d
+			y: 4.0d
+		}
+		{
+			description: [
+				"Storage Tool is used to link and unlink to controllers and manage settings."
+				"Craft one."
+				""
+				"Tip: The tooltip usually explains mode switching controls."
+			]
+			icon: "sophisticatedstorage:storage_tool"
+			id: "75FED6D81A20EAD5"
+			rewards: [{
+				id: "226052CC2281CDFA"
+				type: "xp_levels"
+				xp_levels: 0
+			}]
+			subtitle: "Linking locking display toggles"
+			tasks: [{
+				id: "032E58E8FA35D4D3"
+				item: "sophisticatedstorage:storage_tool"
+				type: "item"
+			}]
+			title: "Storage Tool"
+			x: 12.0d
+			y: 4.0d
+		}
+		{
+			description: [
+				"Storage Controller lets you deposit and access connected storages from one block."
+				"Craft one."
+				""
+				"Basic setup:"
+				"1) Place Controller near storages"
+				"2) Use Storage Tool to link storages"
+				"3) Open Controller to interact with everything"
+			]
+			icon: "sophisticatedstorage:controller"
+			id: "526D30E74298D783"
+			rewards: [{
+				id: "6AA574C085591AE0"
+				item: "minecraft:redstone_block"
+				type: "item"
+			}]
+			subtitle: "One interface for many storages"
+			tasks: [{
+				id: "633F7349D0F3E82E"
+				item: "sophisticatedstorage:controller"
+				type: "item"
+			}]
+			title: "Storage Controller"
+			x: 16.0d
+			y: 8.0d
+		}
+		{
+			description: [
+				"Storage Connector bridges gaps between storage blocks in a storage multiblock."
+				"Craft two."
+			]
+			icon: "sophisticatedstorage:birch_storage_connector"
+			id: "59C18F3945E806D2"
+			rewards: [{
+				count: 64
+				id: "6124CF077A565D93"
+				item: "minecraft:stone"
+				type: "item"
+			}]
+			subtitle: "Bridge gaps in a multiblock"
+			tasks: [{
+				count: 2L
+				icon: "sophisticatedstorage:birch_storage_connector"
+				id: "2155B8548BD6F3E1"
+				type: "item"
+			}]
+			title: "Storage Connector"
+			x: 20.0d
+			y: 12.0d
+		}
+		{
+			description: [
+				"Storage I O allows external pipes to insert and extract from the multiblock."
+				"Craft one."
+			]
+			icon: "sophisticatedstorage:storage_io"
+			id: "7B080E89C9B65B10"
+			rewards: [{
+				id: "21FFD86387A6316C"
+				type: "xp_levels"
+				xp_levels: 0
+			}]
+			subtitle: "Connect pipes to the multiblock"
+			tasks: [{
+				id: "371BFAF5F88831A0"
+				item: "sophisticatedstorage:storage_io"
+				type: "item"
+			}]
+			title: "Storage I O"
+			x: 24.0d
+			y: 12.0d
+		}
+		{
+			description: [
+				"Storage Input is optimized for low TPS impact when inserting."
+				"Storage Output is for extracting items."
+				"Craft one of each."
+			]
+			icon: "sophisticatedstorage:storage_input"
+			id: "1F24EDFA04B61CDB"
+			rewards: [{
+				count: 2
+				id: "61724E422998F79D"
+				item: "minecraft:hopper"
+				type: "item"
+			}]
+			subtitle: "Dedicated blocks for inserting and extracting"
+			tasks: [
+				{
+					id: "1D06EFB34F560034"
+					item: "sophisticatedstorage:storage_input"
+					type: "item"
+				}
+				{
+					id: "0D2755A1CD395BE5"
+					item: "sophisticatedstorage:storage_output"
+					type: "item"
+				}
+			]
+			title: "Storage Input and Storage Output"
+			x: 28.0d
+			y: 12.0d
+		}
+		{
+			description: [
+				"Storage Link connects a separate multiblock of storages to a controller."
+				"Craft one."
+			]
+			icon: "sophisticatedstorage:storage_link"
+			id: "116C9C263CACC971"
+			rewards: [{
+				id: "2C76C7A11A0E4696"
+				type: "xp_levels"
+				xp_levels: 0
+			}]
+			subtitle: "Connect a separate multiblock to a controller"
+			tasks: [{
+				id: "2BD81FD1D7758232"
+				item: "sophisticatedstorage:storage_link"
+				type: "item"
+			}]
+			title: "Storage Link"
+			x: 32.0d
+			y: 12.0d
+		}
+		{
+			description: [
+				"Hopper Upgrade moves items between the storage and adjacent blocks."
+				"Craft one."
+			]
+			icon: "sophisticatedstorage:hopper_upgrade"
+			id: "4F479C2F050B2192"
+			rewards: [{
+				count: 16
+				id: "5D3390771996B766"
+				item: "minecraft:coal"
+				type: "item"
+			}]
+			subtitle: "Pull from above and push below"
+			tasks: [{
+				id: "4D8564DAABC42817"
+				item: "sophisticatedstorage:hopper_upgrade"
+				type: "item"
+			}]
+			title: "Hopper Upgrade"
+			x: 20.0d
+			y: 8.0d
+		}
+		{
+			description: [
+				"Smelting Upgrade adds a smelting tab to a storage."
+				"Craft one."
+			]
+			icon: "sophisticatedstorage:smelting_upgrade"
+			id: "3AB449668FFB1F65"
+			rewards: [{
+				count: 8
+				id: "69304EE0C88F5018"
+				item: "minecraft:raw_iron"
+				type: "item"
+			}]
+			subtitle: "Smelt inside a storage tab"
+			tasks: [{
+				id: "5E88B5D16A179FE3"
+				item: "sophisticatedstorage:smelting_upgrade"
+				type: "item"
+			}]
+			title: "Smelting Upgrade"
+			x: 28.0d
+			y: 8.0d
+		}
+		{
+			description: [
+				"Decoration Table lets you set cosmetics for storages such as materials and colors."
+				"Craft one."
+			]
+			icon: "sophisticatedstorage:decoration_table"
+			id: "246FD96953A492C8"
+			rewards: [{
+				count: 8
+				id: "1A871270D485B67B"
+				item: "minecraft:dye"
+				type: "item"
+			}]
+			subtitle: "Set cosmetic materials and colors"
+			tasks: [{
+				id: "2C3EA9F53A3A9151"
+				item: "sophisticatedstorage:decoration_table"
+				type: "item"
+			}]
+			title: "Decoration Table"
+			x: 4.0d
+			y: 8.0d
+		}
+		{
+			description: [
+				"How it works:"
+				"1) Set a decoration in the Decoration Table"
+				"2) Use the Paintbrush on storage blocks"
+			]
+			icon: "sophisticatedstorage:paintbrush"
+			id: "6809401267B2E293"
+			rewards: [{
+				id: "20703F65026F5309"
+				type: "xp_levels"
+				xp_levels: 0
+			}]
+			subtitle: "Apply decoration in world"
+			tasks: [{
+				id: "66A3A4610156CB44"
+				item: "sophisticatedstorage:paintbrush"
+				type: "item"
+			}]
+			title: "Paintbrush"
+			x: 8.0d
+			y: 8.0d
+		}
+		{
+			description: [
+				"Sophisticated Shulker Boxes are portable storage that can also take upgrades."
+				"Craft one."
+			]
+			icon: "sophisticatedstorage:shulker_box"
+			id: "56D386F4B0DC0A03"
+			rewards: [{
+				count: 4
+				id: "3AFEECC65BE2BEBD"
+				item: "minecraft:ender_pearl"
+				type: "item"
+			}]
+			subtitle: "Portable storage that can take upgrades"
+			tasks: [{
+				id: "015D79366DC784A1"
+				item: "sophisticatedstorage:shulker_box"
+				type: "item"
+			}]
+			title: "Sophisticated Shulker Box"
+			x: 12.0d
+			y: 8.0d
+		}
+	]
+	title: "Sophisticated Storage"
+}

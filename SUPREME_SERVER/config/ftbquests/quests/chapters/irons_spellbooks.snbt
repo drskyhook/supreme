@@ -1,0 +1,253 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "irons_spellbooks"
+	group: "600AC9ABAC26F3D9"
+	icon: "irons_spellbooks:copper_spell_book"
+	id: "1C4D78C3AD79FFC6"
+	order_index: 8
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Craft your first spellbook."
+				"This allows you to cast and inscribe spells."
+			]
+			icon: "irons_spellbooks:copper_spell_book"
+			id: "3162A41B87A726CA"
+			subtitle: "Begin your studies"
+			tasks: [{
+				id: "2FCD0EB842FC07C1"
+				item: "irons_spellbooks:copper_spell_book"
+				type: "item"
+			}]
+			title: "The First Tome"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Place the spellbook in the spellbook slot."
+				"Open it and view your spell slots."
+			]
+			icon: "irons_spellbooks:copper_spell_book"
+			id: "40D6D124944DEA73"
+			subtitle: "Equip the book"
+			tasks: [{
+				id: "067EF4F2B162B131"
+				type: "checkmark"
+			}]
+			title: "Magery"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Craft an Inscription Table."
+				"This is how you apply learned spells to your book."
+			]
+			icon: "irons_spellbooks:inscription_table"
+			id: "12D86CBC22D6CEF4"
+			subtitle: "Spells are written, not found"
+			tasks: [{
+				id: "547B2B697C07C7FE"
+				item: "irons_spellbooks:inscription_table"
+				type: "item"
+			}]
+			title: "Inscription Table"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Obtain an Unlearned Scroll."
+				"Right click to learn the spell."
+				"Then inscribe it into your book."
+			]
+			icon: "irons_spellbooks:scroll"
+			id: "5904906CF86C4920"
+			subtitle: "Knowledge must be studied"
+			tasks: [{
+				id: "63E9226A902EFB0B"
+				item: "irons_spellbooks:scroll.unlearned"
+				type: "item"
+			}]
+			title: "Unlearned Scroll"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Obtain any ink."
+				"Higher rarity ink allows crafting rarer scrolls."
+			]
+			icon: "irons_spellbooks:common_ink"
+			id: "2FB25DC402C3F26F"
+			subtitle: "Ink determines power"
+			tasks: [{
+				id: "188D6777494F408B"
+				item: "irons_spellbooks:common_ink"
+				type: "item"
+			}]
+			title: "Tools of the Trade"
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Craft a Scroll Forge."
+				"Use ink and materials to craft scrolls."
+			]
+			icon: "irons_spellbooks:scroll_forge"
+			id: "62335C9D0FE8A94D"
+			subtitle: "Craft your own spells"
+			tasks: [{
+				id: "6AF75EDAD77591EC"
+				item: "irons_spellbooks:scroll_forge"
+				type: "item"
+			}]
+			title: "Scroll Forge"
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Assign a spell to a slot."
+				"Cast it using your cast key."
+				"Manage mana and cooldown."
+			]
+			icon: "irons_spellbooks:scroll"
+			id: "0CDC95CD8725AA8C"
+			subtitle: "Use your spell"
+			tasks: [{
+				id: "0921A52D0E48BA91"
+				type: "checkmark"
+			}]
+			title: "First Cast"
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Craft the Ironbound Tome."
+				"Better books allow more slots and stronger spells."
+			]
+			icon: "irons_spellbooks:iron_spell_book"
+			id: "06F5CDEB08FFD4F4"
+			subtitle: "Upgrade your capacity"
+			tasks: [{
+				id: "6B55997BEBC10551"
+				item: "irons_spellbooks:iron_spell_book"
+				type: "item"
+			}]
+			title: "Ironbound Tome"
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Craft an Arcane Anvil."
+				"Use it to upgrade and improve magical equipment."
+			]
+			icon: "irons_spellbooks:arcane_anvil"
+			id: "7CD2B82000403D98"
+			subtitle: "Enhance your power"
+			tasks: [{
+				id: "41D006FAD1FB787C"
+				item: "irons_spellbooks:arcane_anvil"
+				type: "item"
+			}]
+			title: "Arcane Anvil"
+			x: 16.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Craft an Ice Staff or any casting staff."
+				"Staffs enhance spellcasting."
+			]
+			icon: "irons_spellbooks:ice_staff"
+			id: "4928039B1A22EA6A"
+			subtitle: "Wield greater magic"
+			tasks: [{
+				id: "55041BAF0CE2A030"
+				item: "irons_spellbooks:ice_staff"
+				type: "item"
+			}]
+			title: "Casting Implement"
+			x: 18.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Craft any Wizard armor piece."
+				"Armor increases mana and spell attributes."
+			]
+			icon: {
+				Count: 1
+				id: "irons_spellbooks:wizard_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5D8E8CDE63DBDBB8"
+			subtitle: "Increase mana and spell power"
+			tasks: [{
+				id: "0C059435F1885B7A"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:wizard_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Mage Armor"
+			x: 20.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Craft any rune."
+				"Runes allow specialization in a school of magic."
+			]
+			icon: "irons_spellbooks:fire_rune"
+			id: "532856337B5881F7"
+			subtitle: "Specialize your magic"
+			tasks: [{
+				id: "1D50B1372D88E983"
+				item: "irons_spellbooks:fire_rune"
+				type: "item"
+			}]
+			title: "Runes and Affinity"
+			x: 22.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"You now understand:"
+				"Books"
+				"Scrolls"
+				"Ink"
+				"Inscription"
+				"Staffs"
+				"Armor"
+				"Runes"
+				""
+				"Now build your spell loadout."
+			]
+			icon: "irons_spellbooks:diamond_spell_book"
+			id: "74D88E2EB829F4B9"
+			subtitle: "You understand the system"
+			tasks: [{
+				id: "37B4724B90E61FAA"
+				type: "checkmark"
+			}]
+			title: "Master Enchanter"
+			x: 24.0d
+			y: 0.0d
+		}
+	]
+	title: "Irons Spellbooks"
+}
