@@ -1,7 +1,7 @@
 
 [general]
 	#Whether crops are affected by seasons.
-	seasonal_crops = false
+	seasonal_crops = true
 	#How crops behave when out of season.
 	#0 = Grow slowly
 	#1 = Can't grow

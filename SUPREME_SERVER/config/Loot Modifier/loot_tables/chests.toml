@@ -119,10 +119,10 @@
 		#And this is completely random you don't know what item is kept and what passed.
 		#Don't worry this will excludes any blocked, removed and table specific removed item from below configs.
 		#Range: 0 ~ 100
-		removedItemsRandomKeepChance = 0
+		removedItemsRandomKeepChance = 2
 		#Quality for randomly kept items from the filters, the rules is same as keptItemsQuality.
 		#Range: 0 ~ 100
-		keptRandomItemsQuality = 100
+		keptRandomItemsQuality = 20
 
 	#
 	#--- Global Item Lists ---
@@ -147,10 +147,10 @@
 	[general.global_additions]
 		#The minimum number of times to roll for items in the global pool.
 		#Range: 0 ~ 100
-		globalRollsMin = 1
+		globalRollsMin = 0
 		#The maximum number of times to roll for items in the global pool.
 		#Range: 0 ~ 100
-		globalRollsMax = 1
+		globalRollsMax = 0
 		#An extra number of rolls based on the Luck attribute.
 		#Range: 0 ~ 100
 		globalBonusRolls = 0
@@ -175,7 +175,7 @@
 		#Set Custom Quality for specific loot table.
 		#Format: "namespace:path|int(keptItemsQuality),int(keptTaggedItemsQuality),int(removedItemsRandomKeepChance),int(keptRandomItemsQuality)", same
 		#Example: ["minecraft:chests/buried_treasure|40,80,3,50"]
-		tableSpecificQuality = ["minecraft:chests/simple_dungeon|15,15,0,100", "minecraft:chests/abandoned_mineshaft|15,15,0,100", "minecraft:chests/desert_pyramid|20,20,0,100", "minecraft:chests/jungle_temple|20,20,0,100"]
+		tableSpecificQuality = ["minecraft:chests/simple_dungeon|15,15,0,20", "minecraft:chests/abandoned_mineshaft|15,15,0,20", "minecraft:chests/desert_pyramid|20,20,0,20", "minecraft:chests/jungle_temple|20,20,0,20"]
 
 	#
 	#--- Namespace-Specific Modifications ---

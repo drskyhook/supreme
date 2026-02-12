@@ -99,7 +99,29 @@
 - adjusted ftb quests
 - removed servercore from server to fix frozen growing
 
+# 2026-02-12
+
+# 2026-02-13
+
+# 2026-02-14
+
+# 2026-02-15
+
+# 2026-02-16
+
+# 2026-02-17
+
+# 2026-02-18
+
+# 2026-02-19
+
+# 2026-02-20
+
+# 2026-02-21
+
 # TODO
+
+-considering obscure tooltips
 
 eeeab bosses - 27 mb , would have to earn its keep
 pillager & spillage - 32 mb, would have to earn its keep
