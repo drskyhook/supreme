@@ -1,0 +1,166 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "lets_do_herbalbrews"
+	group: "600AC9ABAC26F3D9"
+	icon: "herbalbrews:tea_kettle"
+	id: "0E45FCE91F106156"
+	order_index: 17
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"HerbalBrews adds cozy brewing progression."
+				""
+				"Grow plants, dry leaves, brew teas,"
+				"and unlock powerful supportive effects."
+			]
+			icon: "herbalbrews:tea_kettle"
+			id: "3A654DB0824978E0"
+			subtitle: "A peaceful brewing journey"
+			tasks: [{
+				id: "080702372664C0DA"
+				title: "Open this chapter"
+				type: "checkmark"
+			}]
+			title: "Welcome to HerbalBrews"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			icon: "herbalbrews:cauldron"
+			id: "4B30FDE6F184372C"
+			subtitle: "Your first brewing station"
+			tasks: [{
+				id: "6829B338FF84FB4E"
+				item: "herbalbrews:cauldron"
+				type: "item"
+			}]
+			title: "Build the Brewing Cauldron"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			icon: "herbalbrews:stove"
+			id: "5972C779D9C56B04"
+			subtitle: "Heat source for brewing"
+			tasks: [{
+				id: "7381283C55DA0436"
+				item: "herbalbrews:stove"
+				type: "item"
+			}]
+			title: "Craft a Stove"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			icon: "herbalbrews:tea_kettle"
+			id: "5A749293BE1E4AEE"
+			subtitle: "Begin making real brews"
+			tasks: [{
+				id: "381F893FEFA8A2B2"
+				item: "herbalbrews:tea_kettle"
+				type: "item"
+			}]
+			title: "Craft a Tea Kettle"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			icon: "herbalbrews:green_tea_leaf"
+			id: "08615391981FB950"
+			subtitle: "Gather wild ingredients"
+			tasks: [{
+				id: "35150B2F4A7EEACF"
+				item: "herbalbrews:green_tea_leaf"
+				type: "item"
+			}]
+			title: "Find Tea Blossoms"
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			icon: "herbalbrews:dried_green_tea"
+			id: "0ACC48568C69864D"
+			subtitle: "Prepare ingredients"
+			tasks: [{
+				id: "27E434982D434690"
+				item: "herbalbrews:dried_green_tea"
+				type: "item"
+			}]
+			title: "Dry Tea Leaves"
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			icon: "herbalbrews:flask"
+			id: "1BEAD9CFBEC4EA7A"
+			subtitle: "Unlock tea effects"
+			tasks: [{
+				id: "6A6D8CF72DE4F97E"
+				item: "herbalbrews:flask"
+				type: "item"
+			}]
+			title: "Brew Your First Flask"
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			icon: "herbalbrews:coffee_beans"
+			id: "3171C33EB4B421AE"
+			subtitle: "Energy in a cup"
+			tasks: [{
+				id: "6EB722C073FB2C32"
+				item: "herbalbrews:coffee_beans"
+				type: "item"
+			}]
+			title: "Brew Coffee"
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "herbalbrews:jug"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5A030857B2A9757A"
+			subtitle: "Combine multiple teas"
+			tasks: [{
+				id: "5098376A4AD998B6"
+				item: {
+					Count: 1
+					id: "herbalbrews:jug"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Craft a Jug"
+			x: 16.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Craft every tea variant."
+				""
+				"Become a true HerbalBrews master."
+			]
+			icon: "herbalbrews:herbalbrews_banner"
+			id: "719B0938305B4FB9"
+			subtitle: "Craft all tea types"
+			tasks: [{
+				id: "30A28607318CD11E"
+				item: "herbalbrews:herbalbrews_banner"
+				type: "item"
+			}]
+			title: "Master Brewer"
+			x: 18.0d
+			y: 0.0d
+		}
+	]
+	title: "Let's do - Herbal Brews"
+}

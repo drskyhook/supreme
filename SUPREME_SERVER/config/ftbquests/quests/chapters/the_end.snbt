@@ -1,0 +1,296 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_end"
+	group: "600AC9ABAC26F3D9"
+	icon: "minecraft:end_portal_frame"
+	id: "5EF682D7C1D4DFC9"
+	order_index: 19
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Goal: Enter the End dimension."
+				""
+				"This track is vanilla-friendly and works even with End overhauls like Nullscape."
+			]
+			icon: "minecraft:end_portal"
+			id: "6C9FE241B961F926"
+			rewards: [
+				{
+					count: 8
+					id: "14BF80BE3D21B387"
+					item: "minecraft:ender_pearl"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "070DDEFA5D536563"
+					item: "minecraft:experience_bottle"
+					type: "item"
+				}
+			]
+			subtitle: "Step through the portal"
+			tasks: [{
+				advancement: "minecraft:end/root"
+				criterion: ""
+				id: "0978ED176122477F"
+				type: "advancement"
+			}]
+			title: "Enter the End"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Goal: Enter an End City."
+				""
+				"Tip: Bridge out to the outer islands after you deal with the dragon, or hunt for gateways."
+			]
+			icon: "minecraft:end_stone_bricks"
+			id: "340F20F1678DC72D"
+			rewards: [{
+				count: 64
+				id: "656740883B2F87A6"
+				item: "minecraft:end_stone"
+				type: "item"
+			}]
+			subtitle: "The End is bigger than the island"
+			tasks: [{
+				advancement: "minecraft:end/find_end_city"
+				criterion: ""
+				id: "606D6EF5E5AD94C1"
+				type: "advancement"
+			}]
+			title: "Find an End City"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Goal: Defeat the Ender Dragon."
+				""
+				"This unlocks the exit portal, more gateways, and marks the 'End is open' moment."
+			]
+			icon: "minecraft:dragon_head"
+			id: "6E816544DF180D2B"
+			rewards: [
+				{
+					count: 4
+					id: "2E6135269EEC8DD1"
+					item: "minecraft:dragon_breath"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "3315963DCFB0AF2F"
+					item: "minecraft:experience_bottle"
+					type: "item"
+				}
+			]
+			subtitle: "Free the exit"
+			tasks: [{
+				advancement: "minecraft:end/kill_dragon"
+				criterion: ""
+				id: "107E4F9A815492E5"
+				type: "advancement"
+			}]
+			title: "Kill the Ender Dragon"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Goal: Obtain Elytra."
+				""
+				"Tip: Ship loot is often your first big 'End power spike'."
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:elytra"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "37B6B6988D93F9B2"
+			rewards: [{
+				count: 32
+				id: "63B903543840EAA7"
+				item: "minecraft:firework_rocket"
+				type: "item"
+			}]
+			subtitle: "Flight changes everything"
+			tasks: [{
+				id: "172386AEBE1BDE6C"
+				item: {
+					Count: 1
+					id: "minecraft:elytra"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Get Elytra"
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Goal: Obtain Shulker Shells."
+				""
+				"You can craft Shulker Boxes after this."
+			]
+			icon: "minecraft:shulker_shell"
+			id: "7B8C5FD0E23324F8"
+			rewards: [{
+				count: 2
+				id: "431349DBD013ACB6"
+				item: "minecraft:chest"
+				type: "item"
+			}]
+			subtitle: "Portable storage milestone"
+			tasks: [{
+				count: 2L
+				id: "42D2040D5562968A"
+				item: "minecraft:shulker_shell"
+				type: "item"
+			}]
+			title: "Get Shulker Shells"
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Goal: Craft any Shulker Box."
+				""
+				"If you dye it later, it still counts as long as you craft/obtain one at least once."
+			]
+			icon: "minecraft:shulker_box"
+			id: "57FC14AAE3619F54"
+			rewards: [{
+				count: 2
+				id: "6097B215B679379D"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			subtitle: "The End's best reward"
+			tasks: [{
+				id: "005BD12F4A546258"
+				item: "minecraft:shulker_box"
+				type: "item"
+			}]
+			title: "Craft a Shulker Box"
+			x: 15.0d
+			y: 0.0d
+		}
+		{
+			dependency_requirement: "one_completed"
+			description: [
+				"Goal: Obtain any End City style diamond gear."
+				""
+				"This is intentionally flexible: any ONE of these items completes it."
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:diamond_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "55ADFEF81CFC42DB"
+			rewards: [{
+				count: 16
+				id: "49623EB97D413D76"
+				item: "minecraft:experience_bottle"
+				type: "item"
+			}]
+			subtitle: "Bring back the good stuff"
+			tasks: [
+				{
+					id: "5D92FEEE74668790"
+					item: {
+						Count: 1
+						id: "minecraft:diamond_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "723CB59BFABEF677"
+					item: {
+						Count: 1
+						id: "minecraft:diamond_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "609C73CCBC898EB2"
+					item: {
+						Count: 1
+						id: "minecraft:diamond_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "413A9275FEFEBD78"
+					item: {
+						Count: 1
+						id: "minecraft:diamond_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "09DE5F9B8FEC47CD"
+					item: {
+						Count: 1
+						id: "minecraft:diamond_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Loot End City Gear"
+			x: 18.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Goal: Respawn the Ender Dragon."
+				""
+				"This uses the vanilla advancement trigger."
+			]
+			icon: "minecraft:end_crystal"
+			id: "58E9A51CAF651F7A"
+			rewards: [{
+				id: "22F5019DD85EA033"
+				item: "minecraft:netherite_scrap"
+				type: "item"
+			}]
+			subtitle: "Prove you can do it again"
+			tasks: [{
+				advancement: "minecraft:end/respawn_dragon"
+				criterion: ""
+				id: "31108CEC7C23EE4A"
+				type: "advancement"
+			}]
+			title: "Respawn the Dragon"
+			x: 21.0d
+			y: 0.0d
+		}
+	]
+	title: "The End"
+}

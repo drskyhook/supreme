@@ -1,0 +1,232 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "whaleborne"
+	group: "600AC9ABAC26F3D9"
+	icon: "whaleborne:sail"
+	id: "6E8A3B1C9D2F4A10"
+	order_index: 18
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Whaleborne is a tiny 'ocean tech' track."
+				"Get the ship parts + a little barnacle harvesting going."
+				""
+				"Tip: If a task won’t detect, put the item in your inventory at least once."
+			]
+			id: "4E1AFBC1A780CD03"
+			rewards: [
+				{
+					id: "32847E60DFFF65AE"
+					item: "minecraft:boat"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "67EA714895060DD1"
+					item: "minecraft:bread"
+					type: "item"
+				}
+			]
+			subtitle: "Ship parts + barnacles"
+			tasks: [{
+				id: "6F5713017689CEB5"
+				item: "whaleborne:sail"
+				type: "item"
+			}]
+			title: "Whaleborne Overview"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Harvest a Barnacle Block."
+				"These are the basic building blocks you’ll see out in the world."
+			]
+			id: "16D5485184716388"
+			rewards: [{
+				count: 6
+				id: "1B920F8ED6709928"
+				item: "minecraft:torch"
+				type: "item"
+			}]
+			subtitle: "Ocean salvage"
+			tasks: [{
+				id: "3A9B9AD3CA176057"
+				item: "whaleborne:barnacle"
+				type: "item"
+			}]
+			title: "Barnacle Harvest"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Harvest a Rough Barnacle Block."
+				"Use it for builds or as proof you’ve explored the weirder ocean spots."
+			]
+			id: "4714969317EFA1DD"
+			rewards: [{
+				count: 16
+				id: "2B1D1E299340149B"
+				item: "minecraft:cobblestone"
+				type: "item"
+			}]
+			subtitle: "Rougher salvage"
+			tasks: [{
+				id: "11BBC1A7DF5DDBC7"
+				item: "whaleborne:rough_barnacle"
+				type: "item"
+			}]
+			title: "Rough Barnacle"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Craft a Mast."
+				"This is one of the core ship components."
+			]
+			id: "5DB79BB6E6638D2A"
+			rewards: [{
+				count: 12
+				id: "2946984044C117DE"
+				item: "minecraft:oak_planks"
+				type: "item"
+			}]
+			subtitle: "Core ship part"
+			tasks: [{
+				id: "2841AE7544CD8102"
+				item: "whaleborne:mast"
+				type: "item"
+			}]
+			title: "Raise the Mast"
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			description: [
+				"Craft a Sail."
+				"Now you’ve got the 'go fast' piece."
+			]
+			id: "5EFBE4D4D2CF262A"
+			rewards: [{
+				count: 8
+				id: "7B695954A3F5F32B"
+				item: "minecraft:string"
+				type: "item"
+			}]
+			subtitle: "Movement"
+			tasks: [{
+				id: "0FF67819BFCB9130"
+				item: "whaleborne:sail"
+				type: "item"
+			}]
+			title: "Set the Sail"
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			description: [
+				"Craft a Helm."
+				"Steering/control piece."
+			]
+			id: "230018BCD761F7C7"
+			rewards: [{
+				count: 4
+				id: "3D484B042A83D298"
+				item: "minecraft:compass"
+				type: "item"
+			}]
+			subtitle: "Control"
+			tasks: [{
+				id: "4293770CC79D81AA"
+				item: "whaleborne:helm"
+				type: "item"
+			}]
+			title: "Take the Helm"
+			x: 9.0d
+			y: 2.0d
+		}
+		{
+			description: [
+				"Craft an Anchor."
+				"Useful for stopping/holding position."
+			]
+			id: "19A7E0C4B2D8F188"
+			rewards: [{
+				count: 12
+				id: "4B22733A76FBD45F"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			subtitle: "Hold position"
+			tasks: [{
+				id: "4AB1F6CB6B79A5B6"
+				item: "whaleborne:anchor"
+				type: "item"
+			}]
+			title: "Drop Anchor"
+			x: 12.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["19A7E0C4B2D8F188"]
+			description: [
+				"Craft a Cannon."
+				"Not required for progression, but it’s part of the full Whaleborne kit."
+			]
+			id: "2B8F1D6C0A3E9B99"
+			rewards: [{
+				count: 8
+				id: "628105D80593FACB"
+				item: "minecraft:gunpowder"
+				type: "item"
+			}]
+			subtitle: "Firepower"
+			tasks: [{
+				id: "3347DFEF58ECA6D4"
+				item: "whaleborne:cannon"
+				type: "item"
+			}]
+			title: "Deck Cannon"
+			x: 15.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2B8F1D6C0A3E9B99"]
+			description: [
+				"Finish the Whaleborne basics:"
+				"• Barnacle + Rough Barnacle"
+				"• Mast + Sail + Helm + Anchor + Cannon"
+				""
+				"That’s it — lightweight and done."
+			]
+			id: "3C1E8A2D9F0B4CAA"
+			rewards: [
+				{
+					id: "443AF4EAD9848964"
+					item: "minecraft:heart_of_the_sea"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "70D5A5F8C4B676F6"
+					item: "minecraft:experience_bottle"
+					type: "item"
+				}
+			]
+			subtitle: "Complete the kit"
+			tasks: [{
+				id: "45953396625F7658"
+				item: "whaleborne:helm"
+				type: "item"
+			}]
+			title: "Whaleborne Complete"
+			x: 18.0d
+			y: 1.0d
+		}
+	]
+	title: "Whaleborne"
+}

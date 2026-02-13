@@ -1,0 +1,421 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "iceandfire_delight"
+	group: "600AC9ABAC26F3D9"
+	icon: "minecraft:book"
+	id: "19909A65ADB2592B"
+	order_index: 12
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"This chapter is about Ice and Fire Delight — turning dangerous hunts into meaningful food buffs."
+				""
+				"Design goals:"
+				"• Keep rewards small (no gear inflation)"
+				"• Push exploration targets (Sea Serpent / Cyclops / Troll / Dragon)"
+				"• End with a few signature foods + dragonsteel kitchen tools"
+				""
+				"Tip: If a task won't detect, ensure the item is in your inventory at least once."
+			]
+			icon: "minecraft:book"
+			id: "59ECF1C3315561B8"
+			rewards: [
+				{
+					id: "3DB854ABE7113DDF"
+					item: "minecraft:book"
+					type: "item"
+				}
+				{
+					id: "3EAEFB3702592C85"
+					item: "minecraft:campfire"
+					type: "item"
+				}
+			]
+			subtitle: "Legendary meals from legendary monsters"
+			tasks: [{
+				id: "24B35709F5EECF2E"
+				item: "ice_and_fire_delight:cookbook"
+				type: "item"
+			}]
+			title: "Ice and Fire Delight Overview"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Many recipes in this mod start with bone-based staples."
+				"Make Flour from dragon bones."
+			]
+			icon: "ice_and_fire_delight:flour_from_dragon_bones"
+			id: "0DA9E94D732B79FB"
+			rewards: [{
+				count: 4
+				id: "0446E3AC2AD6F23A"
+				item: "minecraft:bread"
+				type: "item"
+			}]
+			subtitle: "Make the base ingredient"
+			tasks: [{
+				id: "130B5A851E783E49"
+				item: "ice_and_fire_delight:flour_from_dragon_bones"
+				type: "item"
+			}]
+			title: "Flour from Dragon Bones"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			description: ["Turn that flour into Dough from dragon bones."]
+			icon: "ice_and_fire_delight:dough_from_dragon_bones"
+			id: "3D3969570C62D1DD"
+			rewards: [{
+				count: 8
+				id: "5ACB2D934CBFAA78"
+				item: "minecraft:charcoal"
+				type: "item"
+			}]
+			subtitle: "Prep for mini pizza"
+			tasks: [{
+				count: 2L
+				id: "24BF09BA8DD6DD04"
+				item: "ice_and_fire_delight:dough_from_dragon_bones"
+				type: "item"
+			}]
+			title: "Dough from Dragon Bones"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Craft a Mini pizza."
+				""
+				"This is your first 'I hunted something scary and got a food payoff' milestone."
+			]
+			icon: "ice_and_fire_delight:mini_pizza"
+			id: "0ECF036A440AB2C8"
+			rewards: [{
+				count: 4
+				id: "109808158F68B30D"
+				item: "minecraft:golden_carrot"
+				type: "item"
+			}]
+			subtitle: "A practical travel meal"
+			tasks: [{
+				id: "2912A4E6C469F996"
+				item: "ice_and_fire_delight:mini_pizza"
+				type: "item"
+			}]
+			title: "Cafeteria Pizza"
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Get Cooked Sea Serpent meat."
+				""
+				"Target: Oceans. Bring ranged damage, Depth Strider, and a plan to escape."
+			]
+			icon: "ice_and_fire_delight:cooked_sea_serpent_meat"
+			id: "7601D261E0AA4DA2"
+			rewards: [
+				{
+					count: 8
+					id: "47A7869762E2B80B"
+					item: "minecraft:prismarine_shard"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "038F0CC75A6DD06A"
+					item: "minecraft:experience_bottle"
+					type: "item"
+				}
+			]
+			subtitle: "Cook the great sea monster"
+			tasks: [{
+				id: "44926C5A142DDDB9"
+				item: "ice_and_fire_delight:cooked_sea_serpent_meat"
+				type: "item"
+			}]
+			title: "Sea Serpent Delicacy"
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Craft Fresh soup from sea serpent."
+				""
+				"This is a great 'prep meal' before dungeons/bosses."
+			]
+			icon: "ice_and_fire_delight:fresh_soup_from_sea_serpent"
+			id: "78D5DDBB3E1548D8"
+			rewards: [{
+				id: "37A8B17D92060213"
+				item: "minecraft:bucket"
+				type: "item"
+			}]
+			subtitle: "A real mid-game meal"
+			tasks: [{
+				id: "0F42A55575FA89D4"
+				item: "ice_and_fire_delight:fresh_soup_from_sea_serpent"
+				type: "item"
+			}]
+			title: "Sea Serpent Fresh Soup"
+			x: 15.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Craft Eye chowder (Cyclops Eye dish)."
+				""
+				"Cyclops is a meaningful mid-game wall: prep, kite, and avoid open-field panic fights."
+			]
+			icon: "ice_and_fire_delight:eye_chowder"
+			id: "13CA6F93B2BFDB9B"
+			rewards: [
+				{
+					id: "0A9EEC15388284F2"
+					item: {
+						Count: 1
+						id: "minecraft:shield"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 6
+					id: "1BC3AEC0F0C42347"
+					item: "minecraft:experience_bottle"
+					type: "item"
+				}
+			]
+			subtitle: "Cyclops Eye Chowder"
+			tasks: [{
+				id: "3D946B4B2369B24B"
+				item: "ice_and_fire_delight:eye_chowder"
+				type: "item"
+			}]
+			title: "You've Been Spotted"
+			x: 18.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Craft Honey glazed Troll meat."
+				""
+				"Trolls are annoying because of day/night behavior—this is meant to be a 'timing' hunt."
+			]
+			icon: "ice_and_fire_delight:honey_glazed_troll_meat"
+			id: "7D8738E02DFB1933"
+			rewards: [{
+				count: 4
+				id: "2A495243F9405D7F"
+				item: "minecraft:honey_bottle"
+				type: "item"
+			}]
+			subtitle: "Honey glazed Troll meat"
+			tasks: [{
+				id: "7690DC2996362C44"
+				item: "ice_and_fire_delight:honey_glazed_troll_meat"
+				type: "item"
+			}]
+			title: "Delicacy!"
+			x: 21.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Make all three lily extracts:"
+				"• Fire lily extract"
+				"• Frost lily extract"
+				"• Lightning lily extract"
+				""
+				"These are your 'alchemy step' before cocktails."
+			]
+			icon: "ice_and_fire_delight:fire_lily_extract"
+			id: "41338B6106525439"
+			rewards: [{
+				count: 8
+				id: "3BF324F6A8C05001"
+				item: "minecraft:glass_bottle"
+				type: "item"
+			}]
+			subtitle: "Fire / Frost / Lightning"
+			tasks: [
+				{
+					id: "0A509798840746A8"
+					item: "ice_and_fire_delight:fire_lily_extract"
+					type: "item"
+				}
+				{
+					id: "407FED3AE882AD86"
+					item: "ice_and_fire_delight:frost_lily_extract"
+					type: "item"
+				}
+				{
+					id: "3FD28F4DBA6F5A02"
+					item: "ice_and_fire_delight:lightning_lily_extract"
+					type: "item"
+				}
+			]
+			title: "Elemental Extracts"
+			x: 24.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Craft at least one elemental cocktail:"
+				"• Fiery Hot cocktail"
+				"• Frost cocktail"
+				"• Electric cocktail"
+				""
+				"Pick your favorite. This is a 'prep before boss' milestone."
+			]
+			icon: "ice_and_fire_delight:fiery_hot_cocktail"
+			id: "0CC956454005C940"
+			rewards: [
+				{
+					count: 4
+					id: "6B1B5F127F8C1B4B"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "4922A0FDF2BC67EA"
+					item: "minecraft:experience_bottle"
+					type: "item"
+				}
+			]
+			subtitle: "Brew the big buffs"
+			tasks: [
+				{
+					id: "0D6BE6367CEEC210"
+					item: "ice_and_fire_delight:fiery_hot_cocktail"
+					type: "item"
+				}
+				{
+					id: "76B9F9CE25AC4A76"
+					item: "ice_and_fire_delight:frost_cocktail"
+					type: "item"
+				}
+				{
+					id: "0DE21AF4E0112B0B"
+					item: "ice_and_fire_delight:electric_cocktail"
+					type: "item"
+				}
+			]
+			title: "Feel the Power"
+			x: 27.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Craft at least one Dragonsteel knife:"
+				"• Fire dragonsteel knife"
+				"• Ice dragonsteel knife"
+				"• Lightning dragonsteel knife"
+				""
+				"This is your 'I can reliably farm big threats now' marker."
+			]
+			icon: {
+				Count: 1
+				id: "ice_and_fire_delight:dragonsteel_fire_knife"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "76AB80B52D339045"
+			rewards: [{
+				id: "7CB2E179A3CBDB11"
+				item: "minecraft:anvil"
+				type: "item"
+			}]
+			subtitle: "Knives worthy of legends"
+			tasks: [
+				{
+					id: "2AFE6ADB545DA140"
+					item: {
+						Count: 1
+						id: "ice_and_fire_delight:dragonsteel_fire_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "78DC35755A328B95"
+					item: {
+						Count: 1
+						id: "ice_and_fire_delight:dragonsteel_ice_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "15166C3CE7D9E1AF"
+					item: {
+						Count: 1
+						id: "ice_and_fire_delight:dragonsteel_lightning_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Dragonsteel Kitchen"
+			x: 30.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Craft either:"
+				"• Dragon special sausage"
+				"OR"
+				"• Dragon Special Pie Slice"
+				""
+				"Endcap goal: a memorable 'we did it' moment without breaking combat balance."
+			]
+			icon: "ice_and_fire_delight:dragon_special_sausage"
+			id: "4A91AB37E45192A3"
+			rewards: [
+				{
+					id: "6A4406C5679A13A7"
+					item: "minecraft:netherite_scrap"
+					type: "item"
+				}
+				{
+					count: 12
+					id: "672B230E0782BD70"
+					item: "minecraft:experience_bottle"
+					type: "item"
+				}
+			]
+			subtitle: "One last legendary dish"
+			tasks: [
+				{
+					id: "55DC1D46A304F8E8"
+					item: "ice_and_fire_delight:dragon_special_sausage"
+					type: "item"
+				}
+				{
+					id: "223936B960B7290B"
+					item: "ice_and_fire_delight:dragon_special_pie_slice"
+					type: "item"
+				}
+			]
+			title: "The Dragon’s Table"
+			x: 33.0d
+			y: 0.0d
+		}
+	]
+	title: "Ice and Fire Delight"
+}

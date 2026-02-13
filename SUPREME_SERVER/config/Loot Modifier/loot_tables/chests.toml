@@ -9,7 +9,7 @@
 	[general.main_settings]
 		#For debugging purposes, if you want to see each item that's been removed and kept set this to true.
 		#be careful this could generate a huge amount of log in a big mod pack and result in freeze temporarily.
-		shouldPrintModifications = true
+		shouldPrintModifications = false
 		#if shouldPrint is true, and you want to print only one namespace's tables removed and kept items set its name here. ex- namespace "minecraft"
 		#leave it "" empty to print all.
 		namespaceToPrint = "minecraft"

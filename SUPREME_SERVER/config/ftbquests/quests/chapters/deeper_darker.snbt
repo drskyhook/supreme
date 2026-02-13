@@ -1,0 +1,151 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "deeper_darker"
+	group: "600AC9ABAC26F3D9"
+	icon: "minecraft:sculk_shrieker"
+	id: "1BF70FB41D45617C"
+	order_index: 13
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"This chapter is a lightweight Deep Dark track."
+				""
+				"Goal: give us a few clean milestones (no huge rewards, no gear inflation)."
+				""
+				"Tip: If a task won’t detect, pick the item up at least once."
+			]
+			id: "48536D433C71E499"
+			rewards: [{
+				count: 32
+				id: "234A84E99FFD7718"
+				item: "minecraft:torch"
+				type: "item"
+			}]
+			subtitle: "A simple milestone track"
+			tasks: [{
+				id: "49555D0D0C087186"
+				item: "minecraft:sculk"
+				type: "item"
+			}]
+			title: "Deep Dark Basics"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Pick up a Sculk Catalyst."
+				""
+				"This is a good signal you’re actually in the real Deep Dark ecosystem."
+			]
+			id: "2B9428281F953A0E"
+			rewards: [{
+				count: 8
+				id: "5268DD33B9F6AC1E"
+				item: "minecraft:experience_bottle"
+				type: "item"
+			}]
+			subtitle: "Core Deep Dark block"
+			tasks: [{
+				id: "1FB42D87B22E6518"
+				item: "minecraft:sculk_catalyst"
+				type: "item"
+			}]
+			title: "Sculk Catalyst"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Pick up a Sculk Shrieker."
+				""
+				"(Be careful transporting these...)"
+			]
+			id: "32A26A0D1F53DEB1"
+			rewards: [{
+				count: 4
+				id: "115785469962E863"
+				item: "minecraft:sculk_sensor"
+				type: "item"
+			}]
+			subtitle: "The scary one"
+			tasks: [{
+				id: "7F0C9064F74F44CD"
+				item: "minecraft:sculk_shrieker"
+				type: "item"
+			}]
+			title: "Shrieker Retrieved"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Find and pick up an Echo Shard."
+				""
+				"This is the Deep Dark’s signature treasure item."
+			]
+			id: "5F523798FCE39EAE"
+			rewards: [{
+				count: 8
+				id: "4A90FD979DDF900C"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			subtitle: "Ancient City loot"
+			tasks: [{
+				id: "3B5C0E7F77F4843E"
+				item: "minecraft:echo_shard"
+				type: "item"
+			}]
+			title: "Echo Shard"
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Collect a Disc Fragment (5)."
+				""
+				"Optional vibe reward — but it’s a fun trophy goal."
+			]
+			id: "0B0F7EDAEAA3F573"
+			rewards: [{
+				id: "65D35103B5D52928"
+				item: "minecraft:jukebox"
+				type: "item"
+			}]
+			subtitle: "Music trophy"
+			tasks: [{
+				id: "3736BFD44A903C18"
+				item: "minecraft:disc_fragment_5"
+				type: "item"
+			}]
+			title: "Disc Fragment (5)"
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Craft a Recovery Compass."
+				""
+				"This is the clean 'chapter capstone' for the Deep Dark."
+			]
+			id: "5CF274AD84ADA43F"
+			rewards: [{
+				id: "5FEB312A4D72939A"
+				item: "minecraft:lodestone"
+				type: "item"
+			}]
+			subtitle: "Deep Dark capstone"
+			tasks: [{
+				id: "472290F912C7A774"
+				item: "minecraft:recovery_compass"
+				type: "item"
+			}]
+			title: "Recovery Compass"
+			x: 15.0d
+			y: 0.0d
+		}
+	]
+	title: "Deep Dark"
+}

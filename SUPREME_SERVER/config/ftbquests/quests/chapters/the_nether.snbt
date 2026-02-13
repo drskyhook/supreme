@@ -1,0 +1,405 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_nether"
+	group: "600AC9ABAC26F3D9"
+	icon: "minecraft:obsidian"
+	id: "4C8D18A2304ED20F"
+	order_index: 20
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Goal: Enter the Nether."
+				""
+				"Vanilla Nether milestones that stay valid even with Nether overhaul mods."
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:flint_and_steel"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "59B14D1349E91015"
+			rewards: [{
+				count: 4
+				id: "19B360ACCBFF8624"
+				item: "minecraft:gold_ingot"
+				type: "item"
+			}]
+			subtitle: "Light the portal"
+			tasks: [{
+				advancement: "minecraft:nether/root"
+				criterion: ""
+				id: "4B1C46956A73982B"
+				type: "advancement"
+			}]
+			title: "Enter the Nether"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Goal: Barter with a Piglin."
+				""
+				"Throw gold ingots at a Piglin (or right-click if your pack changes behavior)."
+			]
+			icon: "minecraft:gold_ingot"
+			id: "05AA884583ACB83E"
+			rewards: [{
+				count: 6
+				id: "0861AC0796A62CF8"
+				item: "minecraft:fire_charge"
+				type: "item"
+			}]
+			subtitle: "Gold for goods"
+			tasks: [{
+				advancement: "minecraft:nether/distract_piglin"
+				criterion: ""
+				id: "740E261F57B3D3B9"
+				type: "advancement"
+			}]
+			title: "Piglin Barter"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			description: ["Goal: Discover a Nether Fortress."]
+			icon: "minecraft:nether_bricks"
+			id: "1CFF4ADC515CE14E"
+			rewards: [{
+				count: 8
+				id: "05AE5762C468CFEE"
+				item: "minecraft:golden_carrot"
+				type: "item"
+			}]
+			subtitle: "The classic wall"
+			tasks: [{
+				advancement: "minecraft:nether/find_fortress"
+				criterion: ""
+				id: "189E84A6EC842196"
+				type: "advancement"
+			}]
+			title: "Find a Nether Fortress"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Goal: Obtain Blaze Rods."
+				""
+				"Tip: Shield + fire resist = way less pain."
+			]
+			icon: "minecraft:blaze_rod"
+			id: "27A917E49E53B3FA"
+			rewards: [{
+				id: "3407837DCF1DA1A5"
+				item: "minecraft:fire_resistance_potion"
+				type: "item"
+			}]
+			subtitle: "Fortress milestone"
+			tasks: [{
+				count: 2L
+				id: "1954654821CB4503"
+				item: "minecraft:blaze_rod"
+				type: "item"
+			}]
+			title: "Blaze Rods"
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			description: ["Goal: Obtain Nether Wart."]
+			icon: "minecraft:nether_wart"
+			id: "3CA3949F8E3270A5"
+			rewards: [{
+				count: 16
+				id: "13AA14F71CA095D1"
+				item: "minecraft:glass_bottle"
+				type: "item"
+			}]
+			subtitle: "Real potions begin"
+			tasks: [{
+				id: "6F513D61B08214A5"
+				item: "minecraft:nether_wart"
+				type: "item"
+			}]
+			title: "Nether Wart"
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			description: ["Goal: Brew any potion."]
+			icon: "minecraft:brewing_stand"
+			id: "6194A407CD0DBD0D"
+			rewards: [{
+				count: 8
+				id: "748053DE83EB16F0"
+				item: "minecraft:blaze_powder"
+				type: "item"
+			}]
+			subtitle: "First brewing setup"
+			tasks: [{
+				advancement: "minecraft:nether/brew_potion"
+				criterion: ""
+				id: "2EB595B0F53C09BC"
+				type: "advancement"
+			}]
+			title: "Brew a Potion"
+			x: 15.0d
+			y: 0.0d
+		}
+		{
+			description: ["Goal: Kill a Ghast with its own fireball."]
+			icon: "minecraft:ghast_tear"
+			id: "2F95EE1621045782"
+			rewards: [{
+				count: 32
+				id: "274401F09B099782"
+				item: "minecraft:arrow"
+				type: "item"
+			}]
+			subtitle: "Uno reverse the Ghast"
+			tasks: [{
+				advancement: "minecraft:nether/return_to_sender"
+				criterion: ""
+				id: "5E40C249E7706FE1"
+				type: "advancement"
+			}]
+			title: "Return to Sender"
+			x: 18.0d
+			y: 0.0d
+		}
+		{
+			description: ["Goal: Enter a Bastion Remnant."]
+			icon: "minecraft:polished_blackstone_bricks"
+			id: "309B70A61B3A37A6"
+			rewards: [{
+				count: 8
+				id: "125BCB8AE2CD282A"
+				item: "minecraft:crying_obsidian"
+				type: "item"
+			}]
+			subtitle: "Bastion time"
+			tasks: [{
+				advancement: "minecraft:nether/find_bastion"
+				criterion: ""
+				id: "6EB5CCC69D0EC763"
+				type: "advancement"
+			}]
+			title: "Those Were the Days"
+			x: 21.0d
+			y: 0.0d
+		}
+		{
+			description: ["Goal: Open a Bastion chest."]
+			icon: "minecraft:chest"
+			id: "2A824BB45C32EADE"
+			rewards: [{
+				id: "6B9B28D38D29FF69"
+				item: "minecraft:gold_block"
+				type: "item"
+			}]
+			subtitle: "Steal their best stuff"
+			tasks: [{
+				advancement: "minecraft:nether/loot_bastion"
+				criterion: ""
+				id: "0DE7C5AF6EE18748"
+				type: "advancement"
+			}]
+			title: "Loot the Bastion"
+			x: 24.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Goal: Obtain Crying Obsidian."
+				""
+				"Most commonly from Bastions and Piglin bartering."
+			]
+			icon: "minecraft:crying_obsidian"
+			id: "7345DD2A8B706F9A"
+			rewards: [{
+				count: 12
+				id: "179BE57C01CDEBCE"
+				item: "minecraft:glowstone"
+				type: "item"
+			}]
+			subtitle: "Anchor fuel"
+			tasks: [{
+				count: 6L
+				id: "32AC56667B4DBBB6"
+				item: "minecraft:crying_obsidian"
+				type: "item"
+			}]
+			title: "Crying Obsidian"
+			x: 27.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Goal: Craft a Respawn Anchor."
+				""
+				"Optional but super useful for survival runs."
+			]
+			icon: "minecraft:respawn_anchor"
+			id: "1BDFC4F71833C2B6"
+			rewards: [{
+				count: 16
+				id: "498D11441CA77884"
+				item: "minecraft:glowstone"
+				type: "item"
+			}]
+			subtitle: "Nether checkpoint"
+			tasks: [{
+				id: "2643EA891620D5FC"
+				item: "minecraft:respawn_anchor"
+				type: "item"
+			}]
+			title: "Respawn Anchor"
+			x: 30.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Goal: Ride a Strider."
+				""
+				"You’ll want: Saddle + Warped Fungus on a Stick."
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:warped_fungus_on_a_stick"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5E4A8EB850538B3D"
+			rewards: [{
+				id: "4CE0A07A99204817"
+				item: "minecraft:saddle"
+				type: "item"
+			}]
+			subtitle: "Lava travel unlocked"
+			tasks: [{
+				advancement: "minecraft:nether/ride_strider"
+				criterion: ""
+				id: "334F7A03267CF355"
+				type: "advancement"
+			}]
+			title: "Strider Rider"
+			x: 33.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Goal: Travel 7 km in the Nether."
+				""
+				"This usually happens naturally if you explore / build a tunnel network."
+			]
+			icon: "minecraft:packed_ice"
+			id: "47ACF7CDA2D72C36"
+			rewards: [{
+				count: 16
+				id: "4C985D47BCBECCCA"
+				item: "minecraft:obsidian"
+				type: "item"
+			}]
+			subtitle: "Nether highways are OP"
+			tasks: [{
+				advancement: "minecraft:nether/fast_travel"
+				criterion: ""
+				id: "1A0D0C2413E7A3DB"
+				type: "advancement"
+			}]
+			title: "Fast Travel"
+			x: 36.0d
+			y: 0.0d
+		}
+		{
+			description: ["Goal: Obtain Ancient Debris."]
+			icon: "minecraft:ancient_debris"
+			id: "0E333FAA0B5B8712"
+			rewards: [{
+				id: "6DA3F6DED546B1B6"
+				item: "minecraft:netherite_scrap"
+				type: "item"
+			}]
+			subtitle: "Netherite begins"
+			tasks: [{
+				advancement: "minecraft:nether/obtain_ancient_debris"
+				criterion: ""
+				id: "0789AC66EB211904"
+				type: "advancement"
+			}]
+			title: "Ancient Debris"
+			x: 39.0d
+			y: 0.0d
+		}
+		{
+			description: ["Goal: Craft/obtain a Netherite Ingot."]
+			icon: "minecraft:netherite_ingot"
+			id: "390ED33872B4B896"
+			rewards: [{
+				count: 16
+				id: "4EECA48418CC5D82"
+				item: "minecraft:experience_bottle"
+				type: "item"
+			}]
+			subtitle: "The upgrade material"
+			tasks: [{
+				id: "20EC60FAAC9FCDA1"
+				item: "minecraft:netherite_ingot"
+				type: "item"
+			}]
+			title: "Netherite Ingot"
+			x: 42.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Goal: Obtain the Netherite Upgrade Smithing Template."
+				""
+				"Usually found in Bastions (and can be duplicated)."
+			]
+			icon: "minecraft:netherite_upgrade_smithing_template"
+			id: "42DAE4006D597EED"
+			rewards: [{
+				count: 3
+				id: "00FA410E1263F583"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			subtitle: "1.20+ smithing gate"
+			tasks: [{
+				id: "3C673F6CE0F1CD2F"
+				item: "minecraft:netherite_upgrade_smithing_template"
+				type: "item"
+			}]
+			title: "Netherite Upgrade Template"
+			x: 45.0d
+			y: 0.0d
+		}
+		{
+			description: ["Goal: Obtain a Wither Skeleton Skull."]
+			icon: "minecraft:wither_skeleton_skull"
+			id: "749AE8BAF050957C"
+			rewards: [{
+				count: 8
+				id: "2584100E805CC1C1"
+				item: "minecraft:gold_ingot"
+				type: "item"
+			}]
+			subtitle: "Boss prep"
+			tasks: [{
+				id: "11807E90D5E6368A"
+				item: "minecraft:wither_skeleton_skull"
+				type: "item"
+			}]
+			title: "Wither Skeleton Skull"
+			x: 48.0d
+			y: 0.0d
+		}
+	]
+	title: "The Nether"
+}

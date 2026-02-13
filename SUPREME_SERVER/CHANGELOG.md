@@ -101,7 +101,16 @@
 
 # 2026-02-12
 
+-added obscure tooltips
+-added monster hunter villager
+-added mystical oak tree
+-added whisperwoods
+-added call of yucatan
+
 # 2026-02-13
+
+-updated many ftb quests
+-add rhino and kubejs to server
 
 # 2026-02-14
 
@@ -120,8 +129,6 @@
 # 2026-02-21
 
 # TODO
-
--considering obscure tooltips
 
 eeeab bosses - 27 mb , would have to earn its keep
 pillager & spillage - 32 mb, would have to earn its keep

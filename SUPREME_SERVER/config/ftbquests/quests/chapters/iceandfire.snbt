@@ -1,0 +1,1035 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "iceandfire"
+	group: "600AC9ABAC26F3D9"
+	icon: "minecraft:dragon_egg"
+	id: "636E2DAEE695DC61"
+	order_index: 11
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"This chapter guides you through the main Ice and Fire progression."
+				""
+				"Tip: Many goals are dangerous. Bring shields, ranged weapons, and a plan to retreat."
+				""
+				"Note: Some fights are marked as manual completion on purpose to avoid mod ID mismatches."
+			]
+			icon: "minecraft:book"
+			id: "0AA8E37DDD21751C"
+			rewards: [{
+				id: "3F99B39DEEC1CF6B"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Ice and Fire"
+			tasks: [{
+				id: "37D7FCCB189ECBEA"
+				title: "Open this chapter and read the goals"
+				type: "checkmark"
+			}]
+			title: "Enter a world of magical creatures"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Collect 3 manuscripts from dungeon chests and exploration loot."
+				"These are used to craft the Bestiary."
+			]
+			icon: "iceandfire:manuscript"
+			id: "1B9D275195B8C3E1"
+			rewards: [{
+				count: 3
+				id: "79CA50130DFB941B"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "Book of Monsters"
+			tasks: [{
+				count: 3L
+				id: "17EC63A04FBC03FD"
+				item: "iceandfire:manuscript"
+				type: "item"
+			}]
+			title: "Find manuscripts"
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			description: [
+				"Craft a Bestiary using your manuscripts."
+				"Then start filling it out as you encounter creatures."
+			]
+			icon: "iceandfire:bestiary"
+			id: "144B4F430769D1CC"
+			rewards: [{
+				id: "2A69315983D2BEBA"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Learn your enemies"
+			tasks: [{
+				id: "3A73BA4D8220CB0B"
+				item: "iceandfire:bestiary"
+				type: "item"
+			}]
+			title: "Craft the Bestiary"
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			description: [
+				"Craft a Bestiary Lectern to add pages and expand knowledge."
+				"If it says no pages, you may need new discoveries first."
+			]
+			icon: "iceandfire:lectern"
+			id: "55B44D515EA2CEFA"
+			rewards: [{
+				count: 2
+				id: "4D5EC151E67889AB"
+				item: "minecraft:bookshelf"
+				type: "item"
+			}]
+			subtitle: "Would you like to know more"
+			tasks: [{
+				id: "43292A5401A621DB"
+				item: "iceandfire:lectern"
+				type: "item"
+			}]
+			title: "Craft a Bestiary Lectern"
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			description: [
+				"Find signs of dragon territory: scorched land, frozen land, or crackled ground."
+				"Mark the location and come back prepared."
+				""
+				"Manual completion so this never breaks due to worldgen differences."
+			]
+			icon: "minecraft:map"
+			id: "4CDE1E2FF2BD0869"
+			rewards: [{
+				count: 2
+				id: "06D639403660D071"
+				item: "minecraft:golden_apple"
+				type: "item"
+			}]
+			subtitle: "Scouting mission"
+			tasks: [{
+				id: "5FEAF553F05D2158"
+				title: "I found and marked a dragon nest area"
+				type: "checkmark"
+			}]
+			title: "Locate a dragon nest"
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			description: [
+				"Defeat a fire, ice, or lightning dragon."
+				""
+				"Recommended: strong armor, ranged damage, healing, and a safe escape route."
+				"Manual completion to avoid entity ID mismatches."
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:diamond_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5BE14E01A2D4F69A"
+			rewards: [
+				{
+					count: 2
+					id: "4F2772A9C8056BDB"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					id: "416DA170832BB028"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			subtitle: "Dragonslayer"
+			tasks: [{
+				id: "3AC8D720E4F52905"
+				title: "I defeated a dragon"
+				type: "checkmark"
+			}]
+			title: "Slay a dragon"
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			description: [
+				"Find and collect a dragon egg."
+				"Hatching conditions depend on dragon type. Read the item description for hints."
+			]
+			icon: "minecraft:dragon_egg"
+			id: "6CCD08B94EF2D3B7"
+			rewards: [{
+				count: 32
+				id: "29BAECB74072245D"
+				item: "minecraft:torch"
+				type: "item"
+			}]
+			subtitle: "Mother of Dragons"
+			tasks: [
+				{
+					id: "5A89B9E149E20998"
+					item: "iceandfire:dragonegg_red"
+					type: "item"
+				}
+				{
+					id: "2A9E793D22719175"
+					item: "iceandfire:dragonegg_green"
+					type: "item"
+				}
+				{
+					id: "693753DEBCE15804"
+					item: "iceandfire:dragonegg_bronze"
+					type: "item"
+				}
+				{
+					id: "5F7DF72C3828378F"
+					item: "iceandfire:dragonegg_gray"
+					type: "item"
+				}
+				{
+					id: "1D7A8F6B3C22E0AA"
+					item: "iceandfire:dragonegg_sapphire"
+					type: "item"
+				}
+				{
+					id: "7F0C2A1E9B4D66D2"
+					item: "iceandfire:dragonegg_silver"
+					type: "item"
+				}
+				{
+					id: "0B66A1C2D3E4F590"
+					item: "iceandfire:dragonegg_white"
+					type: "item"
+				}
+				{
+					id: "5DE45AC6EE857749"
+					item: "iceandfire:dragonegg_blue"
+					type: "item"
+				}
+			]
+			title: "Obtain a dragon egg"
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			description: [
+				"Place the egg in the correct environment and wait for it to hatch."
+				"Stay nearby so the bond forms correctly."
+				"Manual completion to avoid edge cases."
+			]
+			icon: "minecraft:egg"
+			id: "5832EA310B60844C"
+			rewards: [{
+				id: "574CCB1A795EC9CD"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			subtitle: "Bonded companion"
+			tasks: [{
+				id: "780FC4CFFA36F885"
+				title: "My dragon egg hatched"
+				type: "checkmark"
+			}]
+			title: "Hatch a dragon"
+			x: 8.0d
+			y: 1.0d
+		}
+		{
+			description: [
+				"Use dragon bone to craft a dragonbone tool."
+				"These are a big step up and unlock more combat options."
+			]
+			icon: {
+				Count: 1
+				id: "iceandfire:dragonbone_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "43B76A5B3C053675"
+			rewards: [{
+				count: 8
+				id: "6D8540922A906239"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			subtitle: "Splintering"
+			tasks: [{
+				id: "5110CEC2B5776574"
+				item: {
+					Count: 1
+					id: "iceandfire:dragonbone_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Craft a dragonbone tool"
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			description: [
+				"Craft at least one piece of dragon scale armor."
+				"This helps against dragon breath and is a key midgame milestone."
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:diamond_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5D1C09E45218CEEC"
+			rewards: [{
+				count: 6
+				id: "4817769931F082D6"
+				item: "minecraft:gold_ingot"
+				type: "item"
+			}]
+			subtitle: "Breath protection"
+			tasks: [
+				{
+					id: "36B8F7D8E015712A"
+					item: {
+						Count: 1
+						id: "iceandfire:armor_red_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4D0B8A6C7E123456"
+					item: {
+						Count: 1
+						id: "iceandfire:armor_green_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5A1F2B3C4D5E6F70"
+					item: {
+						Count: 1
+						id: "iceandfire:armor_bronze_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6B2C3D4E5F607182"
+					item: {
+						Count: 1
+						id: "iceandfire:armor_gray_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7C3D4E5F60718293"
+					item: {
+						Count: 1
+						id: "iceandfire:armor_sapphire_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "34B60BC17E22F0D4"
+					item: {
+						Count: 1
+						id: "iceandfire:armor_silver_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "442C60F90A47DF96"
+					item: {
+						Count: 1
+						id: "iceandfire:armor_white_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4B7D5E939AF7A9E4"
+					item: {
+						Count: 1
+						id: "iceandfire:armor_blue_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Craft dragon scale armor"
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			description: ["Craft the Dragon Command Staff to control your tamed dragons."]
+			icon: "iceandfire:dragon_stick"
+			id: "51F121D732FE041A"
+			rewards: [{
+				count: 4
+				id: "47FEB55381B2C845"
+				item: "minecraft:lead"
+				type: "item"
+			}]
+			subtitle: "Dragon Commander"
+			tasks: [{
+				id: "71D454FA18F60852"
+				item: "iceandfire:dragon_stick"
+				type: "item"
+			}]
+			title: "Craft the dragon command staff"
+			x: 8.0d
+			y: 3.0d
+		}
+		{
+			description: ["Craft a Dragon Bone Flute to stop runaway dragons and regain control."]
+			icon: "iceandfire:dragon_flute"
+			id: "2D676E41DC8879FD"
+			rewards: [{
+				id: "25E43AF4996FAB9F"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "The Song of the Dragons"
+			tasks: [{
+				id: "1B2058E61F806532"
+				item: "iceandfire:dragon_flute"
+				type: "item"
+			}]
+			title: "Craft a dragon bone flute"
+			x: 10.0d
+			y: 3.0d
+		}
+		{
+			description: ["Craft a Dragon Horn to store a dragon safely for travel or base safety."]
+			icon: "iceandfire:dragon_horn"
+			id: "6B60CD29CB4EE8F2"
+			rewards: [{
+				count: 4
+				id: "5CEF5BC681D897DC"
+				item: "minecraft:ender_pearl"
+				type: "item"
+			}]
+			subtitle: "Store your dragon"
+			tasks: [{
+				id: "476604FC919F91B0"
+				item: "iceandfire:dragon_horn"
+				type: "item"
+			}]
+			title: "Craft a dragon horn"
+			x: 12.0d
+			y: 3.0d
+		}
+		{
+			description: ["Craft Dragon Meal to help your baby dragon grow faster."]
+			icon: "iceandfire:dragon_meal"
+			id: "78648B69200D608C"
+			rewards: [{
+				count: 16
+				id: "79617544E09DB3B9"
+				item: "minecraft:cooked_beef"
+				type: "item"
+			}]
+			subtitle: "Dragon Growth Hormone"
+			tasks: [{
+				id: "18A2B708D7B9D188"
+				item: "iceandfire:dragon_meal"
+				type: "item"
+			}]
+			title: "Create dragon meal"
+			x: 10.0d
+			y: 1.0d
+		}
+		{
+			description: [
+				"Craft a Dragonforge Brick."
+				"You will need multiple bricks to build a full forge."
+			]
+			icon: "iceandfire:dragonforge_fire_brick"
+			id: "38EFF2EDD9CC192A"
+			rewards: [{
+				count: 4
+				id: "545FE5CBFDB19134"
+				item: "minecraft:obsidian"
+				type: "item"
+			}]
+			subtitle: "Another Brick in the Wall"
+			tasks: [{
+				id: "15590974AAE59914"
+				item: "iceandfire:dragonforge_fire_brick"
+				type: "item"
+			}]
+			title: "Craft a dragonforge brick"
+			x: 6.0d
+			y: 5.0d
+		}
+		{
+			description: [
+				"Craft a Dragonforge Core."
+				"This is the centerpiece of the forge multiblock."
+			]
+			icon: "iceandfire:dragonforge_fire_core"
+			id: "5AF9FCB443D6743D"
+			rewards: [{
+				id: "76F67EAF506DCA53"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			subtitle: "The Heart and the Flame"
+			tasks: [{
+				id: "11A3892886CD0B7B"
+				item: "iceandfire:dragonforge_fire_core"
+				type: "item"
+			}]
+			title: "Craft a dragonforge core"
+			x: 8.0d
+			y: 5.0d
+		}
+		{
+			description: [
+				"Use the forge to create a dragonsteel ingot."
+				"You typically need dragon blood and iron in the forge process."
+			]
+			icon: "iceandfire:dragonsteel_fire_ingot"
+			id: "1ABA89ABFAD257EF"
+			rewards: [{
+				id: "23CF3F9379443441"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			subtitle: "Forged in Flame"
+			tasks: [{
+				id: "3DDC9C44B967542C"
+				item: "iceandfire:dragonsteel_fire_ingot"
+				type: "item"
+			}]
+			title: "Create a dragonsteel ingot"
+			x: 10.0d
+			y: 5.0d
+		}
+		{
+			description: [
+				"Craft a dragonsteel weapon."
+				"This is a high power milestone and should feel endgame."
+			]
+			icon: {
+				Count: 1
+				id: "iceandfire:dragonsteel_fire_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "2695EA646BC7B401"
+			rewards: [{
+				id: "7B6D72EAC7507888"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			subtitle: "Draconic Evolution"
+			tasks: [{
+				id: "66854BF3EC039DC2"
+				item: {
+					Count: 1
+					id: "iceandfire:dragonsteel_fire_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Craft a dragonsteel weapon"
+			x: 12.0d
+			y: 5.0d
+		}
+		{
+			description: [
+				"Tame a hippogryph by dropping rabbit feet near it."
+				"Manual completion so it never breaks on different versions."
+			]
+			icon: "iceandfire:hippogryph_egg"
+			id: "4FD38F8DA79B8094"
+			rewards: [{
+				count: 4
+				id: "2899D50669C637DC"
+				item: "minecraft:rabbit_foot"
+				type: "item"
+			}]
+			subtitle: "Buck Beak"
+			tasks: [{
+				id: "4E8DD5D9D295222C"
+				title: "I tamed a hippogryph"
+				type: "checkmark"
+			}]
+			title: "Tame a hippogryph"
+			x: 2.0d
+			y: 7.0d
+		}
+		{
+			description: [
+				"Pixies can be befriended with cake."
+				"Try to secure a steady supply of pixie dust."
+			]
+			icon: "iceandfire:pixie_dust"
+			id: "6D69ABFB3B6D081C"
+			rewards: [{
+				count: 8
+				id: "62B863226432393E"
+				item: "minecraft:glowstone_dust"
+				type: "item"
+			}]
+			subtitle: "Trickster magic"
+			tasks: [{
+				count: 8L
+				id: "500881B8210923C1"
+				item: "iceandfire:pixie_dust"
+				type: "item"
+			}]
+			title: "Collect pixie dust"
+			x: 4.0d
+			y: 7.0d
+		}
+		{
+			description: [
+				"Craft the Pixie Wand."
+				"It uses pixie dust as ammunition."
+			]
+			icon: {
+				Count: 1
+				id: "iceandfire:pixie_wand"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "066AB2A3A6B8FB90"
+			rewards: [{
+				id: "261065F52AFA3BBB"
+				type: "xp_levels"
+				xp_levels: 6
+			}]
+			subtitle: "Legendary pixie weapon"
+			tasks: [{
+				id: "1A51E54B4FA7079D"
+				item: {
+					Count: 1
+					id: "iceandfire:pixie_wand"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Craft a pixie wand"
+			x: 6.0d
+			y: 7.0d
+		}
+		{
+			description: [
+				"Acquire a gorgon head."
+				"Warning: this is extremely dangerous if used carelessly."
+			]
+			icon: {
+				Count: 1
+				id: "iceandfire:gorgon_head"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "3A36446E568647BC"
+			rewards: [{
+				id: "14310D5E95BF378D"
+				item: {
+					Count: 1
+					id: "minecraft:shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Clash of the Titans"
+			tasks: [{
+				id: "2282CB2F91B26626"
+				item: {
+					Count: 1
+					id: "iceandfire:gorgon_head"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Obtain a gorgon head"
+			x: 8.0d
+			y: 7.0d
+		}
+		{
+			description: [
+				"Defeat a cyclops and obtain its eye."
+				"Manual completion is not needed here because the item is the proof."
+			]
+			icon: {
+				Count: 1
+				id: "iceandfire:cyclops_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "6D959154CEF6BADE"
+			rewards: [{
+				count: 8
+				id: "0299A79B815612B5"
+				item: "minecraft:gold_ingot"
+				type: "item"
+			}]
+			subtitle: "Area weapon"
+			tasks: [{
+				id: "612FD335FEB1EC20"
+				item: {
+					Count: 1
+					id: "iceandfire:cyclops_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Claim the eye of a cyclops"
+			x: 10.0d
+			y: 7.0d
+		}
+		{
+			description: [
+				"Defeat a siren and collect a siren tear."
+				"Bring ear protection and do not fight on the shoreline without an escape plan."
+			]
+			icon: "iceandfire:siren_tear"
+			id: "612D29C1DCB48EFB"
+			rewards: [{
+				id: "1C7ECB4A94DA60AC"
+				item: "minecraft:water_breathing"
+				type: "item"
+			}]
+			subtitle: "Resist the song"
+			tasks: [{
+				id: "0B5D3EE35BAA33BE"
+				item: "iceandfire:siren_tear"
+				type: "item"
+			}]
+			title: "Collect a siren tear"
+			x: 12.0d
+			y: 7.0d
+		}
+		{
+			description: [
+				"Find and tame a hippocampus by feeding it kelp."
+				"Then obtain a fin through normal gameplay."
+			]
+			icon: "iceandfire:hippocampus_fin"
+			id: "66BA88DCCDB71E94"
+			rewards: [{
+				id: "0A6C8B179741C96B"
+				type: "xp_levels"
+				xp_levels: 6
+			}]
+			subtitle: "Free Willy"
+			tasks: [{
+				id: "75E4A6552163AA3C"
+				item: "iceandfire:hippocampus_fin"
+				type: "item"
+			}]
+			title: "Collect a hippocampus fin"
+			x: 14.0d
+			y: 7.0d
+		}
+		{
+			description: [
+				"Defeat a death worm and collect chitin."
+				"Bring mobility and do not fight with your back to open sand."
+			]
+			icon: "iceandfire:deathworm_chitin_yellow"
+			id: "1E168E6AC50F0F3B"
+			rewards: [{
+				count: 4
+				id: "464DC76B7800F334"
+				item: "minecraft:tnt"
+				type: "item"
+			}]
+			subtitle: "Desert Swimmers"
+			tasks: [{
+				count: 4L
+				id: "50FB6DD88A321653"
+				item: "iceandfire:deathworm_chitin_yellow"
+				type: "item"
+			}]
+			title: "Harvest death worm chitin"
+			x: 16.0d
+			y: 7.0d
+		}
+		{
+			description: [
+				"Defeat a stymphalian bird and collect feathers."
+				"They are used for specialized arrows and tools."
+			]
+			icon: "iceandfire:stymphalian_bird_feather"
+			id: "45F603856CF93C3E"
+			rewards: [{
+				count: 32
+				id: "74A0D2900B730E94"
+				item: "minecraft:arrow"
+				type: "item"
+			}]
+			subtitle: "Flying hazards"
+			tasks: [{
+				count: 8L
+				id: "16EA4A995F274929"
+				item: "iceandfire:stymphalian_bird_feather"
+				type: "item"
+			}]
+			title: "Collect stymphalian feathers"
+			x: 18.0d
+			y: 7.0d
+		}
+		{
+			description: ["Craft stymphalian arrows using the feathers."]
+			icon: "iceandfire:stymphalian_arrow"
+			id: "3FC215A7ABF5CEB8"
+			rewards: [{
+				id: "27D76CC84F2BB465"
+				type: "xp_levels"
+				xp_levels: 6
+			}]
+			subtitle: "Flying forwards"
+			tasks: [{
+				count: 16L
+				id: "20E327CC27D5118E"
+				item: "iceandfire:stymphalian_arrow"
+				type: "item"
+			}]
+			title: "Craft stymphalian arrows"
+			x: 20.0d
+			y: 7.0d
+		}
+		{
+			description: ["Defeat a troll and obtain a troll tusk."]
+			icon: "iceandfire:troll_tusk"
+			id: "1386FD553505D44C"
+			rewards: [{
+				count: 12
+				id: "579F2D6D77A24081"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			subtitle: "Cave troll"
+			tasks: [{
+				id: "00DFA349907B5F32"
+				item: "iceandfire:troll_tusk"
+				type: "item"
+			}]
+			title: "Collect a troll tusk"
+			x: 22.0d
+			y: 7.0d
+		}
+		{
+			description: ["Defeat a myrmex and collect chitin."]
+			icon: "iceandfire:myrmex_desert_chitin"
+			id: "5CB1F6420E8BDCAE"
+			rewards: [{
+				count: 5
+				id: "028B691F356343DB"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "The only good bug"
+			tasks: [{
+				count: 8L
+				id: "42FF88E82A874722"
+				item: "iceandfire:myrmex_desert_chitin"
+				type: "item"
+			}]
+			title: "Obtain myrmex chitin"
+			x: 24.0d
+			y: 7.0d
+		}
+		{
+			description: ["Collect myrmex resin. This is used as currency with the colony."]
+			icon: "iceandfire:myrmex_desert_resin"
+			id: "462F4F8A446FCDC1"
+			rewards: [{
+				id: "0B76BD1C3177CC68"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			subtitle: "Myrmex currency"
+			tasks: [{
+				count: 16L
+				id: "3EA8A56919E9F34D"
+				item: "iceandfire:myrmex_desert_resin"
+				type: "item"
+			}]
+			title: "Collect myrmex resin"
+			x: 26.0d
+			y: 7.0d
+		}
+		{
+			description: [
+				"Defeat a sea serpent and collect scales."
+				"Bring water mobility and fight from a safe platform if possible."
+			]
+			icon: "iceandfire:sea_serpent_scales_blue"
+			id: "7EAE7AC889181FA4"
+			rewards: [{
+				count: 12
+				id: "00A90419D7ACB89A"
+				item: "minecraft:prismarine_crystals"
+				type: "item"
+			}]
+			subtitle: "Sea not a problem"
+			tasks: [{
+				count: 8L
+				id: "4D00332E0E7E9762"
+				item: "iceandfire:sea_serpent_scales_blue"
+				type: "item"
+			}]
+			title: "Collect sea serpent scales"
+			x: 28.0d
+			y: 7.0d
+		}
+		{
+			description: [
+				"Craft the Tide Trident."
+				"This is a powerful weapon for ocean combat."
+			]
+			icon: {
+				Count: 1
+				id: "iceandfire:tide_trident"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "7C267A9CCC72CCCB"
+			rewards: [{
+				id: "0C044238D2629864"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			subtitle: "Poseidon"
+			tasks: [{
+				id: "3937A007A527FD7C"
+				item: {
+					Count: 1
+					id: "iceandfire:tide_trident"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Craft the Tide Trident"
+			x: 30.0d
+			y: 7.0d
+		}
+		{
+			description: ["Defeat a hydra and obtain a hydra heart."]
+			icon: "iceandfire:hydra_heart"
+			id: "21A2E862504EB87A"
+			rewards: [{
+				count: 3
+				id: "605822B4D91358AA"
+				item: "minecraft:golden_apple"
+				type: "item"
+			}]
+			subtitle: "Twelve labors"
+			tasks: [{
+				id: "5AD59C5701D41F5A"
+				item: "iceandfire:hydra_heart"
+				type: "item"
+			}]
+			title: "Claim a hydra heart"
+			x: 32.0d
+			y: 7.0d
+		}
+		{
+			description: [
+				"Find ghosts and collect ectoplasm."
+				"Nighttime graveyard soil areas can be dangerous."
+			]
+			icon: "iceandfire:ectoplasm"
+			id: "0B7B128B1C59B119"
+			rewards: [{
+				count: 16
+				id: "7199A620A5428A1B"
+				item: "minecraft:glowstone_dust"
+				type: "item"
+			}]
+			subtitle: "Ghost hunting"
+			tasks: [{
+				count: 8L
+				id: "1BFFD335D403AD20"
+				item: "iceandfire:ectoplasm"
+				type: "item"
+			}]
+			title: "Collect ectoplasm"
+			x: 34.0d
+			y: 7.0d
+		}
+		{
+			description: [
+				"Obtain a phantasmal ingot."
+				"This is a rare drop, so expect to hunt multiple ghosts."
+			]
+			icon: "iceandfire:ghost_ingot"
+			id: "61C3C91CEFE42D87"
+			rewards: [{
+				id: "3A1FDAF07C43174E"
+				type: "xp_levels"
+				xp_levels: 12
+			}]
+			subtitle: "Rare ghost drop"
+			tasks: [{
+				id: "0759745B34D82357"
+				item: "iceandfire:ghost_ingot"
+				type: "item"
+			}]
+			title: "Obtain a phantasmal ingot"
+			x: 36.0d
+			y: 7.0d
+		}
+	]
+	title: "Ice and Fire"
+}

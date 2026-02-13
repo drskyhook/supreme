@@ -1,0 +1,326 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ultris_bosses"
+	group: "600AC9ABAC26F3D9"
+	icon: "minecraft:nether_star"
+	id: "1948D2D31E11C529"
+	order_index: 15
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Track the 8 core Ultris bosses."
+				"These quests complete when the boss is killed."
+				""
+				"If a kill does not register, make sure you landed the final blow and that you are not using a proxy kill mechanic."
+			]
+			icon: "minecraft:book"
+			id: "1F0A6C3D9B7E2451"
+			rewards: [{
+				id: "76303B51AE5651A9"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Ultris bosses"
+			tasks: [{
+				id: "6D1C4F2A8B0E9A11"
+				title: "Open this chapter and read the goals"
+				type: "checkmark"
+			}]
+			title: "Ultris Boss Hunt"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1F0A6C3D9B7E2451"]
+			description: ["Find and defeat the Corrupted Enderman."]
+			icon: "minecraft:ender_pearl"
+			id: "2A9D10F7C4E86B31"
+			rewards: [
+				{
+					count: 8
+					id: "4D81B0C2A9E3F7D1"
+					item: "minecraft:ender_pearl"
+					type: "item"
+				}
+				{
+					id: "0E2C7A4B9D1F6C38"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+			subtitle: "First corruption"
+			tasks: [{
+				entity: "ultris_mr:corrupted_enderman"
+				id: "7F983C49F4D3EC06"
+				type: "kill"
+				value: 0L
+			}]
+			title: "Corrupted Enderman"
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2A9D10F7C4E86B31"]
+			description: ["Defeat the Giant."]
+			icon: "minecraft:iron_block"
+			id: "3B7E2C90D1A64F58"
+			rewards: [
+				{
+					count: 16
+					id: "1A3F9C0E7D2B6A54"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					id: "6C3A1D0E9B7F2A44"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Big problem"
+			tasks: [{
+				entity: "ultris_mr:giant"
+				id: "5E3791FD55443705"
+				type: "kill"
+				value: 0L
+			}]
+			title: "Giant"
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3B7E2C90D1A64F58"]
+			description: ["Defeat the Illusioner."]
+			icon: "minecraft:totem_of_undying"
+			id: "4C2A9E1D7B6F30A5"
+			rewards: [
+				{
+					count: 6
+					id: "7E1A2B3C4D5E6F70"
+					item: "minecraft:experience_bottle"
+					type: "item"
+				}
+				{
+					id: "2F7D1A9B0C3E6D51"
+					type: "xp_levels"
+					xp_levels: 6
+				}
+			]
+			subtitle: "Magic tricks"
+			tasks: [{
+				entity: "ultris_mr:illusioner"
+				id: "36E0FEBF1560D779"
+				type: "kill"
+				value: 0L
+			}]
+			title: "Illusioner"
+			x: 9.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4C2A9E1D7B6F30A5"]
+			description: [
+				"Defeat the Phantom Swarm."
+				""
+				"Tip: Bring slow falling or a plan to avoid getting juggled."
+			]
+			icon: "minecraft:phantom_membrane"
+			id: "5D0B7F1C3A9E2468"
+			rewards: [
+				{
+					count: 8
+					id: "458B6F45061D12FB"
+					item: "minecraft:phantom_membrane"
+					type: "item"
+				}
+				{
+					id: "3A9E24685D0B7F1C"
+					type: "xp_levels"
+					xp_levels: 7
+				}
+			]
+			subtitle: "Night sky nightmare"
+			tasks: [{
+				entity: "ultris_mr:phantom_swarm"
+				id: "3A7C0EC44583B25B"
+				type: "kill"
+				value: 0L
+			}]
+			title: "Phantom Swarm"
+			x: 12.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5D0B7F1C3A9E2468"]
+			description: [
+				"Defeat the Blaze King."
+				""
+				"Tip: Fire resistance helps a lot."
+			]
+			icon: "minecraft:blaze_rod"
+			id: "6E1C8A2F4B7D9031"
+			rewards: [
+				{
+					count: 6
+					id: "4B7D90316E1C8A2F"
+					item: "minecraft:blaze_rod"
+					type: "item"
+				}
+				{
+					id: "36A1C31286A52AF7"
+					type: "xp_levels"
+					xp_levels: 8
+				}
+			]
+			subtitle: "Burning crown"
+			tasks: [{
+				entity: "ultris_mr:blaze_king"
+				id: "340B89305AEDEF50"
+				type: "kill"
+				value: 0L
+			}]
+			title: "Blaze King"
+			x: 15.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6E1C8A2F4B7D9031"]
+			description: [
+				"Defeat the Sanctum Keeper."
+				""
+				"Tip: This fight punishes sloppy healing windows. Bring extra."
+			]
+			icon: "minecraft:ender_eye"
+			id: "7F2D9B0E1C6A4832"
+			rewards: [
+				{
+					count: 4
+					id: "1C6A48327F2D9B0E"
+					item: "minecraft:ender_eye"
+					type: "item"
+				}
+				{
+					id: "69E97A78F47A7B88"
+					type: "xp_levels"
+					xp_levels: 9
+				}
+			]
+			subtitle: "Keeper of secrets"
+			tasks: [{
+				entity: "ultris_mr:sanctum_keeper"
+				id: "2AD96627E92D4A12"
+				type: "kill"
+				value: 0L
+			}]
+			title: "Sanctum Keeper"
+			x: 18.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7F2D9B0E1C6A4832"]
+			description: [
+				"Defeat the Shulker Stone."
+				""
+				"Tip: Bring ways to counter levitation and keep line of sight."
+			]
+			icon: "minecraft:shulker_shell"
+			id: "5378BA73AC99AE9D"
+			rewards: [
+				{
+					count: 8
+					id: "22B387AB102BE184"
+					item: "minecraft:shulker_shell"
+					type: "item"
+				}
+				{
+					id: "1C7D9B204F618A3E"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			subtitle: "Stone and spikes"
+			tasks: [{
+				entity: "ultris_mr:shulker_stone"
+				id: "7BEDEA6DED6B7C24"
+				type: "kill"
+				value: 0L
+			}]
+			title: "Shulker Stone"
+			x: 21.0d
+			y: -2.0d
+		}
+		{
+			description: [
+				"Defeat the Ultra Wither."
+				""
+				"Tip: Treat this as endgame. Bring your best kit and a controlled arena."
+			]
+			icon: "minecraft:nether_star"
+			id: "20CC7F7E7C2AFF98"
+			rewards: [
+				{
+					id: "7D304E889B6F2A1C"
+					item: "minecraft:nether_star"
+					type: "item"
+				}
+				{
+					id: "2A1C7D304E889B6F"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			subtitle: "Final boss"
+			tasks: [{
+				entity: "ultris_mr:ultra_wither"
+				id: "16B6A071D63C0DB7"
+				type: "kill"
+				value: 0L
+			}]
+			title: "Ultra Wither"
+			x: 24.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"2A9D10F7C4E86B31"
+				"3B7E2C90D1A64F58"
+				"4C2A9E1D7B6F30A5"
+				"5D0B7F1C3A9E2468"
+				"6E1C8A2F4B7D9031"
+				"7F2D9B0E1C6A4832"
+			]
+			description: [
+				"Complete the full Ultris boss hunt."
+				""
+				"If you want a bigger reward, increase it here without touching the kill tasks."
+			]
+			icon: "minecraft:dragon_head"
+			id: "503A0832C1E31AF4"
+			rewards: [
+				{
+					count: 32
+					id: "0D3B72AA4D471D6A"
+					item: "minecraft:experience_bottle"
+					type: "item"
+				}
+				{
+					id: "4B2E6D80A7C3F19D"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+			]
+			subtitle: "All bosses defeated"
+			tasks: [{
+				id: "54690D9CC74B29FF"
+				title: "Ultris Conqueror"
+				type: "checkmark"
+			}]
+			title: "Ultris Conqueror"
+			x: 27.0d
+			y: -2.0d
+		}
+	]
+	title: "Ultris Bosses"
+}
