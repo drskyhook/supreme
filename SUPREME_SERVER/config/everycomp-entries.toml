@@ -67,6 +67,10 @@
 			willow = true
 			witch_hazel = true
 
+		[types.wood_type.malum]
+			runewood = true
+			soulwood = true
+
 	[types.cake]
 
 		[types.cake.farmersrespite]
@@ -129,6 +133,12 @@
 			mahogany = true
 			willow = true
 			witch_hazel = true
+
+		[types.leaves_type.malum]
+			runewood = true
+			azure_runewood = true
+			soulwood = true
+			budding_soulwood = true
 
 #Disables specific entries
 [entries]

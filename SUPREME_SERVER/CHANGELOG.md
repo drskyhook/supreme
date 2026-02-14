@@ -114,6 +114,18 @@
 
 # 2026-02-14
 
+- removed many loot integrations for pack clarity / less loot spam
+- removed dynamic lights to keep sodium dynamic lights
+- removed sound physics remastered
+- removed particles core
+- remove particle effects (performance impact)
+- removed structory towers
+- removed structory
+  -added malum
+  -added malum questline
+  -added roots classic
+- updated mods
+
 # 2026-02-15
 
 # 2026-02-16
@@ -128,7 +140,10 @@
 
 # 2026-02-21
 
-# TODO
+# TODO/NOTES
+
+snbt files for bok's butterflies
+other villager quests
 
 eeeab bosses - 27 mb , would have to earn its keep
 pillager & spillage - 32 mb, would have to earn its keep

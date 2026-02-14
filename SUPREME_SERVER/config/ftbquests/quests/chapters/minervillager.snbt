@@ -1,0 +1,172 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "minervillager"
+	group: ""
+	icon: {
+		Count: 1
+		id: "minervillager:empowered_iron_pickaxe"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "2A73D9E8F0C14B6A"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Find a Miner villager and obtain your first upgraded mining tool."]
+			icon: "minervillager:base_iron_pickaxe"
+			id: "1DEF48810755F3BB"
+			rewards: [{
+				id: "620534F4331768A9"
+				type: "xp_levels"
+				xp_levels: 0
+			}]
+			subtitle: "Meet the Miner"
+			tasks: [{
+				id: "6AB72BF7A503DDBD"
+				item: {
+					count: 1
+					id: "minervillager:base_iron_pickaxe"
+				}
+				type: "item"
+			}]
+			title: "Find a Miner"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: ["Craft the Emerald Anvil used to repair and upgrade miner tools."]
+			icon: "minervillager:emerald_anvil"
+			id: "0F07CB882210EF4E"
+			rewards: [{
+				id: "68ADB0A596131086"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "Miner Tooling"
+			tasks: [{
+				id: "4BBB260B87FA36BF"
+				type: "item"
+			}]
+			title: "Craft an Emerald Anvil"
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			description: ["Obtain your first empowered iron pickaxe from the Miner."]
+			icon: {
+				Count: 1
+				id: "minervillager:empowered_iron_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "13F93E97AA013A53"
+			subtitle: "Tier 1"
+			tasks: [{
+				id: "6E010E1B610D0D3E"
+				type: "item"
+			}]
+			title: "Empowered Iron Pickaxe"
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			description: ["Acquire the explosion variant of the empowered iron pickaxe."]
+			icon: {
+				Count: 1
+				id: "minervillager:empowered_iron_pickaxe_explosion"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5B8914241F7D2EDF"
+			rewards: [{
+				id: "479AA15DC305785D"
+				item: "minecraft:gunpowder"
+				type: "item"
+			}]
+			subtitle: "Explosion Tool"
+			tasks: [{
+				id: "42CBE8A32431382D"
+				type: "item"
+			}]
+			title: "Detonator Variant"
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			description: ["Acquire the magnet variant that pulls drops toward you."]
+			icon: {
+				Count: 1
+				id: "minervillager:empowered_iron_pickaxe_magnet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "56132ABA7A0A2199"
+			subtitle: "Magnet Tool"
+			tasks: [{
+				id: "6F714C99A2C97025"
+				type: "item"
+			}]
+			title: "Loot Vacuum Variant"
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			description: ["Upgrade into the emerald tier of miner tools."]
+			icon: {
+				Count: 1
+				id: "minervillager:emerald_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "4B1054590F3A193A"
+			subtitle: "Tier 2"
+			tasks: [{
+				id: "2579C52660645388"
+				type: "item"
+			}]
+			title: "Emerald Pickaxe"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			description: ["Reach the final amethyst tier of miner tools."]
+			icon: {
+				Count: 1
+				id: "minervillager:amethyst_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "395C23E5D0222CFC"
+			subtitle: "Tier 3"
+			tasks: [{
+				id: "4D179CBE6E08C266"
+				type: "item"
+			}]
+			title: "Amethyst Pickaxe"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			description: ["Obtain a miner scroll to unlock special mining effects."]
+			icon: "minervillager:scroll_spot"
+			id: "04754E4B6935AF00"
+			subtitle: "Utility Tools"
+			tasks: [{
+				id: "30D7429139E2D808"
+				type: "item"
+			}]
+			title: "Seeker Scroll"
+			x: 1.0d
+			y: 3.0d
+		}
+	]
+	title: "Miner Villager"
+}

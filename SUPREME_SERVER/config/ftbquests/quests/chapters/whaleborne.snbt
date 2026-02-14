@@ -5,7 +5,7 @@
 	group: "600AC9ABAC26F3D9"
 	icon: "whaleborne:sail"
 	id: "6E8A3B1C9D2F4A10"
-	order_index: 18
+	order_index: 17
 	quest_links: [ ]
 	quests: [
 		{

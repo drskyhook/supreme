@@ -33,17 +33,17 @@
 	[general.filters]
 		#Should skip filtering logic, in case if you wanted to only change quality.
 		#This will have not effect on force removed and force blocked items, they are protected.
-		no_filter_keep_all = true
+		no_filter_keep_all = false
 		#
 		#
 		#Remove all edible items that have no special effects.
-		removeFoods = true
+		removeFoods = false
 		#Should include specials as well.
 		removeFoodsIncludeSpecials = false
 		#
 		#
 		#Remove all tools (pickaxes, axes, shovels, hoes, others...).
-		removeTools = true
+		removeTools = false
 		#If removeTools is true, this will PREVENT the removal of any tool using rarity.
 		#This is a great way to protect special modded tools.
 		protectRareTools = true
@@ -54,7 +54,7 @@
 		#
 		#
 		#Remove all weapons (swords, bows, axes, etc.).
-		removeWeapons = true
+		removeWeapons = false
 		#If removeWeapons is true, this will PREVENT the removal of any weapon using rarity.
 		#This is a great way to protect special modded weapons.
 		protectRareWeapons = true
@@ -65,7 +65,7 @@
 		#
 		#
 		#Remove all armor pieces.
-		removeArmor = true
+		removeArmor = false
 		#If removeArmor is true, this will PREVENT the removal of any armor using rarity.
 		#This is a great way to protect special modded armor and Netherite gear automatically.
 		protectRareArmor = true
@@ -76,7 +76,7 @@
 		#
 		#
 		#Remove all mineral items (ores, ingots, nuggets, raw ore, gems, crystals, others...).
-		removeOres = true
+		removeOres = false
 		#If removeOres is true, this will PREVENT the removal of any ore using rarity.
 		#This is a great way to protect ores with high rarity, while I think mining these are better than looting them.
 		protectRareOre = true
@@ -101,12 +101,12 @@
 		#At 50% the items quality are changed by half now instead of stack of 64 stone you get stack of 32, with half chance as well.
 		#Remember above 0% all kept items are kept even if their quality becomes zero so they spawn at least once with their original weight, means above 0% you are risk free, no items removed only their quality changed.
 		#Range: 0 ~ 100
-		keptItemsQuality = 100
+		keptItemsQuality = 80
 		#This is for the tagged loots, some items are added through tags instead of fixed item ID,
 		#for instance if the loot is forge:ingots tag this will add a random ingot type to the chest.
 		#These tags are also filtered, so this is their quality slider, rules same as KeptItemsQuality.
 		#Range: 0 ~ 100
-		keptTaggedItemsQuality = 100
+		keptTaggedItemsQuality = 80
 		#
 		#
 		# -- Items Removed By Categorical Removals --

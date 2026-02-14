@@ -5,7 +5,7 @@
 	group: "600AC9ABAC26F3D9"
 	icon: "minecraft:dragon_head"
 	id: "798F4A69E9EB5835"
-	order_index: 16
+	order_index: 15
 	quest_links: [ ]
 	quests: [
 		{

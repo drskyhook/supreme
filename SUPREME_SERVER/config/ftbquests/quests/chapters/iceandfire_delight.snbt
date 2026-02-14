@@ -5,7 +5,7 @@
 	group: "600AC9ABAC26F3D9"
 	icon: "minecraft:book"
 	id: "19909A65ADB2592B"
-	order_index: 12
+	order_index: 11
 	quest_links: [ ]
 	quests: [
 		{
