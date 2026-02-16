@@ -124,9 +124,15 @@
   -added malum
   -added malum questline
   -added roots classic
-- updated mods
 
 # 2026-02-15
+
+-removed brutal bosses (lame)
+-removed improved mobs (too crazy/suprising)
+-added luminous beasts
+-added mutant monsters
+-added creatures and beasts
+-added no farmland trample
 
 # 2026-02-16
 
