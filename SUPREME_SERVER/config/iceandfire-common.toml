@@ -166,13 +166,13 @@
 		"Use Siren Shader" = true
 		#1 out of this number chance per chunk for generation
 		#Range: 1 ~ 10000
-		"Spawn Sirens Chance" = 400
+		"Spawn Sirens Chance" = 250
 		#how long(in ticks) can a siren use its sing effect on a player, without a cooldown.
 		#Range: 100 ~ 24000
-		"Siren Max Sing Time" = 12000
+		"Siren Max Sing Time" = 600
 		#how long(in ticks) a siren has to wait after failing to lure in a player
 		#Range: 100 ~ 24000
-		"Siren Time Between Songs" = 2000
+		"Siren Time Between Songs" = 8000
 
 	[Mobs.DeathWorms]
 		#How many blocks away can death worms spot potential prey. Note that increasing this could cause lag
