@@ -5,7 +5,7 @@
 	group: "600AC9ABAC26F3D9"
 	icon: "smallships:sail"
 	id: "00F710E0FF057AEC"
-	order_index: 13
+	order_index: 16
 	quest_links: [ ]
 	quests: [
 		{

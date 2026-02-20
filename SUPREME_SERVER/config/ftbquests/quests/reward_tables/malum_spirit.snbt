@@ -1,7 +1,7 @@
 {
 	id: "49B376A9D393F177"
 	loot_size: 1
-	order_index: 10
+	order_index: 0
 	rewards: [
 		{ count: 3, item: "malum:sacred_spirit" }
 		{ count: 3, item: "malum:wicked_spirit" }

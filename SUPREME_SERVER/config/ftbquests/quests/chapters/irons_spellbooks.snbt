@@ -5,7 +5,7 @@
 	group: "600AC9ABAC26F3D9"
 	icon: "irons_spellbooks:copper_spell_book"
 	id: "1C4D78C3AD79FFC6"
-	order_index: 8
+	order_index: 11
 	quest_links: [ ]
 	quests: [
 		{

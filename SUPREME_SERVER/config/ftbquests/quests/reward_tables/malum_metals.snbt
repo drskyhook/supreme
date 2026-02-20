@@ -1,7 +1,7 @@
 {
 	id: "160F16FDB98144BD"
 	loot_size: 1
-	order_index: 11
+	order_index: 1
 	rewards: [
 		{ item: "malum:hallowed_gold_ingot" }
 		{ count: 2, item: "malum:soul_stained_steel_ingot" }

@@ -1,0 +1,117 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "cthulhu_fishing"
+	group: "600AC9ABAC26F3D9"
+	icon: "cthulhufishing:cthulhu_grimoire"
+	title: "Cthulhu Fishing"
+	id: "6F9A5A8C2F1C4E01"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"The waters no longer feel safe."
+				"Catch something unnatural."
+				""
+				"Use any lure or explore dark waters."
+			]
+			id: "00000000000000A1"
+			tasks: [{
+				id: "672221867D94D204"
+				item: "cthulhufishing:crimson_fish"
+				type: "item"
+			}]
+			title: "Strange Fish"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["00000000000000A1"]
+			description: [
+				"You feel something watching."
+				"Acquire tools of the abyss."
+			]
+			id: "00000000000000A2"
+			tasks: [{
+				id: "0A51A76127D7183A"
+				item: "cthulhufishing:sculk_lure"
+				type: "item"
+			}]
+			title: "First Signs"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["00000000000000A2"]
+			description: [
+				"The abyss demands sacrifice."
+				"Prepare the ritual tools."
+			]
+			id: "00000000000000A3"
+			tasks: [{
+				id: "0343C0B990A71C89"
+				item: {
+					Count: 1
+					id: "cthulhufishing:knife_for_ritual_bleeding"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Ritual Preparation"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["00000000000000A3"]
+			description: [
+				"Construct the altar and begin the rites."
+				"The ocean will answer."
+			]
+			id: "00000000000000A4"
+			tasks: [{
+				id: "6DB5E62A16C1E229"
+				item: "cthulhufishing:ctulhu_altar_fish"
+				type: "item"
+			}]
+			title: "Build the Altar"
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["00000000000000A4"]
+			description: [
+				"Offer strange fish at the altar."
+				"Obtain a relic from the void."
+			]
+			id: "00000000000000A5"
+			tasks: [{
+				id: "7E2894460F9736E6"
+				item: "cthulhufishing:relic"
+				type: "item"
+			}]
+			title: "Relics of the Deep"
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["00000000000000A5"]
+			description: [
+				"You are ready."
+				"Place the Obelisk."
+				"Summon the Giant Obsessed Eye."
+			]
+			id: "00000000000000A6"
+			tasks: [{
+				id: "6E99BCDD651DB039"
+				item: "cthulhufishing:obelisk_of_gteatest_obsessed_eye"
+				type: "item"
+			}]
+			title: "Summon the Eye"
+			x: 15.0d
+			y: 0.0d
+		}
+	]
+}
