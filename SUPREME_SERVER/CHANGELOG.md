@@ -140,14 +140,70 @@
 
 # 2026-02-18
 
+remove fireflies
+
 # 2026-02-19
 
 removed ores above diamonds
+removed obscure tooltips (cant f3 to make quests)
 added extra quests
 
 # 2026-02-20
 
+-removed clean swing through grass
+-added cut through
+-removed visiting visiting villagers
+-added neruina entity fixer on server side
+
+TODO:
+consider forgery
+fix kube js
+fix wearable lanterns ?
+does it tick?
+
 # 2026-02-21
+
+-added forgery
+-added golem spawn fix
+-added visiting villagers back tweak spawn
+
+# 2026-02-22
+
+# 2026-02-23
+
+-added mobtimizations server side
+-added let me despawn server side
+-added distraction free recipes client side
+-added animation overhaul
+
+# 2026-02-24
+
+-added fish on the line
+-remove fast leaf decay
+-add leaves begone
+-remove golems are friends not fodder
+-remove plenty of golems
+-remove tectonic
+-add enderman overhaul
+-add dungeon crawl
+-add awesome dungeon ocean edition
+-add myths and legends
+-added clear water
+-remove trash slot
+-add trash compactor
+-add perception
+
+# 2026-02-24
+
+-
+
+# 2026-02-25
+
+# 2026-02-26
+
+# 2026-02-27
+
+# 2026-02-28
 
 # TODO/NOTES
 
@@ -155,6 +211,7 @@ snbt files for bok's butterflies
 other villager quests
 
 eeeab bosses - 27 mb , would have to earn its keep
+alshanex familiars - 21 mb
 pillager & spillage - 32 mb, would have to earn its keep
 remnant bosses - 6 mb
 

@@ -1,5 +1,7 @@
-ServerEvents.lootTables((event) => {
-  event.removeItem("relics:infinity_ham");
-  event.removeItem("relics:phoenix_feather");
-  event.removeItem("relics:holy_locket");
+LootJS.modifiers((event) => {
+  event
+    .addLootTableModifier(/.*/)
+    .removeLoot("relics:infinity_ham")
+    .removeLoot("relics:phoenix_feather")
+    .removeLoot("relics:holy_locket");
 });
