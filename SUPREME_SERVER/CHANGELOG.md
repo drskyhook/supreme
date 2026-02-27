@@ -195,18 +195,40 @@ does it tick?
 
 # 2026-02-24
 
--
+-remove jumpy boats
+-remove artifacts
+-remove relics
+-remove more relics
+-add my server is compatible mod to remove red x
+-added irons spells icons resource pack
+-add golems are friends not fodder
+-add underground rivers
 
 # 2026-02-25
 
 # 2026-02-26
 
+-added jeremy seqs damage numbers
+-added max health fix
+-added extra bounties
+-added equpment compare
+
 # 2026-02-27
+
+-added item obliterator
+-add more villager trades
 
 # 2026-02-28
 
 # TODO/NOTES
 
+Pillager Caravans
+-born in configuration?
+fantasy weapons
+fatnasy armor
+max health fix is in a lot of packs
+the root of fear
+Nifty Ships
 snbt files for bok's butterflies
 other villager quests
 
