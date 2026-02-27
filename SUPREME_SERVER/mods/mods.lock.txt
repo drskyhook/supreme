@@ -237,6 +237,7 @@ mcw-roofs-2.3.2-mc1.20.1forge.jar
 medieval_buildings_nether_edition-1.20.1-1.0.2-forge.jar
 minervillager-1.20.1-5.7.jar
 misctweaks-1.1.4+1.20.1.jar
+mobtimizations-forge-1.20.1-1.0.1.jar
 modernfix-forge-5.26.2+mc1.20.1.jar
 Monster Hunter Villager 1.2.1-1.20.1.jar
 moogs_structure_lib-1.1.0-1.20-1.20.4-forge.jar
