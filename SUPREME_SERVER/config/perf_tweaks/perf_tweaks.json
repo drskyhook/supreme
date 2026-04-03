@@ -1,0 +1,8 @@
+{
+  "redstone.enabled_by_default": true,
+  "despawning.enabled": true,
+  "despawning.mobs_drop_tools": false,
+  "despawning.persistent_mobs": [
+    "corpse:corpse"
+  ]
+}

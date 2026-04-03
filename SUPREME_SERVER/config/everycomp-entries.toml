@@ -22,18 +22,6 @@
 		[types.wood_type.dungeonnowloading]
 			azuro_oak = true
 
-		[types.wood_type.biomesoplenty]
-			fir = true
-			redwood = true
-			mahogany = true
-			jacaranda = true
-			palm = true
-			willow = true
-			dead = true
-			magic = true
-			umbran = true
-			hellbark = true
-
 		[types.wood_type.valhelsia_structures]
 			lapidified_jungle = true
 
@@ -52,9 +40,6 @@
 		[types.wood_type.iceandfire]
 			dreadwood = true
 
-		[types.wood_type.vinery]
-			dark_cherry = true
-
 		[types.wood_type.upgrade_aquatic]
 			driftwood = true
 			river = true
@@ -67,15 +52,6 @@
 			willow = true
 			witch_hazel = true
 
-		[types.wood_type.malum]
-			runewood = true
-			soulwood = true
-
-	[types.cake]
-
-		[types.cake.farmersrespite]
-			coffee_cake = true
-
 	[types.leaves_type]
 
 		[types.leaves_type.ecologics]
@@ -85,35 +61,11 @@
 		[types.leaves_type.dungeonnowloading]
 			azuro = true
 
-		[types.leaves_type.biomesoplenty]
-			origin = true
-			flowering_oak = true
-			snowblossom = true
-			rainbow_birch = true
-			yellow_autumn = true
-			orange_autumn = true
-			maple = true
-			fir = true
-			redwood = true
-			mahogany = true
-			jacaranda = true
-			palm = true
-			willow = true
-			dead = true
-			magic = true
-			umbran = true
-			hellbark = true
-
 		[types.leaves_type.minecraft]
 			pale_oak = true
 
 		[types.leaves_type.deeperdarker]
 			echo = true
-
-		[types.leaves_type.vinery]
-			grapevine = true
-			dark_cherry = true
-			apple = true
 
 		[types.leaves_type.upgrade_aquatic]
 			river = true
@@ -133,12 +85,6 @@
 			mahogany = true
 			willow = true
 			witch_hazel = true
-
-		[types.leaves_type.malum]
-			runewood = true
-			azure_runewood = true
-			soulwood = true
-			budding_soulwood = true
 
 #Disables specific entries
 [entries]
@@ -195,79 +141,12 @@
 		[entries.wood_type.backpacked]
 			backpack_shelf = true
 
-		[entries.wood_type.mcwroofs]
-			planks_upper_steep_roof = true
-			top_roof = true
-			lower_roof = true
-			planks_roof = true
-			upper_steep_roof = true
-			steep_roof = true
-			roof = true
-			planks_attic_roof = true
-			upper_lower_roof = true
-			planks_top_roof = true
-			planks_steep_roof = true
-			attic_roof = true
-			planks_upper_lower_roof = true
-			planks_lower_roof = true
-
-		[entries.wood_type.mcwbridges]
-			bridge_pier = true
-			rope_bridge_stair = true
-			log_bridge_stair = true
-			rail_bridge = true
-			rope_bridge = true
-			log_bridge_middle = true
-
-		[entries.wood_type.mcwdoors]
-			nether_door = true
-			stable_head_door = true
-			japanese2_door = true
-			tropical_door = true
-			barn_glass_door = true
-			cottage_door = true
-			four_panel_door = true
-			western_door = true
-			paper_door = true
-			bamboo_door = true
-			swamp_door = true
-			glass_door = true
-			beach_door = true
-			barn_door = true
-			mystic_door = true
-			whispering_door = true
-			waffle_door = true
-			japanese_door = true
-			bark_glass_door = true
-			classic_door = true
-			stable_door = true
-			modern_door = true
-
 		[entries.wood_type.architects_palette]
 			board_stairs = true
 			railing = true
 			boards = true
 			board_slab = true
 			board_wall = true
-
-		[entries.wood_type.mcwwindows]
-			plank_window = true
-			louvered_shutter = true
-			plank_window2 = true
-			pane_window = true
-			plank_pane_window = true
-			stripped_pane_window = true
-			plank_four_window = true
-			stripped_log_window2 = true
-			log_parapet = true
-			window2 = true
-			stripped_log_four_window = true
-			four_window = true
-			plank_parapet = true
-			blinds = true
-			window = true
-			shutter = true
-			stripped_log_window = true
 
 	[entries.leaves_type]
 

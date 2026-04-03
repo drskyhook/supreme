@@ -22,4 +22,7 @@
 -XX:+UseStringDeduplication
 
 # ====== Logging / Encoding ======
+-Dforge.maxLoginTicks=4000
+-Dfml.readTimeout=400
+-Dfml.loginTimeout=400
 -Dfile.encoding=UTF-8

@@ -15,6 +15,10 @@
 		"Allow Camera Shake" = true
 		#allow bosses healing when out of combat
 		"Allow Bosses Natural Healing" = true
+		#for example when boss heals up after killing all players the boss will go back to previous phase
+		"Allow Boss phase reset" = true
+		#if Boss has no target and is > 15 blocks away from the spawn he will teleport back to the spawn position. That applies to mini bosses too.
+		"Allow Bosses and Mini Bosses teleport back to their spawn Position" = true
 
 	["Mob Settings"."Chorusling Settings"]
 		#Multiplies damage dealt by Chorusling

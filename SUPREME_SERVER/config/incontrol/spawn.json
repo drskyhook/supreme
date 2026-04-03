@@ -1,7 +1,8 @@
 [
   {
-    "mob": "crittersandcompanions:dragonfly",
     "when": "onjoin",
-    "result": "deny"
+    "mod": "born_in_chaos_v1",
+    "result": "deny",
+    "random": 0.5
   }
 ]

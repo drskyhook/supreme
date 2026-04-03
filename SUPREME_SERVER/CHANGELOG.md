@@ -90,7 +90,6 @@
 - add potions master
 - add structure layout optimizer
 - add sparse structures
-- add improved village placement
 - add horseman
 - add callable horses
 
@@ -225,7 +224,137 @@ does it tick?
 
 # 2026-02-28
 
+-removed untitled duck mod
+-add awesome dungeons nether
+-add awesome dungeon end
+-add loot integrations awesome dungeons
+-removed in control
+
+# 2026-03-01
+- ice and fire - spellbooks
+- saints dragons
+- add trade cycling
+
+# 2026-03-02
+- add ash of sin (to make bosses heal when players die)
+- add waystones cost 1 level and start with 1 level
+- remove snuffles
+- remove pirate hats
+- remove pirate cannons
+- remove saints dragons competes with ice and fire
+
+# 2026-03-03
+- add iron chested restocked
+- add nether chested
+- remove sophisticated storage and sophisticated core
+
+# 2026-03-04
+# 2026-03-05
+# 2026-03-06
+# 2026-03-07
+# 2026-03-08
+# 2026-03-09
+
+# 2026-03-24
+- removed cthulhu fishing
+- removed better fishing rods
+- removed better fishing loot tables
+- removed delighful - huge noise overwhelm
+- removed aquamirae delight - fluff noise
+- removed quart delight
+- removed lets do brewery
+- removed lets do herbalbrews
+- remove nether delight
+- removed aquaculture delight
+- removed relics artifacts compat
+- removed relics
+- removed artifacts
+- removed butterflies
+- removed whaleborne
+- removed archers paradox
+- removed spartan weaponry
+- removed 3 spartan weaporny ice fire, cata, and toolkit
+- remove undead unleashed
+- remove easy villagers
+
+# 2026-03-25
+- update many mods
+- removed miner villager
+- removed all macaws
+- removed malum and questline
+- removed biomes o plenty
+- removes super firework
+- removed cataclysm tools
+- removed farmers respite
+- added terralith
+- added stoneholm
+- added added medieval buildings
+
+# 2026-03-26
+- need to reinstall subtle effects
+
+
+# 2026-03-28
+-remove improved village placement. no villages spawning in terralith world
+-remove sparse structures good enough on default. things got pretty sparse
+
+# 2026-03-29
+- hole filler mod
+- auroras - client side
+- boss checklist
+- add dragon mounts legacy
+- add dragon mounts even more dragons
+- add roadweaver
+
+# 2026-03-30
+
+# 2026-03-31
+remove vinery too long
+add grim kingdoms
+Fathomless Crimson 
+
+# 2026-04-01
+- planned update notes placeholder
+
+# 2026-04-02
+- planned update notes placeholder
+
+# 2026-04-03
+
+
+# 2026-04-04
+- planned update notes placeholder
+
+# 2026-04-05
+- planned update notes placeholder
+
+
+
 # TODO/NOTES
+
+
+dark fantasy nordic toms / draugr 
+raids enhanced
+shellbound for airship
+ex meteor shower
+dwarven automaton
+mahabels - dwarven
+mahabels - draugr 
+soul of cinder - 64 mb
+opposing force - 7 mb
+epic structures villages
+myths of the sea
+
+
+consider trade cycling cost exp
+remove biomes o plenty  (too many blocks + inventory spam payoff is low gameplay wise adds noise)
+legendary additions looks cool
+legendary creatures both more themey
+
+use tectonic + terralith (on new world)
+
+
+/data get entity <playername> UUID
 
 Pillager Caravans
 -born in configuration?

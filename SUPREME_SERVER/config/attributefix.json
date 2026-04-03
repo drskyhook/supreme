@@ -352,17 +352,6 @@
         "value": 100
       }
     },
-    "block_factorys_bosses:movement_recovery": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 5,
-        "value": 5
-      }
-    },
     "irons_spellbooks:evocation_magic_resist": {
       "enabled": false,
       "min": {
@@ -372,6 +361,17 @@
       "max": {
         "default": 100,
         "value": 100
+      }
+    },
+    "block_factorys_bosses:movement_recovery": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 5,
+        "value": 5
       }
     },
     "forge:block_reach": {
@@ -658,6 +658,17 @@
       "max": {
         "default": 2048,
         "value": 2048
+      }
+    },
+    "block_factorys_bosses:roll_count": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 9,
+        "value": 9
       }
     },
     "expanded_combat:soul_dmg": {
