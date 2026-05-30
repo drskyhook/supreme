@@ -292,6 +292,7 @@ waystone_crypts-1.20.1-FORGE-1.1.0.jar
 waystones-forge-1.20.1-14.1.20.jar
 WaystonesTeleportPets-1.20-1.20.1--1.2.jar
 whisperwoods-1.20.1-2.1.2-forge.jar
+witherreincarnated-1.20.1-1.0.5.jar
 WitherSkeletonTweaks-1.20.1-9.1.0.jar
 yucutan_combat-2.2.0-forge-1.20.1.jar
 YungsApi-1.20-Forge-4.0.6.jar
