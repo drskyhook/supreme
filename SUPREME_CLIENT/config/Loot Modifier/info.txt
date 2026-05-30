@@ -1,0 +1,55 @@
+--- GENERAL ---
+1. you don't have to start a new world for new changes to take effect or for the mod to work, LootTables are assets think
+   of them like resourcepacks, so you can change them whenever you want.
+2. delete the tables cache if you updated the config to apply the changes.
+3. also delete the files if you ran into problems.
+4. and you can also edit the tags and cache file for further customization,
+   but be careful don't break the json structure because crash or missing tables cache could happen.
+5. you can use the debugging configs to know everything the mod does to the tables.
+6. the mod includes chat commands /findblock /findzone which both can be used to find chest and teleports you to it under one command.
+7. most items in minecraft have COMMON rarity you can use EPIC and RARE to only protect the items that can't be crafted or hard to find,
+   which is why they might be EPIC or RARE because they meant to be found in chests like Enchanted Golden Apple which is EPIC.
+8. if you don't want to rarity checks to have no influence over the filters disable them, which will result in missing EPIC and RARE items.
+
+-:removed eatable items:-
+anything eatable is removed from minecraft eatables category item.isEdible function, ofcourse if they pass the rarity check.
+I also blacklisted some items by default, while they should be protected with the rarity check:
+golden_apple
+enchanted_golden_apple
+tropical_fish
+pufferfish
+rotten_flesh
+spider_eye
+poisonous_potato
+golden_carrot
+suspicious_stew
+honey_bottle
+
+-:removed tools items:-
+anything tha fells under forge's tools category is removed, ofcourse if they pass the rarity check.
+also use these tags
+                    item instanceof DiggerItem || "axe,shovel,hoe,pickaxe"
+                    item instanceof ShearsItem ||
+I also blacklisted some items by default, while they can be protected with the rarity checks as well:
+carrot on a stick
+warped_fungus_on_a_stick
+golden hoe
+golden shovel
+turtle helmet
+elytra
+shield
+fishing rod
+brush
+
+-:removed armors:-
+anything with tags (helmet,chestplate,leggings,boots) is removed from minecraft armor category item.isArmor function, ofcourse if they pass the rarity check.
+
+-:removed ores:-
+anything tha fells under forge's ores tags like ingot, ore, gem and so on. is removed.
+blacklisted nothing by default so any netherite items are removed if rarity is high be careful.
+
+-:weapon removes these items:-
+anything tha fells under forge's weapon tags is removed, like projectiles, swords, axe, bows, and so on.
+no blacklist here as well if you wanted to save certain item put it in block list,
+while rarity and NBT filter will save most special weapons comes from mods and the game.
+

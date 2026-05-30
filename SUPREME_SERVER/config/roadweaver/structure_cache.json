@@ -1213,51 +1213,6 @@
       ]
     },
     {
-      "id": "aquamirae:outpost",
-      "displayName": "Outpost",
-      "isVanilla": false,
-      "dimensions": [
-        "minecraft:overworld",
-        "graveyard:past"
-      ]
-    },
-    {
-      "id": "aquamirae:shelter",
-      "displayName": "Shelter",
-      "isVanilla": false,
-      "dimensions": [
-        "minecraft:overworld",
-        "graveyard:past"
-      ]
-    },
-    {
-      "id": "aquamirae:ship",
-      "displayName": "Ship",
-      "isVanilla": false,
-      "dimensions": [
-        "minecraft:overworld",
-        "graveyard:past"
-      ]
-    },
-    {
-      "id": "aquamirae:surface/arch",
-      "displayName": "Surface/arch",
-      "isVanilla": false,
-      "dimensions": [
-        "minecraft:overworld",
-        "graveyard:past"
-      ]
-    },
-    {
-      "id": "aquamirae:surface/spiral",
-      "displayName": "Surface/spiral",
-      "isVanilla": false,
-      "dimensions": [
-        "minecraft:overworld",
-        "graveyard:past"
-      ]
-    },
-    {
       "id": "awesomedungeonend:end_castle_evoker",
       "displayName": "End Castle Evoker",
       "isVanilla": false,
@@ -1659,320 +1614,6 @@
       ]
     },
     {
-      "id": "block_factorys_bosses:dragon_tower",
-      "displayName": "Dragon Tower",
-      "isVanilla": false,
-      "dimensions": [
-        "minecraft:overworld",
-        "graveyard:past"
-      ]
-    },
-    {
-      "id": "block_factorys_bosses:sandworm_nest",
-      "displayName": "Sandworm Nest",
-      "isVanilla": false,
-      "dimensions": [
-        "minecraft:overworld",
-        "graveyard:past"
-      ]
-    },
-    {
-      "id": "block_factorys_bosses:underworld_arena",
-      "displayName": "Underworld Arena",
-      "isVanilla": false,
-      "dimensions": [
-        "minecraft:the_nether"
-      ]
-    },
-    {
-      "id": "block_factorys_bosses:yeti_hideout",
-      "displayName": "Yeti Hideout",
-      "isVanilla": false,
-      "dimensions": [
-        "minecraft:overworld",
-        "graveyard:past"
-      ]
-    },
-    {
-      "id": "born_in_chaos_v1:clown_caravan_plains",
-      "displayName": "Clown Caravan Plains",
-      "isVanilla": false,
-      "dimensions": [
-        "minecraft:overworld",
-        "graveyard:past"
-      ]
-    },
-    {
-      "id": "born_in_chaos_v1:clown_caravan_savanna",
-      "displayName": "Clown Caravan Savanna",
-      "isVanilla": false,
-      "dimensions": [
-        "minecraft:overworld",
-        "graveyard:past"
-      ]
-    },
-    {
-      "id": "born_in_chaos_v1:clown_caravan_taiga",
-      "displayName": "Clown Caravan Taiga",
-      "isVanilla": false,
-      "dimensions": [
-        "minecraft:overworld",
-        "graveyard:past"
-      ]
-    },
-    {
-      "id": "born_in_chaos_v1:dark_tower_forest",
-      "displayName": "Dark Tower Forest",
-      "isVanilla": false,
-      "dimensions": [
-        "minecraft:overworld",
-        "graveyard:past"
-      ]
-    },
-    {
-      "id": "born_in_chaos_v1:dark_tower_plain",
-      "displayName": "Dark Tower Plain",
-      "isVanilla": false,
-      "dimensions": [
-        "minecraft:overworld",
-        "graveyard:past"
-      ]
-    },
-    {
-      "id": "born_in_chaos_v1:dark_tower_taiga",
-      "displayName": "Dark Tower Taiga",
-      "isVanilla": false,
-      "dimensions": [
-        "minecraft:overworld",
-        "graveyard:past"
-      ]
-    },
-    {
-      "id": "born_in_chaos_v1:farm",
-      "displayName": "Farm",
-      "isVanilla": false,
-      "dimensions": [
-        "minecraft:overworld",
-        "graveyard:past"
-      ]
-    },
-    {
-      "id": "born_in_chaos_v1:firewell",
-      "displayName": "Firewell",
-      "isVanilla": false,
-      "dimensions": [
-        "minecraft:overworld",
-        "graveyard:past"
-      ]
-    },
-    {
-      "id": "born_in_chaos_v1:grave_2003wise",
-      "displayName": "Grave 2003wise",
-      "isVanilla": false,
-      "dimensions": [
-        "minecraft:overworld",
-        "graveyard:past"
-      ]
-    },
-    {
-      "id": "born_in_chaos_v1:grave_2_dling",
-      "displayName": "Grave 2 Dling",
-      "isVanilla": false,
-      "dimensions": [
-        "minecraft:overworld",
-        "graveyard:past"
-      ]
-    },
-    {
-      "id": "born_in_chaos_v1:grave_d_4rk_devil_x",
-      "displayName": "Grave D 4rk Devil X",
-      "isVanilla": false,
-      "dimensions": [
-        "minecraft:overworld",
-        "graveyard:past"
-      ]
-    },
-    {
-      "id": "born_in_chaos_v1:grave_darktitan",
-      "displayName": "Grave Darktitan",
-      "isVanilla": false,
-      "dimensions": [
-        "minecraft:overworld",
-        "graveyard:past"
-      ]
-    },
-    {
-      "id": "born_in_chaos_v1:grave_derivas",
-      "displayName": "Grave Derivas",
-      "isVanilla": false,
-      "dimensions": [
-        "minecraft:overworld",
-        "graveyard:past"
-      ]
-    },
-    {
-      "id": "born_in_chaos_v1:grave_euthymia",
-      "displayName": "Grave Euthymia",
-      "isVanilla": false,
-      "dimensions": [
-        "minecraft:overworld",
-        "graveyard:past"
-      ]
-    },
-    {
-      "id": "born_in_chaos_v1:grave_feral",
-      "displayName": "Grave Feral",
-      "isVanilla": false,
-      "dimensions": [
-        "minecraft:overworld",
-        "graveyard:past"
-      ]
-    },
-    {
-      "id": "born_in_chaos_v1:grave_fubuki_banzai",
-      "displayName": "Grave Fubuki Banzai",
-      "isVanilla": false,
-      "dimensions": [
-        "minecraft:overworld",
-        "graveyard:past"
-      ]
-    },
-    {
-      "id": "born_in_chaos_v1:grave_memesus",
-      "displayName": "Grave Memesus",
-      "isVanilla": false,
-      "dimensions": [
-        "minecraft:overworld",
-        "graveyard:past"
-      ]
-    },
-    {
-      "id": "born_in_chaos_v1:grave_mike_and_rory",
-      "displayName": "Grave Mike And Rory",
-      "isVanilla": false,
-      "dimensions": [
-        "minecraft:overworld",
-        "graveyard:past"
-      ]
-    },
-    {
-      "id": "born_in_chaos_v1:grave_nino_4416",
-      "displayName": "Grave Nino 4416",
-      "isVanilla": false,
-      "dimensions": [
-        "minecraft:overworld",
-        "graveyard:past"
-      ]
-    },
-    {
-      "id": "born_in_chaos_v1:grave_orion",
-      "displayName": "Grave Orion",
-      "isVanilla": false,
-      "dimensions": [
-        "minecraft:overworld",
-        "graveyard:past"
-      ]
-    },
-    {
-      "id": "born_in_chaos_v1:grave_petasi",
-      "displayName": "Grave Petasi",
-      "isVanilla": false,
-      "dimensions": [
-        "minecraft:overworld",
-        "graveyard:past"
-      ]
-    },
-    {
-      "id": "born_in_chaos_v1:grave_plug",
-      "displayName": "Grave Plug",
-      "isVanilla": false,
-      "dimensions": [
-        "minecraft:overworld",
-        "graveyard:past"
-      ]
-    },
-    {
-      "id": "born_in_chaos_v1:grave_rotborne",
-      "displayName": "Grave Rotborne",
-      "isVanilla": false,
-      "dimensions": [
-        "minecraft:overworld",
-        "graveyard:past"
-      ]
-    },
-    {
-      "id": "born_in_chaos_v1:grave_somfunambulist",
-      "displayName": "Grave Somfunambulist",
-      "isVanilla": false,
-      "dimensions": [
-        "minecraft:overworld",
-        "graveyard:past"
-      ]
-    },
-    {
-      "id": "born_in_chaos_v1:grave_tem_187",
-      "displayName": "Grave Tem 187",
-      "isVanilla": false,
-      "dimensions": [
-        "minecraft:overworld",
-        "graveyard:past"
-      ]
-    },
-    {
-      "id": "born_in_chaos_v1:grave_the_gentleman_frog",
-      "displayName": "Grave The Gentleman Frog",
-      "isVanilla": false,
-      "dimensions": [
-        "minecraft:overworld",
-        "graveyard:past"
-      ]
-    },
-    {
-      "id": "born_in_chaos_v1:gravecarrionexe",
-      "displayName": "Gravecarrionexe",
-      "isVanilla": false,
-      "dimensions": [
-        "minecraft:overworld",
-        "graveyard:past"
-      ]
-    },
-    {
-      "id": "born_in_chaos_v1:infernal_pumpkin",
-      "displayName": "Infernal Pumpkin",
-      "isVanilla": false,
-      "dimensions": [
-        "minecraft:overworld",
-        "graveyard:past"
-      ]
-    },
-    {
-      "id": "born_in_chaos_v1:mound_of_hounds",
-      "displayName": "Mound Of Hounds",
-      "isVanilla": false,
-      "dimensions": [
-        "minecraft:overworld",
-        "graveyard:past"
-      ]
-    },
-    {
-      "id": "born_in_chaos_v1:observation_tower_forest",
-      "displayName": "Observation Tower Forest",
-      "isVanilla": false,
-      "dimensions": [
-        "minecraft:overworld",
-        "graveyard:past"
-      ]
-    },
-    {
-      "id": "born_in_chaos_v1:observation_tower_plains",
-      "displayName": "Observation Tower Plains",
-      "isVanilla": false,
-      "dimensions": [
-        "minecraft:overworld",
-        "graveyard:past"
-      ]
-    },
-    {
       "id": "bosses_of_mass_destruction:gauntlet_arena",
       "displayName": "Gauntlet Arena",
       "isVanilla": false,
@@ -2049,8 +1690,44 @@
       ]
     },
     {
+      "id": "cataclysm:abandoned_spire",
+      "displayName": "Abandoned Spire",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "graveyard:past"
+      ]
+    },
+    {
+      "id": "cataclysm:abandoned_temple",
+      "displayName": "Abandoned Temple",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "graveyard:past"
+      ]
+    },
+    {
+      "id": "cataclysm:abandoned_village",
+      "displayName": "Abandoned Village",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "graveyard:past"
+      ]
+    },
+    {
       "id": "cataclysm:acropolis",
       "displayName": "Acropolis",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "graveyard:past"
+      ]
+    },
+    {
+      "id": "cataclysm:amethyst_nest",
+      "displayName": "Amethyst Nest",
       "isVanilla": false,
       "dimensions": [
         "minecraft:overworld",
@@ -2077,6 +1754,24 @@
     {
       "id": "cataclysm:cursed_pyramid",
       "displayName": "Cursed Pyramid",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "graveyard:past"
+      ]
+    },
+    {
+      "id": "cataclysm:desert_occupied_village",
+      "displayName": "Desert Occupied Village",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "graveyard:past"
+      ]
+    },
+    {
+      "id": "cataclysm:desert_site",
+      "displayName": "Desert Site",
       "isVanilla": false,
       "dimensions": [
         "minecraft:overworld",
@@ -2172,24 +1867,6 @@
     {
       "id": "dungeoncrawl:dungeon",
       "displayName": "Dungeon",
-      "isVanilla": false,
-      "dimensions": [
-        "minecraft:overworld",
-        "graveyard:past"
-      ]
-    },
-    {
-      "id": "dungeonnowloading:labyrinth",
-      "displayName": "Labyrinth",
-      "isVanilla": false,
-      "dimensions": [
-        "minecraft:overworld",
-        "graveyard:past"
-      ]
-    },
-    {
-      "id": "dungeonnowloading:temple_of_duality",
-      "displayName": "Temple Of Duality",
       "isVanilla": false,
       "dimensions": [
         "minecraft:overworld",
@@ -2595,15 +2272,6 @@
       ]
     },
     {
-      "id": "ecologics:desert_ruin",
-      "displayName": "Desert Ruin",
-      "isVanilla": false,
-      "dimensions": [
-        "minecraft:overworld",
-        "graveyard:past"
-      ]
-    },
-    {
       "id": "end_villager_outpost:end_villager_outpost",
       "displayName": "End Villager Outpost",
       "isVanilla": false,
@@ -2753,96 +2421,6 @@
       "dimensions": []
     },
     {
-      "id": "fathomless:appeasement",
-      "displayName": "Appeasement",
-      "isVanilla": false,
-      "dimensions": [
-        "minecraft:overworld",
-        "graveyard:past"
-      ]
-    },
-    {
-      "id": "fathomless:archbishop_tower",
-      "displayName": "Archbishop Tower",
-      "isVanilla": false,
-      "dimensions": [
-        "minecraft:overworld",
-        "graveyard:past"
-      ]
-    },
-    {
-      "id": "fathomless:beach_poem",
-      "displayName": "Beach Poem",
-      "isVanilla": false,
-      "dimensions": [
-        "minecraft:overworld",
-        "graveyard:past"
-      ]
-    },
-    {
-      "id": "fathomless:bishop_tower",
-      "displayName": "Bishop Tower",
-      "isVanilla": false,
-      "dimensions": [
-        "minecraft:overworld",
-        "graveyard:past"
-      ]
-    },
-    {
-      "id": "fathomless:butchers_igloo",
-      "displayName": "Butchers Igloo",
-      "isVanilla": false,
-      "dimensions": [
-        "minecraft:overworld",
-        "graveyard:past"
-      ]
-    },
-    {
-      "id": "fathomless:campsite",
-      "displayName": "Campsite",
-      "isVanilla": false,
-      "dimensions": [
-        "minecraft:overworld",
-        "graveyard:past"
-      ]
-    },
-    {
-      "id": "fathomless:common_shrine",
-      "displayName": "Common Shrine",
-      "isVanilla": false,
-      "dimensions": [
-        "minecraft:overworld",
-        "graveyard:past"
-      ]
-    },
-    {
-      "id": "fathomless:graveyard",
-      "displayName": "Graveyard",
-      "isVanilla": false,
-      "dimensions": [
-        "minecraft:overworld",
-        "graveyard:past"
-      ]
-    },
-    {
-      "id": "fathomless:outpost",
-      "displayName": "Outpost",
-      "isVanilla": false,
-      "dimensions": [
-        "minecraft:overworld",
-        "graveyard:past"
-      ]
-    },
-    {
-      "id": "fathomless:rare_shrine",
-      "displayName": "Rare Shrine",
-      "isVanilla": false,
-      "dimensions": [
-        "minecraft:overworld",
-        "graveyard:past"
-      ]
-    },
-    {
       "id": "friendsandfoes:citadel",
       "displayName": "Citadel",
       "isVanilla": false,
@@ -2875,14 +2453,6 @@
       "dimensions": [
         "minecraft:overworld",
         "graveyard:past"
-      ]
-    },
-    {
-      "id": "galosphere:pink_salt_shrine",
-      "displayName": "Pink Salt Shrine",
-      "isVanilla": false,
-      "dimensions": [
-        "minecraft:overworld"
       ]
     },
     {
@@ -3520,6 +3090,51 @@
       ]
     },
     {
+      "id": "ivp:small_village_desert",
+      "displayName": "Small Village Desert",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "graveyard:past"
+      ]
+    },
+    {
+      "id": "ivp:small_village_plains",
+      "displayName": "Small Village Plains",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "graveyard:past"
+      ]
+    },
+    {
+      "id": "ivp:small_village_savanna",
+      "displayName": "Small Village Savanna",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "graveyard:past"
+      ]
+    },
+    {
+      "id": "ivp:small_village_snowy",
+      "displayName": "Small Village Snowy",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "graveyard:past"
+      ]
+    },
+    {
+      "id": "ivp:small_village_taiga",
+      "displayName": "Small Village Taiga",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "graveyard:past"
+      ]
+    },
+    {
       "id": "joshie:blossom_blade",
       "displayName": "Blossom Blade",
       "isVanilla": false,
@@ -3535,116 +3150,6 @@
       "dimensions": [
         "minecraft:overworld",
         "graveyard:past"
-      ]
-    },
-    {
-      "id": "legendary_monsters:abandoned_crypt",
-      "displayName": "Abandoned Crypt",
-      "isVanilla": false,
-      "dimensions": [
-        "minecraft:overworld",
-        "graveyard:past"
-      ]
-    },
-    {
-      "id": "legendary_monsters:ancient_stronghold",
-      "displayName": "Ancient Stronghold",
-      "isVanilla": false,
-      "dimensions": [
-        "minecraft:overworld",
-        "graveyard:past"
-      ]
-    },
-    {
-      "id": "legendary_monsters:ancient_tower_remains",
-      "displayName": "Ancient Tower Remains",
-      "isVanilla": false,
-      "dimensions": [
-        "minecraft:the_end"
-      ]
-    },
-    {
-      "id": "legendary_monsters:cloudy_temple",
-      "displayName": "Cloudy Temple",
-      "isVanilla": false,
-      "dimensions": [
-        "minecraft:overworld",
-        "graveyard:past"
-      ]
-    },
-    {
-      "id": "legendary_monsters:frostbitten_temple",
-      "displayName": "Frostbitten Temple",
-      "isVanilla": false,
-      "dimensions": [
-        "minecraft:overworld",
-        "graveyard:past"
-      ]
-    },
-    {
-      "id": "legendary_monsters:lava_eater_spawn",
-      "displayName": "Lava Eater Spawn",
-      "isVanilla": false,
-      "dimensions": [
-        "minecraft:the_nether"
-      ]
-    },
-    {
-      "id": "legendary_monsters:mossy_temple",
-      "displayName": "Mossy Temple",
-      "isVanilla": false,
-      "dimensions": [
-        "minecraft:overworld",
-        "graveyard:past"
-      ]
-    },
-    {
-      "id": "legendary_monsters:ruined_pyramid",
-      "displayName": "Ruined Pyramid",
-      "isVanilla": false,
-      "dimensions": [
-        "minecraft:overworld",
-        "graveyard:past"
-      ]
-    },
-    {
-      "id": "legendary_monsters:shulker_tower",
-      "displayName": "Shulker Tower",
-      "isVanilla": false,
-      "dimensions": [
-        "minecraft:the_end"
-      ]
-    },
-    {
-      "id": "legendary_monsters:skeletosaurus_nest",
-      "displayName": "Skeletosaurus Nest",
-      "isVanilla": false,
-      "dimensions": [
-        "minecraft:the_nether"
-      ]
-    },
-    {
-      "id": "legendary_monsters:soul_fortress_remains",
-      "displayName": "Soul Fortress Remains",
-      "isVanilla": false,
-      "dimensions": [
-        "minecraft:the_nether"
-      ]
-    },
-    {
-      "id": "legendary_monsters:space_station",
-      "displayName": "Space Station",
-      "isVanilla": false,
-      "dimensions": [
-        "minecraft:the_end"
-      ]
-    },
-    {
-      "id": "legendary_monsters:warped_fungussus_nest",
-      "displayName": "Warped Fungussus Nest",
-      "isVanilla": false,
-      "dimensions": [
-        "minecraft:the_nether"
       ]
     },
     {
@@ -3733,294 +3238,6 @@
       ]
     },
     {
-      "id": "mns:circle_blackstone",
-      "displayName": "Circle Blackstone",
-      "isVanilla": false,
-      "dimensions": [
-        "minecraft:the_nether"
-      ]
-    },
-    {
-      "id": "mns:circle_nether_brick",
-      "displayName": "Circle Nether Brick",
-      "isVanilla": false,
-      "dimensions": [
-        "minecraft:the_nether"
-      ]
-    },
-    {
-      "id": "mns:copper_tower",
-      "displayName": "Copper Tower",
-      "isVanilla": false,
-      "dimensions": [
-        "minecraft:the_nether"
-      ]
-    },
-    {
-      "id": "mns:giant_skull",
-      "displayName": "Giant Skull",
-      "isVanilla": false,
-      "dimensions": [
-        "minecraft:the_nether"
-      ]
-    },
-    {
-      "id": "mns:grave_yard",
-      "displayName": "Grave Yard",
-      "isVanilla": false,
-      "dimensions": [
-        "minecraft:the_nether"
-      ]
-    },
-    {
-      "id": "mns:large_blackstone_pillars",
-      "displayName": "Large Blackstone Pillars",
-      "isVanilla": false,
-      "dimensions": [
-        "minecraft:the_nether"
-      ]
-    },
-    {
-      "id": "mns:large_blackstone_walls",
-      "displayName": "Large Blackstone Walls",
-      "isVanilla": false,
-      "dimensions": [
-        "minecraft:the_nether"
-      ]
-    },
-    {
-      "id": "mns:large_nether_brick",
-      "displayName": "Large Nether Brick",
-      "isVanilla": false,
-      "dimensions": [
-        "minecraft:the_nether"
-      ]
-    },
-    {
-      "id": "mns:lava_pool",
-      "displayName": "Lava Pool",
-      "isVanilla": false,
-      "dimensions": [
-        "minecraft:the_nether"
-      ]
-    },
-    {
-      "id": "mns:leafy_rubble",
-      "displayName": "Leafy Rubble",
-      "isVanilla": false,
-      "dimensions": [
-        "minecraft:the_nether"
-      ]
-    },
-    {
-      "id": "mns:medium_blackstone",
-      "displayName": "Medium Blackstone",
-      "isVanilla": false,
-      "dimensions": [
-        "minecraft:the_nether"
-      ]
-    },
-    {
-      "id": "mns:medium_crimson_fungus",
-      "displayName": "Medium Crimson Fungus",
-      "isVanilla": false,
-      "dimensions": [
-        "minecraft:the_nether"
-      ]
-    },
-    {
-      "id": "mns:medium_crimson_fungus_2",
-      "displayName": "Medium Crimson Fungus 2",
-      "isVanilla": false,
-      "dimensions": [
-        "minecraft:the_nether"
-      ]
-    },
-    {
-      "id": "mns:medium_crimson_well",
-      "displayName": "Medium Crimson Well",
-      "isVanilla": false,
-      "dimensions": [
-        "minecraft:the_nether"
-      ]
-    },
-    {
-      "id": "mns:medium_house",
-      "displayName": "Medium House",
-      "isVanilla": false,
-      "dimensions": [
-        "minecraft:the_nether"
-      ]
-    },
-    {
-      "id": "mns:medium_house_2",
-      "displayName": "Medium House 2",
-      "isVanilla": false,
-      "dimensions": [
-        "minecraft:the_nether"
-      ]
-    },
-    {
-      "id": "mns:medium_warped_fungus",
-      "displayName": "Medium Warped Fungus",
-      "isVanilla": false,
-      "dimensions": [
-        "minecraft:the_nether"
-      ]
-    },
-    {
-      "id": "mns:medium_warped_fungus_2",
-      "displayName": "Medium Warped Fungus 2",
-      "isVanilla": false,
-      "dimensions": [
-        "minecraft:the_nether"
-      ]
-    },
-    {
-      "id": "mns:medium_warped_well",
-      "displayName": "Medium Warped Well",
-      "isVanilla": false,
-      "dimensions": [
-        "minecraft:the_nether"
-      ]
-    },
-    {
-      "id": "mns:ruined_portal",
-      "displayName": "Ruined Portal",
-      "isVanilla": false,
-      "dimensions": [
-        "minecraft:the_nether"
-      ]
-    },
-    {
-      "id": "mns:sandy_skull",
-      "displayName": "Sandy Skull",
-      "isVanilla": false,
-      "dimensions": [
-        "minecraft:the_nether"
-      ]
-    },
-    {
-      "id": "mns:shrine",
-      "displayName": "Shrine",
-      "isVanilla": false,
-      "dimensions": [
-        "minecraft:the_nether"
-      ]
-    },
-    {
-      "id": "mns:small_nether_brick",
-      "displayName": "Small Nether Brick",
-      "isVanilla": false,
-      "dimensions": [
-        "minecraft:the_nether"
-      ]
-    },
-    {
-      "id": "mns:smoking_shrine",
-      "displayName": "Smoking Shrine",
-      "isVanilla": false,
-      "dimensions": [
-        "minecraft:the_nether"
-      ]
-    },
-    {
-      "id": "mns:soul_fire",
-      "displayName": "Soul Fire",
-      "isVanilla": false,
-      "dimensions": [
-        "minecraft:the_nether"
-      ]
-    },
-    {
-      "id": "mns:sword",
-      "displayName": "Sword",
-      "isVanilla": false,
-      "dimensions": [
-        "minecraft:the_nether"
-      ]
-    },
-    {
-      "id": "mns:train",
-      "displayName": "Train",
-      "isVanilla": false,
-      "dimensions": [
-        "minecraft:the_nether"
-      ]
-    },
-    {
-      "id": "mns:very_small_blackstone",
-      "displayName": "Very Small Blackstone",
-      "isVanilla": false,
-      "dimensions": [
-        "minecraft:the_nether"
-      ]
-    },
-    {
-      "id": "mns:very_small_blackstone_2",
-      "displayName": "Very Small Blackstone 2",
-      "isVanilla": false,
-      "dimensions": [
-        "minecraft:the_nether"
-      ]
-    },
-    {
-      "id": "mns:very_small_blackstone_3",
-      "displayName": "Very Small Blackstone 3",
-      "isVanilla": false,
-      "dimensions": [
-        "minecraft:the_nether"
-      ]
-    },
-    {
-      "id": "mns:very_small_blackstone_4",
-      "displayName": "Very Small Blackstone 4",
-      "isVanilla": false,
-      "dimensions": [
-        "minecraft:the_nether"
-      ]
-    },
-    {
-      "id": "mns:very_small_nether_brick",
-      "displayName": "Very Small Nether Brick",
-      "isVanilla": false,
-      "dimensions": [
-        "minecraft:the_nether"
-      ]
-    },
-    {
-      "id": "mns:very_small_nether_brick_2",
-      "displayName": "Very Small Nether Brick 2",
-      "isVanilla": false,
-      "dimensions": [
-        "minecraft:the_nether"
-      ]
-    },
-    {
-      "id": "mns:very_small_nether_brick_3",
-      "displayName": "Very Small Nether Brick 3",
-      "isVanilla": false,
-      "dimensions": [
-        "minecraft:the_nether"
-      ]
-    },
-    {
-      "id": "mns:warped_dome",
-      "displayName": "Warped Dome",
-      "isVanilla": false,
-      "dimensions": [
-        "minecraft:the_nether"
-      ]
-    },
-    {
-      "id": "mns:warped_pool",
-      "displayName": "Warped Pool",
-      "isVanilla": false,
-      "dimensions": [
-        "minecraft:the_nether"
-      ]
-    },
-    {
       "id": "monster_hunter_villager:hunters_tent_blue",
       "displayName": "Hunters Tent Blue",
       "isVanilla": false,
@@ -4097,46 +3314,6 @@
       "displayName": "Hunters Tent White",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld",
-        "graveyard:past"
-      ]
-    },
-    {
-      "id": "mowziesmobs:frostmaw_spawn",
-      "displayName": "Frostmaw Spawn",
-      "isVanilla": false,
-      "dimensions": [
-        "irons_spellbooks:pocket_dimension",
-        "minecraft:overworld",
-        "graveyard:past"
-      ]
-    },
-    {
-      "id": "mowziesmobs:monastery",
-      "displayName": "Monastery",
-      "isVanilla": false,
-      "dimensions": [
-        "irons_spellbooks:pocket_dimension",
-        "minecraft:overworld",
-        "graveyard:past"
-      ]
-    },
-    {
-      "id": "mowziesmobs:umvuthana_grove",
-      "displayName": "Umvuthana Grove",
-      "isVanilla": false,
-      "dimensions": [
-        "irons_spellbooks:pocket_dimension",
-        "minecraft:overworld",
-        "graveyard:past"
-      ]
-    },
-    {
-      "id": "mowziesmobs:wrought_chamber",
-      "displayName": "Wrought Chamber",
-      "isVanilla": false,
-      "dimensions": [
-        "irons_spellbooks:pocket_dimension",
         "minecraft:overworld",
         "graveyard:past"
       ]
@@ -4427,41 +3604,6 @@
       "dimensions": [
         "minecraft:overworld",
         "graveyard:past"
-      ]
-    },
-    {
-      "id": "mythsandlegends:ancient_vestiges",
-      "displayName": "Ancient Vestiges",
-      "isVanilla": false,
-      "dimensions": [
-        "minecraft:overworld",
-        "graveyard:past"
-      ]
-    },
-    {
-      "id": "mythsandlegends:graveyard",
-      "displayName": "Graveyard",
-      "isVanilla": false,
-      "dimensions": [
-        "minecraft:overworld",
-        "graveyard:past"
-      ]
-    },
-    {
-      "id": "mythsandlegends:old_camp",
-      "displayName": "Old Camp",
-      "isVanilla": false,
-      "dimensions": [
-        "minecraft:overworld",
-        "graveyard:past"
-      ]
-    },
-    {
-      "id": "mythsandlegends:scorched_nest",
-      "displayName": "Scorched Nest",
-      "isVanilla": false,
-      "dimensions": [
-        "minecraft:the_nether"
       ]
     },
     {
@@ -5215,8 +4357,8 @@
       ]
     },
     {
-      "id": "soulsweapons:cathedral_of_resurrection",
-      "displayName": "Cathedral Of Resurrection",
+      "id": "shellbound_for_airship:airship",
+      "displayName": "Airship",
       "isVanilla": false,
       "dimensions": [
         "minecraft:overworld",
@@ -5224,8 +4366,8 @@
       ]
     },
     {
-      "id": "soulsweapons:champions_graves",
-      "displayName": "Champions Graves",
+      "id": "shellbound_for_airship:airship_ship1",
+      "displayName": "Airship Ship1",
       "isVanilla": false,
       "dimensions": [
         "minecraft:overworld",
@@ -5233,8 +4375,8 @@
       ]
     },
     {
-      "id": "soulsweapons:corrupt_altar",
-      "displayName": "Corrupt Altar",
+      "id": "shellbound_for_airship:airship_ship10",
+      "displayName": "Airship Ship10",
       "isVanilla": false,
       "dimensions": [
         "minecraft:overworld",
@@ -5242,11 +4384,75 @@
       ]
     },
     {
-      "id": "soulsweapons:decaying_kingdom",
-      "displayName": "Decaying Kingdom",
+      "id": "shellbound_for_airship:airship_ship2",
+      "displayName": "Airship Ship2",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:the_nether"
+        "minecraft:overworld",
+        "graveyard:past"
+      ]
+    },
+    {
+      "id": "shellbound_for_airship:airship_ship3",
+      "displayName": "Airship Ship3",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "graveyard:past"
+      ]
+    },
+    {
+      "id": "shellbound_for_airship:airship_ship4",
+      "displayName": "Airship Ship4",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "graveyard:past"
+      ]
+    },
+    {
+      "id": "shellbound_for_airship:airship_ship5",
+      "displayName": "Airship Ship5",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "graveyard:past"
+      ]
+    },
+    {
+      "id": "shellbound_for_airship:airship_ship6",
+      "displayName": "Airship Ship6",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "graveyard:past"
+      ]
+    },
+    {
+      "id": "shellbound_for_airship:airship_ship7",
+      "displayName": "Airship Ship7",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "graveyard:past"
+      ]
+    },
+    {
+      "id": "shellbound_for_airship:airship_ship8",
+      "displayName": "Airship Ship8",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "graveyard:past"
+      ]
+    },
+    {
+      "id": "shellbound_for_airship:airship_ship9",
+      "displayName": "Airship Ship9",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "graveyard:past"
       ]
     },
     {
@@ -6528,13 +5734,6 @@
       ]
     },
     {
-      "tagId": "legendary_monsters:abandoned_crypt_eye_located",
-      "displayName": "#Abandoned Crypt Eye Located",
-      "structureIds": [
-        "legendary_monsters:abandoned_crypt"
-      ]
-    },
-    {
       "tagId": "quark:acacia_chest_structures",
       "displayName": "#Acacia Chest Structures",
       "structureIds": [
@@ -6625,20 +5824,6 @@
       "displayName": "#Ancient Chest Structures",
       "structureIds": [
         "minecraft:ancient_city"
-      ]
-    },
-    {
-      "tagId": "legendary_monsters:ancient_stronghold_eye_located",
-      "displayName": "#Ancient Stronghold Eye Located",
-      "structureIds": [
-        "legendary_monsters:ancient_stronghold"
-      ]
-    },
-    {
-      "tagId": "legendary_monsters:ancient_tower_remains_eye_located",
-      "displayName": "#Ancient Tower Remains Eye Located",
-      "structureIds": [
-        "legendary_monsters:ancient_tower_remains"
       ]
     },
     {
@@ -6892,20 +6077,6 @@
       ]
     },
     {
-      "tagId": "soulsweapons:champions_graves",
-      "displayName": "#Champions Graves",
-      "structureIds": [
-        "soulsweapons:champions_graves"
-      ]
-    },
-    {
-      "tagId": "legendary_monsters:cloudy_temple_eye_located",
-      "displayName": "#Cloudy Temple Eye Located",
-      "structureIds": [
-        "legendary_monsters:cloudy_temple"
-      ]
-    },
-    {
       "tagId": "nova_structures:conduit_ruin",
       "displayName": "#Conduit Ruin",
       "structureIds": [
@@ -6939,13 +6110,6 @@
       "structureIds": [
         "minecraft:mansion",
         "minecraft:pillager_outpost"
-      ]
-    },
-    {
-      "tagId": "soulsweapons:decaying_kingdom",
-      "displayName": "#Decaying Kingdom",
-      "structureIds": [
-        "soulsweapons:decaying_kingdom"
       ]
     },
     {
@@ -7096,13 +6260,6 @@
       ]
     },
     {
-      "tagId": "mowzies_cataclysm:eye_of_wrought_located",
-      "displayName": "#Eye Of Wrought Located",
-      "structureIds": [
-        "mowziesmobs:wrought_chamber"
-      ]
-    },
-    {
       "tagId": "nova_structures:firewatch_tower",
       "displayName": "#Firewatch Tower",
       "structureIds": [
@@ -7121,20 +6278,6 @@
       "structureIds": [
         "terralith:fortified_desert_village",
         "terralith:fortified_village"
-      ]
-    },
-    {
-      "tagId": "legendary_monsters:frostbitten_temple_eye_located",
-      "displayName": "#Frostbitten Temple Eye Located",
-      "structureIds": [
-        "legendary_monsters:frostbitten_temple"
-      ]
-    },
-    {
-      "tagId": "mowzies_cataclysm:frostmaw_eye_located",
-      "displayName": "#Frostmaw Eye Located",
-      "structureIds": [
-        "mowziesmobs:frostmaw_spawn"
       ]
     },
     {
@@ -7167,20 +6310,6 @@
       ]
     },
     {
-      "tagId": "dungeonnowloading:labyrinth",
-      "displayName": "#Labyrinth",
-      "structureIds": [
-        "dungeonnowloading:labyrinth"
-      ]
-    },
-    {
-      "tagId": "legendary_monsters:lava_eater_spawn_eye_located",
-      "displayName": "#Lava Eater Spawn Eye Located",
-      "structureIds": [
-        "legendary_monsters:lava_eater_spawn"
-      ]
-    },
-    {
       "tagId": "terralith:mage_towers",
       "displayName": "#Mage Towers",
       "structureIds": [
@@ -7193,26 +6322,11 @@
       ]
     },
     {
-      "tagId": "legendary_monsters:mossy_temple_eye_located",
-      "displayName": "#Mossy Temple Eye Located",
-      "structureIds": [
-        "legendary_monsters:mossy_temple"
-      ]
-    },
-    {
       "tagId": "quark:nether_brick_chest_structures",
       "displayName": "#Nether Brick Chest Structures",
       "structureIds": [
         "minecraft:fortress",
         "betterfortresses:fortress"
-      ]
-    },
-    {
-      "tagId": "dungeonnowloading:no_geodes",
-      "displayName": "#No Geodes",
-      "structureIds": [
-        "dungeonnowloading:labyrinth",
-        "dungeonnowloading:temple_of_duality"
       ]
     },
     {
@@ -7309,13 +6423,6 @@
       ]
     },
     {
-      "tagId": "aquamirae:outpost",
-      "displayName": "#Outpost",
-      "structureIds": [
-        "aquamirae:outpost"
-      ]
-    },
-    {
       "tagId": "quark:prismarine_chest_structures",
       "displayName": "#Prismarine Chest Structures",
       "structureIds": [
@@ -7352,13 +6459,6 @@
       ]
     },
     {
-      "tagId": "legendary_monsters:ruined_pyramid_eye_located",
-      "displayName": "#Ruined Pyramid Eye Located",
-      "structureIds": [
-        "legendary_monsters:ruined_pyramid"
-      ]
-    },
-    {
       "tagId": "1_splatus:sanctums",
       "displayName": "#Sanctums",
       "structureIds": [
@@ -7366,38 +6466,14 @@
       ]
     },
     {
-      "tagId": "mowzies_cataclysm:sculptor_eye_located",
-      "displayName": "#Sculptor Eye Located",
+      "tagId": "ivp:small_village",
+      "displayName": "#Small Village",
       "structureIds": [
-        "mowziesmobs:monastery"
-      ]
-    },
-    {
-      "tagId": "aquamirae:shelter",
-      "displayName": "#Shelter",
-      "structureIds": [
-        "aquamirae:shelter"
-      ]
-    },
-    {
-      "tagId": "aquamirae:ship",
-      "displayName": "#Ship",
-      "structureIds": [
-        "aquamirae:ship"
-      ]
-    },
-    {
-      "tagId": "legendary_monsters:shulker_tower_eye_located",
-      "displayName": "#Shulker Tower Eye Located",
-      "structureIds": [
-        "legendary_monsters:shulker_tower"
-      ]
-    },
-    {
-      "tagId": "legendary_monsters:skeletosaurus_nest_eye_located",
-      "displayName": "#Skeletosaurus Nest Eye Located",
-      "structureIds": [
-        "legendary_monsters:skeletosaurus_nest"
+        "ivp:small_village_desert",
+        "ivp:small_village_plains",
+        "ivp:small_village_savanna",
+        "ivp:small_village_snowy",
+        "ivp:small_village_taiga"
       ]
     },
     {
@@ -7409,24 +6485,10 @@
       ]
     },
     {
-      "tagId": "legendary_monsters:soul_fortress_remains_eye_located",
-      "displayName": "#Soul Fortress Remains Eye Located",
-      "structureIds": [
-        "legendary_monsters:soul_fortress_remains"
-      ]
-    },
-    {
       "tagId": "bosses_of_mass_destruction:soul_star_target",
       "displayName": "#Soul Star Target",
       "structureIds": [
         "bosses_of_mass_destruction:lich_tower"
-      ]
-    },
-    {
-      "tagId": "legendary_monsters:space_station_eye_located",
-      "displayName": "#Space Station Eye Located",
-      "structureIds": [
-        "legendary_monsters:space_station"
       ]
     },
     {
@@ -7444,24 +6506,52 @@
       ]
     },
     {
+      "tagId": "ivp:standard_village",
+      "displayName": "#Standard Village",
+      "structureIds": [
+        "minecraft:village_desert",
+        "minecraft:village_plains",
+        "minecraft:village_savanna",
+        "minecraft:village_snowy",
+        "minecraft:village_taiga",
+        "nova_structures:village_jungle",
+        "nova_structures:village_swamp",
+        "terralith:fortified_desert_village",
+        "terralith:fortified_village",
+        "towns_and_towers:exclusives/village_classic",
+        "towns_and_towers:exclusives/village_iberian",
+        "towns_and_towers:exclusives/village_mediterranean",
+        "towns_and_towers:exclusives/village_nilotic",
+        "towns_and_towers:exclusives/village_piglin",
+        "towns_and_towers:exclusives/village_rustic",
+        "towns_and_towers:exclusives/village_swedish",
+        "towns_and_towers:exclusives/village_tudor",
+        "towns_and_towers:exclusives/village_wandering_trader_camp",
+        "towns_and_towers:village_badlands",
+        "towns_and_towers:village_beach",
+        "towns_and_towers:village_birch_forest",
+        "towns_and_towers:village_flower_forest",
+        "towns_and_towers:village_forest",
+        "towns_and_towers:village_grove",
+        "towns_and_towers:village_jungle",
+        "towns_and_towers:village_meadow",
+        "towns_and_towers:village_mushroom_fields",
+        "towns_and_towers:village_ocean",
+        "towns_and_towers:village_old_growth_taiga",
+        "towns_and_towers:village_savanna_plateau",
+        "towns_and_towers:village_snowy_slopes",
+        "towns_and_towers:village_snowy_taiga",
+        "towns_and_towers:village_sparse_jungle",
+        "towns_and_towers:village_sunflower_plains",
+        "towns_and_towers:village_swamp",
+        "towns_and_towers:village_wooded_badlands"
+      ]
+    },
+    {
       "tagId": "nova_structures:stray_fort",
       "displayName": "#Stray Fort",
       "structureIds": [
         "nova_structures:stray_fort"
-      ]
-    },
-    {
-      "tagId": "mowzies_cataclysm:sun_eye_located",
-      "displayName": "#Sun Eye Located",
-      "structureIds": [
-        "mowziesmobs:umvuthana_grove"
-      ]
-    },
-    {
-      "tagId": "dungeonnowloading:temple_of_duality",
-      "displayName": "#Temple Of Duality",
-      "structureIds": [
-        "dungeonnowloading:temple_of_duality"
       ]
     },
     {

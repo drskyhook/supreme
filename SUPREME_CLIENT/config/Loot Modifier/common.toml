@@ -1,0 +1,34 @@
+
+#Loot Modifier Configuration
+[general]
+	#This is where the global setting are this is a separate config to control the others.
+	#If for some reason the caching fails in your modpack set this to true, you might notice if there is another modifier or global modifier they might clash, then modification only works with generating the tables every run.
+	#For debugging purposes, if your are testing settings, and don't want delete the cache folder each time set this to true.
+	byPassCache = false
+	#Disable Login Message: Missing Cached Loot Tables Cache.
+	disableLoginMessage = false
+	#For debugging purposes, it prints more information, for the first times is very useful to tell what table failed or what happened in case of any failure, and then disable it.
+	logDebugs = true
+	#Normal information about modified loot tables or other common problems, set to false for clean log once you know everything is set and normal you don't want log each time you open a world, which is fine does no harm.
+	logInfo = true
+
+[restricted_modification]
+	#Use this for performance sake, by default the mod only modifies chest loot_tables for the other you can set here.
+	#For each type: if you want modify all leave it empty like this [].
+	#if you want to only modify nothing add an empty or meaning less string like this [""] ["unknown_namespace"].
+	#if want to modify only a specific namespace only, set it like this ["minecraft"], this will only do minecraft.
+	#Only Chests Tables
+	chestsOnly = []
+	#Only Entities Tables
+	entitiesOnly = ["unknown_namespace"]
+	#Only Gameplay Tables
+	gameplayOnly = ["unknown_namespace"]
+	#Only Blocks Tables
+	blocksOnly = ["unknown_namespace"]
+	#Only Archaeology Tables
+	archaeologyOnly = ["unknown_namespace"]
+	#Only Advancements Tables
+	advancementsOnly = ["unknown_namespace"]
+	#Only Empty Tables
+	emptyOnly = ["unknown_namespace"]
+

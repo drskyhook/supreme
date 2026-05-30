@@ -1,0 +1,32 @@
+{
+  "biomes": [
+    [
+      {
+        "type": "BIOME_TAG",
+        "negate": false,
+        "value": "forge:is_swamp"
+      }
+    ],
+    [
+      {
+        "type": "REGISTRY_NAME",
+        "negate": true,
+        "value": "minecraft:mangrove_swamp"
+      }
+    ],
+    [
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "minecraft:lush_caves"
+      }
+    ],
+    [
+      {
+        "type": "BIOME_TAG",
+        "negate": true,
+        "value": "forge:no_default_monsters"
+      }
+    ]
+  ]
+}

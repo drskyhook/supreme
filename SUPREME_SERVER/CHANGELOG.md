@@ -298,6 +298,7 @@ does it tick?
 -remove improved village placement. no villages spawning in terralith world
 -remove sparse structures good enough on default. things got pretty sparse
 
+
 # 2026-03-29
 - hole filler mod
 - auroras - client side
@@ -313,37 +314,76 @@ remove vinery too long
 add grim kingdoms
 Fathomless Crimson 
 
-# 2026-04-01
-- planned update notes placeholder
-
-# 2026-04-02
-- planned update notes placeholder
-
 # 2026-04-03
+removed additional enchantments
+removed rad enchantments
+added majrusz enchants - configurable
+shellbound for airship
+
+# 2026-04-18
+- should get village placement flat again, some of these villages poor placement since getting road reaver (makes it easy to find villages so can add them sparse)
+- removed fathomless crimson too annoying
+
+# 2026-05-15
+raids enhanced
+darker depths
+updates
+
+# 2026-05-28
+
+updates
+delete wavey capes unecessary
+delete toolbelt
+legionary
+sky whale ship
+tans huge trees + performance optimizer
 
 
-# 2026-04-04
-- planned update notes placeholder
+--had to remove for some reason client side mods?
+irons_spellbooks-1.20.1-3.15.3.jar
+aquamirae-forge-1.20.1-6.1.2.jar
+lendersdelight-1.20.1-1.0.10.jar
+legendarymonsters-2.0.4 MC 1.20.1.jar
+and ice and fire spellbooks
+remved aquamirae combat
 
-# 2026-04-05
-- planned update notes placeholder
+removed l enders cataclysm spellbooks
+and l enders cataclysm spellbooks better combat from client
 
+
+# 2026-05-29
+ debugged irons lib bug all day
+
+# 2026-05-30
+fixed irons lib by removing all mods that were updated since april
+removed dynamic fps from client
+removed spellls and shields from client dont even know where i got that mod
+removed lily lucky lures and lets do api
+
+removed wither reincarnated
+
+
+# 2026-05-31
 
 
 # TODO/NOTES
 
 
-dark fantasy nordic toms / draugr 
-raids enhanced
-shellbound for airship
-ex meteor shower
+enderscape?
+
+Qliphoth Awakening
+
+
+myths of the sea (wasnt working w cerbon api)
+dark fantasy nordic tombs / draugr 
+ex meteor shower?
 dwarven automaton
 mahabels - dwarven
 mahabels - draugr 
 soul of cinder - 64 mb
 opposing force - 7 mb
+
 epic structures villages
-myths of the sea
 
 
 consider trade cycling cost exp
