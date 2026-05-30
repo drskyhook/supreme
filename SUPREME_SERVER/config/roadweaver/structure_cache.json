@@ -1213,6 +1213,51 @@
       ]
     },
     {
+      "id": "aquamirae:outpost",
+      "displayName": "Outpost",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "graveyard:past"
+      ]
+    },
+    {
+      "id": "aquamirae:shelter",
+      "displayName": "Shelter",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "graveyard:past"
+      ]
+    },
+    {
+      "id": "aquamirae:ship",
+      "displayName": "Ship",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "graveyard:past"
+      ]
+    },
+    {
+      "id": "aquamirae:surface/arch",
+      "displayName": "Surface/arch",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "graveyard:past"
+      ]
+    },
+    {
+      "id": "aquamirae:surface/spiral",
+      "displayName": "Surface/spiral",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "graveyard:past"
+      ]
+    },
+    {
       "id": "awesomedungeonend:end_castle_evoker",
       "displayName": "End Castle Evoker",
       "isVanilla": false,
@@ -1607,6 +1652,50 @@
     {
       "id": "betterwitchhuts:witch_hut",
       "displayName": "Witch Hut",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "graveyard:past"
+      ]
+    },
+    {
+      "id": "block_factorys_bosses:dragon_tower",
+      "displayName": "Dragon Tower",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "graveyard:past"
+      ]
+    },
+    {
+      "id": "block_factorys_bosses:kraken_ship",
+      "displayName": "Kraken Ship",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "graveyard:past"
+      ]
+    },
+    {
+      "id": "block_factorys_bosses:sandworm_nest",
+      "displayName": "Sandworm Nest",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "graveyard:past"
+      ]
+    },
+    {
+      "id": "block_factorys_bosses:underworld_arena",
+      "displayName": "Underworld Arena",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:the_nether"
+      ]
+    },
+    {
+      "id": "block_factorys_bosses:yeti_hideout",
+      "displayName": "Yeti Hideout",
       "isVanilla": false,
       "dimensions": [
         "minecraft:overworld",
@@ -6423,6 +6512,13 @@
       ]
     },
     {
+      "tagId": "aquamirae:outpost",
+      "displayName": "#Outpost",
+      "structureIds": [
+        "aquamirae:outpost"
+      ]
+    },
+    {
       "tagId": "quark:prismarine_chest_structures",
       "displayName": "#Prismarine Chest Structures",
       "structureIds": [
@@ -6463,6 +6559,20 @@
       "displayName": "#Sanctums",
       "structureIds": [
         "1_splatus:sanctum"
+      ]
+    },
+    {
+      "tagId": "aquamirae:shelter",
+      "displayName": "#Shelter",
+      "structureIds": [
+        "aquamirae:shelter"
+      ]
+    },
+    {
+      "tagId": "aquamirae:ship",
+      "displayName": "#Ship",
+      "structureIds": [
+        "aquamirae:ship"
       ]
     },
     {

@@ -360,7 +360,6 @@ removed dynamic fps from client
 removed spellls and shields from client dont even know where i got that mod
 removed lily lucky lures and lets do api
 
-removed wither reincarnated
 
 created a junction between curseforge profile folder and the client folder for this pack
 
