@@ -362,6 +362,8 @@ removed lily lucky lures and lets do api
 
 removed wither reincarnated
 
+created a junction between curseforge profile folder and the client folder for this pack
+
 
 # 2026-05-31
 
