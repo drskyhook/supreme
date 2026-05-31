@@ -3408,6 +3408,46 @@
       ]
     },
     {
+      "id": "mowziesmobs:frostmaw_spawn",
+      "displayName": "Frostmaw Spawn",
+      "isVanilla": false,
+      "dimensions": [
+        "irons_spellbooks:pocket_dimension",
+        "minecraft:overworld",
+        "graveyard:past"
+      ]
+    },
+    {
+      "id": "mowziesmobs:monastery",
+      "displayName": "Monastery",
+      "isVanilla": false,
+      "dimensions": [
+        "irons_spellbooks:pocket_dimension",
+        "minecraft:overworld",
+        "graveyard:past"
+      ]
+    },
+    {
+      "id": "mowziesmobs:umvuthana_grove",
+      "displayName": "Umvuthana Grove",
+      "isVanilla": false,
+      "dimensions": [
+        "irons_spellbooks:pocket_dimension",
+        "minecraft:overworld",
+        "graveyard:past"
+      ]
+    },
+    {
+      "id": "mowziesmobs:wrought_chamber",
+      "displayName": "Wrought Chamber",
+      "isVanilla": false,
+      "dimensions": [
+        "irons_spellbooks:pocket_dimension",
+        "minecraft:overworld",
+        "graveyard:past"
+      ]
+    },
+    {
       "id": "mss:birch_river",
       "displayName": "Birch River",
       "isVanilla": false,
@@ -6349,6 +6389,13 @@
       ]
     },
     {
+      "tagId": "mowzies_cataclysm:eye_of_wrought_located",
+      "displayName": "#Eye Of Wrought Located",
+      "structureIds": [
+        "mowziesmobs:wrought_chamber"
+      ]
+    },
+    {
       "tagId": "nova_structures:firewatch_tower",
       "displayName": "#Firewatch Tower",
       "structureIds": [
@@ -6367,6 +6414,13 @@
       "structureIds": [
         "terralith:fortified_desert_village",
         "terralith:fortified_village"
+      ]
+    },
+    {
+      "tagId": "mowzies_cataclysm:frostmaw_eye_located",
+      "displayName": "#Frostmaw Eye Located",
+      "structureIds": [
+        "mowziesmobs:frostmaw_spawn"
       ]
     },
     {
@@ -6562,6 +6616,13 @@
       ]
     },
     {
+      "tagId": "mowzies_cataclysm:sculptor_eye_located",
+      "displayName": "#Sculptor Eye Located",
+      "structureIds": [
+        "mowziesmobs:monastery"
+      ]
+    },
+    {
       "tagId": "aquamirae:shelter",
       "displayName": "#Shelter",
       "structureIds": [
@@ -6662,6 +6723,13 @@
       "displayName": "#Stray Fort",
       "structureIds": [
         "nova_structures:stray_fort"
+      ]
+    },
+    {
+      "tagId": "mowzies_cataclysm:sun_eye_located",
+      "displayName": "#Sun Eye Located",
+      "structureIds": [
+        "mowziesmobs:umvuthana_grove"
       ]
     },
     {
