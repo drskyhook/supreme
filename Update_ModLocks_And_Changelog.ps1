@@ -22,6 +22,39 @@ function Get-CurrentFile($path) {
     if (Test-Path $path) { Get-Content $path } else { @() }
 }
 
+function Get-SameDateBodies($lines, $pattern) {
+    $bodies = @()
+    $currentBody = @()
+    $inSection = $false
+
+    foreach ($line in $lines) {
+        if ($line -match $pattern) {
+            if ($inSection) {
+                $bodies += ($currentBody -join "`n").Trim()
+                $currentBody = @()
+            }
+            $inSection = $true
+            continue
+        }
+
+        if ($inSection) {
+            if ($line -match '^# ') {
+                $bodies += ($currentBody -join "`n").Trim()
+                $currentBody = @()
+                $inSection = $false
+            } else {
+                $currentBody += $line
+            }
+        }
+    }
+
+    if ($inSection) {
+        $bodies += ($currentBody -join "`n").Trim()
+    }
+
+    return $bodies
+}
+
 $existingChangelog = if (Test-Path $Changelog) { Get-Content $Changelog } else { @() }
 $headerPattern = "^# $Date(?: #\d+)?$"
 $existingCount = ($existingChangelog | Where-Object { $_ -match $headerPattern }).Count
@@ -37,15 +70,14 @@ if ($existingCount -gt 0) {
         }
     }
 
-    if (-not ($rewritten -join "`n" -eq $existingChangelog -join "`n")) {
-        Set-Content $Changelog $rewritten
-    }
+    Set-Content $Changelog $rewritten
 
-    $entry = "`n# $Date #$($existingCount + 1)`n"
+    $entryHeader = "# $Date #$($existingCount + 1)"
 } else {
-    $entry = "`n# $Date`n"
+    $entryHeader = "# $Date"
 }
 
+$entry = "`n$entryHeader`n"
 $hasChanges = $false
 
 foreach ($lock in $Locks) {
@@ -78,8 +110,16 @@ foreach ($lock in $Locks) {
 }
 
 if ($hasChanges) {
-    Add-Content $Changelog $entry
-    Write-Host "Changelog updated."
+    $entryLines = $entry -split "`n"
+    $entryBody = if ($entryLines.Length -gt 1) { ($entryLines[1..($entryLines.Length - 1)] -join "`n").Trim() } else { "" }
+    $existingBodies = Get-SameDateBodies $existingChangelog $headerPattern
+
+    if ($existingBodies -contains $entryBody) {
+        Write-Host "No new unique changelog entry; identical update already recorded."
+    } else {
+        Add-Content $Changelog $entry
+        Write-Host "Changelog updated."
+    }
 } else {
     Write-Host "No mod changes detected."
 }
