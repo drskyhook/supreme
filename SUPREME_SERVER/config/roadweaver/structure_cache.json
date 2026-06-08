@@ -1644,6 +1644,285 @@
       ]
     },
     {
+      "id": "born_in_chaos_v1:clown_caravan_plains",
+      "displayName": "Clown Caravan Plains",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "graveyard:past"
+      ]
+    },
+    {
+      "id": "born_in_chaos_v1:clown_caravan_savanna",
+      "displayName": "Clown Caravan Savanna",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "graveyard:past"
+      ]
+    },
+    {
+      "id": "born_in_chaos_v1:clown_caravan_taiga",
+      "displayName": "Clown Caravan Taiga",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "graveyard:past"
+      ]
+    },
+    {
+      "id": "born_in_chaos_v1:dark_tower_forest",
+      "displayName": "Dark Tower Forest",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "graveyard:past"
+      ]
+    },
+    {
+      "id": "born_in_chaos_v1:dark_tower_plain",
+      "displayName": "Dark Tower Plain",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "graveyard:past"
+      ]
+    },
+    {
+      "id": "born_in_chaos_v1:dark_tower_taiga",
+      "displayName": "Dark Tower Taiga",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "graveyard:past"
+      ]
+    },
+    {
+      "id": "born_in_chaos_v1:farm",
+      "displayName": "Farm",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "graveyard:past"
+      ]
+    },
+    {
+      "id": "born_in_chaos_v1:firewell",
+      "displayName": "Firewell",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "graveyard:past"
+      ]
+    },
+    {
+      "id": "born_in_chaos_v1:grave_2003wise",
+      "displayName": "Grave 2003wise",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "graveyard:past"
+      ]
+    },
+    {
+      "id": "born_in_chaos_v1:grave_2_dling",
+      "displayName": "Grave 2 Dling",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "graveyard:past"
+      ]
+    },
+    {
+      "id": "born_in_chaos_v1:grave_d_4rk_devil_x",
+      "displayName": "Grave D 4rk Devil X",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "graveyard:past"
+      ]
+    },
+    {
+      "id": "born_in_chaos_v1:grave_darktitan",
+      "displayName": "Grave Darktitan",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "graveyard:past"
+      ]
+    },
+    {
+      "id": "born_in_chaos_v1:grave_derivas",
+      "displayName": "Grave Derivas",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "graveyard:past"
+      ]
+    },
+    {
+      "id": "born_in_chaos_v1:grave_euthymia",
+      "displayName": "Grave Euthymia",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "graveyard:past"
+      ]
+    },
+    {
+      "id": "born_in_chaos_v1:grave_feral",
+      "displayName": "Grave Feral",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "graveyard:past"
+      ]
+    },
+    {
+      "id": "born_in_chaos_v1:grave_fubuki_banzai",
+      "displayName": "Grave Fubuki Banzai",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "graveyard:past"
+      ]
+    },
+    {
+      "id": "born_in_chaos_v1:grave_memesus",
+      "displayName": "Grave Memesus",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "graveyard:past"
+      ]
+    },
+    {
+      "id": "born_in_chaos_v1:grave_mike_and_rory",
+      "displayName": "Grave Mike And Rory",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "graveyard:past"
+      ]
+    },
+    {
+      "id": "born_in_chaos_v1:grave_nino_4416",
+      "displayName": "Grave Nino 4416",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "graveyard:past"
+      ]
+    },
+    {
+      "id": "born_in_chaos_v1:grave_orion",
+      "displayName": "Grave Orion",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "graveyard:past"
+      ]
+    },
+    {
+      "id": "born_in_chaos_v1:grave_petasi",
+      "displayName": "Grave Petasi",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "graveyard:past"
+      ]
+    },
+    {
+      "id": "born_in_chaos_v1:grave_plug",
+      "displayName": "Grave Plug",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "graveyard:past"
+      ]
+    },
+    {
+      "id": "born_in_chaos_v1:grave_rotborne",
+      "displayName": "Grave Rotborne",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "graveyard:past"
+      ]
+    },
+    {
+      "id": "born_in_chaos_v1:grave_somfunambulist",
+      "displayName": "Grave Somfunambulist",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "graveyard:past"
+      ]
+    },
+    {
+      "id": "born_in_chaos_v1:grave_tem_187",
+      "displayName": "Grave Tem 187",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "graveyard:past"
+      ]
+    },
+    {
+      "id": "born_in_chaos_v1:grave_the_gentleman_frog",
+      "displayName": "Grave The Gentleman Frog",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "graveyard:past"
+      ]
+    },
+    {
+      "id": "born_in_chaos_v1:gravecarrionexe",
+      "displayName": "Gravecarrionexe",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "graveyard:past"
+      ]
+    },
+    {
+      "id": "born_in_chaos_v1:infernal_pumpkin",
+      "displayName": "Infernal Pumpkin",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "graveyard:past"
+      ]
+    },
+    {
+      "id": "born_in_chaos_v1:mound_of_hounds",
+      "displayName": "Mound Of Hounds",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "graveyard:past"
+      ]
+    },
+    {
+      "id": "born_in_chaos_v1:observation_tower_forest",
+      "displayName": "Observation Tower Forest",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "graveyard:past"
+      ]
+    },
+    {
+      "id": "born_in_chaos_v1:observation_tower_plains",
+      "displayName": "Observation Tower Plains",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "graveyard:past"
+      ]
+    },
+    {
       "id": "bosses_of_mass_destruction:gauntlet_arena",
       "displayName": "Gauntlet Arena",
       "isVanilla": false,
@@ -1840,6 +2119,50 @@
       "dimensions": [
         "minecraft:overworld",
         "graveyard:past"
+      ]
+    },
+    {
+      "id": "companions:companions_babayaga",
+      "displayName": "Companions Babayaga",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "graveyard:past"
+      ]
+    },
+    {
+      "id": "companions:companions_factory",
+      "displayName": "Companions Factory",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "graveyard:past"
+      ]
+    },
+    {
+      "id": "companions:companions_monkey_temple",
+      "displayName": "Companions Monkey Temple",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "graveyard:past"
+      ]
+    },
+    {
+      "id": "companions:companions_teddytower",
+      "displayName": "Companions Teddytower",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "graveyard:past"
+      ]
+    },
+    {
+      "id": "companions:companions_tent",
+      "displayName": "Companions Tent",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:the_nether"
       ]
     },
     {

@@ -592,3 +592,22 @@
 ### Removed
 - reliquary-1.20.1-2.0.58.1473.jar
 
+
+# 2026-06-08 #19
+
+## Server Mods
+
+### Added
+- born_in_chaos_[Forge]1.20.1_1.7.5.jar
+- borninconfiguration-3.2.1[FORGE].jar
+- companions-forge-1.20.1-1.2.3.jar
+- knightlib-forge-1.20.1-1.5.1.jar
+
+## Client Mods
+
+### Added
+- born_in_chaos_[Forge]1.20.1_1.7.5.jar
+- borninconfiguration-3.2.1[FORGE].jar
+- companions-forge-1.20.1-1.2.3.jar
+- knightlib-forge-1.20.1-1.5.1.jar
+
