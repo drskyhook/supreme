@@ -2868,6 +2868,40 @@
       ]
     },
     {
+      "id": "darkerdepths:catacombs",
+      "displayName": "Catacombs",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "darkerdepths:petrified_mineshaft",
+      "displayName": "Petrified Mineshaft",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "darkerdepths:rope_mine_desert",
+      "displayName": "Rope Mine Desert",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "graveyard:past"
+      ]
+    },
+    {
+      "id": "darkerdepths:rope_mine_forest",
+      "displayName": "Rope Mine Forest",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "graveyard:past"
+      ]
+    },
+    {
       "id": "deeperdarker:ancient_temple",
       "displayName": "Ancient Temple",
       "isVanilla": false,
@@ -2878,6 +2912,24 @@
     {
       "id": "dungeoncrawl:dungeon",
       "displayName": "Dungeon",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "graveyard:past"
+      ]
+    },
+    {
+      "id": "dungeonnowloading:labyrinth",
+      "displayName": "Labyrinth",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "graveyard:past"
+      ]
+    },
+    {
+      "id": "dungeonnowloading:temple_of_duality",
+      "displayName": "Temple Of Duality",
       "isVanilla": false,
       "dimensions": [
         "minecraft:overworld",
@@ -3439,6 +3491,150 @@
       "displayName": "Undergarden Sea",
       "isVanilla": false,
       "dimensions": []
+    },
+    {
+      "id": "floating_islands:amethyst_island",
+      "displayName": "Amethyst Island",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "graveyard:past"
+      ]
+    },
+    {
+      "id": "floating_islands:camp_island",
+      "displayName": "Camp Island",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "graveyard:past"
+      ]
+    },
+    {
+      "id": "floating_islands:cemetery_island",
+      "displayName": "Cemetery Island",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "graveyard:past"
+      ]
+    },
+    {
+      "id": "floating_islands:cherry_island_with_shrine",
+      "displayName": "Cherry Island With Shrine",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "graveyard:past"
+      ]
+    },
+    {
+      "id": "floating_islands:drifting_island",
+      "displayName": "Drifting Island",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "graveyard:past"
+      ]
+    },
+    {
+      "id": "floating_islands:floating_rocks",
+      "displayName": "Floating Rocks",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "graveyard:past"
+      ]
+    },
+    {
+      "id": "floating_islands:flower_island2",
+      "displayName": "Flower Island2",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "graveyard:past"
+      ]
+    },
+    {
+      "id": "floating_islands:hut_with_waystone",
+      "displayName": "Hut With Waystone",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "graveyard:past"
+      ]
+    },
+    {
+      "id": "floating_islands:nether_island",
+      "displayName": "Nether Island",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "graveyard:past"
+      ]
+    },
+    {
+      "id": "floating_islands:paradise_island",
+      "displayName": "Paradise Island",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "graveyard:past"
+      ]
+    },
+    {
+      "id": "floating_islands:pillager_camp",
+      "displayName": "Pillager Camp",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "graveyard:past"
+      ]
+    },
+    {
+      "id": "floating_islands:shrine",
+      "displayName": "Shrine",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "graveyard:past"
+      ]
+    },
+    {
+      "id": "floating_islands:spider_ruin",
+      "displayName": "Spider Ruin",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "graveyard:past"
+      ]
+    },
+    {
+      "id": "floating_islands:steampunk_island",
+      "displayName": "Steampunk Island",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "graveyard:past"
+      ]
+    },
+    {
+      "id": "floating_islands:tower_island",
+      "displayName": "Tower Island",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "graveyard:past"
+      ]
+    },
+    {
+      "id": "floating_islands:villager_island",
+      "displayName": "Villager Island",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "graveyard:past"
+      ]
     },
     {
       "id": "friendsandfoes:citadel",
@@ -5269,6 +5465,32 @@
       ]
     },
     {
+      "id": "paraglider:nether_horned_statue",
+      "displayName": "Nether Horned Statue",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:the_nether"
+      ]
+    },
+    {
+      "id": "paraglider:tarrey_town_goddess_statue",
+      "displayName": "Tarrey Town Goddess Statue",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "graveyard:past"
+      ]
+    },
+    {
+      "id": "paraglider:underground_horned_statue",
+      "displayName": "Underground Horned Statue",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "graveyard:past"
+      ]
+    },
+    {
       "id": "realmrpg_quests:anglers",
       "displayName": "Anglers",
       "isVanilla": false,
@@ -5874,6 +6096,185 @@
         "minecraft:overworld",
         "graveyard:past"
       ]
+    },
+    {
+      "id": "totw_additions:end_tower",
+      "displayName": "End Tower",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:the_end"
+      ]
+    },
+    {
+      "id": "totw_additions:nether_tower",
+      "displayName": "Nether Tower",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:the_nether"
+      ]
+    },
+    {
+      "id": "totw_modded:aether",
+      "displayName": "Aether",
+      "isVanilla": false,
+      "dimensions": []
+    },
+    {
+      "id": "totw_modded:badlands",
+      "displayName": "Badlands",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "graveyard:past"
+      ]
+    },
+    {
+      "id": "totw_modded:derelict",
+      "displayName": "Derelict",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "graveyard:past"
+      ]
+    },
+    {
+      "id": "totw_modded:derelict_grass",
+      "displayName": "Derelict Grass",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "graveyard:past"
+      ]
+    },
+    {
+      "id": "totw_modded:desert",
+      "displayName": "Desert",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "graveyard:past"
+      ]
+    },
+    {
+      "id": "totw_modded:end",
+      "displayName": "End",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:the_end"
+      ]
+    },
+    {
+      "id": "totw_modded:everbright",
+      "displayName": "Everbright",
+      "isVanilla": false,
+      "dimensions": []
+    },
+    {
+      "id": "totw_modded:everdawn",
+      "displayName": "Everdawn",
+      "isVanilla": false,
+      "dimensions": []
+    },
+    {
+      "id": "totw_modded:glacio",
+      "displayName": "Glacio",
+      "isVanilla": false,
+      "dimensions": []
+    },
+    {
+      "id": "totw_modded:ice",
+      "displayName": "Ice",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "graveyard:past"
+      ]
+    },
+    {
+      "id": "totw_modded:jungle",
+      "displayName": "Jungle",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "graveyard:past"
+      ]
+    },
+    {
+      "id": "totw_modded:mars",
+      "displayName": "Mars",
+      "isVanilla": false,
+      "dimensions": []
+    },
+    {
+      "id": "totw_modded:mercury",
+      "displayName": "Mercury",
+      "isVanilla": false,
+      "dimensions": []
+    },
+    {
+      "id": "totw_modded:moon",
+      "displayName": "Moon",
+      "isVanilla": false,
+      "dimensions": []
+    },
+    {
+      "id": "totw_modded:nether",
+      "displayName": "Nether",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:the_nether"
+      ]
+    },
+    {
+      "id": "totw_modded:ocean",
+      "displayName": "Ocean",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "graveyard:past"
+      ]
+    },
+    {
+      "id": "totw_modded:ocean_warm",
+      "displayName": "Ocean Warm",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "graveyard:past"
+      ]
+    },
+    {
+      "id": "totw_modded:ratlantis",
+      "displayName": "Ratlantis",
+      "isVanilla": false,
+      "dimensions": []
+    },
+    {
+      "id": "totw_modded:regular",
+      "displayName": "Regular",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "graveyard:past"
+      ]
+    },
+    {
+      "id": "totw_modded:tw_canopy",
+      "displayName": "Tw Canopy",
+      "isVanilla": false,
+      "dimensions": []
+    },
+    {
+      "id": "totw_modded:tw_mangrove",
+      "displayName": "Tw Mangrove",
+      "isVanilla": false,
+      "dimensions": []
+    },
+    {
+      "id": "totw_modded:venus",
+      "displayName": "Venus",
+      "isVanilla": false,
+      "dimensions": []
     },
     {
       "id": "towns_and_towers:exclusives/pillager_outpost_classic",
@@ -7624,6 +8025,13 @@
       ]
     },
     {
+      "tagId": "dungeonnowloading:labyrinth",
+      "displayName": "#Labyrinth",
+      "structureIds": [
+        "dungeonnowloading:labyrinth"
+      ]
+    },
+    {
       "tagId": "ctov:large_village",
       "displayName": "#Large Village",
       "structureIds": [
@@ -7695,6 +8103,14 @@
       "structureIds": [
         "minecraft:fortress",
         "betterfortresses:fortress"
+      ]
+    },
+    {
+      "tagId": "dungeonnowloading:no_geodes",
+      "displayName": "#No Geodes",
+      "structureIds": [
+        "dungeonnowloading:labyrinth",
+        "dungeonnowloading:temple_of_duality"
       ]
     },
     {
@@ -8056,6 +8472,13 @@
       "displayName": "#Sun Eye Located",
       "structureIds": [
         "mowziesmobs:umvuthana_grove"
+      ]
+    },
+    {
+      "tagId": "dungeonnowloading:temple_of_duality",
+      "displayName": "#Temple Of Duality",
+      "structureIds": [
+        "dungeonnowloading:temple_of_duality"
       ]
     },
     {
