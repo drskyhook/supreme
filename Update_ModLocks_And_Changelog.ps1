@@ -22,7 +22,30 @@ function Get-CurrentFile($path) {
     if (Test-Path $path) { Get-Content $path } else { @() }
 }
 
-$entry = "`n# $Date`n"
+$existingChangelog = if (Test-Path $Changelog) { Get-Content $Changelog } else { @() }
+$headerPattern = "^# $Date(?: #\d+)?$"
+$existingCount = ($existingChangelog | Where-Object { $_ -match $headerPattern }).Count
+
+if ($existingCount -gt 0) {
+    $counter = 0
+    $rewritten = $existingChangelog | ForEach-Object {
+        if ($_ -match $headerPattern) {
+            $counter++
+            "# $Date #$counter"
+        } else {
+            $_
+        }
+    }
+
+    if (-not ($rewritten -join "`n" -eq $existingChangelog -join "`n")) {
+        Set-Content $Changelog $rewritten
+    }
+
+    $entry = "`n# $Date #$($existingCount + 1)`n"
+} else {
+    $entry = "`n# $Date`n"
+}
+
 $hasChanges = $false
 
 foreach ($lock in $Locks) {
