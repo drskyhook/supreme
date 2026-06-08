@@ -103,3 +103,23 @@
 - moonlight-1.20-2.16.32-forge.jar
 - reliquary-1.20.1-2.0.57.1468.jar
 
+
+# 2026-06-08
+
+## Server Mods
+
+### Added
+- Galosphere-1.20.1-1.5.2-Forge.jar
+- irons_spellbooks-1.20.1-3.15.2.jar
+- L_Enders_Cataclysm-3.29.jar
+- moonlight-1.20-2.16.33-forge.jar
+
+## Client Mods
+
+### Added
+- collective-1.20.1-8.25.jar
+- Galosphere-1.20.1-1.5.2-Forge.jar
+- irons_spellbooks-1.20.1-3.15.2.jar
+- L_Enders_Cataclysm-3.29.jar
+- moonlight-1.20-2.16.33-forge.jar
+

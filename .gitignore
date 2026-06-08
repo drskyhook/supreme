@@ -110,3 +110,5 @@ SUPREME_SERVER/forge-*-installer.jar.log
 
 # If you keep disabled mods as a parking lot, ignore it
 SUPREME_SERVER/mods_disabled/
+SUPREME_CLIENT/.mixin.out/
+SUPREME_CLIENT/minecraftinstance.json

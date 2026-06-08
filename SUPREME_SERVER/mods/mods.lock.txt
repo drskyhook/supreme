@@ -128,6 +128,7 @@ ftb-teams-forge-2001.3.2.jar
 functionalarmortrim-1.20.1-6.jar
 gallery-1.20.1-1.0.3.jar
 galosphere_spellbooks-1.1.2.jar
+Galosphere-1.20.1-1.5.2-Forge.jar
 geckolib-forge-1.20.1-4.8.3.jar
 GlitchCore-forge-1.20.1-0.0.1.1.jar
 goblintraders-forge-1.20.1-1.11.5.jar
@@ -164,6 +165,7 @@ incontrol-1.20-9.4.6.jar
 inventorysorter-1.20.1-23.0.11.jar
 ironchests-5.0.2-forge.jar
 ironladders-forge-1.20.1-3.0.01.jar
+irons_spellbooks-1.20.1-3.15.2.jar
 item-filters-forge-2001.1.0-build.59.jar
 Item-Obliterator-NeoForge-MC1.20.1-2.3.1.jar
 jamlib-forge-1.3.6+1.20.1-patch.1.jar
@@ -171,6 +173,7 @@ Kambrik-6.1.1+1.20.1-forge.jar
 Kiwi-1.20.1-Forge-11.10.2.jar
 kotlinforforge-4.12.0-all.jar
 kubejs-forge-2001.6.5-build.26.jar
+L_Enders_Cataclysm-3.29.jar
 lazyyyyy-lexforge-core-0.14.19.jar
 leather_to_rabbit_hide-1-forge-1.20.1.jar
 LeavesBeGone-v8.0.0-1.20.1-Forge.jar
@@ -200,6 +203,7 @@ mighty_mail-forge-1.20.1-1.1.4.jar
 misctweaks-1.1.4+1.20.1.jar
 Monster Hunter Villager 1.2.1-1.20.1.jar
 moogs_structure_lib-1.1.0-1.20-1.20.4-forge.jar
+moonlight-1.20-2.16.33-forge.jar
 More Villager Trades 1.0.0 - 1.20.1.jar
 morehitboxes-forge-1.20.1-1.9.2.jar
 morevillagers-forge-1.20.1-5.0.0.jar

@@ -924,17 +924,6 @@
         "value": 1
       }
     },
-    "irons_spellbooks:summon_damage": {
-      "enabled": false,
-      "min": {
-        "default": -100,
-        "value": -100
-      },
-      "max": {
-        "default": 100,
-        "value": 100
-      }
-    },
     "galosphere:illager_resistance": {
       "enabled": false,
       "min": {
@@ -944,6 +933,17 @@
       "max": {
         "default": 10,
         "value": 10
+      }
+    },
+    "irons_spellbooks:summon_damage": {
+      "enabled": false,
+      "min": {
+        "default": -100,
+        "value": -100
+      },
+      "max": {
+        "default": 100,
+        "value": 100
       }
     },
     "irons_spellbooks:eldritch_spell_power": {
