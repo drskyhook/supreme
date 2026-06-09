@@ -377,16 +377,23 @@ Qliphoth Awakening
 
 myths of the sea (wasnt working w cerbon api)
 dark fantasy nordic tombs / draugr 
-ex meteor shower?
+
 dwarven automaton
 mahabels - dwarven
 mahabels - draugr 
 soul of cinder - 64 mb
 opposing force - 7 mb
 
+kinora 
+bossiminum
+meet your fight
+eeeab bosses - 27 mb , would have to earn its keep
+alshanex familiars - 21 mb
+pillager & spillage - 32 mb, would have to earn its keep
+remnant bosses - 6 mb
+
+ex meteor shower?
 epic structures villages
-
-
 consider trade cycling cost exp
 remove biomes o plenty  (too many blocks + inventory spam payoff is low gameplay wise adds noise)
 legendary additions looks cool
@@ -407,10 +414,7 @@ Nifty Ships
 snbt files for bok's butterflies
 other villager quests
 
-eeeab bosses - 27 mb , would have to earn its keep
-alshanex familiars - 21 mb
-pillager & spillage - 32 mb, would have to earn its keep
-remnant bosses - 6 mb
+
 
 is there a mod that removes backpack from the back slot or 2 backslots?
 

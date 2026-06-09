@@ -766,3 +766,61 @@
 ### Added
 - block_factorys_bosses-2.1.2-forge-1.20.1.jar
 
+
+# 2026-06-08 #26
+
+## Server Mods
+
+### Added
+- farmersrespite-1.20.1-2.1.2.jar
+- letsdo-API-forge-1.2.15-forge.jar
+- letsdo-vinery-forge-1.4.41.jar
+
+### Removed
+- bountiful_npc-forge-1.20.1-1.0.5.jar
+- Bountiful-6.0.4+1.20.1-forge.jar
+- easydisenchanting-forge-1.0.1-1.20.1.jar
+- potionsmaster-1.20.1-47.1.70-0.6.0.jar
+
+## Client Mods
+
+### Added
+- farmersrespite-1.20.1-2.1.2.jar
+- letsdo-API-forge-1.2.15-forge.jar
+- letsdo-vinery-forge-1.4.41.jar
+
+### Removed
+- bountiful_npc-forge-1.20.1-1.0.5.jar
+- Bountiful-6.0.4+1.20.1-forge.jar
+- easydisenchanting-forge-1.0.1-1.20.1.jar
+- potionsmaster-1.20.1-47.1.70-0.6.0.jar
+
+
+# 2026-06-08 #27
+
+## Server Mods
+
+### Added
+- farmersrespite-1.20.1-2.1.2.jar
+- letsdo-API-forge-1.2.15-forge.jar
+- letsdo-vinery-forge-1.4.41.jar
+
+### Removed
+- bountiful_npc-forge-1.20.1-1.0.5.jar
+- Bountiful-6.0.4+1.20.1-forge.jar
+- easydisenchanting-forge-1.0.1-1.20.1.jar
+- potionsmaster-1.20.1-47.1.70-0.6.0.jar
+
+## Client Mods
+
+### Added
+- farmersrespite-1.20.1-2.1.2.jar
+- letsdo-API-forge-1.2.15-forge.jar
+- letsdo-vinery-forge-1.4.41.jar
+
+### Removed
+- bountiful_npc-forge-1.20.1-1.0.5.jar
+- Bountiful-6.0.4+1.20.1-forge.jar
+- easydisenchanting-forge-1.0.1-1.20.1.jar
+- potionsmaster-1.20.1-47.1.70-0.6.0.jar
+
