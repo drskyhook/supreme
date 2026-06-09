@@ -611,3 +611,56 @@
 - companions-forge-1.20.1-1.2.3.jar
 - knightlib-forge-1.20.1-1.5.1.jar
 
+
+# 2026-06-08 #20
+
+## Server Mods
+
+### Added
+- Darker Depths-1.20.1-2.1.4.jar
+- Dungeon Now Loading-forge-1.20.1-2.2.jar
+- floating_islands-1.4.9.jar
+- Paraglider-forge-20.1.3.jar
+- riverredux-0.3.1.jar
+- totw_additions-1.3.1-1.20.x-forge.jar
+- totw_modded-forge-1.20.1-1.0.6.jar
+
+## Client Mods
+
+### Added
+- Darker Depths-1.20.1-2.1.4.jar
+- Dungeon Now Loading-forge-1.20.1-2.2.jar
+- floating_islands-1.4.9.jar
+- Paraglider-forge-20.1.3.jar
+- riverredux-0.3.1.jar
+- totw_additions-1.3.1-1.20.x-forge.jar
+- totw_modded-forge-1.20.1-1.0.6.jar
+
+
+# 2026-06-08 #21
+
+## Server Mods
+
+### Added
+- azurelib-neo-1.20.1-3.1.10.jar
+- Darker Depths-1.20.1-2.1.4.jar
+- Dungeon Now Loading-forge-1.20.1-2.2.jar
+- floating_islands-1.4.9.jar
+- lendersdelight-1.20.1-1.0.10.jar
+- Paraglider-forge-20.1.3.jar
+- riverredux-0.3.1.jar
+- skillcloaks-1.20.1-1.2.4.1.jar
+- totw_additions-1.3.1-1.20.x-forge.jar
+- totw_modded-forge-1.20.1-1.0.6.jar
+
+## Client Mods
+
+### Added
+- Darker Depths-1.20.1-2.1.4.jar
+- Dungeon Now Loading-forge-1.20.1-2.2.jar
+- floating_islands-1.4.9.jar
+- Paraglider-forge-20.1.3.jar
+- riverredux-0.3.1.jar
+- totw_additions-1.3.1-1.20.x-forge.jar
+- totw_modded-forge-1.20.1-1.0.6.jar
+
