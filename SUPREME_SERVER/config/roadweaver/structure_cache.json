@@ -1689,6 +1689,50 @@
       ]
     },
     {
+      "id": "block_factorys_bosses:dragon_tower",
+      "displayName": "Dragon Tower",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "graveyard:past"
+      ]
+    },
+    {
+      "id": "block_factorys_bosses:kraken_ship",
+      "displayName": "Kraken Ship",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "graveyard:past"
+      ]
+    },
+    {
+      "id": "block_factorys_bosses:sandworm_nest",
+      "displayName": "Sandworm Nest",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "graveyard:past"
+      ]
+    },
+    {
+      "id": "block_factorys_bosses:underworld_arena",
+      "displayName": "Underworld Arena",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:the_nether"
+      ]
+    },
+    {
+      "id": "block_factorys_bosses:yeti_hideout",
+      "displayName": "Yeti Hideout",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "graveyard:past"
+      ]
+    },
+    {
       "id": "born_in_chaos_v1:clown_caravan_plains",
       "displayName": "Clown Caravan Plains",
       "isVanilla": false,

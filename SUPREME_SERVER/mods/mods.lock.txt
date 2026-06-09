@@ -31,6 +31,7 @@ bettercombat-forge-1.9.0+1.20.1.jar
 betterfarmerscombat-1.2-1.20.1.jar
 BetterMultiplayerSleep 1.1.0.jar
 betterworldloading20-1.0.jar
+block_factorys_bosses-2.1.2-forge-1.20.1.jar
 blossom.jar
 blueprint-1.20.1-7.1.4.jar
 boatload-1.20.1-5.0.1.jar

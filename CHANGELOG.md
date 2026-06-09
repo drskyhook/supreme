@@ -753,3 +753,16 @@
 - yet_another_config_lib_v3-3.6.6+1.20.1-forge.jar
 - zombie_variants-forge-1.0.3-1.20.1.jar
 
+
+# 2026-06-08 #25
+
+## Server Mods
+
+### Added
+- block_factorys_bosses-2.1.2-forge-1.20.1.jar
+
+## Client Mods
+
+### Added
+- block_factorys_bosses-2.1.2-forge-1.20.1.jar
+
