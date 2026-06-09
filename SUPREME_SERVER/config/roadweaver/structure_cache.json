@@ -1213,6 +1213,51 @@
       ]
     },
     {
+      "id": "aquamirae:outpost",
+      "displayName": "Outpost",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "graveyard:past"
+      ]
+    },
+    {
+      "id": "aquamirae:shelter",
+      "displayName": "Shelter",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "graveyard:past"
+      ]
+    },
+    {
+      "id": "aquamirae:ship",
+      "displayName": "Ship",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "graveyard:past"
+      ]
+    },
+    {
+      "id": "aquamirae:surface/arch",
+      "displayName": "Surface/arch",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "graveyard:past"
+      ]
+    },
+    {
+      "id": "aquamirae:surface/spiral",
+      "displayName": "Surface/spiral",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "graveyard:past"
+      ]
+    },
+    {
       "id": "awesomedungeonend:end_castle_evoker",
       "displayName": "End Castle Evoker",
       "isVanilla": false,
@@ -5465,6 +5510,22 @@
       ]
     },
     {
+      "id": "outer_end:catacombs",
+      "displayName": "Catacombs",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:the_end"
+      ]
+    },
+    {
+      "id": "outer_end:end_tower",
+      "displayName": "End Tower",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:the_end"
+      ]
+    },
+    {
       "id": "paraglider:nether_horned_statue",
       "displayName": "Nether Horned Statue",
       "isVanilla": false,
@@ -5708,6 +5769,30 @@
       ]
     },
     {
+      "id": "seavil:undersea_village",
+      "displayName": "Undersea Village",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "graveyard:past"
+      ]
+    },
+    {
+      "id": "seavil:undersea_village_skylands",
+      "displayName": "Undersea Village Skylands",
+      "isVanilla": false,
+      "dimensions": []
+    },
+    {
+      "id": "seavil:zzz_top",
+      "displayName": "Zzz Top",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "graveyard:past"
+      ]
+    },
+    {
       "id": "shellbound_for_airship:airship",
       "displayName": "Airship",
       "isVanilla": false,
@@ -5852,12 +5937,217 @@
       ]
     },
     {
+      "id": "soulsweapons:cathedral_of_resurrection",
+      "displayName": "Cathedral Of Resurrection",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "graveyard:past"
+      ]
+    },
+    {
+      "id": "soulsweapons:champions_graves",
+      "displayName": "Champions Graves",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "graveyard:past"
+      ]
+    },
+    {
+      "id": "soulsweapons:corrupt_altar",
+      "displayName": "Corrupt Altar",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "graveyard:past"
+      ]
+    },
+    {
+      "id": "soulsweapons:decaying_kingdom",
+      "displayName": "Decaying Kingdom",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:the_nether"
+      ]
+    },
+    {
       "id": "supplementaries:way_sign",
       "displayName": "Way Sign",
       "isVanilla": false,
       "dimensions": [
         "minecraft:overworld",
         "graveyard:past"
+      ]
+    },
+    {
+      "id": "taxtg:giant_birch_tree",
+      "displayName": "Giant Birch Tree",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "graveyard:past"
+      ]
+    },
+    {
+      "id": "taxtg:giant_birch_tree_1",
+      "displayName": "Giant Birch Tree 1",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "taxtg:giant_cherryblossom_tree",
+      "displayName": "Giant Cherryblossom Tree",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "graveyard:past"
+      ]
+    },
+    {
+      "id": "taxtg:giant_cherryblossom_tree_1",
+      "displayName": "Giant Cherryblossom Tree 1",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "taxtg:giant_jungle_tree",
+      "displayName": "Giant Jungle Tree",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "graveyard:past"
+      ]
+    },
+    {
+      "id": "taxtg:giant_jungle_tree_1",
+      "displayName": "Giant Jungle Tree 1",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "taxtg:giant_oak_tree",
+      "displayName": "Giant Oak Tree",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "graveyard:past"
+      ]
+    },
+    {
+      "id": "taxtg:giant_oak_tree_1",
+      "displayName": "Giant Oak Tree 1",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "taxtg:giant_palm_tree",
+      "displayName": "Giant Palm Tree",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "graveyard:past"
+      ]
+    },
+    {
+      "id": "taxtg:giant_palm_tree_1",
+      "displayName": "Giant Palm Tree 1",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "taxtg:giant_pine_tree",
+      "displayName": "Giant Pine Tree",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "graveyard:past"
+      ]
+    },
+    {
+      "id": "taxtg:giant_pine_tree_1",
+      "displayName": "Giant Pine Tree 1",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "taxtg:giant_snowy_tree",
+      "displayName": "Giant Snowy Tree",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "graveyard:past"
+      ]
+    },
+    {
+      "id": "taxtg:giant_snowy_tree_1",
+      "displayName": "Giant Snowy Tree 1",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "taxtg:giant_spruce_tree",
+      "displayName": "Giant Spruce Tree",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "graveyard:past"
+      ]
+    },
+    {
+      "id": "taxtg:giant_spruce_tree_1",
+      "displayName": "Giant Spruce Tree 1",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "taxtg:giant_swamp_tree",
+      "displayName": "Giant Swamp Tree",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "graveyard:past"
+      ]
+    },
+    {
+      "id": "taxtg:giant_swamp_tree_1",
+      "displayName": "Giant Swamp Tree 1",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "taxtg:giant_yellow_tree",
+      "displayName": "Giant Yellow Tree",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "graveyard:past"
+      ]
+    },
+    {
+      "id": "taxtg:giant_yellow_tree_1",
+      "displayName": "Giant Yellow Tree 1",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
       ]
     },
     {
@@ -7778,6 +8068,13 @@
       ]
     },
     {
+      "tagId": "soulsweapons:champions_graves",
+      "displayName": "#Champions Graves",
+      "structureIds": [
+        "soulsweapons:champions_graves"
+      ]
+    },
+    {
       "tagId": "nova_structures:conduit_ruin",
       "displayName": "#Conduit Ruin",
       "structureIds": [
@@ -7811,6 +8108,13 @@
       "structureIds": [
         "minecraft:mansion",
         "minecraft:pillager_outpost"
+      ]
+    },
+    {
+      "tagId": "soulsweapons:decaying_kingdom",
+      "displayName": "#Decaying Kingdom",
+      "structureIds": [
+        "soulsweapons:decaying_kingdom"
       ]
     },
     {
@@ -8221,6 +8525,13 @@
       ]
     },
     {
+      "tagId": "aquamirae:outpost",
+      "displayName": "#Outpost",
+      "structureIds": [
+        "aquamirae:outpost"
+      ]
+    },
+    {
       "tagId": "ctov:pillager_outpost",
       "displayName": "#Pillager Outpost",
       "structureIds": [
@@ -8252,7 +8563,9 @@
       "tagId": "quark:purpur_chest_structures",
       "displayName": "#Purpur Chest Structures",
       "structureIds": [
-        "minecraft:end_city"
+        "minecraft:end_city",
+        "outer_end:catacombs",
+        "outer_end:end_tower"
       ]
     },
     {
@@ -8286,6 +8599,20 @@
       "displayName": "#Sculptor Eye Located",
       "structureIds": [
         "mowziesmobs:monastery"
+      ]
+    },
+    {
+      "tagId": "aquamirae:shelter",
+      "displayName": "#Shelter",
+      "structureIds": [
+        "aquamirae:shelter"
+      ]
+    },
+    {
+      "tagId": "aquamirae:ship",
+      "displayName": "#Ship",
+      "structureIds": [
+        "aquamirae:ship"
       ]
     },
     {

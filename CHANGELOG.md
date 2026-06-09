@@ -664,3 +664,92 @@
 - totw_additions-1.3.1-1.20.x-forge.jar
 - totw_modded-forge-1.20.1-1.0.6.jar
 
+
+# 2026-06-08 #22
+
+## Server Mods
+
+### Added
+- aquamirae-forge-1.20.1-6.4.0.jar
+- bountiful_npc-forge-1.20.1-1.0.5.jar
+- savage_and_ravage-1.20.1-6.0.1.jar
+- soulslike-weaponry-1.4.6-1.20.1-forge.jar
+- TaxDeepVillager+M.1.20.1+ForM.2.0.0.jar
+- TaxTreeGiant+M.1.20.1+ForM.2.2.0.jar
+- TheOuterEnd-1.0.13.jar
+- variantsandventures-forge-1.0.26+mc1.20.1.jar
+- zombie_variants-forge-1.0.3-1.20.1.jar
+
+## Client Mods
+
+### Added
+- aquamirae-forge-1.20.1-6.4.0.jar
+- bountiful_npc-forge-1.20.1-1.0.5.jar
+- savage_and_ravage-1.20.1-6.0.1.jar
+- soulslike-weaponry-1.4.6-1.20.1-forge.jar
+- TaxDeepVillager+M.1.20.1+ForM.2.0.0.jar
+- TaxTreeGiant+M.1.20.1+ForM.2.2.0.jar
+- TheOuterEnd-1.0.13.jar
+- variantsandventures-forge-1.0.26+mc1.20.1.jar
+- zombie_variants-forge-1.0.3-1.20.1.jar
+
+
+# 2026-06-08 #23
+
+## Server Mods
+
+### Added
+- aquamirae-forge-1.20.1-6.4.0.jar
+- bountiful_npc-forge-1.20.1-1.0.5.jar
+- savage_and_ravage-1.20.1-6.0.1.jar
+- soulslike-weaponry-1.4.6-1.20.1-forge.jar
+- TaxDeepVillager+M.1.20.1+ForM.2.0.0.jar
+- TaxTreeGiant+M.1.20.1+ForM.2.2.0.jar
+- TheOuterEnd-1.0.13.jar
+- variantsandventures-forge-1.0.26+mc1.20.1.jar
+- zombie_variants-forge-1.0.3-1.20.1.jar
+
+## Client Mods
+
+### Added
+- aquamirae-forge-1.20.1-6.4.0.jar
+- bountiful_npc-forge-1.20.1-1.0.5.jar
+- savage_and_ravage-1.20.1-6.0.1.jar
+- soulslike-weaponry-1.4.6-1.20.1-forge.jar
+- TaxDeepVillager+M.1.20.1+ForM.2.0.0.jar
+- TaxTreeGiant+M.1.20.1+ForM.2.2.0.jar
+- TheOuterEnd-1.0.13.jar
+- variantsandventures-forge-1.0.26+mc1.20.1.jar
+- zombie_variants-forge-1.0.3-1.20.1.jar
+
+
+# 2026-06-08 #24
+
+## Server Mods
+
+### Added
+- aquamirae-forge-1.20.1-6.4.0.jar
+- bountiful_npc-forge-1.20.1-1.0.5.jar
+- savage_and_ravage-1.20.1-6.0.1.jar
+- soulslike-weaponry-1.3.1-1.20.1-forge.jar
+- TaxDeepVillager+M.1.20.1+ForM.2.0.0.jar
+- TaxTreeGiant+M.1.20.1+ForM.2.2.0.jar
+- TheOuterEnd-1.0.13.jar
+- variantsandventures-forge-1.0.26+mc1.20.1.jar
+- yet_another_config_lib_v3-3.6.6+1.20.1-forge.jar
+- zombie_variants-forge-1.0.3-1.20.1.jar
+
+## Client Mods
+
+### Added
+- aquamirae-forge-1.20.1-6.4.0.jar
+- bountiful_npc-forge-1.20.1-1.0.5.jar
+- savage_and_ravage-1.20.1-6.0.1.jar
+- soulslike-weaponry-1.3.1-1.20.1-forge.jar
+- TaxDeepVillager+M.1.20.1+ForM.2.0.0.jar
+- TaxTreeGiant+M.1.20.1+ForM.2.2.0.jar
+- TheOuterEnd-1.0.13.jar
+- variantsandventures-forge-1.0.26+mc1.20.1.jar
+- yet_another_config_lib_v3-3.6.6+1.20.1-forge.jar
+- zombie_variants-forge-1.0.3-1.20.1.jar
+

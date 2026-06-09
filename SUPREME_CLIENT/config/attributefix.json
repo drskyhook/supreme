@@ -1496,6 +1496,17 @@
         "value": 10
       }
     },
+    "savage_and_ravage:explosive_damage_reduction": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
+      }
+    },
     "attributeslib:life_steal": {
       "enabled": false,
       "min": {
