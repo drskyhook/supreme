@@ -5,14 +5,6 @@
     "name": "forge",
     "version": "fmlloader-1.20.1-47.4.10.jar"
   },
-  "[forge]ctov-3.4.14.jar": {
-    "jarName": "[forge]ctov-3.4.14.jar",
-    "modId": "ctov",
-    "name": "ChoiceTheorem\u0027s Overhauled Village",
-    "version": "3.4.14",
-    "curseForgeHash": 97454121,
-    "modrinthHash": "8fa73fd4c5ae58636e159e54321651adf555ac44"
-  },
   "abridged-2.0.0-forge-1.20.1.jar": {
     "jarName": "abridged-2.0.0-forge-1.20.1.jar",
     "modId": "abridged",
@@ -349,6 +341,14 @@
     "curseForgeHash": 3277503590,
     "modrinthHash": "0b0a3ff3b244fa191b3f9580547071dee46f7276"
   },
+  "bettervillage-forge-1.20.1-3.3.1-all.jar": {
+    "jarName": "bettervillage-forge-1.20.1-3.3.1-all.jar",
+    "modId": "bettervillage",
+    "name": "Better village",
+    "version": "3.3.1",
+    "curseForgeHash": 1644471708,
+    "modrinthHash": "0c2f647cec98c3a4ca6d05b7a2f14962e66ad824"
+  },
   "betterworldloading20-1.0.jar": {
     "jarName": "betterworldloading20-1.0.jar",
     "modId": "betterworldloading20",
@@ -557,13 +557,13 @@
     "curseForgeHash": 1401454647,
     "modrinthHash": "2afdc7f42b47384062012e54439c4aab90fb7063"
   },
-  "chat_heads-0.15.1-forge-1.20.jar": {
-    "jarName": "chat_heads-0.15.1-forge-1.20.jar",
+  "chat_heads-0.15.2-forge-1.20.jar": {
+    "jarName": "chat_heads-0.15.2-forge-1.20.jar",
     "modId": "chat_heads",
     "name": "Chat Heads",
-    "version": "0.15.1",
-    "curseForgeHash": 1886210089,
-    "modrinthHash": "6eebd1479d11d3ed8fbb18b866ba43b470743e00"
+    "version": "0.15.2",
+    "curseForgeHash": 2721917406,
+    "modrinthHash": "fe49c0f42f21f4c0ea71c3cda7757914cb875ae7"
   },
   "chefsdelight-1.0.4-forge-1.20.1.jar": {
     "jarName": "chefsdelight-1.0.4-forge-1.20.1.jar",
@@ -2028,6 +2028,14 @@
     "curseForgeHash": 968058116,
     "modrinthHash": "3cf27e80f14f3bf295273b04c09a5179486164d3"
   },
+  "lukis-woodland-mansions-v.1.0-1.20-1.20.6.jar": {
+    "jarName": "lukis-woodland-mansions-v.1.0-1.20-1.20.6.jar",
+    "modId": "mr_lukis_woodlandmansions",
+    "name": "Luki\u0027s Woodland Mansions",
+    "version": "1-v.1.0",
+    "curseForgeHash": 2392790494,
+    "modrinthHash": "b3dd7845f2721c51bad97206c0db3ffd2c09050a"
+  },
   "Luminous Beasts V1.2.7 - Forge 1.20.1.jar": {
     "jarName": "Luminous Beasts V1.2.7 - Forge 1.20.1.jar",
     "modId": "luminous_beasts",
@@ -3228,21 +3236,21 @@
     "curseForgeHash": 2736596712,
     "modrinthHash": "e5c31395e10d9e858ca1fde42d35113945bfb658"
   },
-  "xaerominimap-forge-1.20.1-25.3.13.jar": {
-    "jarName": "xaerominimap-forge-1.20.1-25.3.13.jar",
+  "xaerominimap-forge-1.20.1-26.1.0.jar": {
+    "jarName": "xaerominimap-forge-1.20.1-26.1.0.jar",
     "modId": "xaerominimap",
     "name": "Xaero\u0027s Minimap",
-    "version": "25.3.13",
-    "curseForgeHash": 3469159,
-    "modrinthHash": "183c7078af2e11f8c3f2baed9e4151a51abb493c"
+    "version": "26.1.0",
+    "curseForgeHash": 3263469048,
+    "modrinthHash": "5b2be59a71add73676596d0d3350b832552bac70"
   },
-  "xaeroworldmap-forge-1.20.1-1.40.16.jar": {
-    "jarName": "xaeroworldmap-forge-1.20.1-1.40.16.jar",
+  "xaeroworldmap-forge-1.20.1-1.41.0.jar": {
+    "jarName": "xaeroworldmap-forge-1.20.1-1.41.0.jar",
     "modId": "xaeroworldmap",
     "name": "Xaero\u0027s World Map",
-    "version": "1.40.16",
-    "curseForgeHash": 2470635228,
-    "modrinthHash": "3ebbd1aea9e55b746d168c0d3ac014bb5892db71"
+    "version": "1.41.0",
+    "curseForgeHash": 2246022767,
+    "modrinthHash": "f2c63673810ff7b87a7fee40d34e70a04fc80ef6"
   },
   "yet_another_config_lib_v3-3.6.6+1.20.1-forge.jar": {
     "jarName": "yet_another_config_lib_v3-3.6.6+1.20.1-forge.jar",
