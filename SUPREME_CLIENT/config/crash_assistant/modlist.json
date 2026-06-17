@@ -301,6 +301,14 @@
     "curseForgeHash": 2251038378,
     "modrinthHash": "c5407cfd0b38d8db6d6f1c0088397f4c5616c7ae"
   },
+  "betterendcities-1.0.0-1.20.1.jar": {
+    "jarName": "betterendcities-1.0.0-1.20.1.jar",
+    "modId": "betterendcities",
+    "name": "Better End Cities Vanilla",
+    "version": "1.0.0-1.20.1",
+    "curseForgeHash": 3225702455,
+    "modrinthHash": "be5951d1f64cbac1f1d5a60e415f6e7bd90551d4"
+  },
   "betterfarmerscombat-1.2-1.20.1.jar": {
     "jarName": "betterfarmerscombat-1.2-1.20.1.jar",
     "modId": "betterfarmerscombat",
@@ -356,6 +364,14 @@
     "version": "1.0",
     "curseForgeHash": 978354046,
     "modrinthHash": "877520eff23f44ffc9e399f5365dc67fd74281fc"
+  },
+  "biggerendcities-1.20.1-1.0.0.jar": {
+    "jarName": "biggerendcities-1.20.1-1.0.0.jar",
+    "modId": "biggerendcities",
+    "name": "Bigger Better End Cities",
+    "version": "1.20.1-1.0.0",
+    "curseForgeHash": 1633890003,
+    "modrinthHash": "6cf14e6e75172c1e1d10e7d5dcddc3278e4fd44f"
   },
   "biomemusic-1.20.1-3.5.jar": {
     "jarName": "biomemusic-1.20.1-3.5.jar",
@@ -1069,13 +1085,13 @@
     "curseForgeHash": 3756983376,
     "modrinthHash": "588e5f119351212db6cda4d2e3378a68b3b38db5"
   },
-  "Eldritch_End-FORGE-MC1.20.1-0.3.4.jar": {
-    "jarName": "Eldritch_End-FORGE-MC1.20.1-0.3.4.jar",
-    "modId": "eldritch_end",
-    "name": "Eldritch End",
-    "version": "0.3.4",
-    "curseForgeHash": 729206071,
-    "modrinthHash": "4f4be8dac16d25396890283acae6e20a8cced155"
+  "eeeabsmobs-1.20.1-0.98.1.jar": {
+    "jarName": "eeeabsmobs-1.20.1-0.98.1.jar",
+    "modId": "eeeabsmobs",
+    "name": "EEEAB\u0027s Mobs",
+    "version": "1.20.1-0.98.1",
+    "curseForgeHash": 2046857935,
+    "modrinthHash": "3cb84f3056d2adf5ddc3e8feb5f5e2aa108bb5e9"
   },
   "elenaidodge2-1.1.jar": {
     "jarName": "elenaidodge2-1.1.jar",
@@ -1125,14 +1141,6 @@
     "curseForgeHash": 4102913452,
     "modrinthHash": "f4989918c04f52f3c9f2503f4c1074bd0944df3a"
   },
-  "ender_remastered-1.0.0-forge-1.20.1.jar": {
-    "jarName": "ender_remastered-1.0.0-forge-1.20.1.jar",
-    "modId": "ender_remastered",
-    "name": "Ender Remastered",
-    "version": "1.0.0",
-    "curseForgeHash": 2229484584,
-    "modrinthHash": "ebb3d0c43a56a4594d8d913d03af6977d73cf26f"
-  },
   "endermanoverhaul-forge-1.20.1-1.0.4.jar": {
     "jarName": "endermanoverhaul-forge-1.20.1-1.0.4.jar",
     "modId": "endermanoverhaul",
@@ -1140,14 +1148,6 @@
     "version": "1.0.4",
     "curseForgeHash": 3681337800,
     "modrinthHash": "636a2b20a5973fcb80016370865cb4251e029b6a"
-  },
-  "endertrigon-1.20.1-1.1-all.jar": {
-    "jarName": "endertrigon-1.20.1-1.1-all.jar",
-    "modId": "endertrigon",
-    "name": "Ender Trigon",
-    "version": "1.20.1-1.1",
-    "curseForgeHash": 3807539092,
-    "modrinthHash": "bc154e50cadb3e40a53bc89d11a99b0e9a4a0c30"
   },
   "entityculling-forge-1.10.2-mc1.20.1.jar": {
     "jarName": "entityculling-forge-1.10.2-mc1.20.1.jar",
@@ -1172,6 +1172,14 @@
     "version": "1.0.4",
     "curseForgeHash": 1939276908,
     "modrinthHash": "3396decb6445cabaa2ae36537a0f5795e2aa8379"
+  },
+  "everycomp-1.20-2.9.23-forge.jar": {
+    "jarName": "everycomp-1.20-2.9.23-forge.jar",
+    "modId": "everycomp",
+    "name": "Every Compat",
+    "version": "1.20-2.9.23",
+    "curseForgeHash": 1662856547,
+    "modrinthHash": "7a7a86c532ed0b11a8b8b5d15fbf8f8a6a2daea6"
   },
   "expandability-9.0.4.jar": {
     "jarName": "expandability-9.0.4.jar",
@@ -1458,6 +1466,14 @@
     "curseForgeHash": 1445602929,
     "modrinthHash": "795153ee2ec39f9f4ee36c61d09ed97d78ceea41"
   },
+  "golemdungeons-1.0.7.jar": {
+    "jarName": "golemdungeons-1.0.7.jar",
+    "modId": "golemdungeons",
+    "name": "Golem Dungeons",
+    "version": "1.0.7",
+    "curseForgeHash": 911634862,
+    "modrinthHash": "25ca5e75f494bc855977a2a8990d2963fea70f94"
+  },
   "golemoverhaul-forge-1.20.1-1.1.0.jar": {
     "jarName": "golemoverhaul-forge-1.20.1-1.1.0.jar",
     "modId": "golemoverhaul",
@@ -1682,14 +1698,6 @@
     "curseForgeHash": 558359038,
     "modrinthHash": "9d24f9e23742f962864aefc96d817f12b6382a5e"
   },
-  "improved-village-placement-1.1.2.jar": {
-    "jarName": "improved-village-placement-1.1.2.jar",
-    "modId": "improved_village_placement",
-    "name": "Improved Village Placement",
-    "version": "1.1.2",
-    "curseForgeHash": 1636553601,
-    "modrinthHash": "5225cdd0f18cabd290551ca93125dbdceb7a7755"
-  },
   "Incendium_1.20.x_v5.3.5.jar": {
     "jarName": "Incendium_1.20.x_v5.3.5.jar",
     "modId": "incendium",
@@ -1855,6 +1863,14 @@
     "curseForgeHash": 2994552797,
     "modrinthHash": "8b0cc9797d4ed00fd2d1002d58960af8b32012ae"
   },
+  "l2library-2.5.3.jar": {
+    "jarName": "l2library-2.5.3.jar",
+    "modId": "l2library",
+    "name": "L2 Library",
+    "version": "2.5.3",
+    "curseForgeHash": 3570494249,
+    "modrinthHash": "7841eba7e6fa4830ffe6a04034ae0926e22db691"
+  },
   "L_Enders_Cataclysm-3.29.jar": {
     "jarName": "L_Enders_Cataclysm-3.29.jar",
     "modId": "cataclysm",
@@ -1883,6 +1899,14 @@
     "version": "8.0.0",
     "curseForgeHash": 1376471928,
     "modrinthHash": "c5043f862be7db76892c7c0c95d02fa3f8332af0"
+  },
+  "legendarymonsters-2.1.15 MC 1.20.1.jar": {
+    "jarName": "legendarymonsters-2.1.15 MC 1.20.1.jar",
+    "modId": "legendary_monsters",
+    "name": "LegendaryMonsters",
+    "version": "1.20.1",
+    "curseForgeHash": 4135482706,
+    "modrinthHash": "2464973151b3e605d90e7493d8a23f4508964c9c"
   },
   "LegendaryTooltips-1.20.1-forge-1.4.5.jar": {
     "jarName": "LegendaryTooltips-1.20.1-forge-1.4.5.jar",
@@ -2028,6 +2052,14 @@
     "curseForgeHash": 968058116,
     "modrinthHash": "3cf27e80f14f3bf295273b04c09a5179486164d3"
   },
+  "lukis-grand-capitals-1.1.3.jar": {
+    "jarName": "lukis-grand-capitals-1.1.3.jar",
+    "modId": "mr_lukis_grandcapitals",
+    "name": "Luki\u0027s Grand Capitals",
+    "version": "1.1.3",
+    "curseForgeHash": 4154975689,
+    "modrinthHash": "a07986ac59268f1343737b81acd24ad34e5371ca"
+  },
   "lukis-woodland-mansions-v.1.0-1.20-1.20.6.jar": {
     "jarName": "lukis-woodland-mansions-v.1.0-1.20-1.20.6.jar",
     "modId": "mr_lukis_woodlandmansions",
@@ -2139,6 +2171,14 @@
     "version": "5.27.44+mc1.20.1",
     "curseForgeHash": 2114467562,
     "modrinthHash": "52dee1b8283625e8f0dc537e4b4c6b81081bc0df"
+  },
+  "modulargolems-2.7.1.jar": {
+    "jarName": "modulargolems-2.7.1.jar",
+    "modId": "modulargolems",
+    "name": "Modular Golems",
+    "version": "2.7.1",
+    "curseForgeHash": 3867557241,
+    "modrinthHash": "67c26fe4096f9ed327fb7463eb0e128297de8901"
   },
   "Monster Hunter Villager 1.2.1-1.20.1.jar": {
     "jarName": "Monster Hunter Villager 1.2.1-1.20.1.jar",
@@ -2315,14 +2355,6 @@
     "version": "1.20.1-1.0.1",
     "curseForgeHash": 88585908,
     "modrinthHash": "2875680fdc8f00a582f441c6cd31d782bef49bd2"
-  },
-  "Nullscape_1.20.x_v1.2.8.jar": {
-    "jarName": "Nullscape_1.20.x_v1.2.8.jar",
-    "modId": "nullscape",
-    "name": "Nullscape",
-    "version": "1.2.8",
-    "curseForgeHash": 2335606410,
-    "modrinthHash": "e4afd980e788f1861d8a8263bc700312667df977"
   },
   "nyfsspiders-Forge-1.20.1-3.0.1.jar": {
     "jarName": "nyfsspiders-Forge-1.20.1-3.0.1.jar",
@@ -2940,14 +2972,6 @@
     "curseForgeHash": 617006471,
     "modrinthHash": "11ae4c94aa94b38b78cf9b901dad4612b679f8ac"
   },
-  "TheOuterEnd-1.0.13.jar": {
-    "jarName": "TheOuterEnd-1.0.13.jar",
-    "modId": "outer_end",
-    "name": "The Outer End",
-    "version": "1.0.0",
-    "curseForgeHash": 2615430700,
-    "modrinthHash": "dfcc5902c0003c97b88467ab45263f1cacd18e0e"
-  },
   "tidal-towns-1.3.4.jar": {
     "jarName": "tidal-towns-1.3.4.jar",
     "modId": "mr_tidal_towns",
@@ -3020,6 +3044,14 @@
     "curseForgeHash": 2586715566,
     "modrinthHash": "a457e92f1b70d86708542ca5fc07fcef544325ab"
   },
+  "tru.e-ending-v1.1.0c.jar": {
+    "jarName": "tru.e-ending-v1.1.0c.jar",
+    "modId": "mr_limesplatus_ending",
+    "name": "True Ending: Ender Dragon Overhaul",
+    "version": "1-v1.1.0c",
+    "curseForgeHash": 499156332,
+    "modrinthHash": "ab318879312d428eda430006efd14911a15ddd44"
+  },
   "txnilib-forge-1.0.24-1.20.1.jar": {
     "jarName": "txnilib-forge-1.0.24-1.20.1.jar",
     "modId": "txnilib",
@@ -3027,14 +3059,6 @@
     "version": "1.0.24",
     "curseForgeHash": 1205222699,
     "modrinthHash": "a1e16b7d61f0f16a162d429ee1eab9b4e3eeb9ef"
-  },
-  "ultris-v5.6.9c.jar": {
-    "jarName": "ultris-v5.6.9c.jar",
-    "modId": "ultris_mr",
-    "name": "Ultris: Boss Expansion",
-    "version": "5.6.9c",
-    "curseForgeHash": 1578225095,
-    "modrinthHash": "7ddf40d66494e6089dba830acdffc6740adf0f41"
   },
   "underground-rivers-1.0.1-forge-1.20.1.jar": {
     "jarName": "underground-rivers-1.0.1-forge-1.20.1.jar",
@@ -3059,6 +3083,14 @@
     "version": "1.0.2",
     "curseForgeHash": 1660758323,
     "modrinthHash": "2f96f1a358587e622620a23e93b5493ae86bc33b"
+  },
+  "unusualend-2.3.1.2.jar": {
+    "jarName": "unusualend-2.3.1.2.jar",
+    "modId": "unusualend",
+    "name": "Unusual End",
+    "version": "2.3.1.2",
+    "curseForgeHash": 3758340831,
+    "modrinthHash": "df2b933d5cc89a267cc78f788eb2efc05ce78224"
   },
   "upgrade_aquatic-1.20.1-6.0.3.jar": {
     "jarName": "upgrade_aquatic-1.20.1-6.0.3.jar",

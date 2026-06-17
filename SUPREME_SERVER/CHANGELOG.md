@@ -416,6 +416,14 @@ other villager quests
 
 
 
+legendary monsters? 42 mb ..
+add unusual end  11 mb
+remove nullscape
+remove eldritch end
+
+
+End's Phantasm - 7 mb
+
 is there a mod that removes backpack from the back slot or 2 backslots?
 
 spawn.json to add for born in chaos

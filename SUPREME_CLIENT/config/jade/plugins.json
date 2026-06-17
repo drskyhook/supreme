@@ -52,6 +52,10 @@
     "painting": true,
     "chiseled_bookshelf": true
   },
+  "modulargolems": {
+    "maid_model": true,
+    "player_skin": true
+  },
   "reliquary": {
     "pedestal": true,
     "altar": true,

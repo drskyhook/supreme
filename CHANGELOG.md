@@ -1052,3 +1052,140 @@
 - xaerominimap-forge-1.20.1-25.3.13.jar
 - xaeroworldmap-forge-1.20.1-1.40.16.jar
 
+
+# 2026-06-15
+
+## Server Mods
+
+### Added
+- everycomp-1.20-2.9.23-forge.jar
+- golemdungeons-1.0.7.jar
+- l2library-2.5.3.jar
+- lukis-grand-capitals-1.1.3.jar
+- modulargolems-2.7.1.jar
+
+### Removed
+- [forge]ctov-3.4.14.jar
+- improved-village-placement-1.1.2.jar
+- ultris-v5.6.9c.jar
+
+## Client Mods
+
+### Added
+- everycomp-1.20-2.9.23-forge.jar
+- golemdungeons-1.0.7.jar
+- l2library-2.5.3.jar
+- lukis-grand-capitals-1.1.3.jar
+- modulargolems-2.7.1.jar
+
+### Removed
+- [forge]ctov-3.4.14.jar
+- improved-village-placement-1.1.2.jar
+- ultris-v5.6.9c.jar
+
+
+# 2026-06-16 #1
+
+## Server Mods
+
+### Added
+- betterendcities-1.0.0-1.20.1.jar
+- biggerendcities-1.20.1-1.0.0.jar
+- eeeabsmobs-1.20.1-0.98.1.jar
+- everycomp-1.20-2.9.23-forge.jar
+- golemdungeons-1.0.7.jar
+- l2library-2.5.3.jar
+- lukis-grand-capitals-1.1.3.jar
+- modulargolems-2.7.1.jar
+- mofus_broken_constellation-0.9.0-forge-1.20.1.jar
+- tru.e-ending-v1.1.0c.jar
+- unusualend-2.3.1.2.jar
+
+### Removed
+- [forge]ctov-3.4.14.jar
+- Eldritch_End-FORGE-MC1.20.1-0.3.4.jar
+- ender_remastered-1.0.0-forge-1.20.1.jar
+- endertrigon-1.20.1-1.1-all.jar
+- improved-village-placement-1.1.2.jar
+- Nullscape_1.20.x_v1.2.8.jar
+- TheOuterEnd-1.0.13.jar
+- ultris-v5.6.9c.jar
+
+## Client Mods
+
+### Added
+- betterendcities-1.0.0-1.20.1.jar
+- biggerendcities-1.20.1-1.0.0.jar
+- eeeabsmobs-1.20.1-0.98.1.jar
+- everycomp-1.20-2.9.23-forge.jar
+- golemdungeons-1.0.7.jar
+- l2library-2.5.3.jar
+- lukis-grand-capitals-1.1.3.jar
+- modulargolems-2.7.1.jar
+- mofus_broken_constellation-0.9.0-forge-1.20.1.jar
+- tru.e-ending-v1.1.0c.jar
+- unusualend-2.3.1.2.jar
+
+### Removed
+- [forge]ctov-3.4.14.jar
+- Eldritch_End-FORGE-MC1.20.1-0.3.4.jar
+- ender_remastered-1.0.0-forge-1.20.1.jar
+- endertrigon-1.20.1-1.1-all.jar
+- improved-village-placement-1.1.2.jar
+- Nullscape_1.20.x_v1.2.8.jar
+- TheOuterEnd-1.0.13.jar
+- ultris-v5.6.9c.jar
+
+
+# 2026-06-16 #2
+
+## Server Mods
+
+### Added
+- betterendcities-1.0.0-1.20.1.jar
+- biggerendcities-1.20.1-1.0.0.jar
+- eeeabsmobs-1.20.1-0.98.1.jar
+- everycomp-1.20-2.9.23-forge.jar
+- golemdungeons-1.0.7.jar
+- l2library-2.5.3.jar
+- legendarymonsters-2.1.15 MC 1.20.1.jar
+- lukis-grand-capitals-1.1.3.jar
+- modulargolems-2.7.1.jar
+- tru.e-ending-v1.1.0c.jar
+- unusualend-2.3.1.2.jar
+
+### Removed
+- [forge]ctov-3.4.14.jar
+- Eldritch_End-FORGE-MC1.20.1-0.3.4.jar
+- ender_remastered-1.0.0-forge-1.20.1.jar
+- endertrigon-1.20.1-1.1-all.jar
+- improved-village-placement-1.1.2.jar
+- Nullscape_1.20.x_v1.2.8.jar
+- TheOuterEnd-1.0.13.jar
+- ultris-v5.6.9c.jar
+
+## Client Mods
+
+### Added
+- betterendcities-1.0.0-1.20.1.jar
+- biggerendcities-1.20.1-1.0.0.jar
+- eeeabsmobs-1.20.1-0.98.1.jar
+- everycomp-1.20-2.9.23-forge.jar
+- golemdungeons-1.0.7.jar
+- l2library-2.5.3.jar
+- legendarymonsters-2.1.15 MC 1.20.1.jar
+- lukis-grand-capitals-1.1.3.jar
+- modulargolems-2.7.1.jar
+- tru.e-ending-v1.1.0c.jar
+- unusualend-2.3.1.2.jar
+
+### Removed
+- [forge]ctov-3.4.14.jar
+- Eldritch_End-FORGE-MC1.20.1-0.3.4.jar
+- ender_remastered-1.0.0-forge-1.20.1.jar
+- endertrigon-1.20.1-1.1-all.jar
+- improved-village-placement-1.1.2.jar
+- Nullscape_1.20.x_v1.2.8.jar
+- TheOuterEnd-1.0.13.jar
+- ultris-v5.6.9c.jar
+

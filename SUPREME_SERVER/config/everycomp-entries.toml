@@ -28,12 +28,6 @@
 		[types.wood_type.cataclysm]
 			chorus = true
 
-		[types.wood_type.ender_remastered]
-			deep = true
-
-		[types.wood_type.minecraft]
-			pale_oak = true
-
 		[types.wood_type.iceandfire]
 			dreadwood = true
 
@@ -52,14 +46,20 @@
 		[types.wood_type.darkerdepths]
 			petrified = true
 
+		[types.wood_type.vinery]
+			dark_cherry = true
+
+		[types.wood_type.unusualend]
+			chorus_nest = true
+
+		[types.wood_type.eeeabsmobs]
+			blighted_oak = true
+
 	[types.leaves_type]
 
 		[types.leaves_type.ecologics]
 			coconut = true
 			walnut = true
-
-		[types.leaves_type.minecraft]
-			pale_oak = true
 
 		[types.leaves_type.deeperdarker]
 			echo = true
@@ -85,6 +85,16 @@
 
 		[types.leaves_type.galosphere]
 			opal = true
+
+		[types.leaves_type.vinery]
+			grapevine = true
+			dark_cherry = true
+			apple = true
+
+	[types.cake]
+
+		[types.cake.farmersrespite]
+			coffee_cake = true
 
 #Disables specific entries
 [entries]
@@ -147,6 +157,20 @@
 			boards = true
 			board_slab = true
 			board_wall = true
+
+		[entries.wood_type.beautify]
+			trellis = true
+			blinds = true
+			picture_frame = true
+
+		[entries.wood_type.decorative_blocks]
+			beam = true
+			support = true
+			seat = true
+			palisade = true
+
+		[entries.wood_type.mighty_mail]
+			mail_box = true
 
 	[entries.leaves_type]
 
