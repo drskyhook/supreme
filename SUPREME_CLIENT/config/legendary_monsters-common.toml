@@ -30,6 +30,8 @@
 		"Allow Bosses to reduce player's resistance effect" = true
 		#Allow duo boss respawn teammate when it's dead and duo boss has no target
 		"Allow duo boss respawn teammate" = true
+		#allow Camera Zoom
+		"Allow Camera Zoom" = true
 
 	["Mob Settings"."Chorusling Settings"]
 		#Multiplies damage dealt by Chorusling

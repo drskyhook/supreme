@@ -1189,3 +1189,65 @@
 - TheOuterEnd-1.0.13.jar
 - ultris-v5.6.9c.jar
 
+
+# 2026-06-26
+
+## Server Mods
+
+### Added
+- guardvillagers-1.20.1-1.6.18.jar
+- horseman-1.20.1-1.3.16-forge.jar
+- knightlib-forge-1.20.1-1.5.2.jar
+- L_Enders_Cataclysm-3.31.jar
+- legendarymonsters-2.1.18 MC 1.20.1.jar
+- reliquary-1.20.1-2.0.61.1507.jar
+- SereneSeasons-forge-1.20.1-9.1.0.3.jar
+- sparsestructures-forge-1.20.1-3.0.jar
+- wandering_orc-1.2.6-1.20.1.jar
+
+### Removed
+- guardvillagers-1.20.1-1.6.17.jar
+- haunted_house-1.0.1-forge-1.20.1.jar
+- horseman-1.20.1-1.3.15-forge.jar
+- knightlib-forge-1.20.1-1.5.1.jar
+- L_Enders_Cataclysm-3.29.jar
+- legendarymonsters-2.1.15 MC 1.20.1.jar
+- particular-1.20.1-Forge-1.2.7.jar
+- reliquary-1.20.1-2.0.58.1487.jar
+- SereneSeasons-forge-1.20.1-9.1.0.2.jar
+- wandering_orc-1.2.5-1.20.1.jar
+
+## Client Mods
+
+### Added
+- biomemusic-1.20.1-4.1.jar
+- CrashAssistant-forge-1.19-1.20.1-1.11.10.jar
+- guardvillagers-1.20.1-1.6.18.jar
+- horseman-1.20.1-1.3.16-forge.jar
+- knightlib-forge-1.20.1-1.5.2.jar
+- L_Enders_Cataclysm-3.31.jar
+- legendarymonsters-2.1.18 MC 1.20.1.jar
+- notenoughanimations-forge-1.12.4-mc1.20.1.jar
+- reliquary-1.20.1-2.0.61.1507.jar
+- SereneSeasons-forge-1.20.1-9.1.0.3.jar
+- sparsestructures-forge-1.20.1-3.0.jar
+- wandering_orc-1.2.6-1.20.1.jar
+- xaeroworldmap-forge-1.20.1-1.41.2.jar
+
+### Removed
+- biomemusic-1.20.1-3.5.jar
+- CrashAssistant-forge-1.19-1.20.1-1.11.9.jar
+- guardvillagers-1.20.1-1.6.17.jar
+- haunted_house-1.0.1-forge-1.20.1.jar
+- healingcampfire-1.20.1-6.2.jar
+- horseman-1.20.1-1.3.15-forge.jar
+- knightlib-forge-1.20.1-1.5.1.jar
+- L_Enders_Cataclysm-3.29.jar
+- legendarymonsters-2.1.15 MC 1.20.1.jar
+- notenoughanimations-forge-1.12.3-mc1.20.1.jar
+- particular-1.20.1-Forge-1.2.7.jar
+- reliquary-1.20.1-2.0.58.1487.jar
+- SereneSeasons-forge-1.20.1-9.1.0.2.jar
+- wandering_orc-1.2.5-1.20.1.jar
+- xaeroworldmap-forge-1.20.1-1.41.0.jar
+
