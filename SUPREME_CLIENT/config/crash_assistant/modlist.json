@@ -13,6 +13,14 @@
     "curseForgeHash": 1535733719,
     "modrinthHash": "8f459c299da47ab0382267e88805ea3cc0dcd959"
   },
+  "accessories-neoforge-1.0.0-beta.48+1.20.1.jar": {
+    "jarName": "accessories-neoforge-1.0.0-beta.48+1.20.1.jar",
+    "modId": "accessories",
+    "name": "Accessories",
+    "version": "1.0.0-beta48+1.20.1",
+    "curseForgeHash": 326780004,
+    "modrinthHash": "22d8aed468ce41b78389b801cec1cd33faa5edb5"
+  },
   "adorabuild-structures-2.8.0-forge-1.20.1.jar": {
     "jarName": "adorabuild-structures-2.8.0-forge-1.20.1.jar",
     "modId": "adorabuild_structures",
@@ -1101,14 +1109,6 @@
     "curseForgeHash": 2768136085,
     "modrinthHash": "3f2663b57220c174e3818eb08be90131950820c7"
   },
-  "elytra_crafting_forge-1.0.0-forge-1.20.1.jar": {
-    "jarName": "elytra_crafting_forge-1.0.0-forge-1.20.1.jar",
-    "modId": "elytra_crafting_forge",
-    "name": "Elytra Crafting",
-    "version": "1.0.0",
-    "curseForgeHash": 2924761850,
-    "modrinthHash": "57cfbe96df16e16b3f2bbc85e493cc7958ef36aa"
-  },
   "elytraslot-forge-6.4.4+1.20.1.jar": {
     "jarName": "elytraslot-forge-6.4.4+1.20.1.jar",
     "modId": "elytraslot",
@@ -1522,22 +1522,6 @@
     "curseForgeHash": 3982517244,
     "modrinthHash": "8cebaa1c7f7d2236517f8d8475e0f08a343382ba"
   },
-  "haunted_house-1.0.1-forge-1.20.1.jar": {
-    "jarName": "haunted_house-1.0.1-forge-1.20.1.jar",
-    "modId": "haunted_house",
-    "name": "Haunted House",
-    "version": "1.0.1",
-    "curseForgeHash": 3355666996,
-    "modrinthHash": "cfe065e33dd567debf303f49dca199a65a3ba889"
-  },
-  "healingcampfire-1.20.1-6.2.jar": {
-    "jarName": "healingcampfire-1.20.1-6.2.jar",
-    "modId": "healingcampfire",
-    "name": "Healing Campfire",
-    "version": "6.2",
-    "curseForgeHash": 2137815228,
-    "modrinthHash": "12ece5053d1a95133dca38627d256f90cc94b3aa"
-  },
   "hearth_and_home-forge-1.20.1-2.0.1.jar": {
     "jarName": "hearth_and_home-forge-1.20.1-2.0.1.jar",
     "modId": "hearth_and_home",
@@ -1577,14 +1561,6 @@
     "version": "1.2.8",
     "curseForgeHash": 209266995,
     "modrinthHash": "2fda72df9045fef4ba8c7ecbbbd1c04d473e2751"
-  },
-  "hookshot-1.20.1-1.1.1.jar": {
-    "jarName": "hookshot-1.20.1-1.1.1.jar",
-    "modId": "hookshot",
-    "name": "Hookshot",
-    "version": "1.20.1-1.1.1",
-    "curseForgeHash": 2787684295,
-    "modrinthHash": "1d1d911f3d4a1f3de10c5958914b683b61ae49c2"
   },
   "HopoBetterUnderwaterRuins-[1.20.1-1.20.4]-1.1.5b.jar": {
     "jarName": "HopoBetterUnderwaterRuins-[1.20.1-1.20.4]-1.1.5b.jar",
@@ -2843,6 +2819,14 @@
     "version": "1.3.1-1.20.1-forge}",
     "curseForgeHash": 3714712001,
     "modrinthHash": "a771d8891947dc2a7c48e90e0aad58962c133906"
+  },
+  "sparsestructures-forge-1.20.1-3.0.jar": {
+    "jarName": "sparsestructures-forge-1.20.1-3.0.jar",
+    "modId": "sparsestructures",
+    "name": "SparseStructures",
+    "version": "3.0",
+    "curseForgeHash": 3386940382,
+    "modrinthHash": "3a14160106a66c54ce47c5e26d8a20c70b44d4c1"
   },
   "stalwart-dungeons-1.20.1-1.2.8.jar": {
     "jarName": "stalwart-dungeons-1.20.1-1.2.8.jar",

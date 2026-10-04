@@ -3304,15 +3304,6 @@
       ]
     },
     {
-      "id": "haunted_house:haunted_house",
-      "displayName": "Haunted House",
-      "isVanilla": false,
-      "dimensions": [
-        "minecraft:overworld",
-        "graveyard:past"
-      ]
-    },
-    {
       "id": "hearths:crimson_tower",
       "displayName": "Crimson Tower",
       "isVanilla": false,

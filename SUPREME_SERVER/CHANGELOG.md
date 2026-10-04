@@ -426,6 +426,12 @@ End's Phantasm - 7 mb
 
 is there a mod that removes backpack from the back slot or 2 backslots?
 
+
+6-26-26
+removed haunted house
+removed healing campfire
+sparse structures + config it
+
 spawn.json to add for born in chaos
 
 {

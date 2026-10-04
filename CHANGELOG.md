@@ -1251,3 +1251,29 @@
 - wandering_orc-1.2.5-1.20.1.jar
 - xaeroworldmap-forge-1.20.1-1.41.0.jar
 
+
+# 2026-06-28
+
+## Server Mods
+
+### Added
+- accessories-neoforge-1.0.0-beta.48+1.20.1.jar
+
+### Removed
+- elytra_crafting_forge-1.0.0-forge-1.20.1.jar
+- hookshot-1.20.1-1.1.1.jar
+
+## Client Mods
+
+### Added
+- accessories-neoforge-1.0.0-beta.48+1.20.1.jar
+
+### Removed
+- elytra_crafting_forge-1.0.0-forge-1.20.1.jar
+- hookshot-1.20.1-1.1.1.jar
+
+
+## Several months go by...
+
+## 2026-10-3
+first update in a while checkin what is here..
