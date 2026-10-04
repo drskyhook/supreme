@@ -1277,3 +1277,39 @@
 
 ## 2026-10-3
 first update in a while checkin what is here..
+
+# 2026-10-03
+
+## Server Mods
+
+### Removed
+- Monster Hunter Villager 1.2.1-1.20.1.jar
+- shellbound-for-airship-forge-1.0.1-forge.jar
+- sky_whale_ship-1.20.1.jar
+
+## Client Mods
+
+### Removed
+- Monster Hunter Villager 1.2.1-1.20.1.jar
+- shellbound-for-airship-forge-1.0.1-forge.jar
+- sky_whale_ship-1.20.1.jar
+
+
+# 2026-10-04
+
+## Server Mods
+
+### Removed
+- Monster Hunter Villager 1.2.1-1.20.1.jar
+- naturalist-5.0pre2+forge-1.20.1.jar
+- shellbound-for-airship-forge-1.0.1-forge.jar
+- sky_whale_ship-1.20.1.jar
+
+## Client Mods
+
+### Removed
+- Monster Hunter Villager 1.2.1-1.20.1.jar
+- naturalist-5.0pre2+forge-1.20.1.jar
+- shellbound-for-airship-forge-1.0.1-forge.jar
+- sky_whale_ship-1.20.1.jar
+
