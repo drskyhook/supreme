@@ -165,7 +165,6 @@ ferritecore-6.0.1-forge.jar
 fishontheline-1.20.1-3.5.jar
 flerovium-forge-1.20.1-1.2.18-all.jar
 floating_islands-1.4.9.jar
-FpsReducer2-forge-1.20.1-2.5.1.jar
 framework-forge-1.20.1-0.8.0.jar
 friendsandfoes-forge-mc1.20.1-3.0.9.jar
 fromtheshadowsreborn-2.9.jar
@@ -195,7 +194,7 @@ Highlighter-1.20.1-forge-1.1.9.jar
 hole_filler_mod-1.2.8_mc-1.20.1_forge.jar
 HopoBetterUnderwaterRuins-[1.20.1-1.20.4]-1.1.5b.jar
 horseman-1.20.1-1.3.16-forge.jar
-iaf_patcher-1.2-all.jar
+iaf_dragons-1.0.7a.jar
 ice_and_fire_delight-forge-1.20.1-0.2.5.jar
 ice_and_fire_spellbooks-2.3.2-1.20.1.jar
 iceandfire_curios-1.3.0-forge-1.20.1.jar
@@ -240,7 +239,6 @@ lendersdelight-1.20.1-1.0.10.jar
 letsdo-API-forge-1.2.15-forge.jar
 letsdo-lilis_lucky_lures-forge-1.0.2.jar
 letsdo-vinery-forge-1.4.41.jar
-libertyvillagers-2.0.0+forge+1.20.1.jar
 libIPN-forge-1.20-4.0.2.jar
 libraryferret-forge-1.20.1-4.0.0.jar
 lionfishapi-3.0.jar
@@ -250,7 +248,6 @@ lodestone-1.20.1-1.6.4.1.jar
 Longwings-v0.9.5-1.20.1-Forge.jar
 Loot Beams Refork-forge-1.20.1-3.4.6.jar
 lootintegrations_awesome-1.5.jar
-lootintegrations_graveyard-1.1.jar
 lootintegrations-1.20.1-4.7.jar
 lukis-grand-capitals-1.1.3.jar
 lukis-woodland-mansions-v.1.0-1.20-1.20.6.jar
@@ -260,17 +257,14 @@ MagnumTorch-v8.0.2-1.20.1-Forge.jar
 majrusz-library-forge-1.20.1-7.0.8.jar
 majruszs-enchantments-forge-1.20.1-1.10.8.jar
 MaxHealthFix-Forge-1.20.1-12.0.4.jar
-medieval_buildings_nether_edition-1.20.1-1.0.2-forge.jar
 medieval_buildings-1.20.1-1.1.3-forge.jar
 midnightlib-forge-1.9.2+1.20.1.jar
-mighty_mail-forge-1.20.1-1.1.4.jar
 miningspeedtooltips-forge-1.0.0-1.20.1.jar
 misctweaks-1.1.4+1.20.1.jar
 modernfix-forge-5.27.44+mc1.20.1.jar
 modulargolems-2.7.1.jar
 moogs_structure_lib-1.1.0-1.20-1.20.4-forge.jar
 moonlight-1.20-2.16.33-forge.jar
-More Villager Trades 1.0.0 - 1.20.1.jar
 morehitboxes-forge-1.20.1-1.9.2.jar
 morevillagers-forge-1.20.1-5.0.0.jar
 MouseTweaks-forge-mc1.20.1-2.25.1.jar
@@ -283,14 +277,12 @@ Necronomicon-Forge-1.6.0+1.20.1.jar
 NekosEnchantedBooks-1.19.3-2.0.3.jar
 NetherChested-v8.0.4-1.20.1-Forge.jar
 netherportalfix-forge-1.20-13.0.1.jar
-nethervillagertrader-2.0.0-forge-1.20.1.jar
 nightlights-1.20.1-1.1.jar
 Nirvana Lib-forge-1.20.1-2.2.0.jar
 notenoughanimations-forge-1.12.4-mc1.20.1.jar
 notrample-1.20.1-1.0.1.jar
 nyfsspiders-Forge-1.20.1-3.0.1.jar
 obscure_api-18.jar
-oceanvillagertrader-2.1.0-forge-1.20.1.jar
 OctoLib-FORGE-0.5.0.1+1.20.1.jar
 oculus-mc1.20.1-1.8.0.jar
 orcish_depths 1.0.1.jar
@@ -310,7 +302,6 @@ Quark-4.0-462.jar
 Quest Kill Task-0.2.0+1.20.1-forge.jar
 radiantgear-forge-2.2.0+1.20.1.jar
 radium-mc1.20.1-0.12.4+git.26c9d8e.jar
-Raided-1.20.1-0.1.6.jar
 raidsenhanced-1.0.2-1.20.1.jar
 rch-supplementaries-compat-forge-1.0.0.jar
 realmrpg_quests-0.1.1-forge-1.20.1.jar
@@ -335,7 +326,6 @@ shadowizardlib-1.20.1-1.3.1.jar
 shelfmod-mc1.20.1-forge-3.2.jar
 simple_snowy_fix-forge-1.19-1.20.1-2.1.5.jar
 SimpleBackups-1.20.1-3.1.18.jar
-skillcloaks-1.20.1-1.2.4.1.jar
 smallships_upgrades-forge-1.20.1-1.0.1.jar
 smallships-forge-1.20.1-2.0.0-b1.4.jar
 smarterfarmers-1.20-2.1.2.jar
@@ -354,9 +344,7 @@ statuseffectbars-1.20.1-Forge-1.0.3.jar
 stepitup-2.0.1-1.20.1-forge.jar
 structure_layout_optimizer-forge-1.0.11.jar
 StylishEffects-v8.0.2-1.20.1-Forge.jar
-subnauticraft-1.0.0-forge-1.20.1.jar
 supplementaries-1.20-3.1.43-forge.jar
-TaxDeepVillager+M.1.20.1+ForM.2.0.0.jar
 TaxTreeGiant+M.1.20.1+ForM.2.2.0.jar
 temporalapi-1.6.7.jar
 tenshilib-1.20.1-1.7.6-forge.jar
@@ -371,7 +359,6 @@ totw_modded-forge-1.20.1-1.0.6.jar
 Towns-and-Towers-1.12-Fabric+Forge.jar
 trade-cycling-forge-1.20.1-1.0.7.jar
 trashcompactor-1.20.1-1.0.2.jar
-trimeffects-forge-mc1.20-2.1.2.jar
 tru.e-ending-v1.1.0c.jar
 txnilib-forge-1.0.24-1.20.1.jar
 underground_village-1.5.7.jar
@@ -380,7 +367,6 @@ underwater_village-1.0.2-forge-1.20.1.jar
 unusualend-2.3.1.2.jar
 upgrade_aquatic-1.20.1-6.0.3.jar
 uranus-2.2.6-bugfix.2-1.20.1-forge.jar
-useful_ribbits-1.0.2-forge-1.20.1.jar
 valhelsia_core-forge-1.20.1-1.1.2.jar
 valhelsia_furniture-forge-1.20.1-1.1.3.jar
 valhelsia_structures-forge-1.20.1-1.1.2.jar
@@ -390,7 +376,6 @@ VillagersPlus_3.1_(FORGE)_for_1.20.1.jar
 visuality-forge-2.0.2.jar
 VisualWorkbench-v8.0.1-1.20.1-Forge.jar
 voidtotem-forge-1.20-3.0.1.jar
-wandering trader trades.jar
 wandering_orc-1.2.6-1.20.1.jar
 watut-forge-1.20.1-1.2.3.jar
 waystone_crypts-1.20.1-FORGE-1.1.0.jar
@@ -420,4 +405,3 @@ YungsCaveBiomes-1.20.1-Forge-2.0.5.jar
 YungsExtras-1.20-Forge-4.0.3.jar
 YungsMenuTweaks-1.20.1-Forge-1.0.2.jar
 Zeta-1.0-31.jar
-zombie_variants-forge-1.0.3-1.20.1.jar

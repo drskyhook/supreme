@@ -1295,7 +1295,7 @@ first update in a while checkin what is here..
 - sky_whale_ship-1.20.1.jar
 
 
-# 2026-10-04
+# 2026-10-04 #1
 
 ## Server Mods
 
@@ -1312,4 +1312,54 @@ first update in a while checkin what is here..
 - naturalist-5.0pre2+forge-1.20.1.jar
 - shellbound-for-airship-forge-1.0.1-forge.jar
 - sky_whale_ship-1.20.1.jar
+
+
+# 2026-10-05
+
+## Server Mods
+
+### Added
+- iaf_dragons-1.0.7a.jar
+
+### Removed
+- iaf_patcher-1.2-all.jar
+- libertyvillagers-2.0.0+forge+1.20.1.jar
+- lootintegrations_graveyard-1.1.jar
+- medieval_buildings_nether_edition-1.20.1-1.0.2-forge.jar
+- mighty_mail-forge-1.20.1-1.1.4.jar
+- More Villager Trades 1.0.0 - 1.20.1.jar
+- nethervillagertrader-2.0.0-forge-1.20.1.jar
+- oceanvillagertrader-2.1.0-forge-1.20.1.jar
+- Raided-1.20.1-0.1.6.jar
+- skillcloaks-1.20.1-1.2.4.1.jar
+- subnauticraft-1.0.0-forge-1.20.1.jar
+- TaxDeepVillager+M.1.20.1+ForM.2.0.0.jar
+- trimeffects-forge-mc1.20-2.1.2.jar
+- useful_ribbits-1.0.2-forge-1.20.1.jar
+- wandering trader trades.jar
+- zombie_variants-forge-1.0.3-1.20.1.jar
+
+## Client Mods
+
+### Added
+- iaf_dragons-1.0.7a.jar
+
+### Removed
+- FpsReducer2-forge-1.20.1-2.5.1.jar
+- iaf_patcher-1.2-all.jar
+- libertyvillagers-2.0.0+forge+1.20.1.jar
+- lootintegrations_graveyard-1.1.jar
+- medieval_buildings_nether_edition-1.20.1-1.0.2-forge.jar
+- mighty_mail-forge-1.20.1-1.1.4.jar
+- More Villager Trades 1.0.0 - 1.20.1.jar
+- nethervillagertrader-2.0.0-forge-1.20.1.jar
+- oceanvillagertrader-2.1.0-forge-1.20.1.jar
+- Raided-1.20.1-0.1.6.jar
+- skillcloaks-1.20.1-1.2.4.1.jar
+- subnauticraft-1.0.0-forge-1.20.1.jar
+- TaxDeepVillager+M.1.20.1+ForM.2.0.0.jar
+- trimeffects-forge-mc1.20-2.1.2.jar
+- useful_ribbits-1.0.2-forge-1.20.1.jar
+- wandering trader trades.jar
+- zombie_variants-forge-1.0.3-1.20.1.jar
 
