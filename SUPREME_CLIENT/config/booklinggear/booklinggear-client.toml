@@ -2,7 +2,7 @@
 ["General Settings"]
 	#Enable or disable configuration screen to edit in live different Eruannie's mod settings.
 	Config_Screen = true
-	#Determines which side the banner configuration appears on. This is experimental. There’s no need to modify this value.
+	#Determines which side the banner configuration appears on.
 	Mirrored_Banner = true
 	#Select the type of configuration button to display.
 	#Allowed Values: BOOK, BANNER
@@ -35,8 +35,19 @@
 	Book_Offset_Y = 0
 
 ["Example Config Settings"]
-	#Example color picker screen.
-	Example_Color = "00FFFF"
-	#Example list configuration.
-	Example_List = ["minecraft:grass_block", "minecraft:dirt", "minecraft:rooted_dirt"]
+
+	["Example Config Settings"."Basic Values"]
+		#Stores a true or false value.
+		Example_Boolean = true
+		#Stores String, Integer, Long, Float and Double values.
+		Example_String_Value = "exampole"
+		#Stores one choice from a fixed set. Left click selects the next value. Right click selects the previous value.
+		#Allowed Values: LOW, MEDIUM, HIGH
+		Example_Enum = "MEDIUM"
+
+	["Example Config Settings"."Special Editors"]
+		#Stores an RGB or ARGB color value.
+		Example_Color = "00FFFF"
+		#Stores a list of registry names.
+		Example_List = ["minecraft:grass_block", "minecraft:dirt", "minecraft:rooted_dirt"]
 

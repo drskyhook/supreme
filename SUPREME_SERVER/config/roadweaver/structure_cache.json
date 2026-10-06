@@ -2938,6 +2938,15 @@
       ]
     },
     {
+      "id": "floating_islands:witch_island",
+      "displayName": "Witch Island",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "graveyard:past"
+      ]
+    },
+    {
       "id": "friendsandfoes:citadel",
       "displayName": "Citadel",
       "isVanilla": false,

@@ -187,6 +187,28 @@
         "value": 1024
       }
     },
+    "irons_lib:healing_received": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
+    "ranged_weapon:pull_time": {
+      "enabled": false,
+      "min": {
+        "default": 0.1,
+        "value": 0.1
+      },
+      "max": {
+        "default": 2048,
+        "value": 2048
+      }
+    },
     "minecraft:air_drag_modifier": {
       "enabled": true,
       "min": {
@@ -262,6 +284,17 @@
       "max": {
         "default": 100,
         "value": 100
+      }
+    },
+    "irons_lib:experience_gained": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
       }
     },
     "feathers:feathers.feather_regen": {
@@ -462,6 +495,17 @@
         "value": 1024
       }
     },
+    "irons_lib:projectile_damage": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
     "minecraft:generic.attack_speed": {
       "enabled": true,
       "min": {
@@ -614,6 +658,17 @@
       "max": {
         "default": 10,
         "value": 10
+      }
+    },
+    "irons_lib:dodge_chance": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
       }
     },
     "caelus:fall_flying": {
@@ -979,6 +1034,17 @@
         "value": 1000
       }
     },
+    "irons_lib:arrow_damage": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
     "cthulhufishing:summon_damage": {
       "enabled": false,
       "min": {
@@ -1065,6 +1131,17 @@
       "max": {
         "default": 100,
         "value": 100
+      }
+    },
+    "irons_lib:mining_speed": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
       }
     },
     "obscure_api:magic_damage": {
@@ -1331,6 +1408,17 @@
         "value": 64
       }
     },
+    "soulsweapons:frost_buildup_resistance": {
+      "enabled": false,
+      "min": {
+        "default": -10000,
+        "value": -10000
+      },
+      "max": {
+        "default": 10000,
+        "value": 10000
+      }
+    },
     "irons_spellbooks:blood_magic_resist": {
       "enabled": false,
       "min": {
@@ -1351,17 +1439,6 @@
       "max": {
         "default": 2048,
         "value": 2048
-      }
-    },
-    "soulsweapons:frost_buildup_resistance": {
-      "enabled": false,
-      "min": {
-        "default": -10000,
-        "value": -10000
-      },
-      "max": {
-        "default": 10000,
-        "value": 10000
       }
     },
     "cataclysm:additional_critical_damage": {
@@ -1507,6 +1584,17 @@
         "value": 100
       }
     },
+    "irons_lib:armor_pierce": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
     "soulsweapons:posture_buildup_resistance": {
       "enabled": false,
       "min": {
@@ -1595,6 +1683,17 @@
         "value": 20
       }
     },
+    "ranged_weapon:velocity": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 2048,
+        "value": 2048
+      }
+    },
     "expanded_combat:cold_dmg": {
       "enabled": false,
       "min": {
@@ -1626,6 +1725,17 @@
       "max": {
         "default": 10,
         "value": 10
+      }
+    },
+    "irons_lib:crit_damage": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
       }
     },
     "functionalarmortrim:experience_boost": {

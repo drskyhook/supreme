@@ -1401,7 +1401,7 @@ first update in a while checkin what is here..
 - YungsBetterCaves-1.20.1-Forge-2.0.5.jar
 
 
-# 2026-10-06
+# 2026-10-06 #1
 
 ## Server Mods
 
@@ -1542,4 +1542,152 @@ first update in a while checkin what is here..
 - unusualend-2.3.1.2.jar
 - wandering_orc-1.2.6-1.20.1.jar
 - WeatherRefind-forge-1.20.x-v1.4.jar
+
+
+# 2026-10-06 #2
+
+## Server Mods
+
+### Added
+- amendments-1.20-2.2.6.jar
+- azurelib-neo-1.20.1-3.1.17.jar
+- baguettelib-1.20.1-Forge-2.0.7.jar
+- booklinggear-1.20.1-3.15.jar
+- chefs-delight-1.0.5-forge-1.20.1.jar
+- CodeChickenLib-1.20.1-4.4.0.528-universal.jar
+- CreativeCore_FORGE_v2.12.40_mc1.20.1.jar
+- crittersandcompanions-forge-1.20.1-2.7.1.jar
+- cupboard-1.20.1-4.2.jar
+- everycomp-1.20-2.9.27-forge.jar
+- floating_islands-1.5.3.jar
+- forge-runiclib-1.20.1-4.3.11.jar
+- ftb-library-forge-2001.2.13.jar
+- galosphere_spellbooks-1.1.3.jar
+- geckolib-forge-1.20.1-4.8.4.jar
+- golemoverhaul-forge-1.20.1-1.1.1.jar
+- irons_lib-1.20.1-2.2.0.jar
+- irons_spellbooks-1.20.1-3.16.3.jar
+- Kiwi-1.20.1-Forge-11.10.3.jar
+- lendersdelight-1.20.1-1.0.10b.jar
+- modernfix-forge-5.27.85+mc1.20.1.jar
+- modulargolems-2.7.4.jar
+- MoogsStructureLib-forge-1.20-3.4.2.jar
+- moonlight-1.20-2.16.36-forge.jar
+- ranged_weapon_api-forge-2.3.4+1.20.1.jar
+- soulslike-weaponry-1.4.10-1.20.1-forge.jar
+- variantsandventures-forge-1.0.28+mc1.20.1.jar
+- villagersplus-forge-mc1.20.1-4.0.0.jar
+- villagertradingplus-forge-mc1.20.1-1.0.0.jar
+- waystones-forge-1.20.1-14.1.21.jar
+- yucutan_combat-1.20.1-3.0.0.jar
+
+### Removed
+- amendments-1.20-2.2.5.jar
+- azurelib-neo-1.20.1-3.1.10.jar
+- baguettelib-1.20.1-Forge-1.1.6.jar
+- booklinggear-1.20.1-3.13.jar
+- chefsdelight-1.0.4-forge-1.20.1.jar
+- CodeChickenLib-1.20.1-4.4.0.516-universal.jar
+- CreativeCore_FORGE_v2.12.38_mc1.20.1.jar
+- crittersandcompanions-forge-1.20.1-2.3.5.jar
+- cupboard-1.20.1-3.7.jar
+- everycomp-1.20-2.9.23-forge.jar
+- floating_islands-1.4.9.jar
+- ftb-library-forge-2001.2.12.jar
+- galosphere_spellbooks-1.1.2.jar
+- geckolib-forge-1.20.1-4.8.3.jar
+- golemoverhaul-forge-1.20.1-1.1.0.jar
+- irons_spellbooks-1.20.1-3.15.2.jar
+- Kiwi-1.20.1-Forge-11.10.2.jar
+- lendersdelight-1.20.1-1.0.10.jar
+- modernfix-forge-5.27.44+mc1.20.1.jar
+- modulargolems-2.7.1.jar
+- moogs_structure_lib-1.1.0-1.20-1.20.4-forge.jar
+- moonlight-1.20-2.16.33-forge.jar
+- soulslike-weaponry-1.3.1-1.20.1-forge.jar
+- variantsandventures-forge-1.0.26+mc1.20.1.jar
+- VillagersPlus_3.1_(FORGE)_for_1.20.1.jar
+- waystones-forge-1.20.1-14.1.20.jar
+- yucutan_combat-2.2.0-forge-1.20.1.jar
+
+## Client Mods
+
+### Added
+- AmbientSounds_FORGE_v6.3.9_mc1.20.1.jar
+- amendments-1.20-2.2.6.jar
+- AsyncParticles-20.1.4.0-beta.2+1.20.1.jar
+- azurelib-neo-1.20.1-3.1.17.jar
+- baguettelib-1.20.1-Forge-2.0.7.jar
+- booklinggear-1.20.1-3.15.jar
+- chefs-delight-1.0.5-forge-1.20.1.jar
+- CodeChickenLib-1.20.1-4.4.0.528-universal.jar
+- CrashAssistant-forge-1.19-1.20.1-1.11.12.jar
+- CreativeCore_FORGE_v2.12.40_mc1.20.1.jar
+- crittersandcompanions-forge-1.20.1-2.7.1.jar
+- cupboard-1.20.1-4.2.jar
+- defaultoptions-forge-1.20.1-18.0.5.jar
+- everycomp-1.20-2.9.27-forge.jar
+- floating_islands-1.5.3.jar
+- forge-runiclib-1.20.1-4.3.11.jar
+- ftb-library-forge-2001.2.13.jar
+- fzzy_config-0.7.7+1.20.1+forge.jar
+- galosphere_spellbooks-1.1.3.jar
+- geckolib-forge-1.20.1-4.8.4.jar
+- golemoverhaul-forge-1.20.1-1.1.1.jar
+- iris_shader_folder-1.4.2-forge.jar
+- irons_lib-1.20.1-2.2.0.jar
+- irons_spellbooks-1.20.1-3.16.3.jar
+- Kiwi-1.20.1-Forge-11.10.3.jar
+- lendersdelight-1.20.1-1.0.10b.jar
+- modernfix-forge-5.27.85+mc1.20.1.jar
+- modulargolems-2.7.4.jar
+- MoogsStructureLib-forge-1.20-3.4.2.jar
+- moonlight-1.20-2.16.36-forge.jar
+- ranged_weapon_api-forge-2.3.4+1.20.1.jar
+- soulslike-weaponry-1.4.10-1.20.1-forge.jar
+- StylishEffects-v8.0.4-1.20.1-Forge.jar
+- variantsandventures-forge-1.0.28+mc1.20.1.jar
+- villagersplus-forge-mc1.20.1-4.0.0.jar
+- villagertradingplus-forge-mc1.20.1-1.0.0.jar
+- visuality-forge-2.2.0.jar
+- waystones-forge-1.20.1-14.1.21.jar
+- yucutan_combat-1.20.1-3.0.0.jar
+- zfastnoise-1.0.13+1.20+forge.jar
+
+### Removed
+- AmbientSounds_FORGE_v6.3.8_mc1.20.1.jar
+- amendments-1.20-2.2.5.jar
+- AsyncParticles-2.3.11+1.20.1.jar
+- azurelib-neo-1.20.1-3.1.10.jar
+- baguettelib-1.20.1-Forge-1.1.6.jar
+- booklinggear-1.20.1-3.13.jar
+- chefsdelight-1.0.4-forge-1.20.1.jar
+- CodeChickenLib-1.20.1-4.4.0.516-universal.jar
+- CrashAssistant-forge-1.19-1.20.1-1.11.10.jar
+- CreativeCore_FORGE_v2.12.38_mc1.20.1.jar
+- crittersandcompanions-forge-1.20.1-2.3.5.jar
+- cupboard-1.20.1-3.7.jar
+- defaultoptions-forge-1.20.1-18.0.4.jar
+- everycomp-1.20-2.9.23-forge.jar
+- floating_islands-1.4.9.jar
+- ftb-library-forge-2001.2.12.jar
+- fzzy_config-0.7.6+1.20.1+forge.jar
+- galosphere_spellbooks-1.1.2.jar
+- geckolib-forge-1.20.1-4.8.3.jar
+- golemoverhaul-forge-1.20.1-1.1.0.jar
+- iris_shader_folder-1.3.2-forge.jar
+- irons_spellbooks-1.20.1-3.15.2.jar
+- Kiwi-1.20.1-Forge-11.10.2.jar
+- lendersdelight-1.20.1-1.0.10.jar
+- modernfix-forge-5.27.44+mc1.20.1.jar
+- modulargolems-2.7.1.jar
+- moogs_structure_lib-1.1.0-1.20-1.20.4-forge.jar
+- moonlight-1.20-2.16.33-forge.jar
+- soulslike-weaponry-1.3.1-1.20.1-forge.jar
+- StylishEffects-v8.0.2-1.20.1-Forge.jar
+- variantsandventures-forge-1.0.26+mc1.20.1.jar
+- VillagersPlus_3.1_(FORGE)_for_1.20.1.jar
+- visuality-forge-2.0.2.jar
+- waystones-forge-1.20.1-14.1.20.jar
+- yucutan_combat-2.2.0-forge-1.20.1.jar
 
