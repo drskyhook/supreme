@@ -169,9 +169,6 @@
 			seat = true
 			palisade = true
 
-		[entries.wood_type.mighty_mail]
-			mail_box = true
-
 	[entries.leaves_type]
 
 		[entries.leaves_type.quark]
