@@ -1314,7 +1314,7 @@ first update in a while checkin what is here..
 - sky_whale_ship-1.20.1.jar
 
 
-# 2026-10-05
+# 2026-10-05 #1
 
 ## Server Mods
 
@@ -1362,4 +1362,41 @@ first update in a while checkin what is here..
 - useful_ribbits-1.0.2-forge-1.20.1.jar
 - wandering trader trades.jar
 - zombie_variants-forge-1.0.3-1.20.1.jar
+
+# 2026-10-05 #2
+
+## Server Mods
+
+### Added
+- companions-forge-1.20.1-1.3.6.jar
+- knightlib-forge-1.20.1-2.0.4.jar
+- Ksyxis-1.4.5.jar
+- midnightlib-forge-1.9.2+1.20.1.jar
+- YungsBetterCaves-1.20.1-Forge-2.0.7.jar
+- zfastnoise-1.0.13+1.20+forge.jar
+
+### Removed
+- companions-forge-1.20.1-1.2.3.jar
+- knightlib-forge-1.20.1-1.5.2.jar
+- Ksyxis-1.4.3.jar
+- YungsBetterCaves-1.20.1-Forge-2.0.5.jar
+- zfastnoise-1.0.11+1.20+forge.jar
+
+## Client Mods
+
+### Added
+- BetterAdvancements-Forge-1.20.1-0.6.0.73.jar
+- companions-forge-1.20.1-1.3.6.jar
+- knightlib-forge-1.20.1-2.0.4.jar
+- xaerominimap-forge-1.20.1-26.6.0.jar
+- xaeroworldmap-forge-1.20.1-1.47.0.jar
+- YungsBetterCaves-1.20.1-Forge-2.0.7.jar
+
+### Removed
+- BetterAdvancements-Forge-1.20.1-0.4.2.60.jar
+- companions-forge-1.20.1-1.2.3.jar
+- knightlib-forge-1.20.1-1.5.2.jar
+- xaerominimap-forge-1.20.1-26.1.0.jar
+- xaeroworldmap-forge-1.20.1-1.41.2.jar
+- YungsBetterCaves-1.20.1-Forge-2.0.5.jar
 
