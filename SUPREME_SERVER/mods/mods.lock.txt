@@ -3,7 +3,7 @@ accessories-neoforge-1.0.0-beta.48+1.20.1.jar
 adorabuild-structures-2.8.0-forge-1.20.1.jar
 advancednetherite-forge-2.1.3-1.20.1.jar
 AI-Improvements-1.20-0.5.2.jar
-alltheleaks-1.1.1+1.20.1-forge.jar
+alltheleaks-1.1.3+1.20.1-forge.jar
 almanac-1.20.x-forge-1.0.2.jar
 almostunified-forge-1.20.1-0.11.0.jar
 amendments-1.20-2.2.5.jar
@@ -15,7 +15,7 @@ aquatictorches-1.20.1-forge-1.1.1.jar
 Architects-Palette-1.20.1-1.3.6.1.jar
 architectury-9.2.14-forge.jar
 AttributeFix-Forge-1.20.1-21.0.5.jar
-attributizer-3.1.jar
+attributizer-3.2.jar
 AutochefsDelight-1.20.1-Forge-1.0.7.jar
 awesomedungeonend-forge-1.20.1-3.1.1.jar
 awesomedungeonnether-forge-1.20.1-3.1.1.jar
@@ -23,7 +23,7 @@ awesomedungeonocean-forge-1.20.1-3.3.0.jar
 azurelib-neo-1.20.1-3.1.10.jar
 backpacked-forge-1.20.1-3.0.9.jar
 baguettelib-1.20.1-Forge-1.1.6.jar
-balm-forge-1.20.1-7.3.38-all.jar
+balm-forge-1.20.1-7.3.44.jar
 BarteringStation-v8.0.0-1.20.1-Forge.jar
 beautify-2.0.2.jar
 better_climbing-forge-3.jar
@@ -36,7 +36,7 @@ betterworldloading20-1.0.jar
 biggerendcities-1.20.1-1.0.0.jar
 block_factorys_bosses-2.1.2-forge-1.20.1.jar
 blossom.jar
-blueprint-1.20.1-7.1.4.jar
+blueprint-1.20.1-7.1.5.jar
 boatload-1.20.1-5.0.1.jar
 BOMD-Forge-1.20.1-1.1.1.jar
 booklinggear-1.20.1-3.13.jar
@@ -60,7 +60,7 @@ charmofundying-forge-6.5.0+1.20.1.jar
 chefsdelight-1.0.4-forge-1.20.1.jar
 Chimes-v2.1.1-1.20.1-Forge.jar
 chunkactivitytracker-forge-1.0.1-1.20.1.jar
-chunksending-1.20.1-2.8.jar
+chunksending-1.20.1-4.1.jar
 Chunky-1.3.146.jar
 citadel-2.6.3-1.20.1.jar
 ClimateRivers-v20.1.0-1.20.1-Forge.jar
@@ -68,7 +68,7 @@ cloth-config-11.1.136-forge.jar
 Clumps-forge-1.20.1-12.0.0.4.jar
 CodeChickenLib-1.20.1-4.4.0.516-universal.jar
 cofh_core-1.20.1-11.0.2.56.jar
-collective-1.20.1-8.25.jar
+collective-1.20.1-8.42.jar
 comforts-forge-6.4.0+1.20.1.jar
 companions-forge-1.20.1-1.3.6.jar
 constructionwand-1.20.1-2.11.jar
@@ -85,7 +85,7 @@ curiosbackslot-4.0.6-nc.jar
 curios-forge-5.14.1+1.20.1.jar
 curiouslanterns-1.20.1-1.3.7.jar
 CutThrough-v8.0.2-1.20.1-Forge.jar
-Darker Depths-1.20.1-2.1.4.jar
+Darker Depths-1.20.1-2.1.5.jar
 decorative_blocks-forge-1.20.1-4.1.3.jar
 deeper_and_darker_to_cataclysm-withtools-forge-1.20.1.jar
 deeperdarker-forge-1.20.1-1.3.3.jar
@@ -106,7 +106,7 @@ DungeonsAriseSevenSeas-1.20.x-1.0.2-forge.jar
 dynamicvillagertrades-1.3.1-forge-1.20.jar
 EasyAnvils-v8.0.2-1.20.1-Forge.jar
 EasyMagic-v8.0.1-1.20.1-Forge.jar
-ecologics-forge-1.20.1-2.2.6.jar
+ecologics-forge-1.20.1-2.2.7.jar
 eeeabsmobs-1.20.1-0.98.1.jar
 elenaidodge2-1.1.jar
 elytraslot-forge-6.4.4+1.20.1.jar
@@ -118,7 +118,7 @@ expandability-9.0.4.jar
 eyesoficeandfire-1.1.0-1.20.1.jar
 fairylights-7.0.0-1.20.1.jar
 FallingTree-1.20.1-4.3.4.jar
-FarmersDelight-1.20.1-1.3.2.jar
+FarmersDelight-1.20.1-1.3.4.jar
 farmersrespite-1.20.1-2.1.2.jar
 FarmersStructures-1.0.4-1.20.jar
 fastasyncworldsave-1.20.1-2.6.jar
@@ -149,14 +149,13 @@ golemsarefriends-1.20.0-1.0.1.jar
 gpumemleakfix-1.20.1-1.8.jar
 grim-kingdoms-lost-structures-ruins-v1.0.3 1.20.jar
 GuardRibbits-1.20.1-Forge-1.0.7.jar
-guardvillagers-1.20.1-1.6.18.jar
-healingcampfire-1.20.1-6.2.jar
+guardvillagers-1.20.1-1.6.19.jar
 hearth_and_home-forge-1.20.1-2.0.1.jar
 Hearths v1.0.5.mod.jar
 hexerei-0.4.2.3.jar
 hole_filler_mod-1.2.8_mc-1.20.1_forge.jar
 HopoBetterUnderwaterRuins-[1.20.1-1.20.4]-1.1.5b.jar
-horseman-1.20.1-1.3.16-forge.jar
+horseman-1.20.1-1.3.17-forge.jar
 iaf_dragons-1.0.7a.jar
 ice_and_fire_delight-forge-1.20.1-0.2.5.jar
 ice_and_fire_spellbooks-2.3.2-1.20.1.jar
@@ -188,7 +187,7 @@ l2library-2.5.3.jar
 lazyyyyy-lexforge-core-0.14.19.jar
 leather_to_rabbit_hide-1-forge-1.20.1.jar
 LeavesBeGone-v8.0.0-1.20.1-Forge.jar
-legendarymonsters-2.1.18 MC 1.20.1.jar
+legendarymonsters-2.2.3 MC 1.20.1.jar
 legionary-1.0.1-forge-1.20.1.jar
 lendersdelight-1.20.1-1.0.10.jar
 letsdo-API-forge-1.2.15-forge.jar
@@ -200,7 +199,8 @@ lionfishapi-3.0.jar
 lithostitched-forge-1.20.1-1.4.11.jar
 lodestone-1.20.1-1.6.4.1.jar
 Longwings-v0.9.5-1.20.1-Forge.jar
-lootintegrations_awesome-1.5.jar
+lootintegrations_awesome-1.7.jar
+lootintegrations_graveyard-1.2.jar
 lootintegrations-1.20.1-4.7.jar
 lootjs-forge-1.20.1-2.13.1.jar
 lootmodifier_k-2.0.1-1.20.1.jar
@@ -212,6 +212,7 @@ majrusz-library-forge-1.20.1-7.0.8.jar
 majruszs-enchantments-forge-1.20.1-1.10.8.jar
 MaxHealthFix-Forge-1.20.1-12.0.4.jar
 medieval_buildings-1.20.1-1.1.3-forge.jar
+mezz_config-1.20.1-forge-0.6.8.jar
 midnightlib-forge-1.9.2+1.20.1.jar
 misctweaks-1.1.4+1.20.1.jar
 mobtimizations-forge-1.20.1-1.0.1.jar
@@ -225,14 +226,14 @@ mowzies_cataclysm-1.2.1.jar
 mowziesmobs-1.8.2.jar
 mss-1.2.7-1.20.jar
 MutantMonsters-v8.0.8-1.20.1-Forge.jar
-mythsandlegends-0.0.8.8.jar
+mythsandlegends-1.0.5.jar
 Necronomicon-Forge-1.6.0+1.20.1.jar
 Neruina-2.1.2-forge+1.20.1.jar
 NetherChested-v8.0.4-1.20.1-Forge.jar
 netherportalfix-forge-1.20-13.0.1.jar
 nightlights-1.20.1-1.1.jar
 notrample-1.20.1-1.0.1.jar
-nyfsspiders-Forge-1.20.1-3.0.1.jar
+nyfsspiders-Forge-1.20.1-3.0.2.jar
 obscure_api-18.jar
 OctoLib-FORGE-0.5.0.1+1.20.1.jar
 orcish_depths 1.0.1.jar
@@ -243,7 +244,7 @@ performancetweaks-forge-1.3.1.jar
 Placebo-1.20.1-8.6.3.jar
 player-animation-lib-forge-1.0.2-rc1+1.20.jar
 PlayerRevive_FORGE_v2.0.31_mc1.20.1.jar
-polymorph-forge-0.49.10+1.20.1.jar
+polymorph-forge-0.49.11+1.20.1.jar
 Prism-1.20.1-forge-1.0.5.jar
 projectile_damage-forge-3.2.2+1.20.1.jar
 PuzzlesLib-v8.1.33-1.20.1-Forge.jar
@@ -252,11 +253,11 @@ Quest Kill Task-0.2.0+1.20.1-forge.jar
 radiantgear-forge-2.2.0+1.20.1.jar
 radium-mc1.20.1-0.12.4+git.26c9d8e.jar
 raidsenhanced-1.0.2-1.20.1.jar
-rch-supplementaries-compat-forge-1.0.0.jar
+rch-supplementaries-compat-forge-1.0.1+1.20.1.jar
 realmrpg_quests-0.1.1-forge-1.20.1.jar
 realmrpg_seadwellers_2.9.9_forge_1.20.1.jar
 realmrpg_skeletons-1.1.0-forge-1.20.1.jar
-reliquary-1.20.1-2.0.61.1507.jar
+reliquary-1.20.1-2.0.65.1565.jar
 resourcefulconfig-forge-1.20.1-2.1.3.jar
 resourcefullib-forge-1.20.1-2.1.29.jar
 rhino-forge-2001.2.3-build.10.jar
@@ -266,7 +267,7 @@ riverredux-0.3.1.jar
 roadweaver-forge-2.1.1-1.20.1.jar
 royal-variations-[Forge]_1.20.1_2.0.2.jar
 savage_and_ravage-1.20.1-6.0.1.jar
-sawmill-1.20-1.4.10.jar
+sawmill-1.20-1.4.11.jar
 scuba_gear-1.20.1-1.0.6.jar
 Searchables-forge-1.20.1-1.0.3.jar
 SereneSeasons-forge-1.20.1-9.1.0.3.jar
@@ -274,8 +275,6 @@ shadowizardlib-1.20.1-1.3.1.jar
 shelfmod-mc1.20.1-forge-3.2.jar
 simple_snowy_fix-forge-1.19-1.20.1-2.1.5.jar
 SimpleBackups-1.20.1-3.1.18.jar
-smallships_upgrades-forge-1.20.1-1.0.1.jar
-smallships-forge-1.20.1-2.0.0-b1.4.jar
 smarterfarmers-1.20-2.1.2.jar
 smoothchunk-1.20.1-4.1.jar
 SnowRealMagic-1.20.1-Forge-10.7.0.jar
@@ -296,7 +295,7 @@ tenshilib-1.20.1-1.7.6-forge.jar
 TerraBlender-forge-1.20.1-3.0.1.10.jar
 Terralith_1.20.x_v2.5.4.jar
 The_Graveyard_3.1_(FORGE)_for_1.20.1.jar
-tidal-towns-1.3.4.jar
+tidal-towns-2.0.jar
 totw_additions-1.3.1-1.20.x-forge.jar
 totw_modded-forge-1.20.1-1.0.6.jar
 Towns-and-Towers-1.12-Fabric+Forge.jar
@@ -307,7 +306,7 @@ txnilib-forge-1.0.24-1.20.1.jar
 underground_village-1.5.7.jar
 underground-rivers-1.0.1-forge-1.20.1.jar
 underwater_village-1.0.2-forge-1.20.1.jar
-unusualend-2.3.1.2.jar
+unusualend-2.3.1d.jar
 upgrade_aquatic-1.20.1-6.0.3.jar
 uranus-2.2.6-bugfix.2-1.20.1-forge.jar
 valhelsia_core-forge-1.20.1-1.1.2.jar
@@ -318,7 +317,7 @@ variantsandventures-forge-1.0.26+mc1.20.1.jar
 VillagersPlus_3.1_(FORGE)_for_1.20.1.jar
 VisualWorkbench-v8.0.1-1.20.1-Forge.jar
 voidtotem-forge-1.20-3.0.1.jar
-wandering_orc-1.2.6-1.20.1.jar
+wandering_orc-1.2.7-1.20.1.jar
 watut-forge-1.20.1-1.2.3.jar
 waystone_crypts-1.20.1-FORGE-1.1.0.jar
 waystones-forge-1.20.1-14.1.20.jar

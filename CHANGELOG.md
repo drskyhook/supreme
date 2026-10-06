@@ -1400,3 +1400,146 @@ first update in a while checkin what is here..
 - xaeroworldmap-forge-1.20.1-1.41.2.jar
 - YungsBetterCaves-1.20.1-Forge-2.0.5.jar
 
+
+# 2026-10-06
+
+## Server Mods
+
+### Added
+- alltheleaks-1.1.3+1.20.1-forge.jar
+- attributizer-3.2.jar
+- balm-forge-1.20.1-7.3.44.jar
+- blueprint-1.20.1-7.1.5.jar
+- chunksending-1.20.1-4.1.jar
+- collective-1.20.1-8.42.jar
+- Darker Depths-1.20.1-2.1.5.jar
+- ecologics-forge-1.20.1-2.2.7.jar
+- FarmersDelight-1.20.1-1.3.4.jar
+- guardvillagers-1.20.1-1.6.19.jar
+- horseman-1.20.1-1.3.17-forge.jar
+- legendarymonsters-2.2.3 MC 1.20.1.jar
+- lootintegrations_awesome-1.7.jar
+- lootintegrations_graveyard-1.2.jar
+- mezz_config-1.20.1-forge-0.6.8.jar
+- mythsandlegends-1.0.5.jar
+- nyfsspiders-Forge-1.20.1-3.0.2.jar
+- polymorph-forge-0.49.11+1.20.1.jar
+- rch-supplementaries-compat-forge-1.0.1+1.20.1.jar
+- reliquary-1.20.1-2.0.65.1565.jar
+- sawmill-1.20-1.4.11.jar
+- tidal-towns-2.0.jar
+- unusualend-2.3.1d.jar
+- wandering_orc-1.2.7-1.20.1.jar
+
+### Removed
+- alltheleaks-1.1.1+1.20.1-forge.jar
+- attributizer-3.1.jar
+- balm-forge-1.20.1-7.3.38-all.jar
+- blueprint-1.20.1-7.1.4.jar
+- chunksending-1.20.1-2.8.jar
+- collective-1.20.1-8.25.jar
+- Darker Depths-1.20.1-2.1.4.jar
+- ecologics-forge-1.20.1-2.2.6.jar
+- FarmersDelight-1.20.1-1.3.2.jar
+- guardvillagers-1.20.1-1.6.18.jar
+- healingcampfire-1.20.1-6.2.jar
+- horseman-1.20.1-1.3.16-forge.jar
+- legendarymonsters-2.1.18 MC 1.20.1.jar
+- lootintegrations_awesome-1.5.jar
+- mythsandlegends-0.0.8.8.jar
+- nyfsspiders-Forge-1.20.1-3.0.1.jar
+- polymorph-forge-0.49.10+1.20.1.jar
+- rch-supplementaries-compat-forge-1.0.0.jar
+- reliquary-1.20.1-2.0.61.1507.jar
+- sawmill-1.20-1.4.10.jar
+- smallships_upgrades-forge-1.20.1-1.0.1.jar
+- smallships-forge-1.20.1-2.0.0-b1.4.jar
+- tidal-towns-1.3.4.jar
+- unusualend-2.3.1.2.jar
+- wandering_orc-1.2.6-1.20.1.jar
+
+## Client Mods
+
+### Added
+- alltheleaks-1.1.3+1.20.1-forge.jar
+- attributizer-3.2.jar
+- balm-forge-1.20.1-7.3.44.jar
+- blueprint-1.20.1-7.1.5.jar
+- chat_heads-0.15.7-forge-1.20.jar
+- chunksending-1.20.1-4.1.jar
+- clientsort-forge-3.82.2+1.20.1.jar
+- collective-1.20.1-8.42.jar
+- common-networking-forge-1.0.6-1.20.1.jar
+- Darker Depths-1.20.1-2.1.5.jar
+- ecologics-forge-1.20.1-2.2.7.jar
+- entityculling-forge-1.11.2-mc1.20.1.jar
+- FarmersDelight-1.20.1-1.3.4.jar
+- farsight-1.20.1-5.5.1.jar
+- fishontheline-1.20.1-3.6.jar
+- flerovium-forge-1.20.1-1.2.19-all.jar
+- guardvillagers-1.20.1-1.6.19.jar
+- horseman-1.20.1-1.3.17-forge.jar
+- ImmediatelyFast-Forge-1.5.5+1.20.4.jar
+- Jade-1.20.1-Forge-11.13.3.jar
+- jeed-1.20-2.2.6.jar
+- jei-1.20.1-forge-15.62.0.219.jar
+- legendarymonsters-2.2.3 MC 1.20.1.jar
+- Loot Beams Refork-forge-1.20.1-3.4.7.jar
+- lootintegrations_awesome-1.7.jar
+- lootintegrations_graveyard-1.2.jar
+- mezz_config-1.20.1-forge-0.6.8.jar
+- mythsandlegends-1.0.5.jar
+- notenoughanimations-forge-1.12.6-mc1.20.1.jar
+- nyfsspiders-Forge-1.20.1-3.0.2.jar
+- polymorph-forge-0.49.11+1.20.1.jar
+- rch-supplementaries-compat-forge-1.0.1+1.20.1.jar
+- reliquary-1.20.1-2.0.65.1565.jar
+- sawmill-1.20-1.4.11.jar
+- tidal-towns-2.0.jar
+- unusualend-2.3.1d.jar
+- wandering_orc-1.2.7-1.20.1.jar
+- WeatherRefind-forge-1.20.1-v2.0.jar
+
+### Removed
+- alltheleaks-1.1.1+1.20.1-forge.jar
+- attributizer-3.1.jar
+- balm-forge-1.20.1-7.3.38-all.jar
+- blueprint-1.20.1-7.1.4.jar
+- chat_heads-0.15.2-forge-1.20.jar
+- chunksending-1.20.1-2.8.jar
+- clientsort-forge-2.2.2+1.20.1.jar
+- collective-1.20.1-8.25.jar
+- common-networking-forge-1.0.5-1.20.1.jar
+- Darker Depths-1.20.1-2.1.4.jar
+- distraction_free_recipes-forge-1.2.1-1.20.1.jar
+- ecologics-forge-1.20.1-2.2.6.jar
+- entityculling-forge-1.10.2-mc1.20.1.jar
+- FarmersDelight-1.20.1-1.3.2.jar
+- farsight-1.20.1-5.1.jar
+- fishontheline-1.20.1-3.5.jar
+- flerovium-forge-1.20.1-1.2.18-all.jar
+- guardvillagers-1.20.1-1.6.18.jar
+- horseman-1.20.1-1.3.16-forge.jar
+- ImmediatelyFast-Forge-1.5.4+1.20.4.jar
+- Jade-1.20.1-Forge-11.13.2.jar
+- jeed-1.20-2.2.5.jar
+- jei-1.20.1-forge-15.20.0.112.jar
+- JustEnoughResources-1.20.1-1.4.0.247.jar
+- justzoom_forge_2.1.1_MC_1.20.1.jar
+- legendarymonsters-2.1.18 MC 1.20.1.jar
+- Loot Beams Refork-forge-1.20.1-3.4.6.jar
+- lootintegrations_awesome-1.5.jar
+- mythsandlegends-0.0.8.8.jar
+- notenoughanimations-forge-1.12.4-mc1.20.1.jar
+- nyfsspiders-Forge-1.20.1-3.0.1.jar
+- polymorph-forge-0.49.10+1.20.1.jar
+- rch-supplementaries-compat-forge-1.0.0.jar
+- reliquary-1.20.1-2.0.61.1507.jar
+- sawmill-1.20-1.4.10.jar
+- smallships_upgrades-forge-1.20.1-1.0.1.jar
+- smallships-forge-1.20.1-2.0.0-b1.4.jar
+- tidal-towns-1.3.4.jar
+- unusualend-2.3.1.2.jar
+- wandering_orc-1.2.6-1.20.1.jar
+- WeatherRefind-forge-1.20.x-v1.4.jar
+

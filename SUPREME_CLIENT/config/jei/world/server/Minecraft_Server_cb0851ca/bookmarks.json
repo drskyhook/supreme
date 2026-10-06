@@ -1,0 +1,11 @@
+[
+  {"version":1},
+  {"type":"item_stack","value":"{Count:1b,id:\"minecraft:coal\"}"},
+  {"type":"item_stack","value":"{Count:1b,id:\"cataclysm:music_disc_the_cataclysmfarer\"}"},
+  {"type":"item_stack","value":"{Count:1b,id:\"minecraft:diamond_boots\",tag:{Damage:4,Enchantments:[{id:\"minecraft:unbreaking\",lvl:2s}]}}"},
+  {"type":"item_stack","value":"{Count:1b,id:\"minecraft:moss_carpet\"}"},
+  {"type":"item_stack","value":"{Count:1b,id:\"hexerei:animal_fat\"}"},
+  {"type":"item_stack","value":"{Count:1b,id:\"minecraft:lapis_lazuli\"}"},
+  {"type":"item_stack","value":"{Count:1b,id:\"minecraft:chiseled_polished_blackstone\"}"},
+  {"type":"item_stack","value":"{Count:1b,id:\"minecraft:enchanted_book\",tag:{StoredEnchantments:[{id:\"majruszsenchantments:repulsion\",lvl:1s}]}}"}
+]

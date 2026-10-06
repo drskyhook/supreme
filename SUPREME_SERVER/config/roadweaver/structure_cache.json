@@ -4162,8 +4162,17 @@
       ]
     },
     {
-      "id": "mythsandlegends:graveyard",
-      "displayName": "Graveyard",
+      "id": "mythsandlegends:chronicler_house",
+      "displayName": "Chronicler House",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "graveyard:past"
+      ]
+    },
+    {
+      "id": "mythsandlegends:mausoleum",
+      "displayName": "Mausoleum",
       "isVanilla": false,
       "dimensions": [
         "minecraft:overworld",
