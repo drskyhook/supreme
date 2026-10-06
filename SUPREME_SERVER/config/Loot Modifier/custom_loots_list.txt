@@ -1,0 +1,17 @@
+// Add specific rules here, one per line. A unique config file will be generated for each line inside the custom_loots folder.
+// Priority goes: 1. Exact Name > 2. Namespace > 3. Prefix > 4. Contains
+// 
+// --- EXAMPLES ---
+// 1. Exact Table Match (Highest Priority): this needs no type specifier, just write the exact table name.
+// apotheosis:inject/spawner_bonus
+// 
+// 2. Namespace Match (Targets an entire mod's loot tables):
+// namespace=minecraft
+// 
+// 3. Prefix Match (namespace:prefix or all:prefix):
+// prefix=minecraft:chests/village/
+// prefix=all:chests/
+// 
+// 4. Contains Match (namespace:keyword or all:keyword):
+// contains=minecraft:treasure
+// contains=all:spawner

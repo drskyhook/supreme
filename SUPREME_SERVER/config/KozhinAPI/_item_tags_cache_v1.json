@@ -1,0 +1,130 @@
+{
+  "warning 1-1": "Dont modify this file in anyway unless you really have to, this is where I put the tags.",
+  "warning 1-2": "I put this here in case someone wanted to change it.",
+  "warning 2-1": "This is used find the Categorical Removals items to remove from the loot table along with the ignored NBT properties.",
+  "warning 2-2": "While some of them I use explicit checks, changing these might not have effects.",
+  "warning 2-3": "Checks like isEdible, isArmor, isSword from minecraft.",
+  "warning 3-1": "You can modify this file for example if you wanted to ignore certain types while it might not work.",
+  "warning 4-1": "Tags lists are forge tags, Tags_clean is what I use if the item somehow bypassed forge tags.",
+  "warning 4-2": "Contain in the item name, you can remove them if you think they are unsafe.",
+  "warning 5-1": "The COMMON_NBT_KEYS list is a set of non-special NBT keys often present on standard items.",
+  "warning 5-2": "They will be ignored when the GLM determines if an item is *truly special*.",
+  "COMMON_NBT_KEYS": [
+    "Damage",
+    "RepairCost",
+    "Enchantments",
+    "display",
+    "AttributeModifiers",
+    "StoredEnchantments",
+    "HideFlags",
+    "CanPlaceOn",
+    "CanDestroy",
+    "CustomModelData",
+    "Trim",
+    "Potion",
+    "SuspiciousStewEffects",
+    "Instrument",
+    "CrossbowProjectile",
+    "map"
+  ],
+  "warning 6-1": "The COMMON_LOOT_FUNCTIONS list is used by the Base Loot Modifier (pre-generation).",
+  "warning 6-2": "These are standard functions used to generate standard gear. If a table uses a function NOT on this list, the item is considered protected.",
+  "COMMON_LOOT_FUNCTIONS": [
+    "minecraft:set_count",
+    "minecraft:set_name",
+    "minecraft:set_damage",
+    "minecraft:enchant_with_levels",
+    "minecraft:enchant_randomly",
+    "minecraft:set_enchantments",
+    "minecraft:set_potion",
+    "minecraft:set_instrument",
+    "minecraft:apply_bonus",
+    "minecraft:limit_count"
+  ],
+  "toolTags": [
+    "forge:tools/pickaxes",
+    "forge:tools/shovels",
+    "forge:tools/axes",
+    "forge:tools/hoes",
+    "forge:tools/shears",
+    "c:pickaxes",
+    "c:shovels",
+    "c:axes",
+    "c:hoes",
+    "c:shears"
+  ],
+  "toolTags_clean": [
+    "pickaxe",
+    "shovel",
+    "axe",
+    "hoe",
+    "shears"
+  ],
+  "oreTags": [
+    "forge:ores",
+    "forge:ingots",
+    "forge:nuggets",
+    "forge:raw_materials",
+    "forge:dusts",
+    "forge:gems",
+    "forge:crystals",
+    "forge:storage_blocks",
+    "forge:raw_blocks",
+    "c:ores",
+    "c:ingots",
+    "c:nuggets",
+    "c:raw_materials",
+    "c:dusts",
+    "c:gems",
+    "c:crystals",
+    "c:storage_blocks",
+    "c:raw_blocks"
+  ],
+  "oreTags_clean": [
+    "ore",
+    "ingot"
+  ],
+  "armorTags": [
+    "forge:chestplate",
+    "forge:leggings",
+    "forge:boots",
+    "forge:helmet",
+    "forge:armor",
+    "c:chestplate",
+    "c:leggings",
+    "c:boots",
+    "c:helmet",
+    "c:armor"
+  ],
+  "armorTags_clean": [
+    "chestplate",
+    "leggings",
+    "boots",
+    "helmet",
+    "armor"
+  ],
+  "weaponTags": [
+    "forge:tools/swords",
+    "forge:tools/axes",
+    "minecraft:swords",
+    "c:swords",
+    "minecraft:axes",
+    "c:axes"
+  ],
+  "weaponTags_clean": [
+    "swords",
+    "axes",
+    "bow",
+    "blade",
+    "crossbow"
+  ],
+  "warning 7-1": "Be careful, there are tagged loots! Some loots use tags to add random items.",
+  "warning 7-2": "More specific tags (e.g. c:vegetables) can be added into these five main categories.",
+  "foodTags": [
+    "forge:foods",
+    "c:foods"
+  ],
+  "foodTags_clean": [
+    "food"
+  ]
+}

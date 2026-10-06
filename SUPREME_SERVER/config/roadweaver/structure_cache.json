@@ -1146,6 +1146,38 @@
       ]
     },
     {
+      "id": "alshanex_familiars:end_laboratory",
+      "displayName": "End Laboratory",
+      "isVanilla": false,
+      "dimensions": []
+    },
+    {
+      "id": "alshanex_familiars:graveyard",
+      "displayName": "Graveyard",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:the_nether"
+      ]
+    },
+    {
+      "id": "alshanex_familiars:hunter_campsite",
+      "displayName": "Hunter Campsite",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "graveyard:past"
+      ]
+    },
+    {
+      "id": "alshanex_familiars:origin_island",
+      "displayName": "Origin Island",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "graveyard:past"
+      ]
+    },
+    {
       "id": "antiquetradingship:antique_trading_ship",
       "displayName": "Antique Trading Ship",
       "isVanilla": false,
@@ -2139,50 +2171,6 @@
       ]
     },
     {
-      "id": "companions:companions_babayaga",
-      "displayName": "Companions Babayaga",
-      "isVanilla": false,
-      "dimensions": [
-        "minecraft:overworld",
-        "graveyard:past"
-      ]
-    },
-    {
-      "id": "companions:companions_factory",
-      "displayName": "Companions Factory",
-      "isVanilla": false,
-      "dimensions": [
-        "minecraft:overworld",
-        "graveyard:past"
-      ]
-    },
-    {
-      "id": "companions:companions_monkey_temple",
-      "displayName": "Companions Monkey Temple",
-      "isVanilla": false,
-      "dimensions": [
-        "minecraft:overworld",
-        "graveyard:past"
-      ]
-    },
-    {
-      "id": "companions:companions_teddytower",
-      "displayName": "Companions Teddytower",
-      "isVanilla": false,
-      "dimensions": [
-        "minecraft:overworld",
-        "graveyard:past"
-      ]
-    },
-    {
-      "id": "companions:companions_tent",
-      "displayName": "Companions Tent",
-      "isVanilla": false,
-      "dimensions": [
-        "minecraft:the_nether"
-      ]
-    },
-    {
       "id": "darkerdepths:catacombs",
       "displayName": "Catacombs",
       "isVanilla": false,
@@ -2222,15 +2210,6 @@
       "isVanilla": false,
       "dimensions": [
         "deeperdarker:otherside"
-      ]
-    },
-    {
-      "id": "dungeoncrawl:dungeon",
-      "displayName": "Dungeon",
-      "isVanilla": false,
-      "dimensions": [
-        "minecraft:overworld",
-        "graveyard:past"
       ]
     },
     {
@@ -2999,32 +2978,6 @@
       ]
     },
     {
-      "id": "golemdungeons:abandoned_factory",
-      "displayName": "Abandoned Factory",
-      "isVanilla": false,
-      "dimensions": [
-        "minecraft:overworld",
-        "graveyard:past"
-      ]
-    },
-    {
-      "id": "golemdungeons:piglin_factory",
-      "displayName": "Piglin Factory",
-      "isVanilla": false,
-      "dimensions": [
-        "minecraft:the_nether"
-      ]
-    },
-    {
-      "id": "golemdungeons:sculk_factory",
-      "displayName": "Sculk Factory",
-      "isVanilla": false,
-      "dimensions": [
-        "minecraft:overworld",
-        "graveyard:past"
-      ]
-    },
-    {
       "id": "graveyard:altar",
       "displayName": "Altar",
       "isVanilla": false,
@@ -3418,33 +3371,6 @@
       ]
     },
     {
-      "id": "iceandfire:gorgon_temple",
-      "displayName": "Gorgon Temple",
-      "isVanilla": false,
-      "dimensions": [
-        "minecraft:overworld",
-        "graveyard:past"
-      ]
-    },
-    {
-      "id": "iceandfire:graveyard",
-      "displayName": "Graveyard",
-      "isVanilla": false,
-      "dimensions": [
-        "minecraft:overworld",
-        "graveyard:past"
-      ]
-    },
-    {
-      "id": "iceandfire:mausoleum",
-      "displayName": "Mausoleum",
-      "isVanilla": false,
-      "dimensions": [
-        "minecraft:overworld",
-        "graveyard:past"
-      ]
-    },
-    {
       "id": "illagerinvasion:firecaller_hut",
       "displayName": "Firecaller Hut",
       "isVanilla": false,
@@ -3827,6 +3753,48 @@
     {
       "id": "medieval_buildings:tower",
       "displayName": "Tower",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "graveyard:past"
+      ]
+    },
+    {
+      "id": "monsterexpansion:ignathos_structure",
+      "displayName": "Ignathos Structure",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "graveyard:past"
+      ]
+    },
+    {
+      "id": "monsterexpansion:leivekilth_structure",
+      "displayName": "Leivekilth Structure",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "graveyard:past"
+      ]
+    },
+    {
+      "id": "monsterexpansion:rakoth_structure",
+      "displayName": "Rakoth Structure",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "graveyard:past"
+      ]
+    },
+    {
+      "id": "monsterexpansion:rhyza_structure",
+      "displayName": "Rhyza Structure",
+      "isVanilla": false,
+      "dimensions": []
+    },
+    {
+      "id": "monsterexpansion:skrythe_structure",
+      "displayName": "Skrythe Structure",
       "isVanilla": false,
       "dimensions": [
         "minecraft:overworld",
@@ -4950,6 +4918,39 @@
     {
       "id": "roadweaver:wood_bridge_zhuzi",
       "displayName": "Wood Bridge Zhuzi",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "graveyard:past"
+      ]
+    },
+    {
+      "id": "saintsdragons:draconian_nucleus",
+      "displayName": "Draconian Nucleus",
+      "isVanilla": false,
+      "dimensions": []
+    },
+    {
+      "id": "saintsdragons:ignivorus_roost",
+      "displayName": "Ignivorus Roost",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "graveyard:past"
+      ]
+    },
+    {
+      "id": "saintsdragons:ivy_house",
+      "displayName": "Ivy House",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "graveyard:past"
+      ]
+    },
+    {
+      "id": "saintsdragons:varasuchus_roost",
+      "displayName": "Varasuchus Roost",
       "isVanilla": false,
       "dimensions": [
         "minecraft:overworld",
@@ -6675,13 +6676,6 @@
       ]
     },
     {
-      "tagId": "golemdungeons:abandoned_factory",
-      "displayName": "#Abandoned Factory",
-      "structureIds": [
-        "golemdungeons:abandoned_factory"
-      ]
-    },
-    {
       "tagId": "quark:acacia_chest_structures",
       "displayName": "#Acacia Chest Structures",
       "structureIds": [
@@ -7110,6 +7104,13 @@
       ]
     },
     {
+      "tagId": "alshanex_familiars:explorer_map_located",
+      "displayName": "#Explorer Map Located",
+      "structureIds": [
+        "alshanex_familiars:hunter_campsite"
+      ]
+    },
+    {
       "tagId": "dungeons_arise:explorer_maps/bandit_towers",
       "displayName": "#Explorer Maps/bandit Towers",
       "structureIds": [
@@ -7323,8 +7324,7 @@
       "tagId": "quark:jungle_chest_structures",
       "displayName": "#Jungle Chest Structures",
       "structureIds": [
-        "minecraft:jungle_pyramid",
-        "iceandfire:gorgon_temple"
+        "minecraft:jungle_pyramid"
       ]
     },
     {
@@ -7361,6 +7361,13 @@
       ]
     },
     {
+      "tagId": "alshanex_familiars:memory_fragment_located",
+      "displayName": "#Memory Fragment Located",
+      "structureIds": [
+        "alshanex_familiars:origin_island"
+      ]
+    },
+    {
       "tagId": "legendary_monsters:mossy_temple_eye_located",
       "displayName": "#Mossy Temple Eye Located",
       "structureIds": [
@@ -7390,7 +7397,6 @@
         "minecraft:stronghold",
         "minecraft:village_plains",
         "betterstrongholds:stronghold",
-        "dungeoncrawl:dungeon",
         "valhelsia_structures:big_tree",
         "valhelsia_structures:castle_ruin",
         "valhelsia_structures:player_house",
@@ -7512,13 +7518,6 @@
       ]
     },
     {
-      "tagId": "golemdungeons:piglin_factory",
-      "displayName": "#Piglin Factory",
-      "structureIds": [
-        "golemdungeons:piglin_factory"
-      ]
-    },
-    {
       "tagId": "quark:prismarine_chest_structures",
       "displayName": "#Prismarine Chest Structures",
       "structureIds": [
@@ -7559,13 +7558,6 @@
       "displayName": "#Ruined Pyramid Eye Located",
       "structureIds": [
         "legendary_monsters:ruined_pyramid"
-      ]
-    },
-    {
-      "tagId": "golemdungeons:sculk_factory",
-      "displayName": "#Sculk Factory",
-      "structureIds": [
-        "golemdungeons:sculk_factory"
       ]
     },
     {

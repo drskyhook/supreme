@@ -56,6 +56,11 @@
     "maid_model": true,
     "player_skin": true
   },
+  "saintsdragons": {
+    "egg_timer": true,
+    "draconic_crucible_timer": true,
+    "dragon_info": true
+  },
   "reliquary": {
     "pedestal": true,
     "altar": true,

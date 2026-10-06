@@ -1691,3 +1691,113 @@ first update in a while checkin what is here..
 - waystones-forge-1.20.1-14.1.20.jar
 - yucutan_combat-2.2.0-forge-1.20.1.jar
 
+
+# 2026-10-06 #3
+
+## Server Mods
+
+### Added
+- alshanex_familiars-1.20.1_v4.1.0.jar
+- familiarslib-1.20.1-1.9.jar
+- kozhin_lib_k-1.1.5-1.20.1.jar
+- lootmodifier_k-3.1.0-1.20.1.jar
+- monsterexpansion-1.20.1-v0.7.6.jar
+- saintsdragons-0.9.88+forge-1.20.1.jar
+
+### Removed
+- companions-forge-1.20.1-1.3.6.jar
+- dragonsteel-0.81.jar
+- Dungeon Crawl-1.20.1-2.3.15.jar
+- eyesoficeandfire-1.1.0-1.20.1.jar
+- golemdungeons-1.0.7.jar
+- iaf_dragons-1.0.7a.jar
+- ice_and_fire_delight-forge-1.20.1-0.2.5.jar
+- ice_and_fire_spellbooks-2.3.2-1.20.1.jar
+- iceandfire_curios-1.3.0-forge-1.20.1.jar
+- iceandfire-2.1.13-1.20.1-beta-5.jar
+- iceandfirebettercombat1.20.1-1.0.1.jar
+- knightlib-forge-1.20.1-2.0.4.jar
+- lootmodifier_k-2.0.1-1.20.1.jar
+- modulargolems-2.7.4.jar
+- solcarrot-1.20.1-1.15.1.jar
+
+## Client Mods
+
+### Added
+- alshanex_familiars-1.20.1_v4.1.0.jar
+- familiarslib-1.20.1-1.9.jar
+- monsterexpansion-1.20.1-v0.7.6.jar
+- saintsdragons-0.9.88+forge-1.20.1.jar
+
+### Removed
+- companions-forge-1.20.1-1.3.6.jar
+- dragonsteel-0.81.jar
+- Dungeon Crawl-1.20.1-2.3.15.jar
+- eyesoficeandfire-1.1.0-1.20.1.jar
+- golemdungeons-1.0.7.jar
+- iaf_dragons-1.0.7a.jar
+- ice_and_fire_delight-forge-1.20.1-0.2.5.jar
+- ice_and_fire_spellbooks-2.3.2-1.20.1.jar
+- iceandfire_curios-1.3.0-forge-1.20.1.jar
+- iceandfire-2.1.13-1.20.1-beta-5.jar
+- iceandfirebettercombat1.20.1-1.0.1.jar
+- knightlib-forge-1.20.1-2.0.4.jar
+- modulargolems-2.7.4.jar
+- solcarrot-1.20.1-1.15.1.jar
+
+
+# 2026-10-06 #4
+
+## Server Mods
+
+### Added
+- alshanex_familiars-1.20.1_v4.1.0.jar
+- extragolems-20.1.0.2.jar
+- familiarslib-1.20.1-1.9.jar
+- kozhin_lib_k-1.1.5-1.20.1.jar
+- lootmodifier_k-3.1.0-1.20.1.jar
+- monsterexpansion-1.20.1-v0.7.6.jar
+- saintsdragons-0.9.88+forge-1.20.1.jar
+
+### Removed
+- companions-forge-1.20.1-1.3.6.jar
+- dragonsteel-0.81.jar
+- Dungeon Crawl-1.20.1-2.3.15.jar
+- eyesoficeandfire-1.1.0-1.20.1.jar
+- golemdungeons-1.0.7.jar
+- iaf_dragons-1.0.7a.jar
+- ice_and_fire_delight-forge-1.20.1-0.2.5.jar
+- ice_and_fire_spellbooks-2.3.2-1.20.1.jar
+- iceandfire_curios-1.3.0-forge-1.20.1.jar
+- iceandfire-2.1.13-1.20.1-beta-5.jar
+- iceandfirebettercombat1.20.1-1.0.1.jar
+- knightlib-forge-1.20.1-2.0.4.jar
+- lootmodifier_k-2.0.1-1.20.1.jar
+- modulargolems-2.7.4.jar
+- solcarrot-1.20.1-1.15.1.jar
+
+## Client Mods
+
+### Added
+- alshanex_familiars-1.20.1_v4.1.0.jar
+- extragolems-20.1.0.2.jar
+- familiarslib-1.20.1-1.9.jar
+- monsterexpansion-1.20.1-v0.7.6.jar
+- saintsdragons-0.9.88+forge-1.20.1.jar
+
+### Removed
+- companions-forge-1.20.1-1.3.6.jar
+- dragonsteel-0.81.jar
+- Dungeon Crawl-1.20.1-2.3.15.jar
+- eyesoficeandfire-1.1.0-1.20.1.jar
+- golemdungeons-1.0.7.jar
+- iaf_dragons-1.0.7a.jar
+- ice_and_fire_delight-forge-1.20.1-0.2.5.jar
+- ice_and_fire_spellbooks-2.3.2-1.20.1.jar
+- iceandfire_curios-1.3.0-forge-1.20.1.jar
+- iceandfire-2.1.13-1.20.1-beta-5.jar
+- iceandfirebettercombat1.20.1-1.0.1.jar
+- knightlib-forge-1.20.1-2.0.4.jar
+- modulargolems-2.7.4.jar
+- solcarrot-1.20.1-1.15.1.jar
+

@@ -123,79 +123,103 @@
 		#Quality for randomly kept items from the filters, the rules is same as keptItemsQuality.
 		#Range: 0 ~ 100
 		keptRandomItemsQuality = 35
-
-	#
-	#--- Global Item Lists ---
-	#These lists affect all chest loot tables.
-	[general.global_lists]
-		#A list of item IDs to PREVENT from being removed by the categorical filters above, overrides removedItems.
-		#Use a text editor if want to add to many items, it will help alot.
-		#Example: ["minecraft:golden_hoe"]
-		blockedItems = ["minecraft:golden_apple", "minecraft:enchanted_golden_apple", "minecraft:rotten_flesh", "minecraft:spider_eye", "minecraft:poisonous_potato", "minecraft:golden_carrot", "minecraft:rabbit_stew", "minecraft:suspicious_stew", "minecraft:honey_bottle", "minecraft:tropical_fish", "minecraft:pufferfish", "minecraft:carrot_on_a_stick", "minecraft:warped_fungus_on_a_stick", "minecraft:fishing_rod", "minecraft:brush", "minecraft:elytra", "minecraft:shield", "minecraft:turtle_helmet"]
-		#A list of specific item IDs to remove from ALL chests.
-		#Example: ["minecraft:rotten_flesh", "minecraft:bone"]
-		removedItems = ["minecraft:diamond", "minecraft:emerald", "minecraft:iron_ingot", "minecraft:gold_ingot"]
-		#A list of loot table PATHs to completely ignore, The mod will not modify these tables at all.
-		#Format: ["namespace:path", "namespace:path"]
-		#Example: ["minecraft:chests/village/village_armorer", "minecraft:chests/end_city_treasure"]
-		skippedLootTables = []
-
-	#
-	#--- Global Added Items ---
-	#Define a new loot pool that will be added to EVERY chest.
-	#So these items will have a chance to spawn in every chest based on how you add them.
-	[general.global_additions]
-		#The minimum number of times to roll for items in the global pool.
+		#If true, ANY item that cannot be crafted will be automatically protected from the categorical filters (removeArmor, removeTools, etc.).
+		#This protects pure-loot items like Horse Armor, Saddles, or special uncraftable modded rings/artifacts.
+		#Note: This does not affect 'removeAnyCraftableItem' since they do opposite things.
+		protectUncraftableItems = true
+		#
+		#
+		#-- Removed Items Phantom Weight --
+		#When an item is removed from a chest, it is replaced with a hidden 'Empty' item.
+		#If set to 100%, the empty item keeps the original item's spawn weight (resulting in fewer total items in the chest).
+		#If set to 0%, the empty item has 0 weight, meaning the chest will instead 'reroll' and fill up with the remaining unremoved items.(which makes all the kept item spawn more, this means if a remove apple had 20 weight, and the chest also contains a kept Ender Pearl, now the ender pearl spawn a lot more that it suppose to be)
+		#Set to 50% for a middle ground.
 		#Range: 0 ~ 100
-		globalRollsMin = 0
-		#The maximum number of times to roll for items in the global pool.
-		#Range: 0 ~ 100
-		globalRollsMax = 0
-		#An extra number of rolls based on the Luck attribute.
-		#Range: 0 ~ 100
-		globalBonusRolls = 0
-		#The list of items to add to the global pool.
-		#Format: "modid:item_name, weight, min_stack, max_stack"
-		#Weight is rarity (higher = more common). Stacks can be 0 for a default of 1.
-		#Example: ["minecraft:diamond, 10, 1, 3", "minecraft:nether_star, 1, 1, 1"]
-		globalAddedItems = []
+		emptyEntryWeightQuality = 100
 
 	#
-	#--- Table-Specific Modifications ---
-	#These lists allow you to modify specific loot tables by name.
-	[general.table_specific]
-		#Remove specific items from specific loot tables.
-		#Format: "namespace:path|modid:item1,modid:item2"
-		#Example: ["minecraft:chests/simple_dungeon|minecraft:rotten_flesh"]
-		tableSpecificRemovals = []
-		#Add a custom loot pool to a specific loot table.
-		#Format: "namespace:path|min_rolls,max_rolls,bonus_rolls|modid:item1,w1,s_min1,s_max1|modid:item2,w2,s_min2,s_max2"
-		#Example: ["minecraft:chests/buried_treasure|1,1,0|minecraft:heart_of_the_sea,1,1,1|minecraft:diamond,5,1,2"]
-		tableSpecificAdditions = []
-		#Set Custom Quality for specific loot table.
-		#Format: "namespace:path|int(keptItemsQuality),int(keptTaggedItemsQuality),int(removedItemsRandomKeepChance),int(keptRandomItemsQuality)", same
-		#Example: ["minecraft:chests/buried_treasure|40,80,3,50"]
-		tableSpecificQuality = ["minecraft:chests/simple_dungeon|15,15,0,20", "minecraft:chests/abandoned_mineshaft|15,15,0,20", "minecraft:chests/desert_pyramid|20,20,0,20", "minecraft:chests/jungle_temple|20,20,0,20"]
+	#--- Absolute Craftable Removal ---
+	#This will aggressively remove ANY item from chests if it has a crafting recipe.
+	#This bypasses normal categorical filters but respects force-blocked/protected items.
+	[general.craftable_removal]
+		#Remove any item that can be crafted.
+		removeAnyCraftableItem = false
+		#Chance to randomly keep a craftable item.
+		#Range: 0 ~ 100
+		removedCraftableItemsRandomKeepChance = 0
 
-	#
-	#--- Namespace-Specific Modifications ---
-	#These lists allow you to modify specific namespace loot tables by name.
-	#And table_specific configurations are applied after this, so you can modify a table while its namespace is also under modify.
-	[general.namespace_specific]
-		#A list of namespace to completely ignore, The mod will not modify these namespaces at all.
-		#Format: ["namespace", "namespace"]
-		#Example: ["minecraft", "some mod namespace"]
-		skippedNamespaces = ["irons_spellbooks"]
-		#Remove specific items from specific namespace loot_tables.
-		#Format: "namespace|modid:item1,modid:item2"
-		#Example: ["minecraft|minecraft:rotten_flesh"]
-		namespaceSpecificRemovals = []
-		#Add a custom loot pool to a specific namespace loot tables.
-		#Format: "namespace|min_rolls,max_rolls,bonus_rolls|modid:item1,w1,s_min1,s_max1|modid:item2,w2,s_min2,s_max2"
-		#Example: ["minecraft|1,1,0|minecraft:heart_of_the_sea,1,1,1|minecraft:diamond,5,1,2"]
-		namespaceSpecificAdditions = []
-		#Set Custom Quality for specific namespace.
-		#Format: "namespace|int(keptItemsQuality),int(keptTaggedItemsQuality),int(removedItemsRandomKeepChance),int(keptRandomItemsQuality)", same
-		#Example: ["minecraft|40,80,3,50"]
-		namespaceSpecificQuality = []
+		#
+		#--- Global Item Lists ---
+		#These lists affect all chest loot tables.
+		[general.craftable_removal.global_lists]
+			#A list of item IDs to PREVENT from being removed by the categorical filters above, overrides removedItems.
+			#Use a text editor if want to add to many items, it will help alot.
+			#Example: ["minecraft:golden_hoe"]
+			blockedItems = ["minecraft:golden_apple", "minecraft:enchanted_golden_apple", "minecraft:rotten_flesh", "minecraft:spider_eye", "minecraft:poisonous_potato", "minecraft:golden_carrot", "minecraft:rabbit_stew", "minecraft:suspicious_stew", "minecraft:honey_bottle", "minecraft:tropical_fish", "minecraft:pufferfish", "minecraft:carrot_on_a_stick", "minecraft:warped_fungus_on_a_stick", "minecraft:fishing_rod", "minecraft:brush", "minecraft:elytra", "minecraft:shield", "minecraft:turtle_helmet"]
+			#A list of specific item IDs to remove from ALL chests.
+			#Example: ["minecraft:rotten_flesh", "minecraft:bone"]
+			removedItems = []
+			#A list of loot table PATHs to completely ignore, The mod will not modify these tables at all.
+			#Format: ["namespace:path", "namespace:path"]
+			#Example: ["minecraft:chests/village/village_armorer", "minecraft:chests/end_city_treasure"]
+			skippedLootTables = []
+
+		#
+		#--- Global Added Items ---
+		#Define a new loot pool that will be added to EVERY chest.
+		#So these items will have a chance to spawn in every chest based on how you add them.
+		[general.craftable_removal.global_additions]
+			#The minimum number of times to roll for items in the global pool.
+			#Range: 0 ~ 100
+			globalRollsMin = 1
+			#The maximum number of times to roll for items in the global pool.
+			#Range: 0 ~ 100
+			globalRollsMax = 1
+			#An extra number of rolls based on the Luck attribute.
+			#Range: 0 ~ 100
+			globalBonusRolls = 0
+			#The list of items to add to the global pool.
+			#Format: "modid:item_name, weight, min_stack, max_stack"
+			#Weight is rarity (higher = more common). Stacks can be 0 for a default of 1.
+			#Example: ["minecraft:diamond, 10, 1, 3", "minecraft:nether_star, 1, 1, 1"]
+			globalAddedItems = []
+
+		#
+		#--- Table-Specific Modifications ---
+		#These lists allow you to modify specific loot tables by name.
+		[general.craftable_removal.table_specific]
+			#Remove specific items from specific loot tables.
+			#Format: "namespace:path|modid:item1,modid:item2"
+			#Example: ["minecraft:chests/simple_dungeon|minecraft:rotten_flesh"]
+			tableSpecificRemovals = []
+			#Add a custom loot pool to a specific loot table.
+			#Format: "namespace:path|min_rolls,max_rolls,bonus_rolls|modid:item1,w1,s_min1,s_max1|modid:item2,w2,s_min2,s_max2"
+			#Example: ["minecraft:chests/buried_treasure|1,1,0|minecraft:heart_of_the_sea,1,1,1|minecraft:diamond,5,1,2"]
+			tableSpecificAdditions = []
+			#Set Custom Quality for specific loot table.
+			#Format: "namespace:path|int(keptItemsQuality),int(keptTaggedItemsQuality),int(removedItemsRandomKeepChance),int(keptRandomItemsQuality)", same
+			#Example: ["minecraft:chests/buried_treasure|40,80,3,50"]
+			tableSpecificQuality = []
+
+		#
+		#--- Namespace-Specific Modifications ---
+		#These lists allow you to modify specific namespace loot tables by name.
+		#And table_specific configurations are applied after this, so you can modify a table while its namespace is also under modify.
+		[general.craftable_removal.namespace_specific]
+			#A list of namespace to completely ignore, The mod will not modify these namespaces at all.
+			#Format: ["namespace", "namespace"]
+			#Example: ["minecraft", "some mod namespace"]
+			skippedNamespaces = []
+			#Remove specific items from specific namespace loot_tables.
+			#Format: "namespace|modid:item1,modid:item2"
+			#Example: ["minecraft|minecraft:rotten_flesh"]
+			namespaceSpecificRemovals = []
+			#Add a custom loot pool to a specific namespace loot tables.
+			#Format: "namespace|min_rolls,max_rolls,bonus_rolls|modid:item1,w1,s_min1,s_max1|modid:item2,w2,s_min2,s_max2"
+			#Example: ["minecraft|1,1,0|minecraft:heart_of_the_sea,1,1,1|minecraft:diamond,5,1,2"]
+			namespaceSpecificAdditions = []
+			#Set Custom Quality for specific namespace.
+			#Format: "namespace|int(keptItemsQuality),int(keptTaggedItemsQuality),int(removedItemsRandomKeepChance),int(keptRandomItemsQuality)", same
+			#Example: ["minecraft|40,80,3,50"]
+			namespaceSpecificQuality = []
 
