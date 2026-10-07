@@ -22,23 +22,12 @@
 		[types.wood_type.valhelsia_structures]
 			lapidified_jungle = true
 
-		[types.wood_type.born_in_chaos_v1]
-			scorched = true
-
 		[types.wood_type.cataclysm]
 			chorus = true
 
 		[types.wood_type.upgrade_aquatic]
 			driftwood = true
 			river = true
-
-		[types.wood_type.architects_palette]
-			twisted = true
-
-		[types.wood_type.hexerei]
-			mahogany = true
-			willow = true
-			witch_hazel = true
 
 		[types.wood_type.darkerdepths]
 			petrified = true
@@ -71,14 +60,6 @@
 			orange_blossom = true
 			yellow_blossom = true
 			red_blossom = true
-
-		[types.leaves_type.architects_palette]
-			twisted = true
-
-		[types.leaves_type.hexerei]
-			mahogany = true
-			willow = true
-			witch_hazel = true
 
 		[types.leaves_type.galosphere]
 			opal = true
@@ -147,13 +128,6 @@
 
 		[entries.wood_type.backpacked]
 			backpack_shelf = true
-
-		[entries.wood_type.architects_palette]
-			board_stairs = true
-			railing = true
-			boards = true
-			board_slab = true
-			board_wall = true
 
 		[entries.wood_type.beautify]
 			trellis = true

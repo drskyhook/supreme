@@ -52,14 +52,15 @@
     "painting": true,
     "chiseled_bookshelf": true
   },
-  "modulargolems": {
-    "maid_model": true,
-    "player_skin": true
-  },
   "saintsdragons": {
     "egg_timer": true,
     "draconic_crucible_timer": true,
     "dragon_info": true
+  },
+  "golems": {
+    "show_icon": false,
+    "fg_color": "WHITE",
+    "jade_entity_provider": true
   },
   "reliquary": {
     "pedestal": true,

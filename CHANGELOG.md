@@ -1801,3 +1801,35 @@ first update in a while checkin what is here..
 - modulargolems-2.7.4.jar
 - solcarrot-1.20.1-1.15.1.jar
 
+
+# 2026-10-06 #5
+
+## Server Mods
+
+### Added
+- ingeniumapi-1.0.2-FORGE-MC-1.20.1.jar
+- jei-1.20.1-forge-15.62.0.219.jar
+- quickstack-1.20.1-2.jar
+- shippy_ships-1.0.17.6-FORGE-MC-1.20.1.jar
+
+### Removed
+- Architects-Palette-1.20.1-1.3.6.1.jar
+- better_climbing-forge-3.jar
+- born_in_chaos_[Forge]1.20.1_1.7.5.jar
+- borninconfiguration-3.2.1[FORGE].jar
+- hexerei-0.4.2.3.jar
+
+## Client Mods
+
+### Added
+- ingeniumapi-1.0.2-FORGE-MC-1.20.1.jar
+- quickstack-1.20.1-2.jar
+- shippy_ships-1.0.17.6-FORGE-MC-1.20.1.jar
+
+### Removed
+- Architects-Palette-1.20.1-1.3.6.1.jar
+- better_climbing-forge-3.jar
+- born_in_chaos_[Forge]1.20.1_1.7.5.jar
+- borninconfiguration-3.2.1[FORGE].jar
+- hexerei-0.4.2.3.jar
+

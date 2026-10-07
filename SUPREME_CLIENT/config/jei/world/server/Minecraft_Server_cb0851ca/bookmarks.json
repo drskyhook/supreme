@@ -7,5 +7,7 @@
   {"type":"item_stack","value":"{Count:1b,id:\"hexerei:animal_fat\"}"},
   {"type":"item_stack","value":"{Count:1b,id:\"minecraft:lapis_lazuli\"}"},
   {"type":"item_stack","value":"{Count:1b,id:\"minecraft:chiseled_polished_blackstone\"}"},
-  {"type":"item_stack","value":"{Count:1b,id:\"minecraft:enchanted_book\",tag:{StoredEnchantments:[{id:\"majruszsenchantments:repulsion\",lvl:1s}]}}"}
+  {"type":"item_stack","value":"{Count:1b,id:\"minecraft:enchanted_book\",tag:{StoredEnchantments:[{id:\"majruszsenchantments:repulsion\",lvl:1s}]}}"},
+  {"type":"item_stack","value":"{Count:1b,id:\"vinery:dark_cherry_planks\"}"},
+  {"type":"item_stack","value":"{Count:1b,id:\"everycomp:vp/quark/azalea_horticulturist_table\"}"}
 ]
