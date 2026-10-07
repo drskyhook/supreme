@@ -1,5 +1,6 @@
 {
   "dimensions": [
+    "dungeon_conquest_api:dungeon_dim",
     "deeperdarker:otherside",
     "minecraft:overworld",
     "graveyard:past",
@@ -3480,6 +3481,7 @@
       "displayName": "Frostmaw Spawn",
       "isVanilla": false,
       "dimensions": [
+        "dungeon_conquest_api:dungeon_dim",
         "irons_spellbooks:pocket_dimension",
         "minecraft:overworld",
         "graveyard:past"
@@ -3490,6 +3492,7 @@
       "displayName": "Monastery",
       "isVanilla": false,
       "dimensions": [
+        "dungeon_conquest_api:dungeon_dim",
         "irons_spellbooks:pocket_dimension",
         "minecraft:overworld",
         "graveyard:past"
@@ -3500,6 +3503,7 @@
       "displayName": "Umvuthana Grove",
       "isVanilla": false,
       "dimensions": [
+        "dungeon_conquest_api:dungeon_dim",
         "irons_spellbooks:pocket_dimension",
         "minecraft:overworld",
         "graveyard:past"
@@ -3510,6 +3514,7 @@
       "displayName": "Wrought Chamber",
       "isVanilla": false,
       "dimensions": [
+        "dungeon_conquest_api:dungeon_dim",
         "irons_spellbooks:pocket_dimension",
         "minecraft:overworld",
         "graveyard:past"
@@ -3845,6 +3850,15 @@
       "isVanilla": false,
       "dimensions": [
         "minecraft:the_nether"
+      ]
+    },
+    {
+      "id": "nordic_structure:stormborn_tomb",
+      "displayName": "Stormborn Tomb",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "graveyard:past"
       ]
     },
     {

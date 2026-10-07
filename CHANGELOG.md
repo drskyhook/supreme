@@ -1833,3 +1833,37 @@ first update in a while checkin what is here..
 - borninconfiguration-3.2.1[FORGE].jar
 - hexerei-0.4.2.3.jar
 
+# 2026-10-07
+
+## Server Mods
+
+### Added
+- Corgilib-Forge-1.20.1-4.0.3.5.jar
+- Data_Anchor-forge-1.20.1-1.0.0.23.jar
+- dungeon_conquest_api-2.0.0.jar
+- Enhanced-Celestials-2-Core-Forge-1.20.1-1.0.3.3.jar
+- Enhanced-Celestials-2-Default-Lunar-Events-Forge-1.20.1-1.0.0.6.jar
+- forge frogi_lib 1.20.1.jar
+- mythicupgrades-forge-1.20.1-5.1.1.jar
+- potion_combiner-Forge-1.20.1-1.0.0.jar
+- shieldexp-forge-1.20.1-1.3.7.jar
+- stormborn_tomb-1.3.5 forge.jar
+
+## Client Mods
+
+### Added
+- Corgilib-Forge-1.20.1-4.0.3.5.jar
+- Data_Anchor-forge-1.20.1-1.0.0.23.jar
+- dungeon_conquest_api-2.0.0.jar
+- Enhanced-Celestials-2-Core-Forge-1.20.1-1.0.3.3.jar
+- Enhanced-Celestials-2-Default-Lunar-Events-Forge-1.20.1-1.0.0.6.jar
+- Enhanced-Celestials-2-Shaders-Forge-1.20.1-1.0.0.4.jar
+- forge frogi_lib 1.20.1.jar
+- mythicupgrades-forge-1.20.1-5.1.1.jar
+- potion_combiner-Forge-1.20.1-1.0.0.jar
+- shieldexp-forge-1.20.1-1.3.7.jar
+- stormborn_tomb-1.3.5 forge.jar
+
+### Forge
+- Updated Forge 47.4.10 → 47.4.26 (required by Mythic Upgrades 5.1.1)
+
