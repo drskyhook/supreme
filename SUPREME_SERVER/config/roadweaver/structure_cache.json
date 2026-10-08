@@ -239,7 +239,10 @@
       "id": "minecraft:swamp_hut",
       "displayName": "Swamp Hut",
       "isVanilla": true,
-      "dimensions": []
+      "dimensions": [
+        "minecraft:overworld",
+        "graveyard:past"
+      ]
     },
     {
       "id": "minecraft:trail_ruins",
@@ -3390,51 +3393,6 @@
       ]
     },
     {
-      "id": "medieval_buildings:fort",
-      "displayName": "Fort",
-      "isVanilla": false,
-      "dimensions": [
-        "minecraft:overworld",
-        "graveyard:past"
-      ]
-    },
-    {
-      "id": "medieval_buildings:house_1",
-      "displayName": "House 1",
-      "isVanilla": false,
-      "dimensions": [
-        "minecraft:overworld",
-        "graveyard:past"
-      ]
-    },
-    {
-      "id": "medieval_buildings:house_2",
-      "displayName": "House 2",
-      "isVanilla": false,
-      "dimensions": [
-        "minecraft:overworld",
-        "graveyard:past"
-      ]
-    },
-    {
-      "id": "medieval_buildings:ship",
-      "displayName": "Ship",
-      "isVanilla": false,
-      "dimensions": [
-        "minecraft:overworld",
-        "graveyard:past"
-      ]
-    },
-    {
-      "id": "medieval_buildings:tower",
-      "displayName": "Tower",
-      "isVanilla": false,
-      "dimensions": [
-        "minecraft:overworld",
-        "graveyard:past"
-      ]
-    },
-    {
       "id": "monsterexpansion:ignathos_structure",
       "displayName": "Ignathos Structure",
       "isVanilla": false,
@@ -4639,6 +4597,150 @@
     {
       "id": "saintsdragons:varasuchus_roost",
       "displayName": "Varasuchus Roost",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "graveyard:past"
+      ]
+    },
+    {
+      "id": "shellbound_for_airship:airship",
+      "displayName": "Airship",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "graveyard:past"
+      ]
+    },
+    {
+      "id": "shellbound_for_airship:airship_ship1",
+      "displayName": "Airship Ship1",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "graveyard:past"
+      ]
+    },
+    {
+      "id": "shellbound_for_airship:airship_ship10",
+      "displayName": "Airship Ship10",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "graveyard:past"
+      ]
+    },
+    {
+      "id": "shellbound_for_airship:airship_ship2",
+      "displayName": "Airship Ship2",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "graveyard:past"
+      ]
+    },
+    {
+      "id": "shellbound_for_airship:airship_ship3",
+      "displayName": "Airship Ship3",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "graveyard:past"
+      ]
+    },
+    {
+      "id": "shellbound_for_airship:airship_ship4",
+      "displayName": "Airship Ship4",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "graveyard:past"
+      ]
+    },
+    {
+      "id": "shellbound_for_airship:airship_ship5",
+      "displayName": "Airship Ship5",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "graveyard:past"
+      ]
+    },
+    {
+      "id": "shellbound_for_airship:airship_ship6",
+      "displayName": "Airship Ship6",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "graveyard:past"
+      ]
+    },
+    {
+      "id": "shellbound_for_airship:airship_ship7",
+      "displayName": "Airship Ship7",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "graveyard:past"
+      ]
+    },
+    {
+      "id": "shellbound_for_airship:airship_ship8",
+      "displayName": "Airship Ship8",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "graveyard:past"
+      ]
+    },
+    {
+      "id": "shellbound_for_airship:airship_ship9",
+      "displayName": "Airship Ship9",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "graveyard:past"
+      ]
+    },
+    {
+      "id": "sky_whale_ship:frozen_whale",
+      "displayName": "Frozen Whale",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "graveyard:past"
+      ]
+    },
+    {
+      "id": "sky_whale_ship:whale",
+      "displayName": "Whale",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "graveyard:past"
+      ]
+    },
+    {
+      "id": "sky_whale_ship:whalearena",
+      "displayName": "Whalearena",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "graveyard:past"
+      ]
+    },
+    {
+      "id": "sky_whale_ship:whalelight",
+      "displayName": "Whalelight",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "graveyard:past"
+      ]
+    },
+    {
+      "id": "sky_whale_ship:whaleship",
+      "displayName": "Whaleship",
       "isVanilla": false,
       "dimensions": [
         "minecraft:overworld",
@@ -5995,105 +6097,6 @@
       "displayName": "Warped Station",
       "isVanilla": false,
       "dimensions": []
-    },
-    {
-      "id": "valhelsia_structures:big_tree",
-      "displayName": "Big Tree",
-      "isVanilla": false,
-      "dimensions": [
-        "minecraft:overworld",
-        "graveyard:past"
-      ]
-    },
-    {
-      "id": "valhelsia_structures:castle",
-      "displayName": "Castle",
-      "isVanilla": false,
-      "dimensions": [
-        "minecraft:overworld",
-        "graveyard:past"
-      ]
-    },
-    {
-      "id": "valhelsia_structures:castle_ruin",
-      "displayName": "Castle Ruin",
-      "isVanilla": false,
-      "dimensions": [
-        "minecraft:overworld",
-        "graveyard:past"
-      ]
-    },
-    {
-      "id": "valhelsia_structures:deep_spawner_room",
-      "displayName": "Deep Spawner Room",
-      "isVanilla": false,
-      "dimensions": [
-        "minecraft:overworld",
-        "graveyard:past"
-      ]
-    },
-    {
-      "id": "valhelsia_structures:desert_house",
-      "displayName": "Desert House",
-      "isVanilla": false,
-      "dimensions": [
-        "minecraft:overworld",
-        "graveyard:past"
-      ]
-    },
-    {
-      "id": "valhelsia_structures:forge",
-      "displayName": "Forge",
-      "isVanilla": false,
-      "dimensions": [
-        "minecraft:overworld",
-        "graveyard:past"
-      ]
-    },
-    {
-      "id": "valhelsia_structures:player_house",
-      "displayName": "Player House",
-      "isVanilla": false,
-      "dimensions": [
-        "minecraft:overworld",
-        "graveyard:past"
-      ]
-    },
-    {
-      "id": "valhelsia_structures:spawner_dungeon",
-      "displayName": "Spawner Dungeon",
-      "isVanilla": false,
-      "dimensions": [
-        "minecraft:overworld",
-        "graveyard:past"
-      ]
-    },
-    {
-      "id": "valhelsia_structures:spawner_room",
-      "displayName": "Spawner Room",
-      "isVanilla": false,
-      "dimensions": [
-        "minecraft:overworld",
-        "graveyard:past"
-      ]
-    },
-    {
-      "id": "valhelsia_structures:tower_ruin",
-      "displayName": "Tower Ruin",
-      "isVanilla": false,
-      "dimensions": [
-        "minecraft:overworld",
-        "graveyard:past"
-      ]
-    },
-    {
-      "id": "valhelsia_structures:witch_hut",
-      "displayName": "Witch Hut",
-      "isVanilla": false,
-      "dimensions": [
-        "minecraft:overworld",
-        "graveyard:past"
-      ]
     }
   ],
   "tags": [
@@ -7084,11 +7087,7 @@
       "structureIds": [
         "minecraft:stronghold",
         "minecraft:village_plains",
-        "betterstrongholds:stronghold",
-        "valhelsia_structures:big_tree",
-        "valhelsia_structures:castle_ruin",
-        "valhelsia_structures:player_house",
-        "valhelsia_structures:spawner_dungeon"
+        "betterstrongholds:stronghold"
       ]
     },
     {
@@ -7318,12 +7317,7 @@
       "structureIds": [
         "minecraft:igloo",
         "minecraft:village_snowy",
-        "minecraft:village_taiga",
-        "valhelsia_structures:castle",
-        "valhelsia_structures:desert_house",
-        "valhelsia_structures:forge",
-        "valhelsia_structures:tower_ruin",
-        "valhelsia_structures:witch_hut"
+        "minecraft:village_taiga"
       ]
     },
     {
@@ -7451,10 +7445,7 @@
         "towns_and_towers:village_sparse_jungle",
         "towns_and_towers:village_sunflower_plains",
         "towns_and_towers:village_swamp",
-        "towns_and_towers:village_wooded_badlands",
-        "valhelsia_structures:castle",
-        "valhelsia_structures:castle_ruin",
-        "valhelsia_structures:tower_ruin"
+        "towns_and_towers:village_wooded_badlands"
       ]
     },
     {

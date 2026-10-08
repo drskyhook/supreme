@@ -1833,7 +1833,7 @@ first update in a while checkin what is here..
 - borninconfiguration-3.2.1[FORGE].jar
 - hexerei-0.4.2.3.jar
 
-# 2026-10-07
+# 2026-10-07 #1
 
 ## Server Mods
 
@@ -1866,4 +1866,32 @@ first update in a while checkin what is here..
 
 ### Forge
 - Updated Forge 47.4.10 → 47.4.26 (required by Mythic Upgrades 5.1.1)
+
+
+
+# 2026-10-07 #2
+
+## Server Mods
+
+### Added
+- shellbound-for-airship-forge-1.2.1.jar
+- sky_whale_ship-1.20.1.jar
+
+### Removed
+- medieval_buildings-1.20.1-1.1.3-forge.jar
+- valhelsia_core-forge-1.20.1-1.1.2.jar
+- valhelsia_furniture-forge-1.20.1-1.1.3.jar
+- valhelsia_structures-forge-1.20.1-1.1.2.jar
+
+## Client Mods
+
+### Added
+- shellbound-for-airship-forge-1.2.1.jar
+- sky_whale_ship-1.20.1.jar
+
+### Removed
+- medieval_buildings-1.20.1-1.1.3-forge.jar
+- valhelsia_core-forge-1.20.1-1.1.2.jar
+- valhelsia_furniture-forge-1.20.1-1.1.3.jar
+- valhelsia_structures-forge-1.20.1-1.1.2.jar
 

@@ -19,9 +19,6 @@
 			ancient = true
 			blossom = true
 
-		[types.wood_type.valhelsia_structures]
-			lapidified_jungle = true
-
 		[types.wood_type.cataclysm]
 			chorus = true
 
@@ -86,24 +83,8 @@
 			large_boat = true
 			furnace_boat = true
 
-		[entries.wood_type.valhelsia_structures]
-			bundled_stripped_posts = true
-			stripped_post = true
-			cut_post = true
-			bundled_posts = true
-			post = true
-			cut_stripped_post = true
-
 		[entries.wood_type.friendsandfoes]
 			beehive = true
-
-		[entries.wood_type.valhelsia_furniture]
-			table = true
-			stool = true
-			hay_chair = true
-			chair = true
-			desk_drawer = true
-			desk = true
 
 		[entries.wood_type.farmersdelight]
 			cabinet = true

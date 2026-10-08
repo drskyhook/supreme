@@ -1,0 +1,24 @@
+
+#Airship loot. Already-generated contents are unchanged.
+[loot]
+	#Chance to keep each stack. 1 = all, 0.5 = half, 0 = none.
+	#Range: 0.0 ~ 1.0
+	stackKeepChance = 1.0
+	#Item count multiplier. 0.5 = half on average, including single items.
+	#Range: 0.0 ~ 1.0
+	countMultiplier = 1.0
+	#Items to exclude, e.g. ["minecraft:elytra"]. Empty = no exclusions.
+	blockedItems = []
+
+#Airship generation. Restart required. New areas only.
+[generation]
+	#Spacing in chunks. Lower = more airships. Default: 56.
+	#Range: 2 ~ 4096
+	spacing = 56
+	#Minimum generation start Y. Default: 140.
+	#Range: -64 ~ 319
+	minHeight = 140
+	#Maximum generation start Y. Must be >= minHeight. Equal = fixed height.
+	#Range: -64 ~ 319
+	maxHeight = 140
+
