@@ -4783,6 +4783,15 @@
       ]
     },
     {
+      "id": "spider_overhaul:birch_spidernest",
+      "displayName": "Birch Spidernest",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "graveyard:past"
+      ]
+    },
+    {
       "id": "supplementaries:way_sign",
       "displayName": "Way Sign",
       "isVanilla": false,

@@ -1895,3 +1895,17 @@ first update in a while checkin what is here..
 - valhelsia_furniture-forge-1.20.1-1.1.3.jar
 - valhelsia_structures-forge-1.20.1-1.1.2.jar
 
+
+# 2026-10-09
+
+## Server Mods
+
+### Added
+- SpiderOverhaul-0.0.6-Forge-v1.20.jar
+
+## Client Mods
+
+### Added
+- chesttracker-forge-1.0.jar
+- SpiderOverhaul-0.0.6-Forge-v1.20.jar
+

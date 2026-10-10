@@ -10,5 +10,7 @@
   {"type":"item_stack","value":"{Count:1b,id:\"vinery:dark_cherry_planks\"}"},
   {"type":"item_stack","value":"{Count:1b,id:\"everycomp:vp/quark/azalea_horticulturist_table\"}"},
   {"type":"item_stack","value":"{Count:1b,id:\"minecraft:light_gray_wool\"}"},
-  {"type":"item_stack","value":"{Count:1b,id:\"minecraft:diamond_axe\",tag:{Damage:391}}"}
+  {"type":"item_stack","value":"{Count:1b,id:\"minecraft:diamond_axe\",tag:{Damage:391}}"},
+  {"type":"item_stack","value":"{Count:1b,id:\"dungeonnowloading:cobblestone_pebble\"}"},
+  {"type":"item_stack","value":"{Count:1b,id:\"quark:spruce_ladder\"}"}
 ]
